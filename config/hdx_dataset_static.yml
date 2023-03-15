@@ -1,0 +1,7 @@
+notes: "The IPC Acute Food Insecurity (IPC AFI) classification provides strategically relevant information to decision makers that focuses on short-term objectives to prevent, mitigate or decrease severe food insecurity that threatens lives or livelihoods. This data has been produced by the National IPC Technical Working Groups for IPC population estimates since 2017. All national population figures are based on official country population estimates. IPC estimates are those published in country IPC reports."
+license_id: "other-pd-nr"
+methodology: "Other"
+methodology_other: "Please refer to the [IPC Manual](https://www.ipcinfo.org/ipc/technical/manual_en)"
+dataset_source: "National IPC Technical Working Group"
+package_creator: "mcarans"
+private: False  # has to be True or False
