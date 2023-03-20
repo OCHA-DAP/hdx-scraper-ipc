@@ -299,6 +299,9 @@ class IPC:
             "description": f"Latest IPC national data in long form with HXL tags",
         }
         country_rows = output["country_rows_latest"]
+        if not country_rows:
+            logger.warning(f"{filename} has no data!")
+            return None, None
         success, results = dataset.generate_resource_from_iterator(
             list(country_rows[0].keys()),
             country_rows,
