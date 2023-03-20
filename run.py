@@ -8,12 +8,11 @@ from os.path import expanduser, join
 
 from hdx.api.configuration import Configuration
 from hdx.facades.infer_arguments import facade
-from hdx.utilities.dateparse import now_utc
 from hdx.utilities.downloader import Download
 from hdx.utilities.path import progress_storing_folder, wheretostart_tempdir_batch
 from hdx.utilities.retriever import Retrieve
 from hdx.utilities.state import State
-from ipc import IPC, str_to_dict, dict_to_str
+from ipc import IPC, dict_to_str, str_to_dict
 
 logger = logging.getLogger(__name__)
 

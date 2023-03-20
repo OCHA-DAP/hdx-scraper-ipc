@@ -13,8 +13,12 @@ from datetime import datetime, timezone
 from hdx.data.dataset import Dataset
 from hdx.data.showcase import Showcase
 from hdx.location.country import Country
-from hdx.utilities.dateparse import default_date, default_enddate, parse_date, \
-    iso_string_from_datetime
+from hdx.utilities.dateparse import (
+    default_date,
+    default_enddate,
+    iso_string_from_datetime,
+    parse_date,
+)
 from slugify import slugify
 
 logger = logging.getLogger(__name__)

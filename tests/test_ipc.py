@@ -92,7 +92,8 @@ class TestIFRC:
                         actual_path = join(folder, filename)
                         assert_files_same(expected_path, actual_path)
 
-                ipc = IPC(configuration, retriever, parse_date("2017-01-01"))
+                state_dict = {"DEFAULT": parse_date("2017-01-01")}
+                ipc = IPC(configuration, retriever, state_dict)
                 countries = ipc.get_countries()
                 assert countries == [{"iso3": "AFG"}, {"iso3": "AGO"}, {"iso3": "BDI"}]
 
@@ -434,4 +435,12 @@ class TestIFRC:
                     ],
                     "title": "Global: Acute Food Insecurity Country Data showcase",
                     "url": "https://www.ipcinfo.org/ipcinfo-website/ipc-dashboard/en/",
+                }
+                assert state_dict == {
+                    "AFG": datetime(2022, 3, 1, 0, 0, tzinfo=timezone.utc),
+                    "AGO": datetime(2021, 6, 1, 0, 0, tzinfo=timezone.utc),
+                    "BDI": datetime(2022, 8, 1, 0, 0, tzinfo=timezone.utc),
+                    "DEFAULT": datetime(2017, 1, 1, 0, 0, tzinfo=timezone.utc),
+                    "END_DATE": datetime(2022, 8, 1, 0, 0, tzinfo=timezone.utc),
+                    "START_DATE": datetime(2017, 3, 1, 0, 0, tzinfo=timezone.utc),
                 }
