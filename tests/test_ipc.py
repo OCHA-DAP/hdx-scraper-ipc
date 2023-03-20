@@ -65,7 +65,7 @@ class TestIFRC:
         ) as folder:
             with Download() as downloader:
                 retriever = Retrieve(
-                    downloader, folder, "saved_data", folder, False, True
+                    downloader, folder, input_folder, folder, False, True
                 )
 
                 def check_files(resources):
