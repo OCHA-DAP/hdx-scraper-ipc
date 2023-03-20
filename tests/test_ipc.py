@@ -3,6 +3,7 @@
 Unit tests for InterAction.
 
 """
+from datetime import datetime, timezone
 from os.path import join
 
 import pytest
@@ -16,7 +17,7 @@ from hdx.utilities.downloader import Download
 from hdx.utilities.path import temp_dir
 from hdx.utilities.retriever import Retrieve
 from hdx.utilities.useragent import UserAgent
-from ipc import IPC
+from ipc import IPC, dict_to_str, str_to_dict
 
 
 class TestIFRC:
@@ -56,6 +57,22 @@ class TestIFRC:
     @pytest.fixture(scope="function")
     def input_folder(self, fixtures):
         return join(fixtures, "input")
+
+    def test_str_to_dict(self):
+        string = "AFG=2021-03-24,BDI=2020-09-08"
+        dictionary = str_to_dict(string)
+        assert dictionary == {
+            "AFG": datetime(2021, 3, 24, 0, 0, tzinfo=timezone.utc),
+            "BDI": datetime(2020, 9, 8, 0, 0, tzinfo=timezone.utc),
+        }
+
+    def test_dict_to_str(self):
+        dictionary = {
+            "AFG": datetime(2021, 3, 24, 0, 0, tzinfo=timezone.utc),
+            "BDI": datetime(2020, 9, 8, 0, 0, tzinfo=timezone.utc),
+        }
+        string = dict_to_str(dictionary)
+        assert string == "AFG=2021-03-24,BDI=2020-09-08"
 
     def test_generate_datasets_and_showcases(
         self, configuration, fixtures, input_folder

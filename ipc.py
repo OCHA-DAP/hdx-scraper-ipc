@@ -13,17 +13,35 @@ from datetime import datetime, timezone
 from hdx.data.dataset import Dataset
 from hdx.data.showcase import Showcase
 from hdx.location.country import Country
-from hdx.utilities.dateparse import default_date, default_enddate
+from hdx.utilities.dateparse import default_date, default_enddate, parse_date, \
+    iso_string_from_datetime
 from slugify import slugify
 
 logger = logging.getLogger(__name__)
 
 
+def str_to_dict(string: str):
+    result = {}
+    for keyvalue in string.split(","):
+        key, value = keyvalue.split("=")
+        result[key] = parse_date(value)
+    return result
+
+
+def dict_to_str(dictionary: dict):
+    strlist = []
+    for key, value in dictionary.items():
+        valstr = iso_string_from_datetime(value)
+        strlist.append(f"{key}={valstr}")
+    return ",".join(strlist)
+
+
 class IPC:
-    def __init__(self, configuration, retriever, last_run_date):
+    def __init__(self, configuration, retriever, state):
         self.configuration = configuration
         self.retriever = retriever
-        self.last_run_date = last_run_date
+        self.state = state
+        self.default_start_date = state["DEFAULT"]
         self.base_url = configuration["base_url"]
         self.projection_suffixes = ["", "_projected", "_second_projected"]
         self.projections = ["current", "projected", "second_projected"]
@@ -62,6 +80,9 @@ class IPC:
         name = slugify(title).lower()
         return name, title
 
+    def get_state(self):
+        return self.state
+
     def get_countries(self):
         countryisos = set()
         json = self.retriever.download_json(f"{self.base_url}/analyses?type=A")
@@ -89,8 +110,9 @@ class IPC:
             return date.replace(tzinfo=timezone.utc)
 
         analysis_date = parse_date(most_recent_analysis["analysis_date"])
-        if analysis_date < self.last_run_date:
+        if analysis_date < self.state.get(countryiso3, self.default_start_date):
             return None
+        self.state[countryiso3] = analysis_date
 
         def parse_date_range(date_range):
             start, end = date_range.split(" - ")

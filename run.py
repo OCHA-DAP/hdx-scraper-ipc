@@ -8,12 +8,12 @@ from os.path import expanduser, join
 
 from hdx.api.configuration import Configuration
 from hdx.facades.infer_arguments import facade
-from hdx.utilities.dateparse import iso_string_from_datetime, now_utc, parse_date
+from hdx.utilities.dateparse import now_utc
 from hdx.utilities.downloader import Download
 from hdx.utilities.path import progress_storing_folder, wheretostart_tempdir_batch
 from hdx.utilities.retriever import Retrieve
 from hdx.utilities.state import State
-from ipc import IPC
+from ipc import IPC, str_to_dict, dict_to_str
 
 logger = logging.getLogger(__name__)
 
@@ -33,7 +33,8 @@ def main(save: bool = False, use_saved: bool = False) -> None:
     """
 
     configuration = Configuration.read()
-    with State("last_run_date.txt", parse_date, iso_string_from_datetime) as state:
+    with State("analysis_dates.txt", str_to_dict, dict_to_str) as state:
+        state_dict = state.get()
         with wheretostart_tempdir_batch(lookup) as info:
             folder = info["folder"]
             with Download(
@@ -43,7 +44,7 @@ def main(save: bool = False, use_saved: bool = False) -> None:
                 retriever = Retrieve(
                     downloader, folder, "saved_data", folder, save, use_saved
                 )
-                ipc = IPC(configuration, retriever, state.get())
+                ipc = IPC(configuration, retriever, state_dict)
                 countries = ipc.get_countries()
                 logger.info(f"Number of countries: {len(countries)}")
 
@@ -89,7 +90,7 @@ def main(save: bool = False, use_saved: bool = False) -> None:
                     dataset,
                     showcase,
                 )
-        state.set(now_utc())
+        state.set(state_dict)
 
 
 if __name__ == "__main__":
