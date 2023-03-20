@@ -68,8 +68,8 @@ class IPC:
             "group_rows_wide": [],
             "area_rows": [],
             "area_rows_wide": [],
-            "start_date": default_enddate,
-            "end_date": default_date,
+            "start_date": state.get("START_DATE", default_enddate),
+            "end_date": state.get("END_DATE", default_date),
         }
         name, title = self.get_dataset_title_name("Global")
         temp_dataset = Dataset({"name": name, "title": title})
@@ -79,9 +79,6 @@ class IPC:
         title = f"{countryname}: Acute Food Insecurity Country Data"
         name = slugify(title).lower()
         return name, title
-
-    def get_state(self):
-        return self.state
 
     def get_countries(self):
         countryisos = set()
@@ -110,7 +107,7 @@ class IPC:
             return date.replace(tzinfo=timezone.utc)
 
         analysis_date = parse_date(most_recent_analysis["analysis_date"])
-        if analysis_date < self.state.get(countryiso3, self.default_start_date):
+        if analysis_date <= self.state.get(countryiso3, self.default_start_date):
             return None
         self.state[countryiso3] = analysis_date
 
@@ -271,8 +268,10 @@ class IPC:
         output["end_date"] = analysis_date
         if start_date < self.output["start_date"]:
             self.output["start_date"] = start_date
+            self.state["START_DATE"] = start_date
         if analysis_date > self.output["end_date"]:
             self.output["end_date"] = analysis_date
+            self.state["END_DATE"] = analysis_date
         return output
 
     def get_all_data(self):
@@ -286,6 +285,8 @@ class IPC:
             countryname = Country.get_country_name_from_iso3(countryiso3)
             notes = f"There is also a [global dataset]({self.global_dataset_url})."
         else:
+            if not output["country_rows_latest"]:
+                return None, None
             countryname = "Global"
             notes = f"There are also [country datasets]({self.configuration.get_hdx_site_url()}/organization/da501ffc-aadb-43f5-9d28-8fa572fd9ce0)"
         name, title = self.get_dataset_title_name(countryname)
