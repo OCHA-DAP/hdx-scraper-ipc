@@ -257,6 +257,8 @@ class IPC:
         return self.output
 
     def generate_dataset_and_showcase(self, folder, output):
+        if not output:
+            return None, None
         countryiso3 = output.get("countryiso3")
         if countryiso3:
             countryname = Country.get_country_name_from_iso3(countryiso3)
