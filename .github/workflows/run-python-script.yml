@@ -27,6 +27,7 @@ jobs:
         HDX_KEY: ${{ secrets.HDX_KEY }}
         PREPREFIX: ${{ secrets.PREPREFIX }}
         USER_AGENT: ${{ secrets.USER_AGENT }}
+        EXTRA_PARAMS: ${{ secrets.EXTRA_PARAMS }}
       run: |
         python run.py
     - name: Commit updated data bundle
