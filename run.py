@@ -75,13 +75,21 @@ def main(save: bool = False, use_saved: bool = False) -> None:
 
                 for _, country in progress_storing_folder(info, countries, "iso3"):
                     countryiso = country["iso3"]
+                    output = ipc.get_country_data(countryiso)
                     dataset, showcase = ipc.generate_dataset_and_showcase(
-                        folder, countryiso
+                        folder, output
                     )
                     create_dataset(
                         dataset,
                         showcase,
                     )
+                output = ipc.get_all_data()
+                dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
+                create_dataset(
+                    dataset,
+                    showcase,
+                )
+        state.set(now_utc())
 
 
 if __name__ == "__main__":

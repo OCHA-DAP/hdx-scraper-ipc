@@ -16,7 +16,7 @@ from hdx.utilities.downloader import Download
 from hdx.utilities.path import temp_dir
 from hdx.utilities.retriever import Retrieve
 from hdx.utilities.useragent import UserAgent
-from ifrc import IFRC
+from ipc import IPC
 
 
 class TestIFRC:
@@ -29,7 +29,17 @@ class TestIFRC:
         )
         UserAgent.set_global("test")
         Country.countriesdata(use_live=False)
-        tags = ["hxl", "aid funding"]
+        tags = (
+            "hxl",
+            "food security",
+            "integrated food security phase classification-ipc",
+        )
+        Locations.set_validlocations(
+            [
+                {"name": x.lower(), "title": x.lower()}
+                for x in ("world", "AFG", "AGO", "BDI")
+            ]
+        )
         Vocabulary._tags_dict = {tag: {"Action to Take": "ok"} for tag in tags}
         tags = [{"name": tag} for tag in tags]
         Vocabulary._approved_vocabulary = {
@@ -51,158 +61,360 @@ class TestIFRC:
         self, configuration, fixtures, input_folder
     ):
         with temp_dir(
-            "test_ifrc", delete_on_success=True, delete_on_failure=False
+            "test_ipc", delete_on_success=True, delete_on_failure=False
         ) as folder:
             with Download() as downloader:
                 retriever = Retrieve(
-                    downloader, folder, input_folder, folder, False, True
-                )
-                ifrc = IFRC(
-                    configuration,
-                    retriever,
-                    parse_date("2023-03-01"),
-                    parse_date("2023-02-01"),
-                )
-                ifrc.get_countries()
-                (
-                    appeal_rows,
-                    appeal_country_rows,
-                    appeal_quickcharts,
-                ) = ifrc.get_appealdata()
-                (
-                    whowhatwhere_rows,
-                    whowhatwhere_country_rows,
-                    whowhatwhere_quickcharts,
-                ) = ifrc.get_whowhatwheredata()
-                assert len(appeal_rows) == 144
-                assert len(appeal_country_rows["BDI"]) == 1
-                assert whowhatwhere_rows is None
-                assert whowhatwhere_country_rows is None
-
-                countries = set(appeal_country_rows)
-                countries.add("world")
-                Locations.set_validlocations(
-                    [{"name": x.lower(), "title": x.lower()} for x in countries]
+                    downloader, folder, "saved_data", folder, False, True
                 )
 
-                (
-                    appeals_dataset,
-                    showcase,
-                    qc_resource,
-                ) = ifrc.generate_dataset_and_showcase(
-                    folder, appeal_rows, "appeals", appeal_quickcharts
-                )
-                assert appeals_dataset == {
-                    "data_update_frequency": "7",
-                    "dataset_date": "[1993-03-08T00:00:00 TO 2028-02-29T23:59:59]",
+                def check_files(resources):
+                    for resource in resources:
+                        filename = resource["name"]
+                        expected_path = join(fixtures, filename)
+                        actual_path = join(folder, filename)
+                        assert_files_same(expected_path, actual_path)
+
+                ipc = IPC(configuration, retriever, parse_date("2017-01-01"))
+                countries = ipc.get_countries()
+                assert countries == [{"iso3": "AFG"}, {"iso3": "AGO"}, {"iso3": "BDI"}]
+
+                output = ipc.get_country_data("AFG")
+                dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
+                assert dataset == {
+                    "data_update_frequency": "-2",
+                    "dataset_date": "[2017-05-01T00:00:00 TO 2022-03-01T23:59:59]",
+                    "groups": [{"name": "afg"}],
+                    "maintainer": "196196be-6037-4488-8b71-d786adf4c081",
+                    "name": "afghanistan-acute-food-insecurity-country-data",
+                    "notes": "There is also a [global "
+                    "dataset](https://stage.data-humdata-org.ahconu.org/dataset/global-acute-food-insecurity-country-data).",
+                    "owner_org": "da501ffc-aadb-43f5-9d28-8fa572fd9ce0",
+                    "subnational": "1",
+                    "tags": [
+                        {
+                            "name": "hxl",
+                            "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
+                        },
+                        {
+                            "name": "food security",
+                            "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
+                        },
+                        {
+                            "name": "integrated food security phase classification-ipc",
+                            "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
+                        },
+                    ],
+                    "title": "Afghanistan: Acute Food Insecurity Country Data",
+                }
+
+                resources = dataset.get_resources()
+                assert resources == [
+                    {
+                        "description": "Latest IPC national data in long form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_afg_national_long_latest.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "Latest IPC area data in long form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_afg_area_long_latest.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "Latest IPC area data in wide form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_afg_area_wide_latest.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "All IPC national data in long form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_afg_national_long.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "All IPC national data in wide form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_afg_national_wide.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "All IPC level 1 data in long form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_afg_level1_long.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "All IPC level 1 data in wide form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_afg_level1_wide.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "All IPC area data in long form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_afg_area_long.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "All IPC area data in wide form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_afg_area_wide.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                ]
+                check_files(resources)
+                assert showcase == {
+                    "image_url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/img/dashboard_thumbnail.jpg",
+                    "name": "afghanistan-acute-food-insecurity-country-data-showcase",
+                    "notes": "IPC-CH Dashboard",
+                    "tags": [
+                        {
+                            "name": "hxl",
+                            "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
+                        },
+                        {
+                            "name": "food security",
+                            "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
+                        },
+                        {
+                            "name": "integrated food security phase classification-ipc",
+                            "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
+                        },
+                    ],
+                    "title": "Afghanistan: Acute Food Insecurity Country Data showcase",
+                    "url": "https://www.ipcinfo.org/ipcinfo-website/ipc-dashboard/en/",
+                }
+                output = ipc.get_country_data("AGO")
+                dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
+                resources = dataset.get_resources()
+                assert resources == [
+                    {
+                        "description": "Latest IPC national data in long form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_ago_national_long_latest.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "Latest IPC level 1 data in long form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_ago_level1_long_latest.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "Latest IPC level 1 data in wide form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_ago_level1_wide_latest.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "Latest IPC area data in long form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_ago_area_long_latest.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "Latest IPC area data in wide form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_ago_area_wide_latest.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "All IPC national data in long form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_ago_national_long.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "All IPC national data in wide form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_ago_national_wide.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "All IPC level 1 data in long form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_ago_level1_long.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "All IPC level 1 data in wide form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_ago_level1_wide.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "All IPC area data in long form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_ago_area_long.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "All IPC area data in wide form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_ago_area_wide.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                ]
+                check_files(resources)
+                ipc.get_country_data("BDI")
+
+                output = ipc.get_all_data()
+                dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
+                assert dataset == {
+                    "data_update_frequency": "-2",
+                    "dataset_date": "[2017-03-01T00:00:00 TO 2022-08-01T23:59:59]",
                     "groups": [{"name": "world"}],
                     "maintainer": "196196be-6037-4488-8b71-d786adf4c081",
-                    "name": "global-ifrc-appeals-data",
-                    "notes": "This data can also be found as individual country datasets on HDX.",
-                    "owner_org": "3ada79f1-a239-4e09-bb2e-55743b7e6b69",
-                    "subnational": "0",
+                    "name": "global-acute-food-insecurity-country-data",
+                    "notes": "There are also [country "
+                    "datasets](https://stage.data-humdata-org.ahconu.org/organization/da501ffc-aadb-43f5-9d28-8fa572fd9ce0)",
+                    "owner_org": "da501ffc-aadb-43f5-9d28-8fa572fd9ce0",
+                    "subnational": "1",
                     "tags": [
                         {
                             "name": "hxl",
                             "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
                         },
                         {
-                            "name": "aid funding",
+                            "name": "food security",
+                            "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
+                        },
+                        {
+                            "name": "integrated food security phase classification-ipc",
                             "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
                         },
                     ],
-                    "title": "Global - IFRC Appeals",
-                }
-                resources = appeals_dataset.get_resources()
-                assert len(resources) == 2
-                resource = resources[0]
-                assert resource == {
-                    "description": "IFRC Appeals data with HXL tags",
-                    "format": "csv",
-                    "name": "Global IFRC Appeals Data",
-                    "resource_type": "file.upload",
-                    "url_type": "upload",
-                }
-                filename = "appeals_data_global.csv"
-                assert_files_same(join(fixtures, filename), resource.file_to_upload)
-                resource = resources[1]
-                assert resource == {
-                    "description": "IFRC Appeals QuickCharts data with HXL tags",
-                    "format": "csv",
-                    "name": "Global IFRC Appeals QuickCharts Data",
-                    "resource_type": "file.upload",
-                    "url_type": "upload",
-                }
-                filename = "qc_appeals_data_global.csv"
-                assert_files_same(join(fixtures, filename), resource.file_to_upload)
-                assert showcase == {
-                    "image_url": "https://avatars.githubusercontent.com/u/22204810?s=200&v=4",
-                    "name": "global-ifrc-appeals-data-showcase",
-                    "notes": "IFRC Go Dashboard of Appeals Data",
-                    "tags": [
-                        {
-                            "name": "hxl",
-                            "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
-                        },
-                        {
-                            "name": "aid funding",
-                            "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
-                        },
-                    ],
-                    "title": "Global - IFRC Appeals showcase",
-                    "url": "https://go.ifrc.org/",
-                }
-
-                dataset, showcase, qc_resource = ifrc.generate_dataset_and_showcase(
-                    folder,
-                    appeal_country_rows,
-                    "appeals",
-                    appeal_quickcharts,
-                    "BDI",
-                    appeals_dataset,
-                )
-                assert dataset == {
-                    "data_update_frequency": "7",
-                    "dataset_date": "[2022-11-16T00:00:00 TO 2023-03-31T23:59:59]",
-                    "groups": [{"name": "bdi"}],
-                    "maintainer": "196196be-6037-4488-8b71-d786adf4c081",
-                    "name": "ifrc-appeals-data-for-burundi",
-                    "notes": "There is also a [global "
-                    "dataset](https://stage.data-humdata-org.ahconu.org/dataset/global-ifrc-appeals-data).",
-                    "owner_org": "3ada79f1-a239-4e09-bb2e-55743b7e6b69",
-                    "subnational": "0",
-                    "tags": [
-                        {
-                            "name": "hxl",
-                            "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
-                        },
-                        {
-                            "name": "aid funding",
-                            "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
-                        },
-                    ],
-                    "title": "Burundi - IFRC Appeals",
+                    "title": "Global: Acute Food Insecurity Country Data",
                 }
                 resources = dataset.get_resources()
-                assert len(resources) == 2
-                resource = resources[0]
-                assert resource == {
-                    "description": "IFRC Appeals data with HXL tags",
-                    "format": "csv",
-                    "name": "IFRC Appeals Data for Burundi",
-                    "resource_type": "file.upload",
-                    "url_type": "upload",
+                assert resources == [
+                    {
+                        "description": "Latest IPC national data in long form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_global_national_long_latest.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "Latest IPC national data in wide form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_global_national_wide_latest.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "Latest IPC level 1 data in long form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_global_level1_long_latest.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "Latest IPC level 1 data in wide form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_global_level1_wide_latest.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "Latest IPC area data in long form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_global_area_long_latest.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "Latest IPC area data in wide form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_global_area_wide_latest.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "All IPC national data in long form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_global_national_long.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "All IPC national data in wide form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_global_national_wide.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "All IPC level 1 data in long form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_global_level1_long.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "All IPC level 1 data in wide form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_global_level1_wide.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "All IPC area data in long form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_global_area_long.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
+                        "description": "All IPC area data in wide form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_global_area_wide.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                ]
+                check_files(resources)
+                assert showcase == {
+                    "image_url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/img/dashboard_thumbnail.jpg",
+                    "name": "global-acute-food-insecurity-country-data-showcase",
+                    "notes": "IPC-CH Dashboard",
+                    "tags": [
+                        {
+                            "name": "hxl",
+                            "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
+                        },
+                        {
+                            "name": "food security",
+                            "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
+                        },
+                        {
+                            "name": "integrated food security phase classification-ipc",
+                            "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
+                        },
+                    ],
+                    "title": "Global: Acute Food Insecurity Country Data showcase",
+                    "url": "https://www.ipcinfo.org/ipcinfo-website/ipc-dashboard/en/",
                 }
-                filename = "appeals_data_bdi.csv"
-                assert_files_same(join(fixtures, filename), resource.file_to_upload)
-                resource = resources[1]
-                assert resource == {
-                    "description": "IFRC Appeals QuickCharts data with HXL tags",
-                    "format": "csv",
-                    "name": "IFRC Appeals QuickCharts Data for Burundi",
-                    "resource_type": "file.upload",
-                    "url_type": "upload",
-                }
-                filename = "qc_appeals_data_bdi.csv"
-                assert_files_same(join(fixtures, filename), resource.file_to_upload)
-                assert showcase is None
