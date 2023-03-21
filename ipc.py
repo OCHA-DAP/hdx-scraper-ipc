@@ -148,10 +148,14 @@ class IPC:
                 location[f"estimated_percentage{projection_suffix}"] = 1.0
                 for prefix, phase in self.mapping.items():
                     row = deepcopy(projection_row)
-                    affected = location.get(
-                        f"{prefix}_population{projection_suffix}",
-                        location[f"p3plus{projection_suffix}"],
-                    )
+                    if phase == "P3+":
+                        key = f"p3plus{projection_suffix}"
+                    else:
+                        key = f"{prefix}_population{projection_suffix}"
+                    if key in location:
+                        affected = location[key]
+                    else:
+                        continue
                     row["phase"] = phase
                     row["number_affected"] = affected
                     prefixmapping = self.prefixmapping.get(prefix, prefix)

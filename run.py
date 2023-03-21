@@ -75,6 +75,8 @@ def main(save: bool = False, use_saved: bool = False) -> None:
 
                 for _, country in progress_storing_folder(info, countries, "iso3"):
                     countryiso = country["iso3"]
+                    if countryiso != "CAF":
+                        continue
                     output = ipc.get_country_data(countryiso)
                     dataset, showcase = ipc.generate_dataset_and_showcase(
                         folder, output

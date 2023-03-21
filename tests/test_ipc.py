@@ -38,7 +38,7 @@ class TestIFRC:
         Locations.set_validlocations(
             [
                 {"name": x.lower(), "title": x.lower()}
-                for x in ("world", "AFG", "AGO", "BDI")
+                for x in ("world", "AFG", "AGO", "CAF")
             ]
         )
         Vocabulary._tags_dict = {tag: {"Action to Take": "ok"} for tag in tags}
@@ -59,20 +59,20 @@ class TestIFRC:
         return join(fixtures, "input")
 
     def test_str_to_dict(self):
-        string = "AFG=2021-03-24,BDI=2020-09-08"
+        string = "AFG=2021-03-24,CAF=2020-09-08"
         dictionary = str_to_dict(string)
         assert dictionary == {
             "AFG": datetime(2021, 3, 24, 0, 0, tzinfo=timezone.utc),
-            "BDI": datetime(2020, 9, 8, 0, 0, tzinfo=timezone.utc),
+            "CAF": datetime(2020, 9, 8, 0, 0, tzinfo=timezone.utc),
         }
 
     def test_dict_to_str(self):
         dictionary = {
             "AFG": datetime(2021, 3, 24, 0, 0, tzinfo=timezone.utc),
-            "BDI": datetime(2020, 9, 8, 0, 0, tzinfo=timezone.utc),
+            "CAF": datetime(2020, 9, 8, 0, 0, tzinfo=timezone.utc),
         }
         string = dict_to_str(dictionary)
-        assert string == "AFG=2021-03-24,BDI=2020-09-08"
+        assert string == "AFG=2021-03-24,CAF=2020-09-08"
 
     def test_generate_datasets_and_showcases(
         self, configuration, fixtures, input_folder
@@ -95,7 +95,7 @@ class TestIFRC:
                 state_dict = {"DEFAULT": parse_date("2017-01-01")}
                 ipc = IPC(configuration, retriever, state_dict)
                 countries = ipc.get_countries()
-                assert countries == [{"iso3": "AFG"}, {"iso3": "AGO"}, {"iso3": "BDI"}]
+                assert countries == [{"iso3": "AFG"}, {"iso3": "AGO"}, {"iso3": "CAF"}]
 
                 output = ipc.get_country_data("AFG")
                 dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
@@ -297,13 +297,15 @@ class TestIFRC:
                     },
                 ]
                 check_files(resources)
-                ipc.get_country_data("BDI")
+                output = ipc.get_country_data("CAF")
+                dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
+                check_files(dataset.get_resources())
 
                 output = ipc.get_all_data()
                 dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
                 assert dataset == {
                     "data_update_frequency": "-2",
-                    "dataset_date": "[2017-03-01T00:00:00 TO 2022-08-01T23:59:59]",
+                    "dataset_date": "[2017-02-01T00:00:00 TO 2022-09-01T23:59:59]",
                     "groups": [{"name": "world"}],
                     "maintainer": "196196be-6037-4488-8b71-d786adf4c081",
                     "name": "global-acute-food-insecurity-country-data",
@@ -439,8 +441,8 @@ class TestIFRC:
                 assert state_dict == {
                     "AFG": datetime(2022, 3, 1, 0, 0, tzinfo=timezone.utc),
                     "AGO": datetime(2021, 6, 1, 0, 0, tzinfo=timezone.utc),
-                    "BDI": datetime(2022, 8, 1, 0, 0, tzinfo=timezone.utc),
+                    "CAF": datetime(2022, 9, 1, 0, 0, tzinfo=timezone.utc),
                     "DEFAULT": datetime(2017, 1, 1, 0, 0, tzinfo=timezone.utc),
-                    "END_DATE": datetime(2022, 8, 1, 0, 0, tzinfo=timezone.utc),
-                    "START_DATE": datetime(2017, 3, 1, 0, 0, tzinfo=timezone.utc),
+                    "END_DATE": datetime(2022, 9, 1, 0, 0, tzinfo=timezone.utc),
+                    "START_DATE": datetime(2017, 2, 1, 0, 0, tzinfo=timezone.utc),
                 }
