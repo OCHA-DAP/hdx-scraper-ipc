@@ -214,7 +214,8 @@ class IPC:
                         rows_wide=group_rows_wide,
                         analysis=analysis,
                     )
-                    process_areas(group_row, group)
+                    if "areas" in group:
+                        process_areas(group_row, group)
             else:
                 process_areas(base_row, analysis)
 
