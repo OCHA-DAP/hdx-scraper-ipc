@@ -112,7 +112,9 @@ class IPC:
 
         analysis_date = parse_date(most_recent_analysis["analysis_date"])
         if analysis_date <= self.state.get(countryiso3, self.default_start_date):
-            return None
+            update = False
+        else:
+            update = True
         self.state[countryiso3] = analysis_date
 
         def parse_date_range(date_range):
@@ -281,6 +283,8 @@ class IPC:
         if analysis_date > self.output["end_date"]:
             self.output["end_date"] = analysis_date
             self.state["END_DATE"] = analysis_date
+        if not update:
+            return None
         return output
 
     def get_all_data(self):
