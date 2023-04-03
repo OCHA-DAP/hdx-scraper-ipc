@@ -187,12 +187,12 @@ class IPC:
             )
 
         def add_subnational_rows(
-            analysis, is_2_level, group_rows, group_rows_wide, area_rows, area_rows_wide
+            analysis, group_rows, group_rows_wide, area_rows, area_rows_wide
         ):
             def process_areas(adm_row, adm):
                 for area in adm["areas"]:
                     area_row = deepcopy(adm_row)
-                    if is_2_level and "level1_name" not in area_row:
+                    if "level1_name" not in area_row:
                         area_row["level1_name"] = None
                     area_row["area"] = area["name"]
                     add_country_subnational_rows(
@@ -229,13 +229,8 @@ class IPC:
         area_rows = output["area_rows_latest"] = []
         area_rows_wide = output["area_rows_wide_latest"] = []
         add_country_rows(most_recent_analysis, country_rows, country_rows_wide)
-        if "groups" in most_recent_analysis:
-            is_2_level = True
-        else:
-            is_2_level = False
         add_subnational_rows(
             most_recent_analysis,
-            is_2_level,
             group_rows,
             group_rows_wide,
             area_rows,
@@ -255,14 +250,9 @@ class IPC:
         area_rows = output["area_rows"] = []
         area_rows_wide = output["area_rows_wide"] = []
         for analysis in country_data:
-            if "groups" in analysis:
-                is_2_level = True
-
-        for analysis in country_data:
             add_country_rows(analysis, country_rows, country_rows_wide)
             add_subnational_rows(
                 analysis,
-                is_2_level,
                 group_rows,
                 group_rows_wide,
                 area_rows,
