@@ -402,13 +402,6 @@ class TestIFRC:
                         "url_type": "upload",
                     },
                     {
-                        "description": "All IPC area data in long form with HXL tags",
-                        "format": "csv",
-                        "name": "ipc_global_area_long.csv",
-                        "resource_type": "file.upload",
-                        "url_type": "upload",
-                    },
-                    {
                         "description": "All IPC area data in wide form with HXL tags",
                         "format": "csv",
                         "name": "ipc_global_area_wide.csv",

@@ -494,20 +494,23 @@ class IPC:
                 resourcedata,
             )
 
-        area_rows = output["area_rows"]
-        filename = f"ipc_{countryiso3lower}_area_long.csv"
-        resourcedata = {
-            "name": filename,
-            "description": f"All IPC area data in long form with HXL tags",
-        }
-        success, results = dataset.generate_resource_from_iterator(
-            list(area_rows[0].keys()),
-            area_rows,
-            self.configuration["long_hxltags"],
-            folder,
-            filename,
-            resourcedata,
-        )
+        if countryiso3:
+            # This is output at country level only because the global file is
+            # too big.
+            area_rows = output["area_rows"]
+            filename = f"ipc_{countryiso3lower}_area_long.csv"
+            resourcedata = {
+                "name": filename,
+                "description": f"All IPC area data in long form with HXL tags",
+            }
+            success, results = dataset.generate_resource_from_iterator(
+                list(area_rows[0].keys()),
+                area_rows,
+                self.configuration["long_hxltags"],
+                folder,
+                filename,
+                resourcedata,
+            )
 
         area_rows_wide = output["area_rows_wide"]
         filename = f"ipc_{countryiso3lower}_area_wide.csv"
