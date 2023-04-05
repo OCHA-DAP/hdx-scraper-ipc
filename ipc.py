@@ -10,6 +10,7 @@ import logging
 from copy import deepcopy
 from datetime import datetime, timezone
 
+from dateutil.relativedelta import relativedelta
 from hdx.data.dataset import Dataset
 from hdx.data.showcase import Showcase
 from hdx.location.country import Country
@@ -47,18 +48,19 @@ class IPC:
         self.state = state
         self.default_start_date = state["DEFAULT"]
         self.base_url = configuration["base_url"]
+        self.projection_names = ["Current", "Projection", "Second projection"]
         self.projection_suffixes = ["", "_projected", "_second_projected"]
         self.projections = ["current", "projected", "second_projected"]
-        self.mapping = {
+        self.phasemapping = {
             "estimated": "all",
-            "p3plus": "P3+",
+            "p3plus": "3+",
             "phase1": "1",
             "phase2": "2",
             "phase3": "3",
             "phase4": "4",
             "phase5": "5",
         }
-        self.prefixmapping = {"estimated": "affected"}
+        self.colnamemapping = {"estimated": "analyzed"}
         self.output = {
             "country_rows_latest": [],
             "country_rows_wide_latest": [],
@@ -121,15 +123,18 @@ class IPC:
             start, end = date_range.split(" - ")
             startdate = parse_date(start)
             enddate = parse_date(end)
+            enddate = enddate + relativedelta(months=1, days=-1)
             startdatestr = startdate.date().isoformat()
             enddatestr = enddate.date().isoformat()
             return startdatestr, enddatestr
 
         def add_country_subnational_rows(
-            base_row, location, rows, rows_wide, analysis=None
+            base_row, location, rows, rows_wide, adm_level, analysis=None
         ):
             country_subnational_row = deepcopy(base_row)
-            country_subnational_row["population"] = location.get("population")
+            country_subnational_row[f"Total {adm_level} population"] = location.get(
+                "population"
+            )
             row_wide = deepcopy(country_subnational_row)
             for i, projection in enumerate(self.projections):
                 projection_row = deepcopy(country_subnational_row)
@@ -141,16 +146,17 @@ class IPC:
                     if not period_date:
                         continue
                 period_start, period_end = parse_date_range(period_date)
-                projection_row["projection"] = projection
-                projection_row["period_start"] = period_start
-                projection_row["period_end"] = period_end
+                projection_row["Validity period"] = projection
+                projection_row["From"] = period_start
+                projection_row["To"] = period_end
+                projection_name = self.projection_names[i]
                 projection_suffix = self.projection_suffixes[i]
-                row_wide[f"period_start{projection_suffix}"] = period_start
-                row_wide[f"period_end{projection_suffix}"] = period_end
+                row_wide[f"{projection_name} from"] = period_start
+                row_wide[f"{projection_name} to"] = period_end
                 location[f"estimated_percentage{projection_suffix}"] = 1.0
-                for prefix, phase in self.mapping.items():
+                for prefix, phase in self.phasemapping.items():
                     row = deepcopy(projection_row)
-                    if phase == "P3+":
+                    if phase == "3+":
                         key = f"p3plus{projection_suffix}"
                     else:
                         key = f"{prefix}_population{projection_suffix}"
@@ -158,17 +164,19 @@ class IPC:
                         affected = location[key]
                     else:
                         continue
-                    row["phase"] = phase
-                    row["number_affected"] = affected
-                    prefixmapping = self.prefixmapping.get(prefix, prefix)
-                    row_wide[
-                        f"{prefixmapping}_population{projection_suffix}"
-                    ] = affected
+                    row["Phase"] = phase
+                    row["Number"] = affected
+                    projection_name_l = projection_name.lower()
+                    if phase == "all":
+                        colname = f"Population analyzed {projection_name_l}"
+                    else:
+                        colname = f"Phase {phase} number {projection_name_l}"
+                    row_wide[colname] = affected
                     percentage = location[f"{prefix}_percentage{projection_suffix}"]
-                    row["percentage_affected"] = percentage
+                    row["Percentage"] = percentage
                     if prefix != "estimated":
                         row_wide[
-                            f"{prefixmapping}_percentage{projection_suffix}"
+                            f"Phase {phase} percentage {projection_name_l}"
                         ] = percentage
                     rows.append(row)
 
@@ -176,14 +184,18 @@ class IPC:
 
         def get_base_row(analysis):
             return {
-                "analysis_date": analysis["analysis_date"],
-                "country_iso3": countryiso3,
+                "Date of analysis": analysis["analysis_date"],
+                "Country": countryiso3,
             }
 
         def add_country_rows(analysis, rows, rows_wide):
             base_row = get_base_row(analysis)
             add_country_subnational_rows(
-                base_row, analysis, rows=rows, rows_wide=rows_wide
+                base_row,
+                analysis,
+                rows=rows,
+                rows_wide=rows_wide,
+                adm_level="country",
             )
 
         def add_subnational_rows(
@@ -192,14 +204,15 @@ class IPC:
             def process_areas(adm_row, adm):
                 for area in adm["areas"]:
                     area_row = deepcopy(adm_row)
-                    if "level1_name" not in area_row:
-                        area_row["level1_name"] = None
-                    area_row["area"] = area["name"]
+                    if "Level 1" not in area_row:
+                        area_row["Level 1"] = None
+                    area_row["Area"] = area["name"]
                     add_country_subnational_rows(
                         area_row,
                         area,
                         rows=area_rows,
                         rows_wide=area_rows_wide,
+                        adm_level="area",
                         analysis=analysis,
                     )
 
@@ -208,12 +221,13 @@ class IPC:
             if groups:
                 for group in analysis["groups"]:
                     group_row = deepcopy(base_row)
-                    group_row["level1_name"] = group["name"]
+                    group_row["Level 1"] = group["name"]
                     add_country_subnational_rows(
                         group_row,
                         group,
                         rows=group_rows,
                         rows_wide=group_rows_wide,
+                        adm_level="level 1",
                         analysis=analysis,
                     )
                     if "areas" in group:
