@@ -129,23 +129,19 @@ class IPC:
             return startdatestr, enddatestr
 
         def add_country_subnational_rows(
-            base_row, location, rows, rows_wide, adm_level, analysis=None
+            base_row, location, rows, rows_wide, analysis=None
         ):
+            if analysis is None:
+                analysis = location
             country_subnational_row = deepcopy(base_row)
-            country_subnational_row[f"Total {adm_level} population"] = location.get(
-                "population"
-            )
             row_wide = deepcopy(country_subnational_row)
             for i, projection in enumerate(self.projections):
                 projection_row = deepcopy(country_subnational_row)
-                period_date = location.get(f"{projection}_period_dates")
-                if not period_date:
-                    if not analysis:
-                        continue
-                    period_date = analysis.get(f"{projection}_period_dates")
-                    if not period_date:
-                        continue
-                period_start, period_end = parse_date_range(period_date)
+                period_date = analysis.get(f"{projection}_period_dates")
+                if period_date:
+                    period_start, period_end = parse_date_range(period_date)
+                else:
+                    period_start = period_end = None
                 projection_row["Validity period"] = projection
                 projection_row["From"] = period_start
                 projection_row["To"] = period_end
@@ -160,10 +156,7 @@ class IPC:
                         key = f"p3plus{projection_suffix}"
                     else:
                         key = f"{prefix}_population{projection_suffix}"
-                    if key in location:
-                        affected = location[key]
-                    else:
-                        continue
+                    affected = location.get(key)
                     row["Phase"] = phase
                     row["Number"] = affected
                     projection_name_l = projection_name.lower()
@@ -172,13 +165,14 @@ class IPC:
                     else:
                         colname = f"Phase {phase} number {projection_name_l}"
                     row_wide[colname] = affected
-                    percentage = location[f"{prefix}_percentage{projection_suffix}"]
+                    percentage = location.get(f"{prefix}_percentage{projection_suffix}")
                     row["Percentage"] = percentage
                     if prefix != "estimated":
                         row_wide[
                             f"Phase {phase} percentage {projection_name_l}"
                         ] = percentage
-                    rows.append(row)
+                    if affected is not None and period_date is not None:
+                        rows.append(row)
 
             rows_wide.append(row_wide)
 
@@ -186,6 +180,7 @@ class IPC:
             return {
                 "Date of analysis": analysis["analysis_date"],
                 "Country": countryiso3,
+                "Total country population": analysis.get("population"),
             }
 
         def add_country_rows(analysis, rows, rows_wide):
@@ -195,7 +190,6 @@ class IPC:
                 analysis,
                 rows=rows,
                 rows_wide=rows_wide,
-                adm_level="country",
             )
 
         def add_subnational_rows(
@@ -212,7 +206,6 @@ class IPC:
                         area,
                         rows=area_rows,
                         rows_wide=area_rows_wide,
-                        adm_level="area",
                         analysis=analysis,
                     )
 
@@ -227,7 +220,6 @@ class IPC:
                         group,
                         rows=group_rows,
                         rows_wide=group_rows_wide,
-                        adm_level="level 1",
                         analysis=analysis,
                     )
                     if "areas" in group:

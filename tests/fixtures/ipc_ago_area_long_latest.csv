@@ -1,716 +1,665 @@
-Date of analysis,Country,Level 1,Area,Total area population,Validity period,From,To,Phase,Number,Percentage
-#date+analysis,#country+code,#loc+level1,#loc+area,#population,#meta+projection,#date+start,#date+end,#meta+phase,#affected+num+ipc,#affected+pct+ipc
-Jun 2021,AGO,Cunene,Cuvelai,32097671,current,2021-06-01,2021-09-30,all,71444,1.0
-Jun 2021,AGO,Cunene,Cuvelai,32097671,current,2021-06-01,2021-09-30,3+,32150,0.45
-Jun 2021,AGO,Cunene,Cuvelai,32097671,current,2021-06-01,2021-09-30,1,10717,0.15
-Jun 2021,AGO,Cunene,Cuvelai,32097671,current,2021-06-01,2021-09-30,2,28578,0.4
-Jun 2021,AGO,Cunene,Cuvelai,32097671,current,2021-06-01,2021-09-30,3,28578,0.4
-Jun 2021,AGO,Cunene,Cuvelai,32097671,current,2021-06-01,2021-09-30,4,3572,0.05
-Jun 2021,AGO,Cunene,Cuvelai,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Cunene,Cuvelai,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Cunene,Cuvelai,32097671,projected,2021-10-01,2022-03-31,3+,40541,0.55
-Jun 2021,AGO,Cunene,Cuvelai,32097671,projected,2021-10-01,2022-03-31,1,11057,0.15
-Jun 2021,AGO,Cunene,Cuvelai,32097671,projected,2021-10-01,2022-03-31,2,22113,0.3
-Jun 2021,AGO,Cunene,Cuvelai,32097671,projected,2021-10-01,2022-03-31,3,33170,0.45
-Jun 2021,AGO,Cunene,Cuvelai,32097671,projected,2021-10-01,2022-03-31,4,7371,0.1
-Jun 2021,AGO,Cunene,Cuvelai,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Cunene,Cahama,32097671,current,2021-06-01,2021-09-30,all,87219,1.0
-Jun 2021,AGO,Cunene,Cahama,32097671,current,2021-06-01,2021-09-30,3+,61054,0.7
-Jun 2021,AGO,Cunene,Cahama,32097671,current,2021-06-01,2021-09-30,1,4361,0.05
-Jun 2021,AGO,Cunene,Cahama,32097671,current,2021-06-01,2021-09-30,2,21805,0.25
-Jun 2021,AGO,Cunene,Cahama,32097671,current,2021-06-01,2021-09-30,3,39249,0.45
-Jun 2021,AGO,Cunene,Cahama,32097671,current,2021-06-01,2021-09-30,4,21805,0.25
-Jun 2021,AGO,Cunene,Cahama,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Cunene,Cahama,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Cunene,Cahama,32097671,projected,2021-10-01,2022-03-31,3+,67490,0.75
-Jun 2021,AGO,Cunene,Cahama,32097671,projected,2021-10-01,2022-03-31,1,4499,0.05
-Jun 2021,AGO,Cunene,Cahama,32097671,projected,2021-10-01,2022-03-31,2,17997,0.2
-Jun 2021,AGO,Cunene,Cahama,32097671,projected,2021-10-01,2022-03-31,3,44993,0.5
-Jun 2021,AGO,Cunene,Cahama,32097671,projected,2021-10-01,2022-03-31,4,22497,0.25
-Jun 2021,AGO,Cunene,Cahama,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Cunene,Município dos Gambos (ex-chiange),32097671,current,2021-06-01,2021-09-30,all,95338,1.0
-Jun 2021,AGO,Cunene,Município dos Gambos (ex-chiange),32097671,current,2021-06-01,2021-09-30,3+,66737,0.7
-Jun 2021,AGO,Cunene,Município dos Gambos (ex-chiange),32097671,current,2021-06-01,2021-09-30,1,9534,0.1
-Jun 2021,AGO,Cunene,Município dos Gambos (ex-chiange),32097671,current,2021-06-01,2021-09-30,2,19068,0.2
-Jun 2021,AGO,Cunene,Município dos Gambos (ex-chiange),32097671,current,2021-06-01,2021-09-30,3,47669,0.5
-Jun 2021,AGO,Cunene,Município dos Gambos (ex-chiange),32097671,current,2021-06-01,2021-09-30,4,19068,0.2
-Jun 2021,AGO,Cunene,Município dos Gambos (ex-chiange),32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Cunene,Município dos Gambos (ex-chiange),32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Cunene,Município dos Gambos (ex-chiange),32097671,projected,2021-10-01,2022-03-31,3+,78627,0.8
-Jun 2021,AGO,Cunene,Município dos Gambos (ex-chiange),32097671,projected,2021-10-01,2022-03-31,1,9828,0.1
-Jun 2021,AGO,Cunene,Município dos Gambos (ex-chiange),32097671,projected,2021-10-01,2022-03-31,2,9828,0.1
-Jun 2021,AGO,Cunene,Município dos Gambos (ex-chiange),32097671,projected,2021-10-01,2022-03-31,3,54056,0.55
-Jun 2021,AGO,Cunene,Município dos Gambos (ex-chiange),32097671,projected,2021-10-01,2022-03-31,4,24571,0.25
-Jun 2021,AGO,Cunene,Município dos Gambos (ex-chiange),32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Cunene,Curoca,32097671,current,2021-06-01,2021-09-30,all,51157,1.0
-Jun 2021,AGO,Cunene,Curoca,32097671,current,2021-06-01,2021-09-30,3+,33252,0.65
-Jun 2021,AGO,Cunene,Curoca,32097671,current,2021-06-01,2021-09-30,1,7674,0.15
-Jun 2021,AGO,Cunene,Curoca,32097671,current,2021-06-01,2021-09-30,2,10231,0.2
-Jun 2021,AGO,Cunene,Curoca,32097671,current,2021-06-01,2021-09-30,3,17905,0.35
-Jun 2021,AGO,Cunene,Curoca,32097671,current,2021-06-01,2021-09-30,4,15347,0.3
-Jun 2021,AGO,Cunene,Curoca,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Cunene,Curoca,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Cunene,Curoca,32097671,projected,2021-10-01,2022-03-31,3+,36946,0.7
-Jun 2021,AGO,Cunene,Curoca,32097671,projected,2021-10-01,2022-03-31,1,7917,0.15
-Jun 2021,AGO,Cunene,Curoca,32097671,projected,2021-10-01,2022-03-31,2,7917,0.15
-Jun 2021,AGO,Cunene,Curoca,32097671,projected,2021-10-01,2022-03-31,3,18473,0.35
-Jun 2021,AGO,Cunene,Curoca,32097671,projected,2021-10-01,2022-03-31,4,18473,0.35
-Jun 2021,AGO,Cunene,Curoca,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Cunene,Camucuio,32097671,current,2021-06-01,2021-09-30,all,63964,1.0
-Jun 2021,AGO,Cunene,Camucuio,32097671,current,2021-06-01,2021-09-30,3+,44775,0.7
-Jun 2021,AGO,Cunene,Camucuio,32097671,current,2021-06-01,2021-09-30,1,6396,0.1
-Jun 2021,AGO,Cunene,Camucuio,32097671,current,2021-06-01,2021-09-30,2,12793,0.2
-Jun 2021,AGO,Cunene,Camucuio,32097671,current,2021-06-01,2021-09-30,3,31982,0.5
-Jun 2021,AGO,Cunene,Camucuio,32097671,current,2021-06-01,2021-09-30,4,12793,0.2
-Jun 2021,AGO,Cunene,Camucuio,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Cunene,Camucuio,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Cunene,Camucuio,32097671,projected,2021-10-01,2022-03-31,3+,52890,0.8
-Jun 2021,AGO,Cunene,Camucuio,32097671,projected,2021-10-01,2022-03-31,1,3306,0.05
-Jun 2021,AGO,Cunene,Camucuio,32097671,projected,2021-10-01,2022-03-31,2,9917,0.15
-Jun 2021,AGO,Cunene,Camucuio,32097671,projected,2021-10-01,2022-03-31,3,36362,0.55
-Jun 2021,AGO,Cunene,Camucuio,32097671,projected,2021-10-01,2022-03-31,4,16528,0.25
-Jun 2021,AGO,Cunene,Camucuio,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Cunene,Chibia,32097671,current,2021-06-01,2021-09-30,all,228797,1.0
-Jun 2021,AGO,Cunene,Chibia,32097671,current,2021-06-01,2021-09-30,3+,137279,0.6
-Jun 2021,AGO,Cunene,Chibia,32097671,current,2021-06-01,2021-09-30,1,22880,0.1
-Jun 2021,AGO,Cunene,Chibia,32097671,current,2021-06-01,2021-09-30,2,68639,0.3
-Jun 2021,AGO,Cunene,Chibia,32097671,current,2021-06-01,2021-09-30,3,114399,0.5
-Jun 2021,AGO,Cunene,Chibia,32097671,current,2021-06-01,2021-09-30,4,22880,0.1
-Jun 2021,AGO,Cunene,Chibia,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Cunene,Chibia,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Cunene,Chibia,32097671,projected,2021-10-01,2022-03-31,3+,153318,0.65
-Jun 2021,AGO,Cunene,Chibia,32097671,projected,2021-10-01,2022-03-31,1,11794,0.05
-Jun 2021,AGO,Cunene,Chibia,32097671,projected,2021-10-01,2022-03-31,2,70762,0.3
-Jun 2021,AGO,Cunene,Chibia,32097671,projected,2021-10-01,2022-03-31,3,129731,0.55
-Jun 2021,AGO,Cunene,Chibia,32097671,projected,2021-10-01,2022-03-31,4,23587,0.1
-Jun 2021,AGO,Cunene,Chibia,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Cunene,Ombadja,32097671,current,2021-06-01,2021-09-30,all,379592,1.0
-Jun 2021,AGO,Cunene,Ombadja,32097671,current,2021-06-01,2021-09-30,3+,246734,0.65
-Jun 2021,AGO,Cunene,Ombadja,32097671,current,2021-06-01,2021-09-30,1,37959,0.1
-Jun 2021,AGO,Cunene,Ombadja,32097671,current,2021-06-01,2021-09-30,2,94898,0.25
-Jun 2021,AGO,Cunene,Ombadja,32097671,current,2021-06-01,2021-09-30,3,170816,0.45
-Jun 2021,AGO,Cunene,Ombadja,32097671,current,2021-06-01,2021-09-30,4,75918,0.2
-Jun 2021,AGO,Cunene,Ombadja,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Cunene,Ombadja,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Cunene,Ombadja,32097671,projected,2021-10-01,2022-03-31,3+,274140,0.7
-Jun 2021,AGO,Cunene,Ombadja,32097671,projected,2021-10-01,2022-03-31,1,39163,0.1
-Jun 2021,AGO,Cunene,Ombadja,32097671,projected,2021-10-01,2022-03-31,2,78326,0.2
-Jun 2021,AGO,Cunene,Ombadja,32097671,projected,2021-10-01,2022-03-31,3,176233,0.45
-Jun 2021,AGO,Cunene,Ombadja,32097671,projected,2021-10-01,2022-03-31,4,97907,0.25
-Jun 2021,AGO,Cunene,Ombadja,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Cunene,Bibala,32097671,current,2021-06-01,2021-09-30,all,81994,1.0
-Jun 2021,AGO,Cunene,Bibala,32097671,current,2021-06-01,2021-09-30,3+,49196,0.6
-Jun 2021,AGO,Cunene,Bibala,32097671,current,2021-06-01,2021-09-30,1,8199,0.1
-Jun 2021,AGO,Cunene,Bibala,32097671,current,2021-06-01,2021-09-30,2,24598,0.3
-Jun 2021,AGO,Cunene,Bibala,32097671,current,2021-06-01,2021-09-30,3,40997,0.5
-Jun 2021,AGO,Cunene,Bibala,32097671,current,2021-06-01,2021-09-30,4,8199,0.1
-Jun 2021,AGO,Cunene,Bibala,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Cunene,Bibala,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Cunene,Bibala,32097671,projected,2021-10-01,2022-03-31,3+,59286,0.7
-Jun 2021,AGO,Cunene,Bibala,32097671,projected,2021-10-01,2022-03-31,1,8470,0.1
-Jun 2021,AGO,Cunene,Bibala,32097671,projected,2021-10-01,2022-03-31,2,16939,0.2
-Jun 2021,AGO,Cunene,Bibala,32097671,projected,2021-10-01,2022-03-31,3,46582,0.55
-Jun 2021,AGO,Cunene,Bibala,32097671,projected,2021-10-01,2022-03-31,4,12704,0.15
-Jun 2021,AGO,Cunene,Bibala,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Cunene,Mocamedes,32097671,current,2021-06-01,2021-09-30,all,371708,1.0
-Jun 2021,AGO,Cunene,Mocamedes,32097671,current,2021-06-01,2021-09-30,3+,55756,0.15
-Jun 2021,AGO,Cunene,Mocamedes,32097671,current,2021-06-01,2021-09-30,1,167269,0.45
-Jun 2021,AGO,Cunene,Mocamedes,32097671,current,2021-06-01,2021-09-30,2,148683,0.4
-Jun 2021,AGO,Cunene,Mocamedes,32097671,current,2021-06-01,2021-09-30,3,37171,0.1
-Jun 2021,AGO,Cunene,Mocamedes,32097671,current,2021-06-01,2021-09-30,4,18585,0.05
-Jun 2021,AGO,Cunene,Mocamedes,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Cunene,Mocamedes,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Cunene,Mocamedes,32097671,projected,2021-10-01,2022-03-31,3+,96050,0.25
-Jun 2021,AGO,Cunene,Mocamedes,32097671,projected,2021-10-01,2022-03-31,1,153680,0.4
-Jun 2021,AGO,Cunene,Mocamedes,32097671,projected,2021-10-01,2022-03-31,2,134470,0.35
-Jun 2021,AGO,Cunene,Mocamedes,32097671,projected,2021-10-01,2022-03-31,3,76840,0.2
-Jun 2021,AGO,Cunene,Mocamedes,32097671,projected,2021-10-01,2022-03-31,4,19210,0.05
-Jun 2021,AGO,Cunene,Mocamedes,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Cunene,Chicomba,32097671,current,2021-06-01,2021-09-30,all,158191,1.0
-Jun 2021,AGO,Cunene,Chicomba,32097671,current,2021-06-01,2021-09-30,3+,87005,0.55
-Jun 2021,AGO,Cunene,Chicomba,32097671,current,2021-06-01,2021-09-30,1,15819,0.1
-Jun 2021,AGO,Cunene,Chicomba,32097671,current,2021-06-01,2021-09-30,2,55367,0.35
-Jun 2021,AGO,Cunene,Chicomba,32097671,current,2021-06-01,2021-09-30,3,63276,0.4
-Jun 2021,AGO,Cunene,Chicomba,32097671,current,2021-06-01,2021-09-30,4,23729,0.15
-Jun 2021,AGO,Cunene,Chicomba,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Cunene,Chicomba,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Cunene,Chicomba,32097671,projected,2021-10-01,2022-03-31,3+,106008,0.65
-Jun 2021,AGO,Cunene,Chicomba,32097671,projected,2021-10-01,2022-03-31,1,16309,0.1
-Jun 2021,AGO,Cunene,Chicomba,32097671,projected,2021-10-01,2022-03-31,2,40772,0.25
-Jun 2021,AGO,Cunene,Chicomba,32097671,projected,2021-10-01,2022-03-31,3,73390,0.45
-Jun 2021,AGO,Cunene,Chicomba,32097671,projected,2021-10-01,2022-03-31,4,32618,0.2
-Jun 2021,AGO,Cunene,Chicomba,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Cunene,Cuanhama,32097671,current,2021-06-01,2021-09-30,all,466192,1.0
-Jun 2021,AGO,Cunene,Cuanhama,32097671,current,2021-06-01,2021-09-30,3+,186477,0.4
-Jun 2021,AGO,Cunene,Cuanhama,32097671,current,2021-06-01,2021-09-30,1,139858,0.3
-Jun 2021,AGO,Cunene,Cuanhama,32097671,current,2021-06-01,2021-09-30,2,139858,0.3
-Jun 2021,AGO,Cunene,Cuanhama,32097671,current,2021-06-01,2021-09-30,3,163167,0.35
-Jun 2021,AGO,Cunene,Cuanhama,32097671,current,2021-06-01,2021-09-30,4,23310,0.05
-Jun 2021,AGO,Cunene,Cuanhama,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Cunene,Cuanhama,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Cunene,Cuanhama,32097671,projected,2021-10-01,2022-03-31,3+,240488,0.5
-Jun 2021,AGO,Cunene,Cuanhama,32097671,projected,2021-10-01,2022-03-31,1,120244,0.25
-Jun 2021,AGO,Cunene,Cuanhama,32097671,projected,2021-10-01,2022-03-31,2,120244,0.25
-Jun 2021,AGO,Cunene,Cuanhama,32097671,projected,2021-10-01,2022-03-31,3,192390,0.4
-Jun 2021,AGO,Cunene,Cuanhama,32097671,projected,2021-10-01,2022-03-31,4,48098,0.1
-Jun 2021,AGO,Cunene,Cuanhama,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Cunene,Namacunde,32097671,current,2021-06-01,2021-09-30,all,176932,1.0
-Jun 2021,AGO,Cunene,Namacunde,32097671,current,2021-06-01,2021-09-30,3+,70773,0.4
-Jun 2021,AGO,Cunene,Namacunde,32097671,current,2021-06-01,2021-09-30,1,26540,0.15
-Jun 2021,AGO,Cunene,Namacunde,32097671,current,2021-06-01,2021-09-30,2,79619,0.45
-Jun 2021,AGO,Cunene,Namacunde,32097671,current,2021-06-01,2021-09-30,3,61926,0.35
-Jun 2021,AGO,Cunene,Namacunde,32097671,current,2021-06-01,2021-09-30,4,8847,0.05
-Jun 2021,AGO,Cunene,Namacunde,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Cunene,Namacunde,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Cunene,Namacunde,32097671,projected,2021-10-01,2022-03-31,3+,91279,0.5
-Jun 2021,AGO,Cunene,Namacunde,32097671,projected,2021-10-01,2022-03-31,1,27384,0.15
-Jun 2021,AGO,Cunene,Namacunde,32097671,projected,2021-10-01,2022-03-31,2,63895,0.35
-Jun 2021,AGO,Cunene,Namacunde,32097671,projected,2021-10-01,2022-03-31,3,73023,0.4
-Jun 2021,AGO,Cunene,Namacunde,32097671,projected,2021-10-01,2022-03-31,4,18256,0.1
-Jun 2021,AGO,Cunene,Namacunde,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Cunene,Virei,32097671,current,2021-06-01,2021-09-30,all,41222,1.0
-Jun 2021,AGO,Cunene,Virei,32097671,current,2021-06-01,2021-09-30,3+,26795,0.65
-Jun 2021,AGO,Cunene,Virei,32097671,current,2021-06-01,2021-09-30,1,4122,0.1
-Jun 2021,AGO,Cunene,Virei,32097671,current,2021-06-01,2021-09-30,2,10306,0.25
-Jun 2021,AGO,Cunene,Virei,32097671,current,2021-06-01,2021-09-30,3,16489,0.4
-Jun 2021,AGO,Cunene,Virei,32097671,current,2021-06-01,2021-09-30,4,10306,0.25
-Jun 2021,AGO,Cunene,Virei,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Cunene,Virei,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Cunene,Virei,32097671,projected,2021-10-01,2022-03-31,3+,31956,0.75
-Jun 2021,AGO,Cunene,Virei,32097671,projected,2021-10-01,2022-03-31,1,2130,0.05
-Jun 2021,AGO,Cunene,Virei,32097671,projected,2021-10-01,2022-03-31,2,8521,0.2
-Jun 2021,AGO,Cunene,Virei,32097671,projected,2021-10-01,2022-03-31,3,21304,0.5
-Jun 2021,AGO,Cunene,Virei,32097671,projected,2021-10-01,2022-03-31,4,10652,0.25
-Jun 2021,AGO,Cunene,Virei,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Cunene,Tômbwa (porto alexandre),32097671,current,2021-06-01,2021-09-30,all,70517,1.0
-Jun 2021,AGO,Cunene,Tômbwa (porto alexandre),32097671,current,2021-06-01,2021-09-30,3+,38785,0.55
-Jun 2021,AGO,Cunene,Tômbwa (porto alexandre),32097671,current,2021-06-01,2021-09-30,1,10578,0.15
-Jun 2021,AGO,Cunene,Tômbwa (porto alexandre),32097671,current,2021-06-01,2021-09-30,2,21155,0.3
-Jun 2021,AGO,Cunene,Tômbwa (porto alexandre),32097671,current,2021-06-01,2021-09-30,3,28207,0.4
-Jun 2021,AGO,Cunene,Tômbwa (porto alexandre),32097671,current,2021-06-01,2021-09-30,4,10578,0.15
-Jun 2021,AGO,Cunene,Tômbwa (porto alexandre),32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Cunene,Tômbwa (porto alexandre),32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Cunene,Tômbwa (porto alexandre),32097671,projected,2021-10-01,2022-03-31,3+,51021,0.7
-Jun 2021,AGO,Cunene,Tômbwa (porto alexandre),32097671,projected,2021-10-01,2022-03-31,1,10933,0.15
-Jun 2021,AGO,Cunene,Tômbwa (porto alexandre),32097671,projected,2021-10-01,2022-03-31,2,10933,0.15
-Jun 2021,AGO,Cunene,Tômbwa (porto alexandre),32097671,projected,2021-10-01,2022-03-31,3,36444,0.5
-Jun 2021,AGO,Cunene,Tômbwa (porto alexandre),32097671,projected,2021-10-01,2022-03-31,4,14577,0.2
-Jun 2021,AGO,Cunene,Tômbwa (porto alexandre),32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Cunene,Quilengues,32097671,current,2021-06-01,2021-09-30,all,90409,1.0
-Jun 2021,AGO,Cunene,Quilengues,32097671,current,2021-06-01,2021-09-30,3+,45205,0.5
-Jun 2021,AGO,Cunene,Quilengues,32097671,current,2021-06-01,2021-09-30,1,18082,0.2
-Jun 2021,AGO,Cunene,Quilengues,32097671,current,2021-06-01,2021-09-30,2,27123,0.3
-Jun 2021,AGO,Cunene,Quilengues,32097671,current,2021-06-01,2021-09-30,3,36164,0.4
-Jun 2021,AGO,Cunene,Quilengues,32097671,current,2021-06-01,2021-09-30,4,9041,0.1
-Jun 2021,AGO,Cunene,Quilengues,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Cunene,Quilengues,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Cunene,Quilengues,32097671,projected,2021-10-01,2022-03-31,3+,54245,0.6
-Jun 2021,AGO,Cunene,Quilengues,32097671,projected,2021-10-01,2022-03-31,1,13561,0.15
-Jun 2021,AGO,Cunene,Quilengues,32097671,projected,2021-10-01,2022-03-31,2,22602,0.25
-Jun 2021,AGO,Cunene,Quilengues,32097671,projected,2021-10-01,2022-03-31,3,40684,0.45
-Jun 2021,AGO,Cunene,Quilengues,32097671,projected,2021-10-01,2022-03-31,4,13561,0.15
-Jun 2021,AGO,Cunene,Quilengues,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Cunene,Humpata,32097671,current,2021-06-01,2021-09-30,all,106989,1.0
-Jun 2021,AGO,Cunene,Humpata,32097671,current,2021-06-01,2021-09-30,3+,64194,0.6
-Jun 2021,AGO,Cunene,Humpata,32097671,current,2021-06-01,2021-09-30,1,16048,0.15
-Jun 2021,AGO,Cunene,Humpata,32097671,current,2021-06-01,2021-09-30,2,26747,0.25
-Jun 2021,AGO,Cunene,Humpata,32097671,current,2021-06-01,2021-09-30,3,53495,0.5
-Jun 2021,AGO,Cunene,Humpata,32097671,current,2021-06-01,2021-09-30,4,10699,0.1
-Jun 2021,AGO,Cunene,Humpata,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Cunene,Humpata,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Cunene,Humpata,32097671,projected,2021-10-01,2022-03-31,3+,71696,0.65
-Jun 2021,AGO,Cunene,Humpata,32097671,projected,2021-10-01,2022-03-31,1,16545,0.15
-Jun 2021,AGO,Cunene,Humpata,32097671,projected,2021-10-01,2022-03-31,2,22060,0.2
-Jun 2021,AGO,Cunene,Humpata,32097671,projected,2021-10-01,2022-03-31,3,55151,0.5
-Jun 2021,AGO,Cunene,Humpata,32097671,projected,2021-10-01,2022-03-31,4,16545,0.15
-Jun 2021,AGO,Cunene,Humpata,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Cunene,Jamba,32097671,current,2021-06-01,2021-09-30,all,126125,1.0
-Jun 2021,AGO,Cunene,Jamba,32097671,current,2021-06-01,2021-09-30,3+,69369,0.55
-Jun 2021,AGO,Cunene,Jamba,32097671,current,2021-06-01,2021-09-30,1,25225,0.2
-Jun 2021,AGO,Cunene,Jamba,32097671,current,2021-06-01,2021-09-30,2,31531,0.25
-Jun 2021,AGO,Cunene,Jamba,32097671,current,2021-06-01,2021-09-30,3,56756,0.45
-Jun 2021,AGO,Cunene,Jamba,32097671,current,2021-06-01,2021-09-30,4,12613,0.1
-Jun 2021,AGO,Cunene,Jamba,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Cunene,Jamba,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Cunene,Jamba,32097671,projected,2021-10-01,2022-03-31,3+,78017,0.6
-Jun 2021,AGO,Cunene,Jamba,32097671,projected,2021-10-01,2022-03-31,1,26006,0.2
-Jun 2021,AGO,Cunene,Jamba,32097671,projected,2021-10-01,2022-03-31,2,26006,0.2
-Jun 2021,AGO,Cunene,Jamba,32097671,projected,2021-10-01,2022-03-31,3,58513,0.45
-Jun 2021,AGO,Cunene,Jamba,32097671,projected,2021-10-01,2022-03-31,4,19504,0.15
-Jun 2021,AGO,Cunene,Jamba,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Huíla,Cuvelai,32097671,current,2021-06-01,2021-09-30,all,71444,1.0
-Jun 2021,AGO,Huíla,Cuvelai,32097671,current,2021-06-01,2021-09-30,3+,32150,0.45
-Jun 2021,AGO,Huíla,Cuvelai,32097671,current,2021-06-01,2021-09-30,1,10717,0.15
-Jun 2021,AGO,Huíla,Cuvelai,32097671,current,2021-06-01,2021-09-30,2,28578,0.4
-Jun 2021,AGO,Huíla,Cuvelai,32097671,current,2021-06-01,2021-09-30,3,28578,0.4
-Jun 2021,AGO,Huíla,Cuvelai,32097671,current,2021-06-01,2021-09-30,4,3572,0.05
-Jun 2021,AGO,Huíla,Cuvelai,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Huíla,Cuvelai,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Huíla,Cuvelai,32097671,projected,2021-10-01,2022-03-31,3+,40541,0.55
-Jun 2021,AGO,Huíla,Cuvelai,32097671,projected,2021-10-01,2022-03-31,1,11057,0.15
-Jun 2021,AGO,Huíla,Cuvelai,32097671,projected,2021-10-01,2022-03-31,2,22113,0.3
-Jun 2021,AGO,Huíla,Cuvelai,32097671,projected,2021-10-01,2022-03-31,3,33170,0.45
-Jun 2021,AGO,Huíla,Cuvelai,32097671,projected,2021-10-01,2022-03-31,4,7371,0.1
-Jun 2021,AGO,Huíla,Cuvelai,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Huíla,Cahama,32097671,current,2021-06-01,2021-09-30,all,87219,1.0
-Jun 2021,AGO,Huíla,Cahama,32097671,current,2021-06-01,2021-09-30,3+,61054,0.7
-Jun 2021,AGO,Huíla,Cahama,32097671,current,2021-06-01,2021-09-30,1,4361,0.05
-Jun 2021,AGO,Huíla,Cahama,32097671,current,2021-06-01,2021-09-30,2,21805,0.25
-Jun 2021,AGO,Huíla,Cahama,32097671,current,2021-06-01,2021-09-30,3,39249,0.45
-Jun 2021,AGO,Huíla,Cahama,32097671,current,2021-06-01,2021-09-30,4,21805,0.25
-Jun 2021,AGO,Huíla,Cahama,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Huíla,Cahama,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Huíla,Cahama,32097671,projected,2021-10-01,2022-03-31,3+,67490,0.75
-Jun 2021,AGO,Huíla,Cahama,32097671,projected,2021-10-01,2022-03-31,1,4499,0.05
-Jun 2021,AGO,Huíla,Cahama,32097671,projected,2021-10-01,2022-03-31,2,17997,0.2
-Jun 2021,AGO,Huíla,Cahama,32097671,projected,2021-10-01,2022-03-31,3,44993,0.5
-Jun 2021,AGO,Huíla,Cahama,32097671,projected,2021-10-01,2022-03-31,4,22497,0.25
-Jun 2021,AGO,Huíla,Cahama,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Huíla,Município dos Gambos (ex-chiange),32097671,current,2021-06-01,2021-09-30,all,95338,1.0
-Jun 2021,AGO,Huíla,Município dos Gambos (ex-chiange),32097671,current,2021-06-01,2021-09-30,3+,66737,0.7
-Jun 2021,AGO,Huíla,Município dos Gambos (ex-chiange),32097671,current,2021-06-01,2021-09-30,1,9534,0.1
-Jun 2021,AGO,Huíla,Município dos Gambos (ex-chiange),32097671,current,2021-06-01,2021-09-30,2,19068,0.2
-Jun 2021,AGO,Huíla,Município dos Gambos (ex-chiange),32097671,current,2021-06-01,2021-09-30,3,47669,0.5
-Jun 2021,AGO,Huíla,Município dos Gambos (ex-chiange),32097671,current,2021-06-01,2021-09-30,4,19068,0.2
-Jun 2021,AGO,Huíla,Município dos Gambos (ex-chiange),32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Huíla,Município dos Gambos (ex-chiange),32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Huíla,Município dos Gambos (ex-chiange),32097671,projected,2021-10-01,2022-03-31,3+,78627,0.8
-Jun 2021,AGO,Huíla,Município dos Gambos (ex-chiange),32097671,projected,2021-10-01,2022-03-31,1,9828,0.1
-Jun 2021,AGO,Huíla,Município dos Gambos (ex-chiange),32097671,projected,2021-10-01,2022-03-31,2,9828,0.1
-Jun 2021,AGO,Huíla,Município dos Gambos (ex-chiange),32097671,projected,2021-10-01,2022-03-31,3,54056,0.55
-Jun 2021,AGO,Huíla,Município dos Gambos (ex-chiange),32097671,projected,2021-10-01,2022-03-31,4,24571,0.25
-Jun 2021,AGO,Huíla,Município dos Gambos (ex-chiange),32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Huíla,Curoca,32097671,current,2021-06-01,2021-09-30,all,51157,1.0
-Jun 2021,AGO,Huíla,Curoca,32097671,current,2021-06-01,2021-09-30,3+,33252,0.65
-Jun 2021,AGO,Huíla,Curoca,32097671,current,2021-06-01,2021-09-30,1,7674,0.15
-Jun 2021,AGO,Huíla,Curoca,32097671,current,2021-06-01,2021-09-30,2,10231,0.2
-Jun 2021,AGO,Huíla,Curoca,32097671,current,2021-06-01,2021-09-30,3,17905,0.35
-Jun 2021,AGO,Huíla,Curoca,32097671,current,2021-06-01,2021-09-30,4,15347,0.3
-Jun 2021,AGO,Huíla,Curoca,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Huíla,Curoca,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Huíla,Curoca,32097671,projected,2021-10-01,2022-03-31,3+,36946,0.7
-Jun 2021,AGO,Huíla,Curoca,32097671,projected,2021-10-01,2022-03-31,1,7917,0.15
-Jun 2021,AGO,Huíla,Curoca,32097671,projected,2021-10-01,2022-03-31,2,7917,0.15
-Jun 2021,AGO,Huíla,Curoca,32097671,projected,2021-10-01,2022-03-31,3,18473,0.35
-Jun 2021,AGO,Huíla,Curoca,32097671,projected,2021-10-01,2022-03-31,4,18473,0.35
-Jun 2021,AGO,Huíla,Curoca,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Huíla,Camucuio,32097671,current,2021-06-01,2021-09-30,all,63964,1.0
-Jun 2021,AGO,Huíla,Camucuio,32097671,current,2021-06-01,2021-09-30,3+,44775,0.7
-Jun 2021,AGO,Huíla,Camucuio,32097671,current,2021-06-01,2021-09-30,1,6396,0.1
-Jun 2021,AGO,Huíla,Camucuio,32097671,current,2021-06-01,2021-09-30,2,12793,0.2
-Jun 2021,AGO,Huíla,Camucuio,32097671,current,2021-06-01,2021-09-30,3,31982,0.5
-Jun 2021,AGO,Huíla,Camucuio,32097671,current,2021-06-01,2021-09-30,4,12793,0.2
-Jun 2021,AGO,Huíla,Camucuio,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Huíla,Camucuio,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Huíla,Camucuio,32097671,projected,2021-10-01,2022-03-31,3+,52890,0.8
-Jun 2021,AGO,Huíla,Camucuio,32097671,projected,2021-10-01,2022-03-31,1,3306,0.05
-Jun 2021,AGO,Huíla,Camucuio,32097671,projected,2021-10-01,2022-03-31,2,9917,0.15
-Jun 2021,AGO,Huíla,Camucuio,32097671,projected,2021-10-01,2022-03-31,3,36362,0.55
-Jun 2021,AGO,Huíla,Camucuio,32097671,projected,2021-10-01,2022-03-31,4,16528,0.25
-Jun 2021,AGO,Huíla,Camucuio,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Huíla,Chibia,32097671,current,2021-06-01,2021-09-30,all,228797,1.0
-Jun 2021,AGO,Huíla,Chibia,32097671,current,2021-06-01,2021-09-30,3+,137279,0.6
-Jun 2021,AGO,Huíla,Chibia,32097671,current,2021-06-01,2021-09-30,1,22880,0.1
-Jun 2021,AGO,Huíla,Chibia,32097671,current,2021-06-01,2021-09-30,2,68639,0.3
-Jun 2021,AGO,Huíla,Chibia,32097671,current,2021-06-01,2021-09-30,3,114399,0.5
-Jun 2021,AGO,Huíla,Chibia,32097671,current,2021-06-01,2021-09-30,4,22880,0.1
-Jun 2021,AGO,Huíla,Chibia,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Huíla,Chibia,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Huíla,Chibia,32097671,projected,2021-10-01,2022-03-31,3+,153318,0.65
-Jun 2021,AGO,Huíla,Chibia,32097671,projected,2021-10-01,2022-03-31,1,11794,0.05
-Jun 2021,AGO,Huíla,Chibia,32097671,projected,2021-10-01,2022-03-31,2,70762,0.3
-Jun 2021,AGO,Huíla,Chibia,32097671,projected,2021-10-01,2022-03-31,3,129731,0.55
-Jun 2021,AGO,Huíla,Chibia,32097671,projected,2021-10-01,2022-03-31,4,23587,0.1
-Jun 2021,AGO,Huíla,Chibia,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Huíla,Ombadja,32097671,current,2021-06-01,2021-09-30,all,379592,1.0
-Jun 2021,AGO,Huíla,Ombadja,32097671,current,2021-06-01,2021-09-30,3+,246734,0.65
-Jun 2021,AGO,Huíla,Ombadja,32097671,current,2021-06-01,2021-09-30,1,37959,0.1
-Jun 2021,AGO,Huíla,Ombadja,32097671,current,2021-06-01,2021-09-30,2,94898,0.25
-Jun 2021,AGO,Huíla,Ombadja,32097671,current,2021-06-01,2021-09-30,3,170816,0.45
-Jun 2021,AGO,Huíla,Ombadja,32097671,current,2021-06-01,2021-09-30,4,75918,0.2
-Jun 2021,AGO,Huíla,Ombadja,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Huíla,Ombadja,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Huíla,Ombadja,32097671,projected,2021-10-01,2022-03-31,3+,274140,0.7
-Jun 2021,AGO,Huíla,Ombadja,32097671,projected,2021-10-01,2022-03-31,1,39163,0.1
-Jun 2021,AGO,Huíla,Ombadja,32097671,projected,2021-10-01,2022-03-31,2,78326,0.2
-Jun 2021,AGO,Huíla,Ombadja,32097671,projected,2021-10-01,2022-03-31,3,176233,0.45
-Jun 2021,AGO,Huíla,Ombadja,32097671,projected,2021-10-01,2022-03-31,4,97907,0.25
-Jun 2021,AGO,Huíla,Ombadja,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Huíla,Bibala,32097671,current,2021-06-01,2021-09-30,all,81994,1.0
-Jun 2021,AGO,Huíla,Bibala,32097671,current,2021-06-01,2021-09-30,3+,49196,0.6
-Jun 2021,AGO,Huíla,Bibala,32097671,current,2021-06-01,2021-09-30,1,8199,0.1
-Jun 2021,AGO,Huíla,Bibala,32097671,current,2021-06-01,2021-09-30,2,24598,0.3
-Jun 2021,AGO,Huíla,Bibala,32097671,current,2021-06-01,2021-09-30,3,40997,0.5
-Jun 2021,AGO,Huíla,Bibala,32097671,current,2021-06-01,2021-09-30,4,8199,0.1
-Jun 2021,AGO,Huíla,Bibala,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Huíla,Bibala,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Huíla,Bibala,32097671,projected,2021-10-01,2022-03-31,3+,59286,0.7
-Jun 2021,AGO,Huíla,Bibala,32097671,projected,2021-10-01,2022-03-31,1,8470,0.1
-Jun 2021,AGO,Huíla,Bibala,32097671,projected,2021-10-01,2022-03-31,2,16939,0.2
-Jun 2021,AGO,Huíla,Bibala,32097671,projected,2021-10-01,2022-03-31,3,46582,0.55
-Jun 2021,AGO,Huíla,Bibala,32097671,projected,2021-10-01,2022-03-31,4,12704,0.15
-Jun 2021,AGO,Huíla,Bibala,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Huíla,Mocamedes,32097671,current,2021-06-01,2021-09-30,all,371708,1.0
-Jun 2021,AGO,Huíla,Mocamedes,32097671,current,2021-06-01,2021-09-30,3+,55756,0.15
-Jun 2021,AGO,Huíla,Mocamedes,32097671,current,2021-06-01,2021-09-30,1,167269,0.45
-Jun 2021,AGO,Huíla,Mocamedes,32097671,current,2021-06-01,2021-09-30,2,148683,0.4
-Jun 2021,AGO,Huíla,Mocamedes,32097671,current,2021-06-01,2021-09-30,3,37171,0.1
-Jun 2021,AGO,Huíla,Mocamedes,32097671,current,2021-06-01,2021-09-30,4,18585,0.05
-Jun 2021,AGO,Huíla,Mocamedes,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Huíla,Mocamedes,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Huíla,Mocamedes,32097671,projected,2021-10-01,2022-03-31,3+,96050,0.25
-Jun 2021,AGO,Huíla,Mocamedes,32097671,projected,2021-10-01,2022-03-31,1,153680,0.4
-Jun 2021,AGO,Huíla,Mocamedes,32097671,projected,2021-10-01,2022-03-31,2,134470,0.35
-Jun 2021,AGO,Huíla,Mocamedes,32097671,projected,2021-10-01,2022-03-31,3,76840,0.2
-Jun 2021,AGO,Huíla,Mocamedes,32097671,projected,2021-10-01,2022-03-31,4,19210,0.05
-Jun 2021,AGO,Huíla,Mocamedes,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Huíla,Chicomba,32097671,current,2021-06-01,2021-09-30,all,158191,1.0
-Jun 2021,AGO,Huíla,Chicomba,32097671,current,2021-06-01,2021-09-30,3+,87005,0.55
-Jun 2021,AGO,Huíla,Chicomba,32097671,current,2021-06-01,2021-09-30,1,15819,0.1
-Jun 2021,AGO,Huíla,Chicomba,32097671,current,2021-06-01,2021-09-30,2,55367,0.35
-Jun 2021,AGO,Huíla,Chicomba,32097671,current,2021-06-01,2021-09-30,3,63276,0.4
-Jun 2021,AGO,Huíla,Chicomba,32097671,current,2021-06-01,2021-09-30,4,23729,0.15
-Jun 2021,AGO,Huíla,Chicomba,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Huíla,Chicomba,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Huíla,Chicomba,32097671,projected,2021-10-01,2022-03-31,3+,106008,0.65
-Jun 2021,AGO,Huíla,Chicomba,32097671,projected,2021-10-01,2022-03-31,1,16309,0.1
-Jun 2021,AGO,Huíla,Chicomba,32097671,projected,2021-10-01,2022-03-31,2,40772,0.25
-Jun 2021,AGO,Huíla,Chicomba,32097671,projected,2021-10-01,2022-03-31,3,73390,0.45
-Jun 2021,AGO,Huíla,Chicomba,32097671,projected,2021-10-01,2022-03-31,4,32618,0.2
-Jun 2021,AGO,Huíla,Chicomba,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Huíla,Cuanhama,32097671,current,2021-06-01,2021-09-30,all,466192,1.0
-Jun 2021,AGO,Huíla,Cuanhama,32097671,current,2021-06-01,2021-09-30,3+,186477,0.4
-Jun 2021,AGO,Huíla,Cuanhama,32097671,current,2021-06-01,2021-09-30,1,139858,0.3
-Jun 2021,AGO,Huíla,Cuanhama,32097671,current,2021-06-01,2021-09-30,2,139858,0.3
-Jun 2021,AGO,Huíla,Cuanhama,32097671,current,2021-06-01,2021-09-30,3,163167,0.35
-Jun 2021,AGO,Huíla,Cuanhama,32097671,current,2021-06-01,2021-09-30,4,23310,0.05
-Jun 2021,AGO,Huíla,Cuanhama,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Huíla,Cuanhama,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Huíla,Cuanhama,32097671,projected,2021-10-01,2022-03-31,3+,240488,0.5
-Jun 2021,AGO,Huíla,Cuanhama,32097671,projected,2021-10-01,2022-03-31,1,120244,0.25
-Jun 2021,AGO,Huíla,Cuanhama,32097671,projected,2021-10-01,2022-03-31,2,120244,0.25
-Jun 2021,AGO,Huíla,Cuanhama,32097671,projected,2021-10-01,2022-03-31,3,192390,0.4
-Jun 2021,AGO,Huíla,Cuanhama,32097671,projected,2021-10-01,2022-03-31,4,48098,0.1
-Jun 2021,AGO,Huíla,Cuanhama,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Huíla,Namacunde,32097671,current,2021-06-01,2021-09-30,all,176932,1.0
-Jun 2021,AGO,Huíla,Namacunde,32097671,current,2021-06-01,2021-09-30,3+,70773,0.4
-Jun 2021,AGO,Huíla,Namacunde,32097671,current,2021-06-01,2021-09-30,1,26540,0.15
-Jun 2021,AGO,Huíla,Namacunde,32097671,current,2021-06-01,2021-09-30,2,79619,0.45
-Jun 2021,AGO,Huíla,Namacunde,32097671,current,2021-06-01,2021-09-30,3,61926,0.35
-Jun 2021,AGO,Huíla,Namacunde,32097671,current,2021-06-01,2021-09-30,4,8847,0.05
-Jun 2021,AGO,Huíla,Namacunde,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Huíla,Namacunde,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Huíla,Namacunde,32097671,projected,2021-10-01,2022-03-31,3+,91279,0.5
-Jun 2021,AGO,Huíla,Namacunde,32097671,projected,2021-10-01,2022-03-31,1,27384,0.15
-Jun 2021,AGO,Huíla,Namacunde,32097671,projected,2021-10-01,2022-03-31,2,63895,0.35
-Jun 2021,AGO,Huíla,Namacunde,32097671,projected,2021-10-01,2022-03-31,3,73023,0.4
-Jun 2021,AGO,Huíla,Namacunde,32097671,projected,2021-10-01,2022-03-31,4,18256,0.1
-Jun 2021,AGO,Huíla,Namacunde,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Huíla,Virei,32097671,current,2021-06-01,2021-09-30,all,41222,1.0
-Jun 2021,AGO,Huíla,Virei,32097671,current,2021-06-01,2021-09-30,3+,26795,0.65
-Jun 2021,AGO,Huíla,Virei,32097671,current,2021-06-01,2021-09-30,1,4122,0.1
-Jun 2021,AGO,Huíla,Virei,32097671,current,2021-06-01,2021-09-30,2,10306,0.25
-Jun 2021,AGO,Huíla,Virei,32097671,current,2021-06-01,2021-09-30,3,16489,0.4
-Jun 2021,AGO,Huíla,Virei,32097671,current,2021-06-01,2021-09-30,4,10306,0.25
-Jun 2021,AGO,Huíla,Virei,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Huíla,Virei,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Huíla,Virei,32097671,projected,2021-10-01,2022-03-31,3+,31956,0.75
-Jun 2021,AGO,Huíla,Virei,32097671,projected,2021-10-01,2022-03-31,1,2130,0.05
-Jun 2021,AGO,Huíla,Virei,32097671,projected,2021-10-01,2022-03-31,2,8521,0.2
-Jun 2021,AGO,Huíla,Virei,32097671,projected,2021-10-01,2022-03-31,3,21304,0.5
-Jun 2021,AGO,Huíla,Virei,32097671,projected,2021-10-01,2022-03-31,4,10652,0.25
-Jun 2021,AGO,Huíla,Virei,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Huíla,Tômbwa (porto alexandre),32097671,current,2021-06-01,2021-09-30,all,70517,1.0
-Jun 2021,AGO,Huíla,Tômbwa (porto alexandre),32097671,current,2021-06-01,2021-09-30,3+,38785,0.55
-Jun 2021,AGO,Huíla,Tômbwa (porto alexandre),32097671,current,2021-06-01,2021-09-30,1,10578,0.15
-Jun 2021,AGO,Huíla,Tômbwa (porto alexandre),32097671,current,2021-06-01,2021-09-30,2,21155,0.3
-Jun 2021,AGO,Huíla,Tômbwa (porto alexandre),32097671,current,2021-06-01,2021-09-30,3,28207,0.4
-Jun 2021,AGO,Huíla,Tômbwa (porto alexandre),32097671,current,2021-06-01,2021-09-30,4,10578,0.15
-Jun 2021,AGO,Huíla,Tômbwa (porto alexandre),32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Huíla,Tômbwa (porto alexandre),32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Huíla,Tômbwa (porto alexandre),32097671,projected,2021-10-01,2022-03-31,3+,51021,0.7
-Jun 2021,AGO,Huíla,Tômbwa (porto alexandre),32097671,projected,2021-10-01,2022-03-31,1,10933,0.15
-Jun 2021,AGO,Huíla,Tômbwa (porto alexandre),32097671,projected,2021-10-01,2022-03-31,2,10933,0.15
-Jun 2021,AGO,Huíla,Tômbwa (porto alexandre),32097671,projected,2021-10-01,2022-03-31,3,36444,0.5
-Jun 2021,AGO,Huíla,Tômbwa (porto alexandre),32097671,projected,2021-10-01,2022-03-31,4,14577,0.2
-Jun 2021,AGO,Huíla,Tômbwa (porto alexandre),32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Huíla,Quilengues,32097671,current,2021-06-01,2021-09-30,all,90409,1.0
-Jun 2021,AGO,Huíla,Quilengues,32097671,current,2021-06-01,2021-09-30,3+,45205,0.5
-Jun 2021,AGO,Huíla,Quilengues,32097671,current,2021-06-01,2021-09-30,1,18082,0.2
-Jun 2021,AGO,Huíla,Quilengues,32097671,current,2021-06-01,2021-09-30,2,27123,0.3
-Jun 2021,AGO,Huíla,Quilengues,32097671,current,2021-06-01,2021-09-30,3,36164,0.4
-Jun 2021,AGO,Huíla,Quilengues,32097671,current,2021-06-01,2021-09-30,4,9041,0.1
-Jun 2021,AGO,Huíla,Quilengues,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Huíla,Quilengues,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Huíla,Quilengues,32097671,projected,2021-10-01,2022-03-31,3+,54245,0.6
-Jun 2021,AGO,Huíla,Quilengues,32097671,projected,2021-10-01,2022-03-31,1,13561,0.15
-Jun 2021,AGO,Huíla,Quilengues,32097671,projected,2021-10-01,2022-03-31,2,22602,0.25
-Jun 2021,AGO,Huíla,Quilengues,32097671,projected,2021-10-01,2022-03-31,3,40684,0.45
-Jun 2021,AGO,Huíla,Quilengues,32097671,projected,2021-10-01,2022-03-31,4,13561,0.15
-Jun 2021,AGO,Huíla,Quilengues,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Huíla,Humpata,32097671,current,2021-06-01,2021-09-30,all,106989,1.0
-Jun 2021,AGO,Huíla,Humpata,32097671,current,2021-06-01,2021-09-30,3+,64194,0.6
-Jun 2021,AGO,Huíla,Humpata,32097671,current,2021-06-01,2021-09-30,1,16048,0.15
-Jun 2021,AGO,Huíla,Humpata,32097671,current,2021-06-01,2021-09-30,2,26747,0.25
-Jun 2021,AGO,Huíla,Humpata,32097671,current,2021-06-01,2021-09-30,3,53495,0.5
-Jun 2021,AGO,Huíla,Humpata,32097671,current,2021-06-01,2021-09-30,4,10699,0.1
-Jun 2021,AGO,Huíla,Humpata,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Huíla,Humpata,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Huíla,Humpata,32097671,projected,2021-10-01,2022-03-31,3+,71696,0.65
-Jun 2021,AGO,Huíla,Humpata,32097671,projected,2021-10-01,2022-03-31,1,16545,0.15
-Jun 2021,AGO,Huíla,Humpata,32097671,projected,2021-10-01,2022-03-31,2,22060,0.2
-Jun 2021,AGO,Huíla,Humpata,32097671,projected,2021-10-01,2022-03-31,3,55151,0.5
-Jun 2021,AGO,Huíla,Humpata,32097671,projected,2021-10-01,2022-03-31,4,16545,0.15
-Jun 2021,AGO,Huíla,Humpata,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Huíla,Jamba,32097671,current,2021-06-01,2021-09-30,all,126125,1.0
-Jun 2021,AGO,Huíla,Jamba,32097671,current,2021-06-01,2021-09-30,3+,69369,0.55
-Jun 2021,AGO,Huíla,Jamba,32097671,current,2021-06-01,2021-09-30,1,25225,0.2
-Jun 2021,AGO,Huíla,Jamba,32097671,current,2021-06-01,2021-09-30,2,31531,0.25
-Jun 2021,AGO,Huíla,Jamba,32097671,current,2021-06-01,2021-09-30,3,56756,0.45
-Jun 2021,AGO,Huíla,Jamba,32097671,current,2021-06-01,2021-09-30,4,12613,0.1
-Jun 2021,AGO,Huíla,Jamba,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Huíla,Jamba,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Huíla,Jamba,32097671,projected,2021-10-01,2022-03-31,3+,78017,0.6
-Jun 2021,AGO,Huíla,Jamba,32097671,projected,2021-10-01,2022-03-31,1,26006,0.2
-Jun 2021,AGO,Huíla,Jamba,32097671,projected,2021-10-01,2022-03-31,2,26006,0.2
-Jun 2021,AGO,Huíla,Jamba,32097671,projected,2021-10-01,2022-03-31,3,58513,0.45
-Jun 2021,AGO,Huíla,Jamba,32097671,projected,2021-10-01,2022-03-31,4,19504,0.15
-Jun 2021,AGO,Huíla,Jamba,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Namibe,Cuvelai,32097671,current,2021-06-01,2021-09-30,all,71444,1.0
-Jun 2021,AGO,Namibe,Cuvelai,32097671,current,2021-06-01,2021-09-30,3+,32150,0.45
-Jun 2021,AGO,Namibe,Cuvelai,32097671,current,2021-06-01,2021-09-30,1,10717,0.15
-Jun 2021,AGO,Namibe,Cuvelai,32097671,current,2021-06-01,2021-09-30,2,28578,0.4
-Jun 2021,AGO,Namibe,Cuvelai,32097671,current,2021-06-01,2021-09-30,3,28578,0.4
-Jun 2021,AGO,Namibe,Cuvelai,32097671,current,2021-06-01,2021-09-30,4,3572,0.05
-Jun 2021,AGO,Namibe,Cuvelai,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Namibe,Cuvelai,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Namibe,Cuvelai,32097671,projected,2021-10-01,2022-03-31,3+,40541,0.55
-Jun 2021,AGO,Namibe,Cuvelai,32097671,projected,2021-10-01,2022-03-31,1,11057,0.15
-Jun 2021,AGO,Namibe,Cuvelai,32097671,projected,2021-10-01,2022-03-31,2,22113,0.3
-Jun 2021,AGO,Namibe,Cuvelai,32097671,projected,2021-10-01,2022-03-31,3,33170,0.45
-Jun 2021,AGO,Namibe,Cuvelai,32097671,projected,2021-10-01,2022-03-31,4,7371,0.1
-Jun 2021,AGO,Namibe,Cuvelai,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Namibe,Cahama,32097671,current,2021-06-01,2021-09-30,all,87219,1.0
-Jun 2021,AGO,Namibe,Cahama,32097671,current,2021-06-01,2021-09-30,3+,61054,0.7
-Jun 2021,AGO,Namibe,Cahama,32097671,current,2021-06-01,2021-09-30,1,4361,0.05
-Jun 2021,AGO,Namibe,Cahama,32097671,current,2021-06-01,2021-09-30,2,21805,0.25
-Jun 2021,AGO,Namibe,Cahama,32097671,current,2021-06-01,2021-09-30,3,39249,0.45
-Jun 2021,AGO,Namibe,Cahama,32097671,current,2021-06-01,2021-09-30,4,21805,0.25
-Jun 2021,AGO,Namibe,Cahama,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Namibe,Cahama,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Namibe,Cahama,32097671,projected,2021-10-01,2022-03-31,3+,67490,0.75
-Jun 2021,AGO,Namibe,Cahama,32097671,projected,2021-10-01,2022-03-31,1,4499,0.05
-Jun 2021,AGO,Namibe,Cahama,32097671,projected,2021-10-01,2022-03-31,2,17997,0.2
-Jun 2021,AGO,Namibe,Cahama,32097671,projected,2021-10-01,2022-03-31,3,44993,0.5
-Jun 2021,AGO,Namibe,Cahama,32097671,projected,2021-10-01,2022-03-31,4,22497,0.25
-Jun 2021,AGO,Namibe,Cahama,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Namibe,Município dos Gambos (ex-chiange),32097671,current,2021-06-01,2021-09-30,all,95338,1.0
-Jun 2021,AGO,Namibe,Município dos Gambos (ex-chiange),32097671,current,2021-06-01,2021-09-30,3+,66737,0.7
-Jun 2021,AGO,Namibe,Município dos Gambos (ex-chiange),32097671,current,2021-06-01,2021-09-30,1,9534,0.1
-Jun 2021,AGO,Namibe,Município dos Gambos (ex-chiange),32097671,current,2021-06-01,2021-09-30,2,19068,0.2
-Jun 2021,AGO,Namibe,Município dos Gambos (ex-chiange),32097671,current,2021-06-01,2021-09-30,3,47669,0.5
-Jun 2021,AGO,Namibe,Município dos Gambos (ex-chiange),32097671,current,2021-06-01,2021-09-30,4,19068,0.2
-Jun 2021,AGO,Namibe,Município dos Gambos (ex-chiange),32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Namibe,Município dos Gambos (ex-chiange),32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Namibe,Município dos Gambos (ex-chiange),32097671,projected,2021-10-01,2022-03-31,3+,78627,0.8
-Jun 2021,AGO,Namibe,Município dos Gambos (ex-chiange),32097671,projected,2021-10-01,2022-03-31,1,9828,0.1
-Jun 2021,AGO,Namibe,Município dos Gambos (ex-chiange),32097671,projected,2021-10-01,2022-03-31,2,9828,0.1
-Jun 2021,AGO,Namibe,Município dos Gambos (ex-chiange),32097671,projected,2021-10-01,2022-03-31,3,54056,0.55
-Jun 2021,AGO,Namibe,Município dos Gambos (ex-chiange),32097671,projected,2021-10-01,2022-03-31,4,24571,0.25
-Jun 2021,AGO,Namibe,Município dos Gambos (ex-chiange),32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Namibe,Curoca,32097671,current,2021-06-01,2021-09-30,all,51157,1.0
-Jun 2021,AGO,Namibe,Curoca,32097671,current,2021-06-01,2021-09-30,3+,33252,0.65
-Jun 2021,AGO,Namibe,Curoca,32097671,current,2021-06-01,2021-09-30,1,7674,0.15
-Jun 2021,AGO,Namibe,Curoca,32097671,current,2021-06-01,2021-09-30,2,10231,0.2
-Jun 2021,AGO,Namibe,Curoca,32097671,current,2021-06-01,2021-09-30,3,17905,0.35
-Jun 2021,AGO,Namibe,Curoca,32097671,current,2021-06-01,2021-09-30,4,15347,0.3
-Jun 2021,AGO,Namibe,Curoca,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Namibe,Curoca,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Namibe,Curoca,32097671,projected,2021-10-01,2022-03-31,3+,36946,0.7
-Jun 2021,AGO,Namibe,Curoca,32097671,projected,2021-10-01,2022-03-31,1,7917,0.15
-Jun 2021,AGO,Namibe,Curoca,32097671,projected,2021-10-01,2022-03-31,2,7917,0.15
-Jun 2021,AGO,Namibe,Curoca,32097671,projected,2021-10-01,2022-03-31,3,18473,0.35
-Jun 2021,AGO,Namibe,Curoca,32097671,projected,2021-10-01,2022-03-31,4,18473,0.35
-Jun 2021,AGO,Namibe,Curoca,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Namibe,Camucuio,32097671,current,2021-06-01,2021-09-30,all,63964,1.0
-Jun 2021,AGO,Namibe,Camucuio,32097671,current,2021-06-01,2021-09-30,3+,44775,0.7
-Jun 2021,AGO,Namibe,Camucuio,32097671,current,2021-06-01,2021-09-30,1,6396,0.1
-Jun 2021,AGO,Namibe,Camucuio,32097671,current,2021-06-01,2021-09-30,2,12793,0.2
-Jun 2021,AGO,Namibe,Camucuio,32097671,current,2021-06-01,2021-09-30,3,31982,0.5
-Jun 2021,AGO,Namibe,Camucuio,32097671,current,2021-06-01,2021-09-30,4,12793,0.2
-Jun 2021,AGO,Namibe,Camucuio,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Namibe,Camucuio,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Namibe,Camucuio,32097671,projected,2021-10-01,2022-03-31,3+,52890,0.8
-Jun 2021,AGO,Namibe,Camucuio,32097671,projected,2021-10-01,2022-03-31,1,3306,0.05
-Jun 2021,AGO,Namibe,Camucuio,32097671,projected,2021-10-01,2022-03-31,2,9917,0.15
-Jun 2021,AGO,Namibe,Camucuio,32097671,projected,2021-10-01,2022-03-31,3,36362,0.55
-Jun 2021,AGO,Namibe,Camucuio,32097671,projected,2021-10-01,2022-03-31,4,16528,0.25
-Jun 2021,AGO,Namibe,Camucuio,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Namibe,Chibia,32097671,current,2021-06-01,2021-09-30,all,228797,1.0
-Jun 2021,AGO,Namibe,Chibia,32097671,current,2021-06-01,2021-09-30,3+,137279,0.6
-Jun 2021,AGO,Namibe,Chibia,32097671,current,2021-06-01,2021-09-30,1,22880,0.1
-Jun 2021,AGO,Namibe,Chibia,32097671,current,2021-06-01,2021-09-30,2,68639,0.3
-Jun 2021,AGO,Namibe,Chibia,32097671,current,2021-06-01,2021-09-30,3,114399,0.5
-Jun 2021,AGO,Namibe,Chibia,32097671,current,2021-06-01,2021-09-30,4,22880,0.1
-Jun 2021,AGO,Namibe,Chibia,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Namibe,Chibia,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Namibe,Chibia,32097671,projected,2021-10-01,2022-03-31,3+,153318,0.65
-Jun 2021,AGO,Namibe,Chibia,32097671,projected,2021-10-01,2022-03-31,1,11794,0.05
-Jun 2021,AGO,Namibe,Chibia,32097671,projected,2021-10-01,2022-03-31,2,70762,0.3
-Jun 2021,AGO,Namibe,Chibia,32097671,projected,2021-10-01,2022-03-31,3,129731,0.55
-Jun 2021,AGO,Namibe,Chibia,32097671,projected,2021-10-01,2022-03-31,4,23587,0.1
-Jun 2021,AGO,Namibe,Chibia,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Namibe,Ombadja,32097671,current,2021-06-01,2021-09-30,all,379592,1.0
-Jun 2021,AGO,Namibe,Ombadja,32097671,current,2021-06-01,2021-09-30,3+,246734,0.65
-Jun 2021,AGO,Namibe,Ombadja,32097671,current,2021-06-01,2021-09-30,1,37959,0.1
-Jun 2021,AGO,Namibe,Ombadja,32097671,current,2021-06-01,2021-09-30,2,94898,0.25
-Jun 2021,AGO,Namibe,Ombadja,32097671,current,2021-06-01,2021-09-30,3,170816,0.45
-Jun 2021,AGO,Namibe,Ombadja,32097671,current,2021-06-01,2021-09-30,4,75918,0.2
-Jun 2021,AGO,Namibe,Ombadja,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Namibe,Ombadja,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Namibe,Ombadja,32097671,projected,2021-10-01,2022-03-31,3+,274140,0.7
-Jun 2021,AGO,Namibe,Ombadja,32097671,projected,2021-10-01,2022-03-31,1,39163,0.1
-Jun 2021,AGO,Namibe,Ombadja,32097671,projected,2021-10-01,2022-03-31,2,78326,0.2
-Jun 2021,AGO,Namibe,Ombadja,32097671,projected,2021-10-01,2022-03-31,3,176233,0.45
-Jun 2021,AGO,Namibe,Ombadja,32097671,projected,2021-10-01,2022-03-31,4,97907,0.25
-Jun 2021,AGO,Namibe,Ombadja,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Namibe,Bibala,32097671,current,2021-06-01,2021-09-30,all,81994,1.0
-Jun 2021,AGO,Namibe,Bibala,32097671,current,2021-06-01,2021-09-30,3+,49196,0.6
-Jun 2021,AGO,Namibe,Bibala,32097671,current,2021-06-01,2021-09-30,1,8199,0.1
-Jun 2021,AGO,Namibe,Bibala,32097671,current,2021-06-01,2021-09-30,2,24598,0.3
-Jun 2021,AGO,Namibe,Bibala,32097671,current,2021-06-01,2021-09-30,3,40997,0.5
-Jun 2021,AGO,Namibe,Bibala,32097671,current,2021-06-01,2021-09-30,4,8199,0.1
-Jun 2021,AGO,Namibe,Bibala,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Namibe,Bibala,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Namibe,Bibala,32097671,projected,2021-10-01,2022-03-31,3+,59286,0.7
-Jun 2021,AGO,Namibe,Bibala,32097671,projected,2021-10-01,2022-03-31,1,8470,0.1
-Jun 2021,AGO,Namibe,Bibala,32097671,projected,2021-10-01,2022-03-31,2,16939,0.2
-Jun 2021,AGO,Namibe,Bibala,32097671,projected,2021-10-01,2022-03-31,3,46582,0.55
-Jun 2021,AGO,Namibe,Bibala,32097671,projected,2021-10-01,2022-03-31,4,12704,0.15
-Jun 2021,AGO,Namibe,Bibala,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Namibe,Mocamedes,32097671,current,2021-06-01,2021-09-30,all,371708,1.0
-Jun 2021,AGO,Namibe,Mocamedes,32097671,current,2021-06-01,2021-09-30,3+,55756,0.15
-Jun 2021,AGO,Namibe,Mocamedes,32097671,current,2021-06-01,2021-09-30,1,167269,0.45
-Jun 2021,AGO,Namibe,Mocamedes,32097671,current,2021-06-01,2021-09-30,2,148683,0.4
-Jun 2021,AGO,Namibe,Mocamedes,32097671,current,2021-06-01,2021-09-30,3,37171,0.1
-Jun 2021,AGO,Namibe,Mocamedes,32097671,current,2021-06-01,2021-09-30,4,18585,0.05
-Jun 2021,AGO,Namibe,Mocamedes,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Namibe,Mocamedes,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Namibe,Mocamedes,32097671,projected,2021-10-01,2022-03-31,3+,96050,0.25
-Jun 2021,AGO,Namibe,Mocamedes,32097671,projected,2021-10-01,2022-03-31,1,153680,0.4
-Jun 2021,AGO,Namibe,Mocamedes,32097671,projected,2021-10-01,2022-03-31,2,134470,0.35
-Jun 2021,AGO,Namibe,Mocamedes,32097671,projected,2021-10-01,2022-03-31,3,76840,0.2
-Jun 2021,AGO,Namibe,Mocamedes,32097671,projected,2021-10-01,2022-03-31,4,19210,0.05
-Jun 2021,AGO,Namibe,Mocamedes,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Namibe,Chicomba,32097671,current,2021-06-01,2021-09-30,all,158191,1.0
-Jun 2021,AGO,Namibe,Chicomba,32097671,current,2021-06-01,2021-09-30,3+,87005,0.55
-Jun 2021,AGO,Namibe,Chicomba,32097671,current,2021-06-01,2021-09-30,1,15819,0.1
-Jun 2021,AGO,Namibe,Chicomba,32097671,current,2021-06-01,2021-09-30,2,55367,0.35
-Jun 2021,AGO,Namibe,Chicomba,32097671,current,2021-06-01,2021-09-30,3,63276,0.4
-Jun 2021,AGO,Namibe,Chicomba,32097671,current,2021-06-01,2021-09-30,4,23729,0.15
-Jun 2021,AGO,Namibe,Chicomba,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Namibe,Chicomba,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Namibe,Chicomba,32097671,projected,2021-10-01,2022-03-31,3+,106008,0.65
-Jun 2021,AGO,Namibe,Chicomba,32097671,projected,2021-10-01,2022-03-31,1,16309,0.1
-Jun 2021,AGO,Namibe,Chicomba,32097671,projected,2021-10-01,2022-03-31,2,40772,0.25
-Jun 2021,AGO,Namibe,Chicomba,32097671,projected,2021-10-01,2022-03-31,3,73390,0.45
-Jun 2021,AGO,Namibe,Chicomba,32097671,projected,2021-10-01,2022-03-31,4,32618,0.2
-Jun 2021,AGO,Namibe,Chicomba,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Namibe,Cuanhama,32097671,current,2021-06-01,2021-09-30,all,466192,1.0
-Jun 2021,AGO,Namibe,Cuanhama,32097671,current,2021-06-01,2021-09-30,3+,186477,0.4
-Jun 2021,AGO,Namibe,Cuanhama,32097671,current,2021-06-01,2021-09-30,1,139858,0.3
-Jun 2021,AGO,Namibe,Cuanhama,32097671,current,2021-06-01,2021-09-30,2,139858,0.3
-Jun 2021,AGO,Namibe,Cuanhama,32097671,current,2021-06-01,2021-09-30,3,163167,0.35
-Jun 2021,AGO,Namibe,Cuanhama,32097671,current,2021-06-01,2021-09-30,4,23310,0.05
-Jun 2021,AGO,Namibe,Cuanhama,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Namibe,Cuanhama,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Namibe,Cuanhama,32097671,projected,2021-10-01,2022-03-31,3+,240488,0.5
-Jun 2021,AGO,Namibe,Cuanhama,32097671,projected,2021-10-01,2022-03-31,1,120244,0.25
-Jun 2021,AGO,Namibe,Cuanhama,32097671,projected,2021-10-01,2022-03-31,2,120244,0.25
-Jun 2021,AGO,Namibe,Cuanhama,32097671,projected,2021-10-01,2022-03-31,3,192390,0.4
-Jun 2021,AGO,Namibe,Cuanhama,32097671,projected,2021-10-01,2022-03-31,4,48098,0.1
-Jun 2021,AGO,Namibe,Cuanhama,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Namibe,Namacunde,32097671,current,2021-06-01,2021-09-30,all,176932,1.0
-Jun 2021,AGO,Namibe,Namacunde,32097671,current,2021-06-01,2021-09-30,3+,70773,0.4
-Jun 2021,AGO,Namibe,Namacunde,32097671,current,2021-06-01,2021-09-30,1,26540,0.15
-Jun 2021,AGO,Namibe,Namacunde,32097671,current,2021-06-01,2021-09-30,2,79619,0.45
-Jun 2021,AGO,Namibe,Namacunde,32097671,current,2021-06-01,2021-09-30,3,61926,0.35
-Jun 2021,AGO,Namibe,Namacunde,32097671,current,2021-06-01,2021-09-30,4,8847,0.05
-Jun 2021,AGO,Namibe,Namacunde,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Namibe,Namacunde,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Namibe,Namacunde,32097671,projected,2021-10-01,2022-03-31,3+,91279,0.5
-Jun 2021,AGO,Namibe,Namacunde,32097671,projected,2021-10-01,2022-03-31,1,27384,0.15
-Jun 2021,AGO,Namibe,Namacunde,32097671,projected,2021-10-01,2022-03-31,2,63895,0.35
-Jun 2021,AGO,Namibe,Namacunde,32097671,projected,2021-10-01,2022-03-31,3,73023,0.4
-Jun 2021,AGO,Namibe,Namacunde,32097671,projected,2021-10-01,2022-03-31,4,18256,0.1
-Jun 2021,AGO,Namibe,Namacunde,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Namibe,Virei,32097671,current,2021-06-01,2021-09-30,all,41222,1.0
-Jun 2021,AGO,Namibe,Virei,32097671,current,2021-06-01,2021-09-30,3+,26795,0.65
-Jun 2021,AGO,Namibe,Virei,32097671,current,2021-06-01,2021-09-30,1,4122,0.1
-Jun 2021,AGO,Namibe,Virei,32097671,current,2021-06-01,2021-09-30,2,10306,0.25
-Jun 2021,AGO,Namibe,Virei,32097671,current,2021-06-01,2021-09-30,3,16489,0.4
-Jun 2021,AGO,Namibe,Virei,32097671,current,2021-06-01,2021-09-30,4,10306,0.25
-Jun 2021,AGO,Namibe,Virei,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Namibe,Virei,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Namibe,Virei,32097671,projected,2021-10-01,2022-03-31,3+,31956,0.75
-Jun 2021,AGO,Namibe,Virei,32097671,projected,2021-10-01,2022-03-31,1,2130,0.05
-Jun 2021,AGO,Namibe,Virei,32097671,projected,2021-10-01,2022-03-31,2,8521,0.2
-Jun 2021,AGO,Namibe,Virei,32097671,projected,2021-10-01,2022-03-31,3,21304,0.5
-Jun 2021,AGO,Namibe,Virei,32097671,projected,2021-10-01,2022-03-31,4,10652,0.25
-Jun 2021,AGO,Namibe,Virei,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Namibe,Tômbwa (porto alexandre),32097671,current,2021-06-01,2021-09-30,all,70517,1.0
-Jun 2021,AGO,Namibe,Tômbwa (porto alexandre),32097671,current,2021-06-01,2021-09-30,3+,38785,0.55
-Jun 2021,AGO,Namibe,Tômbwa (porto alexandre),32097671,current,2021-06-01,2021-09-30,1,10578,0.15
-Jun 2021,AGO,Namibe,Tômbwa (porto alexandre),32097671,current,2021-06-01,2021-09-30,2,21155,0.3
-Jun 2021,AGO,Namibe,Tômbwa (porto alexandre),32097671,current,2021-06-01,2021-09-30,3,28207,0.4
-Jun 2021,AGO,Namibe,Tômbwa (porto alexandre),32097671,current,2021-06-01,2021-09-30,4,10578,0.15
-Jun 2021,AGO,Namibe,Tômbwa (porto alexandre),32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Namibe,Tômbwa (porto alexandre),32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Namibe,Tômbwa (porto alexandre),32097671,projected,2021-10-01,2022-03-31,3+,51021,0.7
-Jun 2021,AGO,Namibe,Tômbwa (porto alexandre),32097671,projected,2021-10-01,2022-03-31,1,10933,0.15
-Jun 2021,AGO,Namibe,Tômbwa (porto alexandre),32097671,projected,2021-10-01,2022-03-31,2,10933,0.15
-Jun 2021,AGO,Namibe,Tômbwa (porto alexandre),32097671,projected,2021-10-01,2022-03-31,3,36444,0.5
-Jun 2021,AGO,Namibe,Tômbwa (porto alexandre),32097671,projected,2021-10-01,2022-03-31,4,14577,0.2
-Jun 2021,AGO,Namibe,Tômbwa (porto alexandre),32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Namibe,Quilengues,32097671,current,2021-06-01,2021-09-30,all,90409,1.0
-Jun 2021,AGO,Namibe,Quilengues,32097671,current,2021-06-01,2021-09-30,3+,45205,0.5
-Jun 2021,AGO,Namibe,Quilengues,32097671,current,2021-06-01,2021-09-30,1,18082,0.2
-Jun 2021,AGO,Namibe,Quilengues,32097671,current,2021-06-01,2021-09-30,2,27123,0.3
-Jun 2021,AGO,Namibe,Quilengues,32097671,current,2021-06-01,2021-09-30,3,36164,0.4
-Jun 2021,AGO,Namibe,Quilengues,32097671,current,2021-06-01,2021-09-30,4,9041,0.1
-Jun 2021,AGO,Namibe,Quilengues,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Namibe,Quilengues,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Namibe,Quilengues,32097671,projected,2021-10-01,2022-03-31,3+,54245,0.6
-Jun 2021,AGO,Namibe,Quilengues,32097671,projected,2021-10-01,2022-03-31,1,13561,0.15
-Jun 2021,AGO,Namibe,Quilengues,32097671,projected,2021-10-01,2022-03-31,2,22602,0.25
-Jun 2021,AGO,Namibe,Quilengues,32097671,projected,2021-10-01,2022-03-31,3,40684,0.45
-Jun 2021,AGO,Namibe,Quilengues,32097671,projected,2021-10-01,2022-03-31,4,13561,0.15
-Jun 2021,AGO,Namibe,Quilengues,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Namibe,Humpata,32097671,current,2021-06-01,2021-09-30,all,106989,1.0
-Jun 2021,AGO,Namibe,Humpata,32097671,current,2021-06-01,2021-09-30,3+,64194,0.6
-Jun 2021,AGO,Namibe,Humpata,32097671,current,2021-06-01,2021-09-30,1,16048,0.15
-Jun 2021,AGO,Namibe,Humpata,32097671,current,2021-06-01,2021-09-30,2,26747,0.25
-Jun 2021,AGO,Namibe,Humpata,32097671,current,2021-06-01,2021-09-30,3,53495,0.5
-Jun 2021,AGO,Namibe,Humpata,32097671,current,2021-06-01,2021-09-30,4,10699,0.1
-Jun 2021,AGO,Namibe,Humpata,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Namibe,Humpata,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Namibe,Humpata,32097671,projected,2021-10-01,2022-03-31,3+,71696,0.65
-Jun 2021,AGO,Namibe,Humpata,32097671,projected,2021-10-01,2022-03-31,1,16545,0.15
-Jun 2021,AGO,Namibe,Humpata,32097671,projected,2021-10-01,2022-03-31,2,22060,0.2
-Jun 2021,AGO,Namibe,Humpata,32097671,projected,2021-10-01,2022-03-31,3,55151,0.5
-Jun 2021,AGO,Namibe,Humpata,32097671,projected,2021-10-01,2022-03-31,4,16545,0.15
-Jun 2021,AGO,Namibe,Humpata,32097671,projected,2021-10-01,2022-03-31,5,0,0
-Jun 2021,AGO,Namibe,Jamba,32097671,current,2021-06-01,2021-09-30,all,126125,1.0
-Jun 2021,AGO,Namibe,Jamba,32097671,current,2021-06-01,2021-09-30,3+,69369,0.55
-Jun 2021,AGO,Namibe,Jamba,32097671,current,2021-06-01,2021-09-30,1,25225,0.2
-Jun 2021,AGO,Namibe,Jamba,32097671,current,2021-06-01,2021-09-30,2,31531,0.25
-Jun 2021,AGO,Namibe,Jamba,32097671,current,2021-06-01,2021-09-30,3,56756,0.45
-Jun 2021,AGO,Namibe,Jamba,32097671,current,2021-06-01,2021-09-30,4,12613,0.1
-Jun 2021,AGO,Namibe,Jamba,32097671,current,2021-06-01,2021-09-30,5,0,0
-Jun 2021,AGO,Namibe,Jamba,32097671,projected,2021-10-01,2022-03-31,all,,1.0
-Jun 2021,AGO,Namibe,Jamba,32097671,projected,2021-10-01,2022-03-31,3+,78017,0.6
-Jun 2021,AGO,Namibe,Jamba,32097671,projected,2021-10-01,2022-03-31,1,26006,0.2
-Jun 2021,AGO,Namibe,Jamba,32097671,projected,2021-10-01,2022-03-31,2,26006,0.2
-Jun 2021,AGO,Namibe,Jamba,32097671,projected,2021-10-01,2022-03-31,3,58513,0.45
-Jun 2021,AGO,Namibe,Jamba,32097671,projected,2021-10-01,2022-03-31,4,19504,0.15
-Jun 2021,AGO,Namibe,Jamba,32097671,projected,2021-10-01,2022-03-31,5,0,0
+Date of analysis,Country,Total country population,Level 1,Area,Validity period,From,To,Phase,Number,Percentage
+#date+analysis,#country+code,#population,#loc+level1,#loc+area,#meta+projection,#date+start,#date+end,#meta+phase,#affected+num+ipc,#affected+pct+ipc
+Jun 2021,AGO,32097671,Cunene,Cuvelai,current,2021-06-01,2021-09-30,all,71444,1.0
+Jun 2021,AGO,32097671,Cunene,Cuvelai,current,2021-06-01,2021-09-30,3+,32150,0.45
+Jun 2021,AGO,32097671,Cunene,Cuvelai,current,2021-06-01,2021-09-30,1,10717,0.15
+Jun 2021,AGO,32097671,Cunene,Cuvelai,current,2021-06-01,2021-09-30,2,28578,0.4
+Jun 2021,AGO,32097671,Cunene,Cuvelai,current,2021-06-01,2021-09-30,3,28578,0.4
+Jun 2021,AGO,32097671,Cunene,Cuvelai,current,2021-06-01,2021-09-30,4,3572,0.05
+Jun 2021,AGO,32097671,Cunene,Cuvelai,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Cunene,Cuvelai,projected,2021-10-01,2022-03-31,3+,40541,0.55
+Jun 2021,AGO,32097671,Cunene,Cuvelai,projected,2021-10-01,2022-03-31,1,11057,0.15
+Jun 2021,AGO,32097671,Cunene,Cuvelai,projected,2021-10-01,2022-03-31,2,22113,0.3
+Jun 2021,AGO,32097671,Cunene,Cuvelai,projected,2021-10-01,2022-03-31,3,33170,0.45
+Jun 2021,AGO,32097671,Cunene,Cuvelai,projected,2021-10-01,2022-03-31,4,7371,0.1
+Jun 2021,AGO,32097671,Cunene,Cuvelai,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Cunene,Cahama,current,2021-06-01,2021-09-30,all,87219,1.0
+Jun 2021,AGO,32097671,Cunene,Cahama,current,2021-06-01,2021-09-30,3+,61054,0.7
+Jun 2021,AGO,32097671,Cunene,Cahama,current,2021-06-01,2021-09-30,1,4361,0.05
+Jun 2021,AGO,32097671,Cunene,Cahama,current,2021-06-01,2021-09-30,2,21805,0.25
+Jun 2021,AGO,32097671,Cunene,Cahama,current,2021-06-01,2021-09-30,3,39249,0.45
+Jun 2021,AGO,32097671,Cunene,Cahama,current,2021-06-01,2021-09-30,4,21805,0.25
+Jun 2021,AGO,32097671,Cunene,Cahama,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Cunene,Cahama,projected,2021-10-01,2022-03-31,3+,67490,0.75
+Jun 2021,AGO,32097671,Cunene,Cahama,projected,2021-10-01,2022-03-31,1,4499,0.05
+Jun 2021,AGO,32097671,Cunene,Cahama,projected,2021-10-01,2022-03-31,2,17997,0.2
+Jun 2021,AGO,32097671,Cunene,Cahama,projected,2021-10-01,2022-03-31,3,44993,0.5
+Jun 2021,AGO,32097671,Cunene,Cahama,projected,2021-10-01,2022-03-31,4,22497,0.25
+Jun 2021,AGO,32097671,Cunene,Cahama,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Cunene,Município dos Gambos (ex-chiange),current,2021-06-01,2021-09-30,all,95338,1.0
+Jun 2021,AGO,32097671,Cunene,Município dos Gambos (ex-chiange),current,2021-06-01,2021-09-30,3+,66737,0.7
+Jun 2021,AGO,32097671,Cunene,Município dos Gambos (ex-chiange),current,2021-06-01,2021-09-30,1,9534,0.1
+Jun 2021,AGO,32097671,Cunene,Município dos Gambos (ex-chiange),current,2021-06-01,2021-09-30,2,19068,0.2
+Jun 2021,AGO,32097671,Cunene,Município dos Gambos (ex-chiange),current,2021-06-01,2021-09-30,3,47669,0.5
+Jun 2021,AGO,32097671,Cunene,Município dos Gambos (ex-chiange),current,2021-06-01,2021-09-30,4,19068,0.2
+Jun 2021,AGO,32097671,Cunene,Município dos Gambos (ex-chiange),current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Cunene,Município dos Gambos (ex-chiange),projected,2021-10-01,2022-03-31,3+,78627,0.8
+Jun 2021,AGO,32097671,Cunene,Município dos Gambos (ex-chiange),projected,2021-10-01,2022-03-31,1,9828,0.1
+Jun 2021,AGO,32097671,Cunene,Município dos Gambos (ex-chiange),projected,2021-10-01,2022-03-31,2,9828,0.1
+Jun 2021,AGO,32097671,Cunene,Município dos Gambos (ex-chiange),projected,2021-10-01,2022-03-31,3,54056,0.55
+Jun 2021,AGO,32097671,Cunene,Município dos Gambos (ex-chiange),projected,2021-10-01,2022-03-31,4,24571,0.25
+Jun 2021,AGO,32097671,Cunene,Município dos Gambos (ex-chiange),projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Cunene,Curoca,current,2021-06-01,2021-09-30,all,51157,1.0
+Jun 2021,AGO,32097671,Cunene,Curoca,current,2021-06-01,2021-09-30,3+,33252,0.65
+Jun 2021,AGO,32097671,Cunene,Curoca,current,2021-06-01,2021-09-30,1,7674,0.15
+Jun 2021,AGO,32097671,Cunene,Curoca,current,2021-06-01,2021-09-30,2,10231,0.2
+Jun 2021,AGO,32097671,Cunene,Curoca,current,2021-06-01,2021-09-30,3,17905,0.35
+Jun 2021,AGO,32097671,Cunene,Curoca,current,2021-06-01,2021-09-30,4,15347,0.3
+Jun 2021,AGO,32097671,Cunene,Curoca,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Cunene,Curoca,projected,2021-10-01,2022-03-31,3+,36946,0.7
+Jun 2021,AGO,32097671,Cunene,Curoca,projected,2021-10-01,2022-03-31,1,7917,0.15
+Jun 2021,AGO,32097671,Cunene,Curoca,projected,2021-10-01,2022-03-31,2,7917,0.15
+Jun 2021,AGO,32097671,Cunene,Curoca,projected,2021-10-01,2022-03-31,3,18473,0.35
+Jun 2021,AGO,32097671,Cunene,Curoca,projected,2021-10-01,2022-03-31,4,18473,0.35
+Jun 2021,AGO,32097671,Cunene,Curoca,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Cunene,Camucuio,current,2021-06-01,2021-09-30,all,63964,1.0
+Jun 2021,AGO,32097671,Cunene,Camucuio,current,2021-06-01,2021-09-30,3+,44775,0.7
+Jun 2021,AGO,32097671,Cunene,Camucuio,current,2021-06-01,2021-09-30,1,6396,0.1
+Jun 2021,AGO,32097671,Cunene,Camucuio,current,2021-06-01,2021-09-30,2,12793,0.2
+Jun 2021,AGO,32097671,Cunene,Camucuio,current,2021-06-01,2021-09-30,3,31982,0.5
+Jun 2021,AGO,32097671,Cunene,Camucuio,current,2021-06-01,2021-09-30,4,12793,0.2
+Jun 2021,AGO,32097671,Cunene,Camucuio,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Cunene,Camucuio,projected,2021-10-01,2022-03-31,3+,52890,0.8
+Jun 2021,AGO,32097671,Cunene,Camucuio,projected,2021-10-01,2022-03-31,1,3306,0.05
+Jun 2021,AGO,32097671,Cunene,Camucuio,projected,2021-10-01,2022-03-31,2,9917,0.15
+Jun 2021,AGO,32097671,Cunene,Camucuio,projected,2021-10-01,2022-03-31,3,36362,0.55
+Jun 2021,AGO,32097671,Cunene,Camucuio,projected,2021-10-01,2022-03-31,4,16528,0.25
+Jun 2021,AGO,32097671,Cunene,Camucuio,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Cunene,Chibia,current,2021-06-01,2021-09-30,all,228797,1.0
+Jun 2021,AGO,32097671,Cunene,Chibia,current,2021-06-01,2021-09-30,3+,137279,0.6
+Jun 2021,AGO,32097671,Cunene,Chibia,current,2021-06-01,2021-09-30,1,22880,0.1
+Jun 2021,AGO,32097671,Cunene,Chibia,current,2021-06-01,2021-09-30,2,68639,0.3
+Jun 2021,AGO,32097671,Cunene,Chibia,current,2021-06-01,2021-09-30,3,114399,0.5
+Jun 2021,AGO,32097671,Cunene,Chibia,current,2021-06-01,2021-09-30,4,22880,0.1
+Jun 2021,AGO,32097671,Cunene,Chibia,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Cunene,Chibia,projected,2021-10-01,2022-03-31,3+,153318,0.65
+Jun 2021,AGO,32097671,Cunene,Chibia,projected,2021-10-01,2022-03-31,1,11794,0.05
+Jun 2021,AGO,32097671,Cunene,Chibia,projected,2021-10-01,2022-03-31,2,70762,0.3
+Jun 2021,AGO,32097671,Cunene,Chibia,projected,2021-10-01,2022-03-31,3,129731,0.55
+Jun 2021,AGO,32097671,Cunene,Chibia,projected,2021-10-01,2022-03-31,4,23587,0.1
+Jun 2021,AGO,32097671,Cunene,Chibia,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Cunene,Ombadja,current,2021-06-01,2021-09-30,all,379592,1.0
+Jun 2021,AGO,32097671,Cunene,Ombadja,current,2021-06-01,2021-09-30,3+,246734,0.65
+Jun 2021,AGO,32097671,Cunene,Ombadja,current,2021-06-01,2021-09-30,1,37959,0.1
+Jun 2021,AGO,32097671,Cunene,Ombadja,current,2021-06-01,2021-09-30,2,94898,0.25
+Jun 2021,AGO,32097671,Cunene,Ombadja,current,2021-06-01,2021-09-30,3,170816,0.45
+Jun 2021,AGO,32097671,Cunene,Ombadja,current,2021-06-01,2021-09-30,4,75918,0.2
+Jun 2021,AGO,32097671,Cunene,Ombadja,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Cunene,Ombadja,projected,2021-10-01,2022-03-31,3+,274140,0.7
+Jun 2021,AGO,32097671,Cunene,Ombadja,projected,2021-10-01,2022-03-31,1,39163,0.1
+Jun 2021,AGO,32097671,Cunene,Ombadja,projected,2021-10-01,2022-03-31,2,78326,0.2
+Jun 2021,AGO,32097671,Cunene,Ombadja,projected,2021-10-01,2022-03-31,3,176233,0.45
+Jun 2021,AGO,32097671,Cunene,Ombadja,projected,2021-10-01,2022-03-31,4,97907,0.25
+Jun 2021,AGO,32097671,Cunene,Ombadja,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Cunene,Bibala,current,2021-06-01,2021-09-30,all,81994,1.0
+Jun 2021,AGO,32097671,Cunene,Bibala,current,2021-06-01,2021-09-30,3+,49196,0.6
+Jun 2021,AGO,32097671,Cunene,Bibala,current,2021-06-01,2021-09-30,1,8199,0.1
+Jun 2021,AGO,32097671,Cunene,Bibala,current,2021-06-01,2021-09-30,2,24598,0.3
+Jun 2021,AGO,32097671,Cunene,Bibala,current,2021-06-01,2021-09-30,3,40997,0.5
+Jun 2021,AGO,32097671,Cunene,Bibala,current,2021-06-01,2021-09-30,4,8199,0.1
+Jun 2021,AGO,32097671,Cunene,Bibala,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Cunene,Bibala,projected,2021-10-01,2022-03-31,3+,59286,0.7
+Jun 2021,AGO,32097671,Cunene,Bibala,projected,2021-10-01,2022-03-31,1,8470,0.1
+Jun 2021,AGO,32097671,Cunene,Bibala,projected,2021-10-01,2022-03-31,2,16939,0.2
+Jun 2021,AGO,32097671,Cunene,Bibala,projected,2021-10-01,2022-03-31,3,46582,0.55
+Jun 2021,AGO,32097671,Cunene,Bibala,projected,2021-10-01,2022-03-31,4,12704,0.15
+Jun 2021,AGO,32097671,Cunene,Bibala,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Cunene,Mocamedes,current,2021-06-01,2021-09-30,all,371708,1.0
+Jun 2021,AGO,32097671,Cunene,Mocamedes,current,2021-06-01,2021-09-30,3+,55756,0.15
+Jun 2021,AGO,32097671,Cunene,Mocamedes,current,2021-06-01,2021-09-30,1,167269,0.45
+Jun 2021,AGO,32097671,Cunene,Mocamedes,current,2021-06-01,2021-09-30,2,148683,0.4
+Jun 2021,AGO,32097671,Cunene,Mocamedes,current,2021-06-01,2021-09-30,3,37171,0.1
+Jun 2021,AGO,32097671,Cunene,Mocamedes,current,2021-06-01,2021-09-30,4,18585,0.05
+Jun 2021,AGO,32097671,Cunene,Mocamedes,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Cunene,Mocamedes,projected,2021-10-01,2022-03-31,3+,96050,0.25
+Jun 2021,AGO,32097671,Cunene,Mocamedes,projected,2021-10-01,2022-03-31,1,153680,0.4
+Jun 2021,AGO,32097671,Cunene,Mocamedes,projected,2021-10-01,2022-03-31,2,134470,0.35
+Jun 2021,AGO,32097671,Cunene,Mocamedes,projected,2021-10-01,2022-03-31,3,76840,0.2
+Jun 2021,AGO,32097671,Cunene,Mocamedes,projected,2021-10-01,2022-03-31,4,19210,0.05
+Jun 2021,AGO,32097671,Cunene,Mocamedes,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Cunene,Chicomba,current,2021-06-01,2021-09-30,all,158191,1.0
+Jun 2021,AGO,32097671,Cunene,Chicomba,current,2021-06-01,2021-09-30,3+,87005,0.55
+Jun 2021,AGO,32097671,Cunene,Chicomba,current,2021-06-01,2021-09-30,1,15819,0.1
+Jun 2021,AGO,32097671,Cunene,Chicomba,current,2021-06-01,2021-09-30,2,55367,0.35
+Jun 2021,AGO,32097671,Cunene,Chicomba,current,2021-06-01,2021-09-30,3,63276,0.4
+Jun 2021,AGO,32097671,Cunene,Chicomba,current,2021-06-01,2021-09-30,4,23729,0.15
+Jun 2021,AGO,32097671,Cunene,Chicomba,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Cunene,Chicomba,projected,2021-10-01,2022-03-31,3+,106008,0.65
+Jun 2021,AGO,32097671,Cunene,Chicomba,projected,2021-10-01,2022-03-31,1,16309,0.1
+Jun 2021,AGO,32097671,Cunene,Chicomba,projected,2021-10-01,2022-03-31,2,40772,0.25
+Jun 2021,AGO,32097671,Cunene,Chicomba,projected,2021-10-01,2022-03-31,3,73390,0.45
+Jun 2021,AGO,32097671,Cunene,Chicomba,projected,2021-10-01,2022-03-31,4,32618,0.2
+Jun 2021,AGO,32097671,Cunene,Chicomba,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Cunene,Cuanhama,current,2021-06-01,2021-09-30,all,466192,1.0
+Jun 2021,AGO,32097671,Cunene,Cuanhama,current,2021-06-01,2021-09-30,3+,186477,0.4
+Jun 2021,AGO,32097671,Cunene,Cuanhama,current,2021-06-01,2021-09-30,1,139858,0.3
+Jun 2021,AGO,32097671,Cunene,Cuanhama,current,2021-06-01,2021-09-30,2,139858,0.3
+Jun 2021,AGO,32097671,Cunene,Cuanhama,current,2021-06-01,2021-09-30,3,163167,0.35
+Jun 2021,AGO,32097671,Cunene,Cuanhama,current,2021-06-01,2021-09-30,4,23310,0.05
+Jun 2021,AGO,32097671,Cunene,Cuanhama,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Cunene,Cuanhama,projected,2021-10-01,2022-03-31,3+,240488,0.5
+Jun 2021,AGO,32097671,Cunene,Cuanhama,projected,2021-10-01,2022-03-31,1,120244,0.25
+Jun 2021,AGO,32097671,Cunene,Cuanhama,projected,2021-10-01,2022-03-31,2,120244,0.25
+Jun 2021,AGO,32097671,Cunene,Cuanhama,projected,2021-10-01,2022-03-31,3,192390,0.4
+Jun 2021,AGO,32097671,Cunene,Cuanhama,projected,2021-10-01,2022-03-31,4,48098,0.1
+Jun 2021,AGO,32097671,Cunene,Cuanhama,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Cunene,Namacunde,current,2021-06-01,2021-09-30,all,176932,1.0
+Jun 2021,AGO,32097671,Cunene,Namacunde,current,2021-06-01,2021-09-30,3+,70773,0.4
+Jun 2021,AGO,32097671,Cunene,Namacunde,current,2021-06-01,2021-09-30,1,26540,0.15
+Jun 2021,AGO,32097671,Cunene,Namacunde,current,2021-06-01,2021-09-30,2,79619,0.45
+Jun 2021,AGO,32097671,Cunene,Namacunde,current,2021-06-01,2021-09-30,3,61926,0.35
+Jun 2021,AGO,32097671,Cunene,Namacunde,current,2021-06-01,2021-09-30,4,8847,0.05
+Jun 2021,AGO,32097671,Cunene,Namacunde,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Cunene,Namacunde,projected,2021-10-01,2022-03-31,3+,91279,0.5
+Jun 2021,AGO,32097671,Cunene,Namacunde,projected,2021-10-01,2022-03-31,1,27384,0.15
+Jun 2021,AGO,32097671,Cunene,Namacunde,projected,2021-10-01,2022-03-31,2,63895,0.35
+Jun 2021,AGO,32097671,Cunene,Namacunde,projected,2021-10-01,2022-03-31,3,73023,0.4
+Jun 2021,AGO,32097671,Cunene,Namacunde,projected,2021-10-01,2022-03-31,4,18256,0.1
+Jun 2021,AGO,32097671,Cunene,Namacunde,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Cunene,Virei,current,2021-06-01,2021-09-30,all,41222,1.0
+Jun 2021,AGO,32097671,Cunene,Virei,current,2021-06-01,2021-09-30,3+,26795,0.65
+Jun 2021,AGO,32097671,Cunene,Virei,current,2021-06-01,2021-09-30,1,4122,0.1
+Jun 2021,AGO,32097671,Cunene,Virei,current,2021-06-01,2021-09-30,2,10306,0.25
+Jun 2021,AGO,32097671,Cunene,Virei,current,2021-06-01,2021-09-30,3,16489,0.4
+Jun 2021,AGO,32097671,Cunene,Virei,current,2021-06-01,2021-09-30,4,10306,0.25
+Jun 2021,AGO,32097671,Cunene,Virei,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Cunene,Virei,projected,2021-10-01,2022-03-31,3+,31956,0.75
+Jun 2021,AGO,32097671,Cunene,Virei,projected,2021-10-01,2022-03-31,1,2130,0.05
+Jun 2021,AGO,32097671,Cunene,Virei,projected,2021-10-01,2022-03-31,2,8521,0.2
+Jun 2021,AGO,32097671,Cunene,Virei,projected,2021-10-01,2022-03-31,3,21304,0.5
+Jun 2021,AGO,32097671,Cunene,Virei,projected,2021-10-01,2022-03-31,4,10652,0.25
+Jun 2021,AGO,32097671,Cunene,Virei,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Cunene,Tômbwa (porto alexandre),current,2021-06-01,2021-09-30,all,70517,1.0
+Jun 2021,AGO,32097671,Cunene,Tômbwa (porto alexandre),current,2021-06-01,2021-09-30,3+,38785,0.55
+Jun 2021,AGO,32097671,Cunene,Tômbwa (porto alexandre),current,2021-06-01,2021-09-30,1,10578,0.15
+Jun 2021,AGO,32097671,Cunene,Tômbwa (porto alexandre),current,2021-06-01,2021-09-30,2,21155,0.3
+Jun 2021,AGO,32097671,Cunene,Tômbwa (porto alexandre),current,2021-06-01,2021-09-30,3,28207,0.4
+Jun 2021,AGO,32097671,Cunene,Tômbwa (porto alexandre),current,2021-06-01,2021-09-30,4,10578,0.15
+Jun 2021,AGO,32097671,Cunene,Tômbwa (porto alexandre),current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Cunene,Tômbwa (porto alexandre),projected,2021-10-01,2022-03-31,3+,51021,0.7
+Jun 2021,AGO,32097671,Cunene,Tômbwa (porto alexandre),projected,2021-10-01,2022-03-31,1,10933,0.15
+Jun 2021,AGO,32097671,Cunene,Tômbwa (porto alexandre),projected,2021-10-01,2022-03-31,2,10933,0.15
+Jun 2021,AGO,32097671,Cunene,Tômbwa (porto alexandre),projected,2021-10-01,2022-03-31,3,36444,0.5
+Jun 2021,AGO,32097671,Cunene,Tômbwa (porto alexandre),projected,2021-10-01,2022-03-31,4,14577,0.2
+Jun 2021,AGO,32097671,Cunene,Tômbwa (porto alexandre),projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Cunene,Quilengues,current,2021-06-01,2021-09-30,all,90409,1.0
+Jun 2021,AGO,32097671,Cunene,Quilengues,current,2021-06-01,2021-09-30,3+,45205,0.5
+Jun 2021,AGO,32097671,Cunene,Quilengues,current,2021-06-01,2021-09-30,1,18082,0.2
+Jun 2021,AGO,32097671,Cunene,Quilengues,current,2021-06-01,2021-09-30,2,27123,0.3
+Jun 2021,AGO,32097671,Cunene,Quilengues,current,2021-06-01,2021-09-30,3,36164,0.4
+Jun 2021,AGO,32097671,Cunene,Quilengues,current,2021-06-01,2021-09-30,4,9041,0.1
+Jun 2021,AGO,32097671,Cunene,Quilengues,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Cunene,Quilengues,projected,2021-10-01,2022-03-31,3+,54245,0.6
+Jun 2021,AGO,32097671,Cunene,Quilengues,projected,2021-10-01,2022-03-31,1,13561,0.15
+Jun 2021,AGO,32097671,Cunene,Quilengues,projected,2021-10-01,2022-03-31,2,22602,0.25
+Jun 2021,AGO,32097671,Cunene,Quilengues,projected,2021-10-01,2022-03-31,3,40684,0.45
+Jun 2021,AGO,32097671,Cunene,Quilengues,projected,2021-10-01,2022-03-31,4,13561,0.15
+Jun 2021,AGO,32097671,Cunene,Quilengues,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Cunene,Humpata,current,2021-06-01,2021-09-30,all,106989,1.0
+Jun 2021,AGO,32097671,Cunene,Humpata,current,2021-06-01,2021-09-30,3+,64194,0.6
+Jun 2021,AGO,32097671,Cunene,Humpata,current,2021-06-01,2021-09-30,1,16048,0.15
+Jun 2021,AGO,32097671,Cunene,Humpata,current,2021-06-01,2021-09-30,2,26747,0.25
+Jun 2021,AGO,32097671,Cunene,Humpata,current,2021-06-01,2021-09-30,3,53495,0.5
+Jun 2021,AGO,32097671,Cunene,Humpata,current,2021-06-01,2021-09-30,4,10699,0.1
+Jun 2021,AGO,32097671,Cunene,Humpata,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Cunene,Humpata,projected,2021-10-01,2022-03-31,3+,71696,0.65
+Jun 2021,AGO,32097671,Cunene,Humpata,projected,2021-10-01,2022-03-31,1,16545,0.15
+Jun 2021,AGO,32097671,Cunene,Humpata,projected,2021-10-01,2022-03-31,2,22060,0.2
+Jun 2021,AGO,32097671,Cunene,Humpata,projected,2021-10-01,2022-03-31,3,55151,0.5
+Jun 2021,AGO,32097671,Cunene,Humpata,projected,2021-10-01,2022-03-31,4,16545,0.15
+Jun 2021,AGO,32097671,Cunene,Humpata,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Cunene,Jamba,current,2021-06-01,2021-09-30,all,126125,1.0
+Jun 2021,AGO,32097671,Cunene,Jamba,current,2021-06-01,2021-09-30,3+,69369,0.55
+Jun 2021,AGO,32097671,Cunene,Jamba,current,2021-06-01,2021-09-30,1,25225,0.2
+Jun 2021,AGO,32097671,Cunene,Jamba,current,2021-06-01,2021-09-30,2,31531,0.25
+Jun 2021,AGO,32097671,Cunene,Jamba,current,2021-06-01,2021-09-30,3,56756,0.45
+Jun 2021,AGO,32097671,Cunene,Jamba,current,2021-06-01,2021-09-30,4,12613,0.1
+Jun 2021,AGO,32097671,Cunene,Jamba,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Cunene,Jamba,projected,2021-10-01,2022-03-31,3+,78017,0.6
+Jun 2021,AGO,32097671,Cunene,Jamba,projected,2021-10-01,2022-03-31,1,26006,0.2
+Jun 2021,AGO,32097671,Cunene,Jamba,projected,2021-10-01,2022-03-31,2,26006,0.2
+Jun 2021,AGO,32097671,Cunene,Jamba,projected,2021-10-01,2022-03-31,3,58513,0.45
+Jun 2021,AGO,32097671,Cunene,Jamba,projected,2021-10-01,2022-03-31,4,19504,0.15
+Jun 2021,AGO,32097671,Cunene,Jamba,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Huíla,Cuvelai,current,2021-06-01,2021-09-30,all,71444,1.0
+Jun 2021,AGO,32097671,Huíla,Cuvelai,current,2021-06-01,2021-09-30,3+,32150,0.45
+Jun 2021,AGO,32097671,Huíla,Cuvelai,current,2021-06-01,2021-09-30,1,10717,0.15
+Jun 2021,AGO,32097671,Huíla,Cuvelai,current,2021-06-01,2021-09-30,2,28578,0.4
+Jun 2021,AGO,32097671,Huíla,Cuvelai,current,2021-06-01,2021-09-30,3,28578,0.4
+Jun 2021,AGO,32097671,Huíla,Cuvelai,current,2021-06-01,2021-09-30,4,3572,0.05
+Jun 2021,AGO,32097671,Huíla,Cuvelai,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Huíla,Cuvelai,projected,2021-10-01,2022-03-31,3+,40541,0.55
+Jun 2021,AGO,32097671,Huíla,Cuvelai,projected,2021-10-01,2022-03-31,1,11057,0.15
+Jun 2021,AGO,32097671,Huíla,Cuvelai,projected,2021-10-01,2022-03-31,2,22113,0.3
+Jun 2021,AGO,32097671,Huíla,Cuvelai,projected,2021-10-01,2022-03-31,3,33170,0.45
+Jun 2021,AGO,32097671,Huíla,Cuvelai,projected,2021-10-01,2022-03-31,4,7371,0.1
+Jun 2021,AGO,32097671,Huíla,Cuvelai,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Huíla,Cahama,current,2021-06-01,2021-09-30,all,87219,1.0
+Jun 2021,AGO,32097671,Huíla,Cahama,current,2021-06-01,2021-09-30,3+,61054,0.7
+Jun 2021,AGO,32097671,Huíla,Cahama,current,2021-06-01,2021-09-30,1,4361,0.05
+Jun 2021,AGO,32097671,Huíla,Cahama,current,2021-06-01,2021-09-30,2,21805,0.25
+Jun 2021,AGO,32097671,Huíla,Cahama,current,2021-06-01,2021-09-30,3,39249,0.45
+Jun 2021,AGO,32097671,Huíla,Cahama,current,2021-06-01,2021-09-30,4,21805,0.25
+Jun 2021,AGO,32097671,Huíla,Cahama,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Huíla,Cahama,projected,2021-10-01,2022-03-31,3+,67490,0.75
+Jun 2021,AGO,32097671,Huíla,Cahama,projected,2021-10-01,2022-03-31,1,4499,0.05
+Jun 2021,AGO,32097671,Huíla,Cahama,projected,2021-10-01,2022-03-31,2,17997,0.2
+Jun 2021,AGO,32097671,Huíla,Cahama,projected,2021-10-01,2022-03-31,3,44993,0.5
+Jun 2021,AGO,32097671,Huíla,Cahama,projected,2021-10-01,2022-03-31,4,22497,0.25
+Jun 2021,AGO,32097671,Huíla,Cahama,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Huíla,Município dos Gambos (ex-chiange),current,2021-06-01,2021-09-30,all,95338,1.0
+Jun 2021,AGO,32097671,Huíla,Município dos Gambos (ex-chiange),current,2021-06-01,2021-09-30,3+,66737,0.7
+Jun 2021,AGO,32097671,Huíla,Município dos Gambos (ex-chiange),current,2021-06-01,2021-09-30,1,9534,0.1
+Jun 2021,AGO,32097671,Huíla,Município dos Gambos (ex-chiange),current,2021-06-01,2021-09-30,2,19068,0.2
+Jun 2021,AGO,32097671,Huíla,Município dos Gambos (ex-chiange),current,2021-06-01,2021-09-30,3,47669,0.5
+Jun 2021,AGO,32097671,Huíla,Município dos Gambos (ex-chiange),current,2021-06-01,2021-09-30,4,19068,0.2
+Jun 2021,AGO,32097671,Huíla,Município dos Gambos (ex-chiange),current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Huíla,Município dos Gambos (ex-chiange),projected,2021-10-01,2022-03-31,3+,78627,0.8
+Jun 2021,AGO,32097671,Huíla,Município dos Gambos (ex-chiange),projected,2021-10-01,2022-03-31,1,9828,0.1
+Jun 2021,AGO,32097671,Huíla,Município dos Gambos (ex-chiange),projected,2021-10-01,2022-03-31,2,9828,0.1
+Jun 2021,AGO,32097671,Huíla,Município dos Gambos (ex-chiange),projected,2021-10-01,2022-03-31,3,54056,0.55
+Jun 2021,AGO,32097671,Huíla,Município dos Gambos (ex-chiange),projected,2021-10-01,2022-03-31,4,24571,0.25
+Jun 2021,AGO,32097671,Huíla,Município dos Gambos (ex-chiange),projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Huíla,Curoca,current,2021-06-01,2021-09-30,all,51157,1.0
+Jun 2021,AGO,32097671,Huíla,Curoca,current,2021-06-01,2021-09-30,3+,33252,0.65
+Jun 2021,AGO,32097671,Huíla,Curoca,current,2021-06-01,2021-09-30,1,7674,0.15
+Jun 2021,AGO,32097671,Huíla,Curoca,current,2021-06-01,2021-09-30,2,10231,0.2
+Jun 2021,AGO,32097671,Huíla,Curoca,current,2021-06-01,2021-09-30,3,17905,0.35
+Jun 2021,AGO,32097671,Huíla,Curoca,current,2021-06-01,2021-09-30,4,15347,0.3
+Jun 2021,AGO,32097671,Huíla,Curoca,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Huíla,Curoca,projected,2021-10-01,2022-03-31,3+,36946,0.7
+Jun 2021,AGO,32097671,Huíla,Curoca,projected,2021-10-01,2022-03-31,1,7917,0.15
+Jun 2021,AGO,32097671,Huíla,Curoca,projected,2021-10-01,2022-03-31,2,7917,0.15
+Jun 2021,AGO,32097671,Huíla,Curoca,projected,2021-10-01,2022-03-31,3,18473,0.35
+Jun 2021,AGO,32097671,Huíla,Curoca,projected,2021-10-01,2022-03-31,4,18473,0.35
+Jun 2021,AGO,32097671,Huíla,Curoca,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Huíla,Camucuio,current,2021-06-01,2021-09-30,all,63964,1.0
+Jun 2021,AGO,32097671,Huíla,Camucuio,current,2021-06-01,2021-09-30,3+,44775,0.7
+Jun 2021,AGO,32097671,Huíla,Camucuio,current,2021-06-01,2021-09-30,1,6396,0.1
+Jun 2021,AGO,32097671,Huíla,Camucuio,current,2021-06-01,2021-09-30,2,12793,0.2
+Jun 2021,AGO,32097671,Huíla,Camucuio,current,2021-06-01,2021-09-30,3,31982,0.5
+Jun 2021,AGO,32097671,Huíla,Camucuio,current,2021-06-01,2021-09-30,4,12793,0.2
+Jun 2021,AGO,32097671,Huíla,Camucuio,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Huíla,Camucuio,projected,2021-10-01,2022-03-31,3+,52890,0.8
+Jun 2021,AGO,32097671,Huíla,Camucuio,projected,2021-10-01,2022-03-31,1,3306,0.05
+Jun 2021,AGO,32097671,Huíla,Camucuio,projected,2021-10-01,2022-03-31,2,9917,0.15
+Jun 2021,AGO,32097671,Huíla,Camucuio,projected,2021-10-01,2022-03-31,3,36362,0.55
+Jun 2021,AGO,32097671,Huíla,Camucuio,projected,2021-10-01,2022-03-31,4,16528,0.25
+Jun 2021,AGO,32097671,Huíla,Camucuio,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Huíla,Chibia,current,2021-06-01,2021-09-30,all,228797,1.0
+Jun 2021,AGO,32097671,Huíla,Chibia,current,2021-06-01,2021-09-30,3+,137279,0.6
+Jun 2021,AGO,32097671,Huíla,Chibia,current,2021-06-01,2021-09-30,1,22880,0.1
+Jun 2021,AGO,32097671,Huíla,Chibia,current,2021-06-01,2021-09-30,2,68639,0.3
+Jun 2021,AGO,32097671,Huíla,Chibia,current,2021-06-01,2021-09-30,3,114399,0.5
+Jun 2021,AGO,32097671,Huíla,Chibia,current,2021-06-01,2021-09-30,4,22880,0.1
+Jun 2021,AGO,32097671,Huíla,Chibia,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Huíla,Chibia,projected,2021-10-01,2022-03-31,3+,153318,0.65
+Jun 2021,AGO,32097671,Huíla,Chibia,projected,2021-10-01,2022-03-31,1,11794,0.05
+Jun 2021,AGO,32097671,Huíla,Chibia,projected,2021-10-01,2022-03-31,2,70762,0.3
+Jun 2021,AGO,32097671,Huíla,Chibia,projected,2021-10-01,2022-03-31,3,129731,0.55
+Jun 2021,AGO,32097671,Huíla,Chibia,projected,2021-10-01,2022-03-31,4,23587,0.1
+Jun 2021,AGO,32097671,Huíla,Chibia,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Huíla,Ombadja,current,2021-06-01,2021-09-30,all,379592,1.0
+Jun 2021,AGO,32097671,Huíla,Ombadja,current,2021-06-01,2021-09-30,3+,246734,0.65
+Jun 2021,AGO,32097671,Huíla,Ombadja,current,2021-06-01,2021-09-30,1,37959,0.1
+Jun 2021,AGO,32097671,Huíla,Ombadja,current,2021-06-01,2021-09-30,2,94898,0.25
+Jun 2021,AGO,32097671,Huíla,Ombadja,current,2021-06-01,2021-09-30,3,170816,0.45
+Jun 2021,AGO,32097671,Huíla,Ombadja,current,2021-06-01,2021-09-30,4,75918,0.2
+Jun 2021,AGO,32097671,Huíla,Ombadja,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Huíla,Ombadja,projected,2021-10-01,2022-03-31,3+,274140,0.7
+Jun 2021,AGO,32097671,Huíla,Ombadja,projected,2021-10-01,2022-03-31,1,39163,0.1
+Jun 2021,AGO,32097671,Huíla,Ombadja,projected,2021-10-01,2022-03-31,2,78326,0.2
+Jun 2021,AGO,32097671,Huíla,Ombadja,projected,2021-10-01,2022-03-31,3,176233,0.45
+Jun 2021,AGO,32097671,Huíla,Ombadja,projected,2021-10-01,2022-03-31,4,97907,0.25
+Jun 2021,AGO,32097671,Huíla,Ombadja,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Huíla,Bibala,current,2021-06-01,2021-09-30,all,81994,1.0
+Jun 2021,AGO,32097671,Huíla,Bibala,current,2021-06-01,2021-09-30,3+,49196,0.6
+Jun 2021,AGO,32097671,Huíla,Bibala,current,2021-06-01,2021-09-30,1,8199,0.1
+Jun 2021,AGO,32097671,Huíla,Bibala,current,2021-06-01,2021-09-30,2,24598,0.3
+Jun 2021,AGO,32097671,Huíla,Bibala,current,2021-06-01,2021-09-30,3,40997,0.5
+Jun 2021,AGO,32097671,Huíla,Bibala,current,2021-06-01,2021-09-30,4,8199,0.1
+Jun 2021,AGO,32097671,Huíla,Bibala,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Huíla,Bibala,projected,2021-10-01,2022-03-31,3+,59286,0.7
+Jun 2021,AGO,32097671,Huíla,Bibala,projected,2021-10-01,2022-03-31,1,8470,0.1
+Jun 2021,AGO,32097671,Huíla,Bibala,projected,2021-10-01,2022-03-31,2,16939,0.2
+Jun 2021,AGO,32097671,Huíla,Bibala,projected,2021-10-01,2022-03-31,3,46582,0.55
+Jun 2021,AGO,32097671,Huíla,Bibala,projected,2021-10-01,2022-03-31,4,12704,0.15
+Jun 2021,AGO,32097671,Huíla,Bibala,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Huíla,Mocamedes,current,2021-06-01,2021-09-30,all,371708,1.0
+Jun 2021,AGO,32097671,Huíla,Mocamedes,current,2021-06-01,2021-09-30,3+,55756,0.15
+Jun 2021,AGO,32097671,Huíla,Mocamedes,current,2021-06-01,2021-09-30,1,167269,0.45
+Jun 2021,AGO,32097671,Huíla,Mocamedes,current,2021-06-01,2021-09-30,2,148683,0.4
+Jun 2021,AGO,32097671,Huíla,Mocamedes,current,2021-06-01,2021-09-30,3,37171,0.1
+Jun 2021,AGO,32097671,Huíla,Mocamedes,current,2021-06-01,2021-09-30,4,18585,0.05
+Jun 2021,AGO,32097671,Huíla,Mocamedes,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Huíla,Mocamedes,projected,2021-10-01,2022-03-31,3+,96050,0.25
+Jun 2021,AGO,32097671,Huíla,Mocamedes,projected,2021-10-01,2022-03-31,1,153680,0.4
+Jun 2021,AGO,32097671,Huíla,Mocamedes,projected,2021-10-01,2022-03-31,2,134470,0.35
+Jun 2021,AGO,32097671,Huíla,Mocamedes,projected,2021-10-01,2022-03-31,3,76840,0.2
+Jun 2021,AGO,32097671,Huíla,Mocamedes,projected,2021-10-01,2022-03-31,4,19210,0.05
+Jun 2021,AGO,32097671,Huíla,Mocamedes,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Huíla,Chicomba,current,2021-06-01,2021-09-30,all,158191,1.0
+Jun 2021,AGO,32097671,Huíla,Chicomba,current,2021-06-01,2021-09-30,3+,87005,0.55
+Jun 2021,AGO,32097671,Huíla,Chicomba,current,2021-06-01,2021-09-30,1,15819,0.1
+Jun 2021,AGO,32097671,Huíla,Chicomba,current,2021-06-01,2021-09-30,2,55367,0.35
+Jun 2021,AGO,32097671,Huíla,Chicomba,current,2021-06-01,2021-09-30,3,63276,0.4
+Jun 2021,AGO,32097671,Huíla,Chicomba,current,2021-06-01,2021-09-30,4,23729,0.15
+Jun 2021,AGO,32097671,Huíla,Chicomba,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Huíla,Chicomba,projected,2021-10-01,2022-03-31,3+,106008,0.65
+Jun 2021,AGO,32097671,Huíla,Chicomba,projected,2021-10-01,2022-03-31,1,16309,0.1
+Jun 2021,AGO,32097671,Huíla,Chicomba,projected,2021-10-01,2022-03-31,2,40772,0.25
+Jun 2021,AGO,32097671,Huíla,Chicomba,projected,2021-10-01,2022-03-31,3,73390,0.45
+Jun 2021,AGO,32097671,Huíla,Chicomba,projected,2021-10-01,2022-03-31,4,32618,0.2
+Jun 2021,AGO,32097671,Huíla,Chicomba,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Huíla,Cuanhama,current,2021-06-01,2021-09-30,all,466192,1.0
+Jun 2021,AGO,32097671,Huíla,Cuanhama,current,2021-06-01,2021-09-30,3+,186477,0.4
+Jun 2021,AGO,32097671,Huíla,Cuanhama,current,2021-06-01,2021-09-30,1,139858,0.3
+Jun 2021,AGO,32097671,Huíla,Cuanhama,current,2021-06-01,2021-09-30,2,139858,0.3
+Jun 2021,AGO,32097671,Huíla,Cuanhama,current,2021-06-01,2021-09-30,3,163167,0.35
+Jun 2021,AGO,32097671,Huíla,Cuanhama,current,2021-06-01,2021-09-30,4,23310,0.05
+Jun 2021,AGO,32097671,Huíla,Cuanhama,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Huíla,Cuanhama,projected,2021-10-01,2022-03-31,3+,240488,0.5
+Jun 2021,AGO,32097671,Huíla,Cuanhama,projected,2021-10-01,2022-03-31,1,120244,0.25
+Jun 2021,AGO,32097671,Huíla,Cuanhama,projected,2021-10-01,2022-03-31,2,120244,0.25
+Jun 2021,AGO,32097671,Huíla,Cuanhama,projected,2021-10-01,2022-03-31,3,192390,0.4
+Jun 2021,AGO,32097671,Huíla,Cuanhama,projected,2021-10-01,2022-03-31,4,48098,0.1
+Jun 2021,AGO,32097671,Huíla,Cuanhama,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Huíla,Namacunde,current,2021-06-01,2021-09-30,all,176932,1.0
+Jun 2021,AGO,32097671,Huíla,Namacunde,current,2021-06-01,2021-09-30,3+,70773,0.4
+Jun 2021,AGO,32097671,Huíla,Namacunde,current,2021-06-01,2021-09-30,1,26540,0.15
+Jun 2021,AGO,32097671,Huíla,Namacunde,current,2021-06-01,2021-09-30,2,79619,0.45
+Jun 2021,AGO,32097671,Huíla,Namacunde,current,2021-06-01,2021-09-30,3,61926,0.35
+Jun 2021,AGO,32097671,Huíla,Namacunde,current,2021-06-01,2021-09-30,4,8847,0.05
+Jun 2021,AGO,32097671,Huíla,Namacunde,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Huíla,Namacunde,projected,2021-10-01,2022-03-31,3+,91279,0.5
+Jun 2021,AGO,32097671,Huíla,Namacunde,projected,2021-10-01,2022-03-31,1,27384,0.15
+Jun 2021,AGO,32097671,Huíla,Namacunde,projected,2021-10-01,2022-03-31,2,63895,0.35
+Jun 2021,AGO,32097671,Huíla,Namacunde,projected,2021-10-01,2022-03-31,3,73023,0.4
+Jun 2021,AGO,32097671,Huíla,Namacunde,projected,2021-10-01,2022-03-31,4,18256,0.1
+Jun 2021,AGO,32097671,Huíla,Namacunde,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Huíla,Virei,current,2021-06-01,2021-09-30,all,41222,1.0
+Jun 2021,AGO,32097671,Huíla,Virei,current,2021-06-01,2021-09-30,3+,26795,0.65
+Jun 2021,AGO,32097671,Huíla,Virei,current,2021-06-01,2021-09-30,1,4122,0.1
+Jun 2021,AGO,32097671,Huíla,Virei,current,2021-06-01,2021-09-30,2,10306,0.25
+Jun 2021,AGO,32097671,Huíla,Virei,current,2021-06-01,2021-09-30,3,16489,0.4
+Jun 2021,AGO,32097671,Huíla,Virei,current,2021-06-01,2021-09-30,4,10306,0.25
+Jun 2021,AGO,32097671,Huíla,Virei,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Huíla,Virei,projected,2021-10-01,2022-03-31,3+,31956,0.75
+Jun 2021,AGO,32097671,Huíla,Virei,projected,2021-10-01,2022-03-31,1,2130,0.05
+Jun 2021,AGO,32097671,Huíla,Virei,projected,2021-10-01,2022-03-31,2,8521,0.2
+Jun 2021,AGO,32097671,Huíla,Virei,projected,2021-10-01,2022-03-31,3,21304,0.5
+Jun 2021,AGO,32097671,Huíla,Virei,projected,2021-10-01,2022-03-31,4,10652,0.25
+Jun 2021,AGO,32097671,Huíla,Virei,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Huíla,Tômbwa (porto alexandre),current,2021-06-01,2021-09-30,all,70517,1.0
+Jun 2021,AGO,32097671,Huíla,Tômbwa (porto alexandre),current,2021-06-01,2021-09-30,3+,38785,0.55
+Jun 2021,AGO,32097671,Huíla,Tômbwa (porto alexandre),current,2021-06-01,2021-09-30,1,10578,0.15
+Jun 2021,AGO,32097671,Huíla,Tômbwa (porto alexandre),current,2021-06-01,2021-09-30,2,21155,0.3
+Jun 2021,AGO,32097671,Huíla,Tômbwa (porto alexandre),current,2021-06-01,2021-09-30,3,28207,0.4
+Jun 2021,AGO,32097671,Huíla,Tômbwa (porto alexandre),current,2021-06-01,2021-09-30,4,10578,0.15
+Jun 2021,AGO,32097671,Huíla,Tômbwa (porto alexandre),current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Huíla,Tômbwa (porto alexandre),projected,2021-10-01,2022-03-31,3+,51021,0.7
+Jun 2021,AGO,32097671,Huíla,Tômbwa (porto alexandre),projected,2021-10-01,2022-03-31,1,10933,0.15
+Jun 2021,AGO,32097671,Huíla,Tômbwa (porto alexandre),projected,2021-10-01,2022-03-31,2,10933,0.15
+Jun 2021,AGO,32097671,Huíla,Tômbwa (porto alexandre),projected,2021-10-01,2022-03-31,3,36444,0.5
+Jun 2021,AGO,32097671,Huíla,Tômbwa (porto alexandre),projected,2021-10-01,2022-03-31,4,14577,0.2
+Jun 2021,AGO,32097671,Huíla,Tômbwa (porto alexandre),projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Huíla,Quilengues,current,2021-06-01,2021-09-30,all,90409,1.0
+Jun 2021,AGO,32097671,Huíla,Quilengues,current,2021-06-01,2021-09-30,3+,45205,0.5
+Jun 2021,AGO,32097671,Huíla,Quilengues,current,2021-06-01,2021-09-30,1,18082,0.2
+Jun 2021,AGO,32097671,Huíla,Quilengues,current,2021-06-01,2021-09-30,2,27123,0.3
+Jun 2021,AGO,32097671,Huíla,Quilengues,current,2021-06-01,2021-09-30,3,36164,0.4
+Jun 2021,AGO,32097671,Huíla,Quilengues,current,2021-06-01,2021-09-30,4,9041,0.1
+Jun 2021,AGO,32097671,Huíla,Quilengues,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Huíla,Quilengues,projected,2021-10-01,2022-03-31,3+,54245,0.6
+Jun 2021,AGO,32097671,Huíla,Quilengues,projected,2021-10-01,2022-03-31,1,13561,0.15
+Jun 2021,AGO,32097671,Huíla,Quilengues,projected,2021-10-01,2022-03-31,2,22602,0.25
+Jun 2021,AGO,32097671,Huíla,Quilengues,projected,2021-10-01,2022-03-31,3,40684,0.45
+Jun 2021,AGO,32097671,Huíla,Quilengues,projected,2021-10-01,2022-03-31,4,13561,0.15
+Jun 2021,AGO,32097671,Huíla,Quilengues,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Huíla,Humpata,current,2021-06-01,2021-09-30,all,106989,1.0
+Jun 2021,AGO,32097671,Huíla,Humpata,current,2021-06-01,2021-09-30,3+,64194,0.6
+Jun 2021,AGO,32097671,Huíla,Humpata,current,2021-06-01,2021-09-30,1,16048,0.15
+Jun 2021,AGO,32097671,Huíla,Humpata,current,2021-06-01,2021-09-30,2,26747,0.25
+Jun 2021,AGO,32097671,Huíla,Humpata,current,2021-06-01,2021-09-30,3,53495,0.5
+Jun 2021,AGO,32097671,Huíla,Humpata,current,2021-06-01,2021-09-30,4,10699,0.1
+Jun 2021,AGO,32097671,Huíla,Humpata,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Huíla,Humpata,projected,2021-10-01,2022-03-31,3+,71696,0.65
+Jun 2021,AGO,32097671,Huíla,Humpata,projected,2021-10-01,2022-03-31,1,16545,0.15
+Jun 2021,AGO,32097671,Huíla,Humpata,projected,2021-10-01,2022-03-31,2,22060,0.2
+Jun 2021,AGO,32097671,Huíla,Humpata,projected,2021-10-01,2022-03-31,3,55151,0.5
+Jun 2021,AGO,32097671,Huíla,Humpata,projected,2021-10-01,2022-03-31,4,16545,0.15
+Jun 2021,AGO,32097671,Huíla,Humpata,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Huíla,Jamba,current,2021-06-01,2021-09-30,all,126125,1.0
+Jun 2021,AGO,32097671,Huíla,Jamba,current,2021-06-01,2021-09-30,3+,69369,0.55
+Jun 2021,AGO,32097671,Huíla,Jamba,current,2021-06-01,2021-09-30,1,25225,0.2
+Jun 2021,AGO,32097671,Huíla,Jamba,current,2021-06-01,2021-09-30,2,31531,0.25
+Jun 2021,AGO,32097671,Huíla,Jamba,current,2021-06-01,2021-09-30,3,56756,0.45
+Jun 2021,AGO,32097671,Huíla,Jamba,current,2021-06-01,2021-09-30,4,12613,0.1
+Jun 2021,AGO,32097671,Huíla,Jamba,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Huíla,Jamba,projected,2021-10-01,2022-03-31,3+,78017,0.6
+Jun 2021,AGO,32097671,Huíla,Jamba,projected,2021-10-01,2022-03-31,1,26006,0.2
+Jun 2021,AGO,32097671,Huíla,Jamba,projected,2021-10-01,2022-03-31,2,26006,0.2
+Jun 2021,AGO,32097671,Huíla,Jamba,projected,2021-10-01,2022-03-31,3,58513,0.45
+Jun 2021,AGO,32097671,Huíla,Jamba,projected,2021-10-01,2022-03-31,4,19504,0.15
+Jun 2021,AGO,32097671,Huíla,Jamba,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Namibe,Cuvelai,current,2021-06-01,2021-09-30,all,71444,1.0
+Jun 2021,AGO,32097671,Namibe,Cuvelai,current,2021-06-01,2021-09-30,3+,32150,0.45
+Jun 2021,AGO,32097671,Namibe,Cuvelai,current,2021-06-01,2021-09-30,1,10717,0.15
+Jun 2021,AGO,32097671,Namibe,Cuvelai,current,2021-06-01,2021-09-30,2,28578,0.4
+Jun 2021,AGO,32097671,Namibe,Cuvelai,current,2021-06-01,2021-09-30,3,28578,0.4
+Jun 2021,AGO,32097671,Namibe,Cuvelai,current,2021-06-01,2021-09-30,4,3572,0.05
+Jun 2021,AGO,32097671,Namibe,Cuvelai,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Namibe,Cuvelai,projected,2021-10-01,2022-03-31,3+,40541,0.55
+Jun 2021,AGO,32097671,Namibe,Cuvelai,projected,2021-10-01,2022-03-31,1,11057,0.15
+Jun 2021,AGO,32097671,Namibe,Cuvelai,projected,2021-10-01,2022-03-31,2,22113,0.3
+Jun 2021,AGO,32097671,Namibe,Cuvelai,projected,2021-10-01,2022-03-31,3,33170,0.45
+Jun 2021,AGO,32097671,Namibe,Cuvelai,projected,2021-10-01,2022-03-31,4,7371,0.1
+Jun 2021,AGO,32097671,Namibe,Cuvelai,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Namibe,Cahama,current,2021-06-01,2021-09-30,all,87219,1.0
+Jun 2021,AGO,32097671,Namibe,Cahama,current,2021-06-01,2021-09-30,3+,61054,0.7
+Jun 2021,AGO,32097671,Namibe,Cahama,current,2021-06-01,2021-09-30,1,4361,0.05
+Jun 2021,AGO,32097671,Namibe,Cahama,current,2021-06-01,2021-09-30,2,21805,0.25
+Jun 2021,AGO,32097671,Namibe,Cahama,current,2021-06-01,2021-09-30,3,39249,0.45
+Jun 2021,AGO,32097671,Namibe,Cahama,current,2021-06-01,2021-09-30,4,21805,0.25
+Jun 2021,AGO,32097671,Namibe,Cahama,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Namibe,Cahama,projected,2021-10-01,2022-03-31,3+,67490,0.75
+Jun 2021,AGO,32097671,Namibe,Cahama,projected,2021-10-01,2022-03-31,1,4499,0.05
+Jun 2021,AGO,32097671,Namibe,Cahama,projected,2021-10-01,2022-03-31,2,17997,0.2
+Jun 2021,AGO,32097671,Namibe,Cahama,projected,2021-10-01,2022-03-31,3,44993,0.5
+Jun 2021,AGO,32097671,Namibe,Cahama,projected,2021-10-01,2022-03-31,4,22497,0.25
+Jun 2021,AGO,32097671,Namibe,Cahama,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Namibe,Município dos Gambos (ex-chiange),current,2021-06-01,2021-09-30,all,95338,1.0
+Jun 2021,AGO,32097671,Namibe,Município dos Gambos (ex-chiange),current,2021-06-01,2021-09-30,3+,66737,0.7
+Jun 2021,AGO,32097671,Namibe,Município dos Gambos (ex-chiange),current,2021-06-01,2021-09-30,1,9534,0.1
+Jun 2021,AGO,32097671,Namibe,Município dos Gambos (ex-chiange),current,2021-06-01,2021-09-30,2,19068,0.2
+Jun 2021,AGO,32097671,Namibe,Município dos Gambos (ex-chiange),current,2021-06-01,2021-09-30,3,47669,0.5
+Jun 2021,AGO,32097671,Namibe,Município dos Gambos (ex-chiange),current,2021-06-01,2021-09-30,4,19068,0.2
+Jun 2021,AGO,32097671,Namibe,Município dos Gambos (ex-chiange),current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Namibe,Município dos Gambos (ex-chiange),projected,2021-10-01,2022-03-31,3+,78627,0.8
+Jun 2021,AGO,32097671,Namibe,Município dos Gambos (ex-chiange),projected,2021-10-01,2022-03-31,1,9828,0.1
+Jun 2021,AGO,32097671,Namibe,Município dos Gambos (ex-chiange),projected,2021-10-01,2022-03-31,2,9828,0.1
+Jun 2021,AGO,32097671,Namibe,Município dos Gambos (ex-chiange),projected,2021-10-01,2022-03-31,3,54056,0.55
+Jun 2021,AGO,32097671,Namibe,Município dos Gambos (ex-chiange),projected,2021-10-01,2022-03-31,4,24571,0.25
+Jun 2021,AGO,32097671,Namibe,Município dos Gambos (ex-chiange),projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Namibe,Curoca,current,2021-06-01,2021-09-30,all,51157,1.0
+Jun 2021,AGO,32097671,Namibe,Curoca,current,2021-06-01,2021-09-30,3+,33252,0.65
+Jun 2021,AGO,32097671,Namibe,Curoca,current,2021-06-01,2021-09-30,1,7674,0.15
+Jun 2021,AGO,32097671,Namibe,Curoca,current,2021-06-01,2021-09-30,2,10231,0.2
+Jun 2021,AGO,32097671,Namibe,Curoca,current,2021-06-01,2021-09-30,3,17905,0.35
+Jun 2021,AGO,32097671,Namibe,Curoca,current,2021-06-01,2021-09-30,4,15347,0.3
+Jun 2021,AGO,32097671,Namibe,Curoca,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Namibe,Curoca,projected,2021-10-01,2022-03-31,3+,36946,0.7
+Jun 2021,AGO,32097671,Namibe,Curoca,projected,2021-10-01,2022-03-31,1,7917,0.15
+Jun 2021,AGO,32097671,Namibe,Curoca,projected,2021-10-01,2022-03-31,2,7917,0.15
+Jun 2021,AGO,32097671,Namibe,Curoca,projected,2021-10-01,2022-03-31,3,18473,0.35
+Jun 2021,AGO,32097671,Namibe,Curoca,projected,2021-10-01,2022-03-31,4,18473,0.35
+Jun 2021,AGO,32097671,Namibe,Curoca,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Namibe,Camucuio,current,2021-06-01,2021-09-30,all,63964,1.0
+Jun 2021,AGO,32097671,Namibe,Camucuio,current,2021-06-01,2021-09-30,3+,44775,0.7
+Jun 2021,AGO,32097671,Namibe,Camucuio,current,2021-06-01,2021-09-30,1,6396,0.1
+Jun 2021,AGO,32097671,Namibe,Camucuio,current,2021-06-01,2021-09-30,2,12793,0.2
+Jun 2021,AGO,32097671,Namibe,Camucuio,current,2021-06-01,2021-09-30,3,31982,0.5
+Jun 2021,AGO,32097671,Namibe,Camucuio,current,2021-06-01,2021-09-30,4,12793,0.2
+Jun 2021,AGO,32097671,Namibe,Camucuio,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Namibe,Camucuio,projected,2021-10-01,2022-03-31,3+,52890,0.8
+Jun 2021,AGO,32097671,Namibe,Camucuio,projected,2021-10-01,2022-03-31,1,3306,0.05
+Jun 2021,AGO,32097671,Namibe,Camucuio,projected,2021-10-01,2022-03-31,2,9917,0.15
+Jun 2021,AGO,32097671,Namibe,Camucuio,projected,2021-10-01,2022-03-31,3,36362,0.55
+Jun 2021,AGO,32097671,Namibe,Camucuio,projected,2021-10-01,2022-03-31,4,16528,0.25
+Jun 2021,AGO,32097671,Namibe,Camucuio,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Namibe,Chibia,current,2021-06-01,2021-09-30,all,228797,1.0
+Jun 2021,AGO,32097671,Namibe,Chibia,current,2021-06-01,2021-09-30,3+,137279,0.6
+Jun 2021,AGO,32097671,Namibe,Chibia,current,2021-06-01,2021-09-30,1,22880,0.1
+Jun 2021,AGO,32097671,Namibe,Chibia,current,2021-06-01,2021-09-30,2,68639,0.3
+Jun 2021,AGO,32097671,Namibe,Chibia,current,2021-06-01,2021-09-30,3,114399,0.5
+Jun 2021,AGO,32097671,Namibe,Chibia,current,2021-06-01,2021-09-30,4,22880,0.1
+Jun 2021,AGO,32097671,Namibe,Chibia,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Namibe,Chibia,projected,2021-10-01,2022-03-31,3+,153318,0.65
+Jun 2021,AGO,32097671,Namibe,Chibia,projected,2021-10-01,2022-03-31,1,11794,0.05
+Jun 2021,AGO,32097671,Namibe,Chibia,projected,2021-10-01,2022-03-31,2,70762,0.3
+Jun 2021,AGO,32097671,Namibe,Chibia,projected,2021-10-01,2022-03-31,3,129731,0.55
+Jun 2021,AGO,32097671,Namibe,Chibia,projected,2021-10-01,2022-03-31,4,23587,0.1
+Jun 2021,AGO,32097671,Namibe,Chibia,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Namibe,Ombadja,current,2021-06-01,2021-09-30,all,379592,1.0
+Jun 2021,AGO,32097671,Namibe,Ombadja,current,2021-06-01,2021-09-30,3+,246734,0.65
+Jun 2021,AGO,32097671,Namibe,Ombadja,current,2021-06-01,2021-09-30,1,37959,0.1
+Jun 2021,AGO,32097671,Namibe,Ombadja,current,2021-06-01,2021-09-30,2,94898,0.25
+Jun 2021,AGO,32097671,Namibe,Ombadja,current,2021-06-01,2021-09-30,3,170816,0.45
+Jun 2021,AGO,32097671,Namibe,Ombadja,current,2021-06-01,2021-09-30,4,75918,0.2
+Jun 2021,AGO,32097671,Namibe,Ombadja,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Namibe,Ombadja,projected,2021-10-01,2022-03-31,3+,274140,0.7
+Jun 2021,AGO,32097671,Namibe,Ombadja,projected,2021-10-01,2022-03-31,1,39163,0.1
+Jun 2021,AGO,32097671,Namibe,Ombadja,projected,2021-10-01,2022-03-31,2,78326,0.2
+Jun 2021,AGO,32097671,Namibe,Ombadja,projected,2021-10-01,2022-03-31,3,176233,0.45
+Jun 2021,AGO,32097671,Namibe,Ombadja,projected,2021-10-01,2022-03-31,4,97907,0.25
+Jun 2021,AGO,32097671,Namibe,Ombadja,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Namibe,Bibala,current,2021-06-01,2021-09-30,all,81994,1.0
+Jun 2021,AGO,32097671,Namibe,Bibala,current,2021-06-01,2021-09-30,3+,49196,0.6
+Jun 2021,AGO,32097671,Namibe,Bibala,current,2021-06-01,2021-09-30,1,8199,0.1
+Jun 2021,AGO,32097671,Namibe,Bibala,current,2021-06-01,2021-09-30,2,24598,0.3
+Jun 2021,AGO,32097671,Namibe,Bibala,current,2021-06-01,2021-09-30,3,40997,0.5
+Jun 2021,AGO,32097671,Namibe,Bibala,current,2021-06-01,2021-09-30,4,8199,0.1
+Jun 2021,AGO,32097671,Namibe,Bibala,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Namibe,Bibala,projected,2021-10-01,2022-03-31,3+,59286,0.7
+Jun 2021,AGO,32097671,Namibe,Bibala,projected,2021-10-01,2022-03-31,1,8470,0.1
+Jun 2021,AGO,32097671,Namibe,Bibala,projected,2021-10-01,2022-03-31,2,16939,0.2
+Jun 2021,AGO,32097671,Namibe,Bibala,projected,2021-10-01,2022-03-31,3,46582,0.55
+Jun 2021,AGO,32097671,Namibe,Bibala,projected,2021-10-01,2022-03-31,4,12704,0.15
+Jun 2021,AGO,32097671,Namibe,Bibala,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Namibe,Mocamedes,current,2021-06-01,2021-09-30,all,371708,1.0
+Jun 2021,AGO,32097671,Namibe,Mocamedes,current,2021-06-01,2021-09-30,3+,55756,0.15
+Jun 2021,AGO,32097671,Namibe,Mocamedes,current,2021-06-01,2021-09-30,1,167269,0.45
+Jun 2021,AGO,32097671,Namibe,Mocamedes,current,2021-06-01,2021-09-30,2,148683,0.4
+Jun 2021,AGO,32097671,Namibe,Mocamedes,current,2021-06-01,2021-09-30,3,37171,0.1
+Jun 2021,AGO,32097671,Namibe,Mocamedes,current,2021-06-01,2021-09-30,4,18585,0.05
+Jun 2021,AGO,32097671,Namibe,Mocamedes,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Namibe,Mocamedes,projected,2021-10-01,2022-03-31,3+,96050,0.25
+Jun 2021,AGO,32097671,Namibe,Mocamedes,projected,2021-10-01,2022-03-31,1,153680,0.4
+Jun 2021,AGO,32097671,Namibe,Mocamedes,projected,2021-10-01,2022-03-31,2,134470,0.35
+Jun 2021,AGO,32097671,Namibe,Mocamedes,projected,2021-10-01,2022-03-31,3,76840,0.2
+Jun 2021,AGO,32097671,Namibe,Mocamedes,projected,2021-10-01,2022-03-31,4,19210,0.05
+Jun 2021,AGO,32097671,Namibe,Mocamedes,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Namibe,Chicomba,current,2021-06-01,2021-09-30,all,158191,1.0
+Jun 2021,AGO,32097671,Namibe,Chicomba,current,2021-06-01,2021-09-30,3+,87005,0.55
+Jun 2021,AGO,32097671,Namibe,Chicomba,current,2021-06-01,2021-09-30,1,15819,0.1
+Jun 2021,AGO,32097671,Namibe,Chicomba,current,2021-06-01,2021-09-30,2,55367,0.35
+Jun 2021,AGO,32097671,Namibe,Chicomba,current,2021-06-01,2021-09-30,3,63276,0.4
+Jun 2021,AGO,32097671,Namibe,Chicomba,current,2021-06-01,2021-09-30,4,23729,0.15
+Jun 2021,AGO,32097671,Namibe,Chicomba,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Namibe,Chicomba,projected,2021-10-01,2022-03-31,3+,106008,0.65
+Jun 2021,AGO,32097671,Namibe,Chicomba,projected,2021-10-01,2022-03-31,1,16309,0.1
+Jun 2021,AGO,32097671,Namibe,Chicomba,projected,2021-10-01,2022-03-31,2,40772,0.25
+Jun 2021,AGO,32097671,Namibe,Chicomba,projected,2021-10-01,2022-03-31,3,73390,0.45
+Jun 2021,AGO,32097671,Namibe,Chicomba,projected,2021-10-01,2022-03-31,4,32618,0.2
+Jun 2021,AGO,32097671,Namibe,Chicomba,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Namibe,Cuanhama,current,2021-06-01,2021-09-30,all,466192,1.0
+Jun 2021,AGO,32097671,Namibe,Cuanhama,current,2021-06-01,2021-09-30,3+,186477,0.4
+Jun 2021,AGO,32097671,Namibe,Cuanhama,current,2021-06-01,2021-09-30,1,139858,0.3
+Jun 2021,AGO,32097671,Namibe,Cuanhama,current,2021-06-01,2021-09-30,2,139858,0.3
+Jun 2021,AGO,32097671,Namibe,Cuanhama,current,2021-06-01,2021-09-30,3,163167,0.35
+Jun 2021,AGO,32097671,Namibe,Cuanhama,current,2021-06-01,2021-09-30,4,23310,0.05
+Jun 2021,AGO,32097671,Namibe,Cuanhama,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Namibe,Cuanhama,projected,2021-10-01,2022-03-31,3+,240488,0.5
+Jun 2021,AGO,32097671,Namibe,Cuanhama,projected,2021-10-01,2022-03-31,1,120244,0.25
+Jun 2021,AGO,32097671,Namibe,Cuanhama,projected,2021-10-01,2022-03-31,2,120244,0.25
+Jun 2021,AGO,32097671,Namibe,Cuanhama,projected,2021-10-01,2022-03-31,3,192390,0.4
+Jun 2021,AGO,32097671,Namibe,Cuanhama,projected,2021-10-01,2022-03-31,4,48098,0.1
+Jun 2021,AGO,32097671,Namibe,Cuanhama,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Namibe,Namacunde,current,2021-06-01,2021-09-30,all,176932,1.0
+Jun 2021,AGO,32097671,Namibe,Namacunde,current,2021-06-01,2021-09-30,3+,70773,0.4
+Jun 2021,AGO,32097671,Namibe,Namacunde,current,2021-06-01,2021-09-30,1,26540,0.15
+Jun 2021,AGO,32097671,Namibe,Namacunde,current,2021-06-01,2021-09-30,2,79619,0.45
+Jun 2021,AGO,32097671,Namibe,Namacunde,current,2021-06-01,2021-09-30,3,61926,0.35
+Jun 2021,AGO,32097671,Namibe,Namacunde,current,2021-06-01,2021-09-30,4,8847,0.05
+Jun 2021,AGO,32097671,Namibe,Namacunde,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Namibe,Namacunde,projected,2021-10-01,2022-03-31,3+,91279,0.5
+Jun 2021,AGO,32097671,Namibe,Namacunde,projected,2021-10-01,2022-03-31,1,27384,0.15
+Jun 2021,AGO,32097671,Namibe,Namacunde,projected,2021-10-01,2022-03-31,2,63895,0.35
+Jun 2021,AGO,32097671,Namibe,Namacunde,projected,2021-10-01,2022-03-31,3,73023,0.4
+Jun 2021,AGO,32097671,Namibe,Namacunde,projected,2021-10-01,2022-03-31,4,18256,0.1
+Jun 2021,AGO,32097671,Namibe,Namacunde,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Namibe,Virei,current,2021-06-01,2021-09-30,all,41222,1.0
+Jun 2021,AGO,32097671,Namibe,Virei,current,2021-06-01,2021-09-30,3+,26795,0.65
+Jun 2021,AGO,32097671,Namibe,Virei,current,2021-06-01,2021-09-30,1,4122,0.1
+Jun 2021,AGO,32097671,Namibe,Virei,current,2021-06-01,2021-09-30,2,10306,0.25
+Jun 2021,AGO,32097671,Namibe,Virei,current,2021-06-01,2021-09-30,3,16489,0.4
+Jun 2021,AGO,32097671,Namibe,Virei,current,2021-06-01,2021-09-30,4,10306,0.25
+Jun 2021,AGO,32097671,Namibe,Virei,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Namibe,Virei,projected,2021-10-01,2022-03-31,3+,31956,0.75
+Jun 2021,AGO,32097671,Namibe,Virei,projected,2021-10-01,2022-03-31,1,2130,0.05
+Jun 2021,AGO,32097671,Namibe,Virei,projected,2021-10-01,2022-03-31,2,8521,0.2
+Jun 2021,AGO,32097671,Namibe,Virei,projected,2021-10-01,2022-03-31,3,21304,0.5
+Jun 2021,AGO,32097671,Namibe,Virei,projected,2021-10-01,2022-03-31,4,10652,0.25
+Jun 2021,AGO,32097671,Namibe,Virei,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Namibe,Tômbwa (porto alexandre),current,2021-06-01,2021-09-30,all,70517,1.0
+Jun 2021,AGO,32097671,Namibe,Tômbwa (porto alexandre),current,2021-06-01,2021-09-30,3+,38785,0.55
+Jun 2021,AGO,32097671,Namibe,Tômbwa (porto alexandre),current,2021-06-01,2021-09-30,1,10578,0.15
+Jun 2021,AGO,32097671,Namibe,Tômbwa (porto alexandre),current,2021-06-01,2021-09-30,2,21155,0.3
+Jun 2021,AGO,32097671,Namibe,Tômbwa (porto alexandre),current,2021-06-01,2021-09-30,3,28207,0.4
+Jun 2021,AGO,32097671,Namibe,Tômbwa (porto alexandre),current,2021-06-01,2021-09-30,4,10578,0.15
+Jun 2021,AGO,32097671,Namibe,Tômbwa (porto alexandre),current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Namibe,Tômbwa (porto alexandre),projected,2021-10-01,2022-03-31,3+,51021,0.7
+Jun 2021,AGO,32097671,Namibe,Tômbwa (porto alexandre),projected,2021-10-01,2022-03-31,1,10933,0.15
+Jun 2021,AGO,32097671,Namibe,Tômbwa (porto alexandre),projected,2021-10-01,2022-03-31,2,10933,0.15
+Jun 2021,AGO,32097671,Namibe,Tômbwa (porto alexandre),projected,2021-10-01,2022-03-31,3,36444,0.5
+Jun 2021,AGO,32097671,Namibe,Tômbwa (porto alexandre),projected,2021-10-01,2022-03-31,4,14577,0.2
+Jun 2021,AGO,32097671,Namibe,Tômbwa (porto alexandre),projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Namibe,Quilengues,current,2021-06-01,2021-09-30,all,90409,1.0
+Jun 2021,AGO,32097671,Namibe,Quilengues,current,2021-06-01,2021-09-30,3+,45205,0.5
+Jun 2021,AGO,32097671,Namibe,Quilengues,current,2021-06-01,2021-09-30,1,18082,0.2
+Jun 2021,AGO,32097671,Namibe,Quilengues,current,2021-06-01,2021-09-30,2,27123,0.3
+Jun 2021,AGO,32097671,Namibe,Quilengues,current,2021-06-01,2021-09-30,3,36164,0.4
+Jun 2021,AGO,32097671,Namibe,Quilengues,current,2021-06-01,2021-09-30,4,9041,0.1
+Jun 2021,AGO,32097671,Namibe,Quilengues,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Namibe,Quilengues,projected,2021-10-01,2022-03-31,3+,54245,0.6
+Jun 2021,AGO,32097671,Namibe,Quilengues,projected,2021-10-01,2022-03-31,1,13561,0.15
+Jun 2021,AGO,32097671,Namibe,Quilengues,projected,2021-10-01,2022-03-31,2,22602,0.25
+Jun 2021,AGO,32097671,Namibe,Quilengues,projected,2021-10-01,2022-03-31,3,40684,0.45
+Jun 2021,AGO,32097671,Namibe,Quilengues,projected,2021-10-01,2022-03-31,4,13561,0.15
+Jun 2021,AGO,32097671,Namibe,Quilengues,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Namibe,Humpata,current,2021-06-01,2021-09-30,all,106989,1.0
+Jun 2021,AGO,32097671,Namibe,Humpata,current,2021-06-01,2021-09-30,3+,64194,0.6
+Jun 2021,AGO,32097671,Namibe,Humpata,current,2021-06-01,2021-09-30,1,16048,0.15
+Jun 2021,AGO,32097671,Namibe,Humpata,current,2021-06-01,2021-09-30,2,26747,0.25
+Jun 2021,AGO,32097671,Namibe,Humpata,current,2021-06-01,2021-09-30,3,53495,0.5
+Jun 2021,AGO,32097671,Namibe,Humpata,current,2021-06-01,2021-09-30,4,10699,0.1
+Jun 2021,AGO,32097671,Namibe,Humpata,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Namibe,Humpata,projected,2021-10-01,2022-03-31,3+,71696,0.65
+Jun 2021,AGO,32097671,Namibe,Humpata,projected,2021-10-01,2022-03-31,1,16545,0.15
+Jun 2021,AGO,32097671,Namibe,Humpata,projected,2021-10-01,2022-03-31,2,22060,0.2
+Jun 2021,AGO,32097671,Namibe,Humpata,projected,2021-10-01,2022-03-31,3,55151,0.5
+Jun 2021,AGO,32097671,Namibe,Humpata,projected,2021-10-01,2022-03-31,4,16545,0.15
+Jun 2021,AGO,32097671,Namibe,Humpata,projected,2021-10-01,2022-03-31,5,0,0
+Jun 2021,AGO,32097671,Namibe,Jamba,current,2021-06-01,2021-09-30,all,126125,1.0
+Jun 2021,AGO,32097671,Namibe,Jamba,current,2021-06-01,2021-09-30,3+,69369,0.55
+Jun 2021,AGO,32097671,Namibe,Jamba,current,2021-06-01,2021-09-30,1,25225,0.2
+Jun 2021,AGO,32097671,Namibe,Jamba,current,2021-06-01,2021-09-30,2,31531,0.25
+Jun 2021,AGO,32097671,Namibe,Jamba,current,2021-06-01,2021-09-30,3,56756,0.45
+Jun 2021,AGO,32097671,Namibe,Jamba,current,2021-06-01,2021-09-30,4,12613,0.1
+Jun 2021,AGO,32097671,Namibe,Jamba,current,2021-06-01,2021-09-30,5,0,0
+Jun 2021,AGO,32097671,Namibe,Jamba,projected,2021-10-01,2022-03-31,3+,78017,0.6
+Jun 2021,AGO,32097671,Namibe,Jamba,projected,2021-10-01,2022-03-31,1,26006,0.2
+Jun 2021,AGO,32097671,Namibe,Jamba,projected,2021-10-01,2022-03-31,2,26006,0.2
+Jun 2021,AGO,32097671,Namibe,Jamba,projected,2021-10-01,2022-03-31,3,58513,0.45
+Jun 2021,AGO,32097671,Namibe,Jamba,projected,2021-10-01,2022-03-31,4,19504,0.15
+Jun 2021,AGO,32097671,Namibe,Jamba,projected,2021-10-01,2022-03-31,5,0,0

@@ -38,7 +38,7 @@ class TestIFRC:
         Locations.set_validlocations(
             [
                 {"name": x.lower(), "title": x.lower()}
-                for x in ("world", "AFG", "AGO", "CAF")
+                for x in ("world", "AFG", "AGO", "CAF", "ETH")
             ]
         )
         Vocabulary._tags_dict = {tag: {"Action to Take": "ok"} for tag in tags}
@@ -95,7 +95,12 @@ class TestIFRC:
                 state_dict = {"DEFAULT": parse_date("2017-01-01")}
                 ipc = IPC(configuration, retriever, state_dict)
                 countries = ipc.get_countries()
-                assert countries == [{"iso3": "AFG"}, {"iso3": "AGO"}, {"iso3": "CAF"}]
+                assert countries == [
+                    {"iso3": "AFG"},
+                    {"iso3": "AGO"},
+                    {"iso3": "CAF"},
+                    {"iso3": "ETH"},
+                ]
 
                 output = ipc.get_country_data("AFG")
                 dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
@@ -300,6 +305,9 @@ class TestIFRC:
                 output = ipc.get_country_data("CAF")
                 dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
                 check_files(dataset.get_resources())
+                output = ipc.get_country_data("ETH")
+                dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
+                check_files(dataset.get_resources())
 
                 output = ipc.get_all_data()
                 dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
@@ -435,6 +443,7 @@ class TestIFRC:
                     "AFG": datetime(2022, 3, 1, 0, 0, tzinfo=timezone.utc),
                     "AGO": datetime(2021, 6, 1, 0, 0, tzinfo=timezone.utc),
                     "CAF": datetime(2022, 9, 1, 0, 0, tzinfo=timezone.utc),
+                    "ETH": datetime(2021, 5, 1, 0, 0, tzinfo=timezone.utc),
                     "DEFAULT": datetime(2017, 1, 1, 0, 0, tzinfo=timezone.utc),
                     "END_DATE": datetime(2022, 9, 1, 0, 0, tzinfo=timezone.utc),
                     "START_DATE": datetime(2017, 2, 1, 0, 0, tzinfo=timezone.utc),
