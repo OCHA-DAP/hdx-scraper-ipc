@@ -129,7 +129,11 @@ class IPC:
             return startdatestr, enddatestr
 
         def add_country_subnational_rows(
-            base_row, location, rows, rows_wide, analysis=None
+            base_row,
+            location,
+            rows,
+            rows_wide,
+            analysis=None,
         ):
             if analysis is None:
                 analysis = location
@@ -171,7 +175,7 @@ class IPC:
                         row_wide[
                             f"Phase {phase} percentage {projection_name_l}"
                         ] = percentage
-                    if affected is not None and period_date is not None:
+                    if affected is not None and period_date:
                         rows.append(row)
 
             rows_wide.append(row_wide)

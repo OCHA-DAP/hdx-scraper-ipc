@@ -1,5 +1,5 @@
 Date of analysis,Country,Total country population,Level 1,Validity period,From,To,Phase,Number,Percentage
-#date+analysis,#country+code,#population,#loc+level1,#meta+projection,#date+start,#date+end,#meta+phase,#affected+num+ipc,#affected+pct+ipc
+#date+analysis,#country+code,#population,#loc+level1,#period+type,#date+start,#date+end,#phase+ipc,#affected+num+ipc,#affected+pct+ipc
 Sep 2022,CAF,6091097,Basse-Kotto,current,2022-09-01,2023-03-31,all,380172,1.0
 Sep 2022,CAF,6091097,Basse-Kotto,current,2022-09-01,2023-03-31,3+,195380,0.51
 Sep 2022,CAF,6091097,Basse-Kotto,current,2022-09-01,2023-03-31,1,84311,0.22

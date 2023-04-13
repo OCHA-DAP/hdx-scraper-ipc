@@ -6,10 +6,10 @@ long_hxltags:
   "Level 1": "#loc+level1"
   "Area": "#loc+area"
   "Total country population": "#population"
-  "Validity period": "#meta+projection"
+  "Validity period": "#period+type"
   "From": "#date+start"
   "To": "#date+end"
-  "Phase": "#meta+phase"
+  "Phase": "#phase+ipc"
   "Number": "#affected+num+ipc"
   "Percentage": "#affected+pct+ipc"
 wide_hxltags:
