@@ -1,5 +1,5 @@
 Date of analysis,Country,Total country population,Level 1,Validity period,From,To,Phase,Number,Percentage
-#date+analysis,#country+code,#population,#loc+level1,#period+type,#date+start,#date+end,#phase+ipc,#affected+num+ipc,#affected+pct+ipc
+#date+analysis,#country+code,#population,#loc+level1,#period+v_ipc,#date+start,#date+end,#severity+v_ipc,#affected+num,#affected+pct
 May 2021,ETH,114964000,Tigray,current,2021-05-01,2021-06-30,all,5765914,1.0
 May 2021,ETH,114964000,Tigray,current,2021-05-01,2021-06-30,3+,4061487,0.71
 May 2021,ETH,114964000,Tigray,current,2021-05-01,2021-06-30,1,577360,0.1

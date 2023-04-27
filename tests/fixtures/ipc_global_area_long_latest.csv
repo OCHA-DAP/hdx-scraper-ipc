@@ -1,5 +1,5 @@
 Date of analysis,Country,Total country population,Level 1,Area,Validity period,From,To,Phase,Number,Percentage
-#date+analysis,#country+code,#population,#loc+level1,#loc+area,#period+type,#date+start,#date+end,#phase+ipc,#affected+num+ipc,#affected+pct+ipc
+#date+analysis,#country+code,#population,#loc+level1,#loc+area,#period+v_ipc,#date+start,#date+end,#severity+v_ipc,#affected+num,#affected+pct
 Mar 2022,AFG,41727303,,Baghlan,current,2022-03-01,2022-05-31,all,1077131,1.0
 Mar 2022,AFG,41727303,,Baghlan,current,2022-03-01,2022-05-31,3+,430853,0.4
 Mar 2022,AFG,41727303,,Baghlan,current,2022-03-01,2022-05-31,1,161570,0.15

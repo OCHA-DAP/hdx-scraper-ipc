@@ -1,5 +1,5 @@
 Date of analysis,Country,Total country population,Validity period,From,To,Phase,Number,Percentage
-#date+analysis,#country+code,#population,#period+type,#date+start,#date+end,#phase+ipc,#affected+num+ipc,#affected+pct+ipc
+#date+analysis,#country+code,#population,#period+v_ipc,#date+start,#date+end,#severity+v_ipc,#affected+num,#affected+pct
 Sep 2022,CAF,6091097,current,2022-09-01,2023-03-31,all,6091097,1.0
 Sep 2022,CAF,6091097,current,2022-09-01,2023-03-31,3+,2652693,0.44
 Sep 2022,CAF,6091097,current,2022-09-01,2023-03-31,1,1434325,0.23

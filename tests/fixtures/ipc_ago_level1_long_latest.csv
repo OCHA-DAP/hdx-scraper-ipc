@@ -1,5 +1,5 @@
 Date of analysis,Country,Total country population,Level 1,Validity period,From,To,Phase,Number,Percentage
-#date+analysis,#country+code,#population,#loc+level1,#period+type,#date+start,#date+end,#phase+ipc,#affected+num+ipc,#affected+pct+ipc
+#date+analysis,#country+code,#population,#loc+level1,#period+v_ipc,#date+start,#date+end,#severity+v_ipc,#affected+num,#affected+pct
 Jun 2021,AGO,32097671,Cunene,current,2021-06-01,2021-09-30,all,1232536,1.0
 Jun 2021,AGO,32097671,Cunene,current,2021-06-01,2021-09-30,3+,630440,0.51
 Jun 2021,AGO,32097671,Cunene,current,2021-06-01,2021-09-30,1,227108,0.18
