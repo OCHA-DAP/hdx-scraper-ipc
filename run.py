@@ -73,9 +73,12 @@ def main(save: bool = False, use_saved: bool = False) -> None:
                         showcase.create_in_hdx()
                         showcase.add_dataset(dataset)
 
+                country_data_updated = False
                 for _, country in progress_storing_folder(info, countries, "iso3"):
                     countryiso = country["iso3"]
                     output = ipc.get_country_data(countryiso)
+                    if output:
+                        country_data_updated = True
                     dataset, showcase = ipc.generate_dataset_and_showcase(
                         folder, output
                     )
@@ -83,12 +86,15 @@ def main(save: bool = False, use_saved: bool = False) -> None:
                         dataset,
                         showcase,
                     )
-                output = ipc.get_all_data()
-                dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
-                create_dataset(
-                    dataset,
-                    showcase,
-                )
+                if country_data_updated:
+                    output = ipc.get_all_data()
+                    dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
+                    create_dataset(
+                        dataset,
+                        showcase,
+                    )
+                else:
+                    logger.info("Nothing to update!")
         state.set(state_dict)
 
 
