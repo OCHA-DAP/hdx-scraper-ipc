@@ -118,12 +118,17 @@ class IPC:
         else:
             update = True
         self.state[countryiso3] = analysis_date
+        reference_period = {"start_date": default_enddate, "end_date": default_date}
 
         def parse_date_range(date_range):
             start, end = date_range.split(" - ")
             startdate = parse_date(start)
+            if startdate < reference_period["start_date"]:
+                reference_period["start_date"] = startdate
             enddate = parse_date(end)
             enddate = enddate + relativedelta(months=1, days=-1)
+            if enddate > reference_period["end_date"]:
+                reference_period["end_date"] = enddate
             startdatestr = startdate.date().isoformat()
             enddatestr = enddate.date().isoformat()
             return startdatestr, enddatestr
@@ -274,15 +279,16 @@ class IPC:
         self.output["group_rows_wide"].extend(group_rows_wide)
         self.output["area_rows"].extend(area_rows)
         self.output["area_rows_wide"].extend(area_rows_wide)
-        start_date = parse_date(country_data[-1]["analysis_date"])
+        start_date = reference_period["start_date"]
+        end_date = reference_period["end_date"]
         output["start_date"] = start_date
-        output["end_date"] = analysis_date
+        output["end_date"] = end_date
         if start_date < self.output["start_date"]:
             self.output["start_date"] = start_date
             self.state["START_DATE"] = start_date
-        if analysis_date > self.output["end_date"]:
-            self.output["end_date"] = analysis_date
-            self.state["END_DATE"] = analysis_date
+        if end_date > self.output["end_date"]:
+            self.output["end_date"] = end_date
+            self.state["END_DATE"] = end_date
         if not update:
             return None
         return output

@@ -106,7 +106,7 @@ class TestIFRC:
                 dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
                 assert dataset == {
                     "data_update_frequency": "-2",
-                    "dataset_date": "[2017-05-01T00:00:00 TO 2022-03-01T23:59:59]",
+                    "dataset_date": "[2017-05-01T00:00:00 TO 2022-11-30T23:59:59]",
                     "groups": [{"name": "afg"}],
                     "maintainer": "196196be-6037-4488-8b71-d786adf4c081",
                     "name": "afghanistan-acute-food-insecurity-country-data",
@@ -313,7 +313,7 @@ class TestIFRC:
                 dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
                 assert dataset == {
                     "data_update_frequency": "-2",
-                    "dataset_date": "[2017-02-01T00:00:00 TO 2022-09-01T23:59:59]",
+                    "dataset_date": "[2017-02-01T00:00:00 TO 2023-08-31T23:59:59]",
                     "groups": [{"name": "world"}],
                     "maintainer": "196196be-6037-4488-8b71-d786adf4c081",
                     "name": "global-acute-food-insecurity-country-data",
@@ -445,6 +445,6 @@ class TestIFRC:
                     "CAF": datetime(2022, 9, 1, 0, 0, tzinfo=timezone.utc),
                     "ETH": datetime(2021, 5, 1, 0, 0, tzinfo=timezone.utc),
                     "DEFAULT": datetime(2017, 1, 1, 0, 0, tzinfo=timezone.utc),
-                    "END_DATE": datetime(2022, 9, 1, 0, 0, tzinfo=timezone.utc),
+                    "END_DATE": datetime(2023, 8, 31, 0, 0, tzinfo=timezone.utc),
                     "START_DATE": datetime(2017, 2, 1, 0, 0, tzinfo=timezone.utc),
                 }
