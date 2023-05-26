@@ -20,7 +20,7 @@ from hdx.utilities.useragent import UserAgent
 from ipc import IPC, dict_to_str, str_to_dict
 
 
-class TestIFRC:
+class TestIPC:
     @pytest.fixture(scope="function")
     def configuration(self):
         Configuration._create(
@@ -106,7 +106,7 @@ class TestIFRC:
                 dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
                 assert dataset == {
                     "data_update_frequency": "-2",
-                    "dataset_date": "[2017-05-01T00:00:00 TO 2022-11-30T23:59:59]",
+                    "dataset_date": "[2017-05-01T00:00:00 TO 2023-10-31T23:59:59]",
                     "groups": [{"name": "afg"}],
                     "maintainer": "196196be-6037-4488-8b71-d786adf4c081",
                     "name": "afghanistan-acute-food-insecurity-country-data",
@@ -313,7 +313,7 @@ class TestIFRC:
                 dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
                 assert dataset == {
                     "data_update_frequency": "-2",
-                    "dataset_date": "[2017-02-01T00:00:00 TO 2023-08-31T23:59:59]",
+                    "dataset_date": "[2017-02-01T00:00:00 TO 2024-03-31T23:59:59]",
                     "groups": [{"name": "world"}],
                     "maintainer": "196196be-6037-4488-8b71-d786adf4c081",
                     "name": "global-acute-food-insecurity-country-data",
@@ -410,6 +410,13 @@ class TestIFRC:
                         "url_type": "upload",
                     },
                     {
+                        "description": "All IPC area data in long form with HXL tags",
+                        "format": "csv",
+                        "name": "ipc_global_area_long.csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
+                    {
                         "description": "All IPC area data in wide form with HXL tags",
                         "format": "csv",
                         "name": "ipc_global_area_wide.csv",
@@ -440,11 +447,11 @@ class TestIFRC:
                     "url": "https://www.ipcinfo.org/ipcinfo-website/ipc-dashboard/en/",
                 }
                 assert state_dict == {
-                    "AFG": datetime(2022, 3, 1, 0, 0, tzinfo=timezone.utc),
+                    "AFG": datetime(2023, 4, 1, 0, 0, tzinfo=timezone.utc),
                     "AGO": datetime(2021, 6, 1, 0, 0, tzinfo=timezone.utc),
-                    "CAF": datetime(2022, 9, 1, 0, 0, tzinfo=timezone.utc),
-                    "ETH": datetime(2021, 5, 1, 0, 0, tzinfo=timezone.utc),
+                    "CAF": datetime(2023, 4, 1, 0, 0, tzinfo=timezone.utc),
                     "DEFAULT": datetime(2017, 1, 1, 0, 0, tzinfo=timezone.utc),
-                    "END_DATE": datetime(2023, 8, 31, 0, 0, tzinfo=timezone.utc),
+                    "END_DATE": datetime(2024, 3, 31, 0, 0, tzinfo=timezone.utc),
+                    "ETH": datetime(2021, 5, 1, 0, 0, tzinfo=timezone.utc),
                     "START_DATE": datetime(2017, 2, 1, 0, 0, tzinfo=timezone.utc),
                 }
