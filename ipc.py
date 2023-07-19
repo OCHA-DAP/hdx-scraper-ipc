@@ -205,6 +205,11 @@ class IPC:
             analysis, group_rows, group_rows_wide, area_rows, area_rows_wide
         ):
             def process_areas(adm_row, adm):
+                if adm["areas"] is None:
+                    logger.error(
+                        f"{countryiso3}: {analysis['title']} has blank \"areas\" field!"
+                    )
+                    return
                 for area in adm["areas"]:
                     area_row = deepcopy(adm_row)
                     if "Level 1" not in area_row:
