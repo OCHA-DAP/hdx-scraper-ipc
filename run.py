@@ -12,7 +12,7 @@ from hdx.utilities.downloader import Download
 from hdx.utilities.path import progress_storing_folder, wheretostart_tempdir_batch
 from hdx.utilities.retriever import Retrieve
 from hdx.utilities.state import State
-from ipc import IPC, dict_to_str, str_to_dict
+from ipc import IPC
 
 logger = logging.getLogger(__name__)
 
@@ -32,7 +32,11 @@ def main(save: bool = False, use_saved: bool = False) -> None:
     """
 
     configuration = Configuration.read()
-    with State("analysis_dates.txt", str_to_dict, dict_to_str) as state:
+    with State(
+        "analysis_dates.txt",
+        State.dates_str_to_country_date_dict,
+        State.country_date_dict_to_dates_str,
+    ) as state:
         state_dict = state.get()
         with wheretostart_tempdir_batch(lookup) as info:
             folder = info["folder"]

@@ -17,28 +17,10 @@ from hdx.location.country import Country
 from hdx.utilities.dateparse import (
     default_date,
     default_enddate,
-    iso_string_from_datetime,
-    parse_date,
 )
 from slugify import slugify
 
 logger = logging.getLogger(__name__)
-
-
-def str_to_dict(string: str):
-    result = {}
-    for keyvalue in string.split(","):
-        key, value = keyvalue.split("=")
-        result[key] = parse_date(value)
-    return result
-
-
-def dict_to_str(dictionary: dict):
-    strlist = []
-    for key, value in dictionary.items():
-        valstr = iso_string_from_datetime(value)
-        strlist.append(f"{key}={valstr}")
-    return ",".join(strlist)
 
 
 class IPC:
