@@ -4,6 +4,7 @@ Top level script. Calls other functions that generate datasets that this script 
 
 """
 import logging
+from copy import deepcopy
 from os.path import expanduser, join
 
 from hdx.api.configuration import Configuration
@@ -37,7 +38,7 @@ def main(save: bool = False, use_saved: bool = False) -> None:
         State.dates_str_to_country_date_dict,
         State.country_date_dict_to_dates_str,
     ) as state:
-        state_dict = state.get()
+        state_dict = deepcopy(state.get())
         with wheretostart_tempdir_batch(lookup) as info:
             folder = info["folder"]
             with Download(
