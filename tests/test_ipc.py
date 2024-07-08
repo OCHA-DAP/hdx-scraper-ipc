@@ -26,7 +26,7 @@ class TestIPC:
         Configuration._create(
             hdx_read_only=True,
             user_agent="test",
-            project_config_yaml=join("config", "project_configuration.yml"),
+            project_config_yaml=join("config", "project_configuration.yaml"),
         )
         UserAgent.set_global("test")
         Country.countriesdata(use_live=False)
@@ -59,10 +59,10 @@ class TestIPC:
         return join(fixtures, "input")
 
     def test_generate_datasets_and_showcases(
-        self, configuration, fixtures, input_folder
+            self, configuration, fixtures, input_folder
     ):
         with temp_dir(
-            "test_ipc", delete_on_success=True, delete_on_failure=False
+                "test_ipc", delete_on_success=True, delete_on_failure=False
         ) as folder:
             with Download() as downloader:
                 retriever = Retrieve(
@@ -77,7 +77,7 @@ class TestIPC:
                         assert_files_same(expected_path, actual_path)
 
                 state_dict = {"DEFAULT": parse_date("2017-01-01")}
-                ipc = IPC(configuration, retriever, state_dict)
+                ipc = IPC(configuration, retriever, state_dict, ())
                 countries = ipc.get_countries()
                 assert countries == [
                     {"iso3": "AFG"},
@@ -87,7 +87,8 @@ class TestIPC:
                 ]
 
                 output = ipc.get_country_data("AFG")
-                dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
+                dataset, showcase = ipc.generate_dataset_and_showcase(folder,
+                                                                      output)
                 assert dataset == {
                     "data_update_frequency": "-2",
                     "dataset_date": "[2017-05-01T00:00:00 TO 2023-10-31T23:59:59]",
@@ -95,7 +96,7 @@ class TestIPC:
                     "maintainer": "196196be-6037-4488-8b71-d786adf4c081",
                     "name": "afghanistan-acute-food-insecurity-country-data",
                     "notes": "There is also a [global "
-                    "dataset](https://stage.data-humdata-org.ahconu.org/dataset/global-acute-food-insecurity-country-data).",
+                             "dataset](https://stage.data-humdata-org.ahconu.org/dataset/global-acute-food-insecurity-country-data).",
                     "owner_org": "da501ffc-aadb-43f5-9d28-8fa572fd9ce0",
                     "subnational": "1",
                     "tags": [
@@ -201,10 +202,35 @@ class TestIPC:
                         },
                     ],
                     "title": "Afghanistan: Acute Food Insecurity Country Data showcase",
-                    "url": "https://www.ipcinfo.org/ipcinfo-website/ipc-dashboard/en/",
+                    "url": "https://www.ipcinfo.org/ipc-country-analysis/en/?country=AFG",
                 }
+                ipc.ch_countries = ["AFG"]  # for testing purposes
+                _, showcase = ipc.generate_dataset_and_showcase(folder, output)
+                assert showcase == {
+                    "image_url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/img/dashboard_thumbnail.jpg",
+                    "name": "afghanistan-acute-food-insecurity-country-data-showcase",
+                    "notes": "IPC-CH Dashboard",
+                    "tags": [
+                        {
+                            "name": "hxl",
+                            "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
+                        },
+                        {
+                            "name": "food security",
+                            "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
+                        },
+                        {
+                            "name": "integrated food security phase classification-ipc",
+                            "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
+                        },
+                    ],
+                    "title": "Afghanistan: Acute Food Insecurity Country Data showcase",
+                    "url": "https://www.ipcinfo.org/ch/en/",
+                }
+
                 output = ipc.get_country_data("AGO")
-                dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
+                dataset, showcase = ipc.generate_dataset_and_showcase(folder,
+                                                                      output)
                 resources = dataset.get_resources()
                 assert resources == [
                     {
@@ -287,14 +313,17 @@ class TestIPC:
                 ]
                 check_files(resources)
                 output = ipc.get_country_data("CAF")
-                dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
+                dataset, showcase = ipc.generate_dataset_and_showcase(folder,
+                                                                      output)
                 check_files(dataset.get_resources())
                 output = ipc.get_country_data("ETH")
-                dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
+                dataset, showcase = ipc.generate_dataset_and_showcase(folder,
+                                                                      output)
                 check_files(dataset.get_resources())
 
                 output = ipc.get_all_data()
-                dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
+                dataset, showcase = ipc.generate_dataset_and_showcase(folder,
+                                                                      output)
                 assert dataset == {
                     "data_update_frequency": "-2",
                     "dataset_date": "[2017-02-01T00:00:00 TO 2024-03-31T23:59:59]",
@@ -302,7 +331,7 @@ class TestIPC:
                     "maintainer": "196196be-6037-4488-8b71-d786adf4c081",
                     "name": "global-acute-food-insecurity-country-data",
                     "notes": "There are also [country "
-                    "datasets](https://stage.data-humdata-org.ahconu.org/organization/da501ffc-aadb-43f5-9d28-8fa572fd9ce0)",
+                             "datasets](https://stage.data-humdata-org.ahconu.org/organization/da501ffc-aadb-43f5-9d28-8fa572fd9ce0)",
                     "owner_org": "da501ffc-aadb-43f5-9d28-8fa572fd9ce0",
                     "subnational": "1",
                     "tags": [
@@ -435,7 +464,9 @@ class TestIPC:
                     "AGO": datetime(2021, 6, 1, 0, 0, tzinfo=timezone.utc),
                     "CAF": datetime(2023, 4, 1, 0, 0, tzinfo=timezone.utc),
                     "DEFAULT": datetime(2017, 1, 1, 0, 0, tzinfo=timezone.utc),
-                    "END_DATE": datetime(2024, 3, 31, 0, 0, tzinfo=timezone.utc),
+                    "END_DATE": datetime(2024, 3, 31, 0, 0,
+                                         tzinfo=timezone.utc),
                     "ETH": datetime(2021, 5, 1, 0, 0, tzinfo=timezone.utc),
-                    "START_DATE": datetime(2017, 2, 1, 0, 0, tzinfo=timezone.utc),
+                    "START_DATE": datetime(2017, 2, 1, 0, 0,
+                                           tzinfo=timezone.utc),
                 }

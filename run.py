@@ -10,7 +10,8 @@ from os.path import expanduser, join
 from hdx.api.configuration import Configuration
 from hdx.facades.infer_arguments import facade
 from hdx.utilities.downloader import Download
-from hdx.utilities.path import progress_storing_folder, wheretostart_tempdir_batch
+from hdx.utilities.path import progress_storing_folder, \
+    wheretostart_tempdir_batch
 from hdx.utilities.retriever import Retrieve
 from hdx.utilities.state import State
 from ipc import IPC
@@ -34,27 +35,31 @@ def main(save: bool = False, use_saved: bool = False) -> None:
 
     configuration = Configuration.read()
     with State(
-        "analysis_dates.txt",
-        State.dates_str_to_country_date_dict,
-        State.country_date_dict_to_dates_str,
+            "analysis_dates.txt",
+            State.dates_str_to_country_date_dict,
+            State.country_date_dict_to_dates_str,
     ) as state:
         state_dict = deepcopy(state.get())
         with wheretostart_tempdir_batch(lookup) as info:
             folder = info["folder"]
             with Download(
-                extra_params_yaml=join(expanduser("~"), ".extraparams.yml"),
-                extra_params_lookup=lookup,
+                    extra_params_yaml=join(expanduser("~"),
+                                           ".extraparams.yaml"),
+                    extra_params_lookup=lookup,
             ) as downloader:
+                _, iterator = downloader.get_tabular_rows(
+                    join("config", "ch_countries.csv"), dict_form=True)
+                ch_countries = [row["ISO_3"] for row in iterator]
                 retriever = Retrieve(
                     downloader, folder, "saved_data", folder, save, use_saved
                 )
-                ipc = IPC(configuration, retriever, state_dict)
+                ipc = IPC(configuration, retriever, state_dict, ch_countries)
                 countries = ipc.get_countries()
                 logger.info(f"Number of countries: {len(countries)}")
 
                 def create_dataset(
-                    dataset,
-                    showcase,
+                        dataset,
+                        showcase,
                 ):
                     if not dataset:
                         return
@@ -79,7 +84,8 @@ def main(save: bool = False, use_saved: bool = False) -> None:
                         showcase.add_dataset(dataset)
 
                 country_data_updated = False
-                for _, country in progress_storing_folder(info, countries, "iso3"):
+                for _, country in progress_storing_folder(info, countries,
+                                                          "iso3"):
                     countryiso = country["iso3"]
                     output = ipc.get_country_data(countryiso)
                     if output:
@@ -108,7 +114,7 @@ def main(save: bool = False, use_saved: bool = False) -> None:
 if __name__ == "__main__":
     facade(
         main,
-        user_agent_config_yaml=join(expanduser("~"), ".useragents.yml"),
+        user_agent_config_yaml=join(expanduser("~"), ".useragents.yaml"),
         user_agent_lookup=lookup,
-        project_config_yaml=join("config", "project_configuration.yml"),
+        project_config_yaml=join("config", "project_configuration.yaml"),
     )
