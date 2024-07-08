@@ -24,7 +24,7 @@ logger = logging.getLogger(__name__)
 
 
 class IPC:
-    def __init__(self, configuration, retriever, state):
+    def __init__(self, configuration, retriever, state, ch_countries):
         self.configuration = configuration
         self.retriever = retriever
         self.state = state
@@ -62,6 +62,7 @@ class IPC:
         name, title = self.get_dataset_title_name("Global")
         temp_dataset = Dataset({"name": name, "title": title})
         self.global_dataset_url = temp_dataset.get_hdx_url()
+        self.ch_countries = ch_countries
 
     def get_dataset_title_name(self, countryname):
         title = f"{countryname}: Acute Food Insecurity Country Data"
@@ -331,7 +332,7 @@ class IPC:
         if not country_rows:
             logger.warning(f"{filename} has no data!")
             return None, None
-        success, results = dataset.generate_resource_from_iterator(
+        success, results = dataset.generate_resource_from_iterable(
             list(country_rows[0].keys()),
             country_rows,
             self.configuration["long_hxltags"],
@@ -351,7 +352,7 @@ class IPC:
                 "name": filename,
                 "description": f"Latest IPC national data in wide form with HXL tags",
             }
-            success, results = dataset.generate_resource_from_iterator(
+            success, results = dataset.generate_resource_from_iterable(
                 list(country_rows_wide[0].keys()),
                 country_rows_wide,
                 self.configuration["wide_hxltags"],
@@ -360,12 +361,19 @@ class IPC:
                 resourcedata,
             )
 
+        if countryiso3lower == "global":
+            showcase_url = "https://www.ipcinfo.org/ipcinfo-website/ipc-dashboard/en/"
+        elif countryiso3 in self.ch_countries:
+            showcase_url = self.configuration["ch_showcase_url"]
+        else:
+            showcase_url = self.configuration["showcase_url"]
+            showcase_url = f"{showcase_url}{countryiso3}"
         showcase = Showcase(
             {
                 "name": f"{name}-showcase",
                 "title": f"{title} showcase",
                 "notes": f"IPC-CH Dashboard",
-                "url": "https://www.ipcinfo.org/ipcinfo-website/ipc-dashboard/en/",
+                "url": showcase_url,
                 "image_url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/img/dashboard_thumbnail.jpg",
             }
         )

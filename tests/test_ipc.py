@@ -26,7 +26,7 @@ class TestIPC:
         Configuration._create(
             hdx_read_only=True,
             user_agent="test",
-            project_config_yaml=join("config", "project_configuration.yml"),
+            project_config_yaml=join("config", "project_configuration.yaml"),
         )
         UserAgent.set_global("test")
         Country.countriesdata(use_live=False)
@@ -77,7 +77,7 @@ class TestIPC:
                         assert_files_same(expected_path, actual_path)
 
                 state_dict = {"DEFAULT": parse_date("2017-01-01")}
-                ipc = IPC(configuration, retriever, state_dict)
+                ipc = IPC(configuration, retriever, state_dict, ())
                 countries = ipc.get_countries()
                 assert countries == [
                     {"iso3": "AFG"},
@@ -201,8 +201,32 @@ class TestIPC:
                         },
                     ],
                     "title": "Afghanistan: Acute Food Insecurity Country Data showcase",
-                    "url": "https://www.ipcinfo.org/ipcinfo-website/ipc-dashboard/en/",
+                    "url": "https://www.ipcinfo.org/ipc-country-analysis/en/?country=AFG",
                 }
+                ipc.ch_countries = ["AFG"]  # for testing purposes
+                _, showcase = ipc.generate_dataset_and_showcase(folder, output)
+                assert showcase == {
+                    "image_url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/img/dashboard_thumbnail.jpg",
+                    "name": "afghanistan-acute-food-insecurity-country-data-showcase",
+                    "notes": "IPC-CH Dashboard",
+                    "tags": [
+                        {
+                            "name": "hxl",
+                            "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
+                        },
+                        {
+                            "name": "food security",
+                            "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
+                        },
+                        {
+                            "name": "integrated food security phase classification-ipc",
+                            "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
+                        },
+                    ],
+                    "title": "Afghanistan: Acute Food Insecurity Country Data showcase",
+                    "url": "https://www.ipcinfo.org/ch/en/",
+                }
+
                 output = ipc.get_country_data("AGO")
                 dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
                 resources = dataset.get_resources()

@@ -1,5 +1,7 @@
 # Collector specific configuration
 base_url: "https://api.ipcinfo.org"
+showcase_url: "https://www.ipcinfo.org/ipc-country-analysis/en/?country="
+ch_showcase_url: "https://www.ipcinfo.org/ch/en/"
 long_hxltags:
   "Date of analysis": "#date+analysis"
   "Country": "#country+code"
