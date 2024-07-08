@@ -101,17 +101,17 @@ class IPC:
         else:
             update = True
         self.state[countryiso3] = analysis_date
-        reference_period = {"start_date": default_enddate, "end_date": default_date}
+        time_period = {"start_date": default_enddate, "end_date": default_date}
 
         def parse_date_range(date_range):
             start, end = date_range.split(" - ")
             startdate = parse_date(start)
-            if startdate < reference_period["start_date"]:
-                reference_period["start_date"] = startdate
+            if startdate < time_period["start_date"]:
+                time_period["start_date"] = startdate
             enddate = parse_date(end)
             enddate = enddate + relativedelta(months=1, days=-1)
-            if enddate > reference_period["end_date"]:
-                reference_period["end_date"] = enddate
+            if enddate > time_period["end_date"]:
+                time_period["end_date"] = enddate
             startdatestr = startdate.date().isoformat()
             enddatestr = enddate.date().isoformat()
             return startdatestr, enddatestr
@@ -267,8 +267,8 @@ class IPC:
         self.output["group_rows_wide"].extend(group_rows_wide)
         self.output["area_rows"].extend(area_rows)
         self.output["area_rows_wide"].extend(area_rows_wide)
-        start_date = reference_period["start_date"]
-        end_date = reference_period["end_date"]
+        start_date = time_period["start_date"]
+        end_date = time_period["end_date"]
         output["start_date"] = start_date
         output["end_date"] = end_date
         if start_date < self.output["start_date"]:
@@ -321,7 +321,7 @@ class IPC:
             "integrated food security phase classification-ipc",
         )
         dataset.add_tags(tags)
-        dataset.set_reference_period(output["start_date"], output["end_date"])
+        dataset.set_time_period(output["start_date"], output["end_date"])
 
         filename = f"ipc_{countryiso3lower}_national_long_latest.csv"
         resourcedata = {
@@ -385,7 +385,7 @@ class IPC:
                 "name": filename,
                 "description": f"Latest IPC level 1 data in long form with HXL tags",
             }
-            success, results = dataset.generate_resource_from_iterator(
+            success, results = dataset.generate_resource_from_iterable(
                 list(group_rows[0].keys()),
                 group_rows,
                 self.configuration["long_hxltags"],
@@ -401,7 +401,7 @@ class IPC:
                 "name": filename,
                 "description": f"Latest IPC level 1 data in wide form with HXL tags",
             }
-            success, results = dataset.generate_resource_from_iterator(
+            success, results = dataset.generate_resource_from_iterable(
                 list(group_rows_wide[0].keys()),
                 group_rows_wide,
                 self.configuration["wide_hxltags"],
@@ -416,7 +416,7 @@ class IPC:
             "name": filename,
             "description": f"Latest IPC area data in long form with HXL tags",
         }
-        success, results = dataset.generate_resource_from_iterator(
+        success, results = dataset.generate_resource_from_iterable(
             list(area_rows[0].keys()),
             area_rows,
             self.configuration["long_hxltags"],
@@ -431,7 +431,7 @@ class IPC:
             "name": filename,
             "description": f"Latest IPC area data in wide form with HXL tags",
         }
-        success, results = dataset.generate_resource_from_iterator(
+        success, results = dataset.generate_resource_from_iterable(
             list(area_rows_wide[0].keys()),
             area_rows_wide,
             self.configuration["wide_hxltags"],
@@ -450,7 +450,7 @@ class IPC:
             "name": filename,
             "description": f"All IPC national data in long form with HXL tags",
         }
-        success, results = dataset.generate_resource_from_iterator(
+        success, results = dataset.generate_resource_from_iterable(
             list(country_rows[0].keys()),
             country_rows,
             self.configuration["long_hxltags"],
@@ -464,7 +464,7 @@ class IPC:
             "name": filename,
             "description": f"All IPC national data in wide form with HXL tags",
         }
-        success, results = dataset.generate_resource_from_iterator(
+        success, results = dataset.generate_resource_from_iterable(
             list(country_rows_wide[0].keys()),
             country_rows_wide,
             self.configuration["wide_hxltags"],
@@ -480,7 +480,7 @@ class IPC:
                 "name": filename,
                 "description": f"All IPC level 1 data in long form with HXL tags",
             }
-            success, results = dataset.generate_resource_from_iterator(
+            success, results = dataset.generate_resource_from_iterable(
                 list(group_rows[0].keys()),
                 group_rows,
                 self.configuration["long_hxltags"],
@@ -496,7 +496,7 @@ class IPC:
                 "name": filename,
                 "description": f"All IPC level 1 data in wide form with HXL tags",
             }
-            success, results = dataset.generate_resource_from_iterator(
+            success, results = dataset.generate_resource_from_iterable(
                 list(group_rows_wide[0].keys()),
                 group_rows_wide,
                 self.configuration["wide_hxltags"],
@@ -511,7 +511,7 @@ class IPC:
             "name": filename,
             "description": f"All IPC area data in long form with HXL tags",
         }
-        success, results = dataset.generate_resource_from_iterator(
+        success, results = dataset.generate_resource_from_iterable(
             list(area_rows[0].keys()),
             area_rows,
             self.configuration["long_hxltags"],
@@ -526,7 +526,7 @@ class IPC:
             "name": filename,
             "description": f"All IPC area data in wide form with HXL tags",
         }
-        success, results = dataset.generate_resource_from_iterator(
+        success, results = dataset.generate_resource_from_iterable(
             list(area_rows_wide[0].keys()),
             area_rows_wide,
             self.configuration["wide_hxltags"],
