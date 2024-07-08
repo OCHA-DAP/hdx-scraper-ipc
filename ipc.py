@@ -96,7 +96,8 @@ class IPC:
             return date.replace(tzinfo=timezone.utc)
 
         analysis_date = parse_date(most_recent_analysis["analysis_date"])
-        if analysis_date <= self.state.get(countryiso3, self.default_start_date):
+        if analysis_date <= self.state.get(countryiso3,
+                                           self.default_start_date):
             update = False
         else:
             update = True
@@ -117,11 +118,11 @@ class IPC:
             return startdatestr, enddatestr
 
         def add_country_subnational_rows(
-            base_row,
-            location,
-            rows,
-            rows_wide,
-            analysis=None,
+                base_row,
+                location,
+                rows,
+                rows_wide,
+                analysis=None,
         ):
             if analysis is None:
                 analysis = location
@@ -157,7 +158,8 @@ class IPC:
                     else:
                         colname = f"Phase {phase} number {projection_name_l}"
                     row_wide[colname] = affected
-                    percentage = location.get(f"{prefix}_percentage{projection_suffix}")
+                    percentage = location.get(
+                        f"{prefix}_percentage{projection_suffix}")
                     row["Percentage"] = percentage
                     if prefix != "estimated":
                         row_wide[
@@ -185,7 +187,8 @@ class IPC:
             )
 
         def add_subnational_rows(
-            analysis, group_rows, group_rows_wide, area_rows, area_rows_wide
+                analysis, group_rows, group_rows_wide, area_rows,
+                area_rows_wide
         ):
             def process_areas(adm_row, adm):
                 if adm["areas"] is None:
@@ -326,7 +329,7 @@ class IPC:
         filename = f"ipc_{countryiso3lower}_national_long_latest.csv"
         resourcedata = {
             "name": filename,
-            "description": f"Latest IPC national data in long form with HXL tags",
+            "description": "Latest IPC national data in long form with HXL tags",
         }
         country_rows = output["country_rows_latest"]
         if not country_rows:
@@ -350,7 +353,7 @@ class IPC:
             filename = f"ipc_{countryiso3lower}_national_wide_latest.csv"
             resourcedata = {
                 "name": filename,
-                "description": f"Latest IPC national data in wide form with HXL tags",
+                "description": "Latest IPC national data in wide form with HXL tags",
             }
             success, results = dataset.generate_resource_from_iterable(
                 list(country_rows_wide[0].keys()),
@@ -372,7 +375,7 @@ class IPC:
             {
                 "name": f"{name}-showcase",
                 "title": f"{title} showcase",
-                "notes": f"IPC-CH Dashboard",
+                "notes": "IPC-CH Dashboard",
                 "url": showcase_url,
                 "image_url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/img/dashboard_thumbnail.jpg",
             }
@@ -383,7 +386,7 @@ class IPC:
             filename = f"ipc_{countryiso3lower}_level1_long_latest.csv"
             resourcedata = {
                 "name": filename,
-                "description": f"Latest IPC level 1 data in long form with HXL tags",
+                "description": "Latest IPC level 1 data in long form with HXL tags",
             }
             success, results = dataset.generate_resource_from_iterable(
                 list(group_rows[0].keys()),
@@ -399,7 +402,7 @@ class IPC:
             filename = f"ipc_{countryiso3lower}_level1_wide_latest.csv"
             resourcedata = {
                 "name": filename,
-                "description": f"Latest IPC level 1 data in wide form with HXL tags",
+                "description": "Latest IPC level 1 data in wide form with HXL tags",
             }
             success, results = dataset.generate_resource_from_iterable(
                 list(group_rows_wide[0].keys()),
@@ -414,7 +417,7 @@ class IPC:
         filename = f"ipc_{countryiso3lower}_area_long_latest.csv"
         resourcedata = {
             "name": filename,
-            "description": f"Latest IPC area data in long form with HXL tags",
+            "description": "Latest IPC area data in long form with HXL tags",
         }
         success, results = dataset.generate_resource_from_iterable(
             list(area_rows[0].keys()),
@@ -429,7 +432,7 @@ class IPC:
         filename = f"ipc_{countryiso3lower}_area_wide_latest.csv"
         resourcedata = {
             "name": filename,
-            "description": f"Latest IPC area data in wide form with HXL tags",
+            "description": "Latest IPC area data in wide form with HXL tags",
         }
         success, results = dataset.generate_resource_from_iterable(
             list(area_rows_wide[0].keys()),
@@ -448,7 +451,7 @@ class IPC:
         filename = f"ipc_{countryiso3lower}_national_long.csv"
         resourcedata = {
             "name": filename,
-            "description": f"All IPC national data in long form with HXL tags",
+            "description": "All IPC national data in long form with HXL tags",
         }
         success, results = dataset.generate_resource_from_iterable(
             list(country_rows[0].keys()),
@@ -462,7 +465,7 @@ class IPC:
         filename = f"ipc_{countryiso3lower}_national_wide.csv"
         resourcedata = {
             "name": filename,
-            "description": f"All IPC national data in wide form with HXL tags",
+            "description": "All IPC national data in wide form with HXL tags",
         }
         success, results = dataset.generate_resource_from_iterable(
             list(country_rows_wide[0].keys()),
@@ -478,7 +481,7 @@ class IPC:
             filename = f"ipc_{countryiso3lower}_level1_long.csv"
             resourcedata = {
                 "name": filename,
-                "description": f"All IPC level 1 data in long form with HXL tags",
+                "description": "All IPC level 1 data in long form with HXL tags",
             }
             success, results = dataset.generate_resource_from_iterable(
                 list(group_rows[0].keys()),
@@ -494,7 +497,7 @@ class IPC:
             filename = f"ipc_{countryiso3lower}_level1_wide.csv"
             resourcedata = {
                 "name": filename,
-                "description": f"All IPC level 1 data in wide form with HXL tags",
+                "description": "All IPC level 1 data in wide form with HXL tags",
             }
             success, results = dataset.generate_resource_from_iterable(
                 list(group_rows_wide[0].keys()),
@@ -509,7 +512,7 @@ class IPC:
         filename = f"ipc_{countryiso3lower}_area_long.csv"
         resourcedata = {
             "name": filename,
-            "description": f"All IPC area data in long form with HXL tags",
+            "description": "All IPC area data in long form with HXL tags",
         }
         success, results = dataset.generate_resource_from_iterable(
             list(area_rows[0].keys()),
@@ -524,7 +527,7 @@ class IPC:
         filename = f"ipc_{countryiso3lower}_area_wide.csv"
         resourcedata = {
             "name": filename,
-            "description": f"All IPC area data in wide form with HXL tags",
+            "description": "All IPC area data in wide form with HXL tags",
         }
         success, results = dataset.generate_resource_from_iterable(
             list(area_rows_wide[0].keys()),

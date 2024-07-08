@@ -59,10 +59,10 @@ class TestIPC:
         return join(fixtures, "input")
 
     def test_generate_datasets_and_showcases(
-        self, configuration, fixtures, input_folder
+            self, configuration, fixtures, input_folder
     ):
         with temp_dir(
-            "test_ipc", delete_on_success=True, delete_on_failure=False
+                "test_ipc", delete_on_success=True, delete_on_failure=False
         ) as folder:
             with Download() as downloader:
                 retriever = Retrieve(
@@ -87,7 +87,8 @@ class TestIPC:
                 ]
 
                 output = ipc.get_country_data("AFG")
-                dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
+                dataset, showcase = ipc.generate_dataset_and_showcase(folder,
+                                                                      output)
                 assert dataset == {
                     "data_update_frequency": "-2",
                     "dataset_date": "[2017-05-01T00:00:00 TO 2023-10-31T23:59:59]",
@@ -95,7 +96,7 @@ class TestIPC:
                     "maintainer": "196196be-6037-4488-8b71-d786adf4c081",
                     "name": "afghanistan-acute-food-insecurity-country-data",
                     "notes": "There is also a [global "
-                    "dataset](https://stage.data-humdata-org.ahconu.org/dataset/global-acute-food-insecurity-country-data).",
+                             "dataset](https://stage.data-humdata-org.ahconu.org/dataset/global-acute-food-insecurity-country-data).",
                     "owner_org": "da501ffc-aadb-43f5-9d28-8fa572fd9ce0",
                     "subnational": "1",
                     "tags": [
@@ -228,7 +229,8 @@ class TestIPC:
                 }
 
                 output = ipc.get_country_data("AGO")
-                dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
+                dataset, showcase = ipc.generate_dataset_and_showcase(folder,
+                                                                      output)
                 resources = dataset.get_resources()
                 assert resources == [
                     {
@@ -311,14 +313,17 @@ class TestIPC:
                 ]
                 check_files(resources)
                 output = ipc.get_country_data("CAF")
-                dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
+                dataset, showcase = ipc.generate_dataset_and_showcase(folder,
+                                                                      output)
                 check_files(dataset.get_resources())
                 output = ipc.get_country_data("ETH")
-                dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
+                dataset, showcase = ipc.generate_dataset_and_showcase(folder,
+                                                                      output)
                 check_files(dataset.get_resources())
 
                 output = ipc.get_all_data()
-                dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
+                dataset, showcase = ipc.generate_dataset_and_showcase(folder,
+                                                                      output)
                 assert dataset == {
                     "data_update_frequency": "-2",
                     "dataset_date": "[2017-02-01T00:00:00 TO 2024-03-31T23:59:59]",
@@ -326,7 +331,7 @@ class TestIPC:
                     "maintainer": "196196be-6037-4488-8b71-d786adf4c081",
                     "name": "global-acute-food-insecurity-country-data",
                     "notes": "There are also [country "
-                    "datasets](https://stage.data-humdata-org.ahconu.org/organization/da501ffc-aadb-43f5-9d28-8fa572fd9ce0)",
+                             "datasets](https://stage.data-humdata-org.ahconu.org/organization/da501ffc-aadb-43f5-9d28-8fa572fd9ce0)",
                     "owner_org": "da501ffc-aadb-43f5-9d28-8fa572fd9ce0",
                     "subnational": "1",
                     "tags": [
@@ -459,7 +464,9 @@ class TestIPC:
                     "AGO": datetime(2021, 6, 1, 0, 0, tzinfo=timezone.utc),
                     "CAF": datetime(2023, 4, 1, 0, 0, tzinfo=timezone.utc),
                     "DEFAULT": datetime(2017, 1, 1, 0, 0, tzinfo=timezone.utc),
-                    "END_DATE": datetime(2024, 3, 31, 0, 0, tzinfo=timezone.utc),
+                    "END_DATE": datetime(2024, 3, 31, 0, 0,
+                                         tzinfo=timezone.utc),
                     "ETH": datetime(2021, 5, 1, 0, 0, tzinfo=timezone.utc),
-                    "START_DATE": datetime(2017, 2, 1, 0, 0, tzinfo=timezone.utc),
+                    "START_DATE": datetime(2017, 2, 1, 0, 0,
+                                           tzinfo=timezone.utc),
                 }
