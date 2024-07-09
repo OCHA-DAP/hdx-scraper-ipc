@@ -186,7 +186,7 @@ class TestIPC:
                 assert showcase == {
                     "image_url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/img/dashboard_thumbnail.jpg",
                     "name": "afghanistan-acute-food-insecurity-country-data-showcase",
-                    "notes": "IPC-CH Dashboard",
+                    "notes": "Access all of IPC’s analyses for Afghanistan",
                     "tags": [
                         {
                             "name": "hxl",
@@ -209,7 +209,7 @@ class TestIPC:
                 assert showcase == {
                     "image_url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/img/dashboard_thumbnail.jpg",
                     "name": "afghanistan-acute-food-insecurity-country-data-showcase",
-                    "notes": "IPC-CH Dashboard",
+                    "notes": "CH regional page on IPC website with map and reports",
                     "tags": [
                         {
                             "name": "hxl",

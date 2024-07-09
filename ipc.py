@@ -365,17 +365,20 @@ class IPC:
             )
 
         if countryiso3lower == "global":
+            showcase_description = "IPC-CH Dashboard"
             showcase_url = "https://www.ipcinfo.org/ipcinfo-website/ipc-dashboard/en/"
         elif countryiso3 in self.ch_countries:
+            showcase_description = "CH regional page on IPC website with map and reports"
             showcase_url = self.configuration["ch_showcase_url"]
         else:
+            showcase_description = f"Access all of IPC’s analyses for {countryname}"
             showcase_url = self.configuration["showcase_url"]
             showcase_url = f"{showcase_url}{countryiso3}"
         showcase = Showcase(
             {
                 "name": f"{name}-showcase",
                 "title": f"{title} showcase",
-                "notes": "IPC-CH Dashboard",
+                "notes": showcase_description,
                 "url": showcase_url,
                 "image_url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/img/dashboard_thumbnail.jpg",
             }
