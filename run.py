@@ -42,11 +42,10 @@ def main(save: bool = False, use_saved: bool = False) -> None:
         state_dict = deepcopy(state.get())
         with wheretostart_tempdir_batch(lookup) as info:
             folder = info["folder"]
-            with Download(
-                    extra_params_yaml=join(expanduser("~"),
-                                           ".extraparams.yaml"),
-                    extra_params_lookup=lookup,
-            ) as downloader:
+            with Download(extra_params_yaml=join(expanduser("~"),
+                                                 ".extraparams.yaml"),
+                          extra_params_lookup=lookup) as downloader:
+
                 _, iterator = downloader.get_tabular_rows(
                     join("config", "ch_countries.csv"), dict_form=True)
                 ch_countries = [row["ISO_3"] for row in iterator]
