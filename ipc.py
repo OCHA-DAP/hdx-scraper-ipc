@@ -239,24 +239,31 @@ class IPC:
         time_period = {"start_date": default_enddate, "end_date": default_date}
 
         output = {"countryiso3": countryiso3}
-        country_rows = output["country_rows_latest"] = []
-        country_rows_wide = output["country_rows_wide_latest"] = []
-        group_rows = output["group_rows_latest"] = []
-        group_rows_wide = output["group_rows_wide_latest"] = []
-        area_rows = output["area_rows_latest"] = []
-        area_rows_wide = output["area_rows_wide_latest"] = []
-        self.add_country_rows(most_recent_analysis, countryiso3, time_period,
-                              country_rows, country_rows_wide)
-        self.add_subnational_rows(
-            most_recent_analysis, countryiso3, time_period, group_rows,
-            group_rows_wide, area_rows, area_rows_wide,
-        )
-        self.output["country_rows_latest"].extend(country_rows)
-        self.output["country_rows_wide_latest"].extend(country_rows_wide)
-        self.output["group_rows_latest"].extend(group_rows)
-        self.output["group_rows_wide_latest"].extend(group_rows_wide)
-        self.output["area_rows_latest"].extend(area_rows)
-        self.output["area_rows_wide_latest"].extend(area_rows_wide)
+
+        most_recent_current_analysis = None
+        for analysis in country_data:
+            if analysis["current_period_dates"]:
+                most_recent_current_analysis = analysis
+                break
+        if most_recent_current_analysis:
+            country_rows = output["country_rows_latest"] = []
+            country_rows_wide = output["country_rows_wide_latest"] = []
+            group_rows = output["group_rows_latest"] = []
+            group_rows_wide = output["group_rows_wide_latest"] = []
+            area_rows = output["area_rows_latest"] = []
+            area_rows_wide = output["area_rows_wide_latest"] = []
+            self.add_country_rows(most_recent_current_analysis, countryiso3,
+                                  time_period, country_rows, country_rows_wide)
+            self.add_subnational_rows(
+                most_recent_current_analysis, countryiso3, time_period, group_rows,
+                group_rows_wide, area_rows, area_rows_wide,
+            )
+            self.output["country_rows_latest"].extend(country_rows)
+            self.output["country_rows_wide_latest"].extend(country_rows_wide)
+            self.output["group_rows_latest"].extend(group_rows)
+            self.output["group_rows_wide_latest"].extend(group_rows_wide)
+            self.output["area_rows_latest"].extend(area_rows)
+            self.output["area_rows_wide_latest"].extend(area_rows_wide)
 
         country_rows = output["country_rows"] = []
         country_rows_wide = output["country_rows_wide"] = []
@@ -277,6 +284,7 @@ class IPC:
         self.output["group_rows_wide"].extend(group_rows_wide)
         self.output["area_rows"].extend(area_rows)
         self.output["area_rows_wide"].extend(area_rows_wide)
+
         start_date = time_period["start_date"]
         end_date = time_period["end_date"]
         output["start_date"] = start_date
