@@ -7,13 +7,13 @@ Apr 2023,CAF,6091097,Ouaka,Grimari,current,2023-04-01,2023-08-31,2,15383,0.3
 Apr 2023,CAF,6091097,Ouaka,Grimari,current,2023-04-01,2023-08-31,3,17946,0.35
 Apr 2023,CAF,6091097,Ouaka,Grimari,current,2023-04-01,2023-08-31,4,7691,0.15
 Apr 2023,CAF,6091097,Ouaka,Grimari,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Ouaka,Grimari,projected,2023-09-01,2024-03-31,all,51275,1.0
-Apr 2023,CAF,6091097,Ouaka,Grimari,projected,2023-09-01,2024-03-31,3+,23074,0.45
-Apr 2023,CAF,6091097,Ouaka,Grimari,projected,2023-09-01,2024-03-31,1,10255,0.2
-Apr 2023,CAF,6091097,Ouaka,Grimari,projected,2023-09-01,2024-03-31,2,17946,0.35
-Apr 2023,CAF,6091097,Ouaka,Grimari,projected,2023-09-01,2024-03-31,3,17946,0.35
-Apr 2023,CAF,6091097,Ouaka,Grimari,projected,2023-09-01,2024-03-31,4,5128,0.1
-Apr 2023,CAF,6091097,Ouaka,Grimari,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Ouaka,Grimari,first projection,2023-09-01,2024-03-31,all,51275,1.0
+Apr 2023,CAF,6091097,Ouaka,Grimari,first projection,2023-09-01,2024-03-31,3+,23074,0.45
+Apr 2023,CAF,6091097,Ouaka,Grimari,first projection,2023-09-01,2024-03-31,1,10255,0.2
+Apr 2023,CAF,6091097,Ouaka,Grimari,first projection,2023-09-01,2024-03-31,2,17946,0.35
+Apr 2023,CAF,6091097,Ouaka,Grimari,first projection,2023-09-01,2024-03-31,3,17946,0.35
+Apr 2023,CAF,6091097,Ouaka,Grimari,first projection,2023-09-01,2024-03-31,4,5128,0.1
+Apr 2023,CAF,6091097,Ouaka,Grimari,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Ouaka,Bakala,current,2023-04-01,2023-08-31,all,11492,1.0
 Apr 2023,CAF,6091097,Ouaka,Bakala,current,2023-04-01,2023-08-31,3+,1724,0.5
 Apr 2023,CAF,6091097,Ouaka,Bakala,current,2023-04-01,2023-08-31,1,1724,0.15
@@ -21,13 +21,13 @@ Apr 2023,CAF,6091097,Ouaka,Bakala,current,2023-04-01,2023-08-31,2,4022,0.35
 Apr 2023,CAF,6091097,Ouaka,Bakala,current,2023-04-01,2023-08-31,3,4022,0.35
 Apr 2023,CAF,6091097,Ouaka,Bakala,current,2023-04-01,2023-08-31,4,1724,0.15
 Apr 2023,CAF,6091097,Ouaka,Bakala,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Ouaka,Bakala,projected,2023-09-01,2024-03-31,all,11492,1.0
-Apr 2023,CAF,6091097,Ouaka,Bakala,projected,2023-09-01,2024-03-31,3+,4597,0.4
-Apr 2023,CAF,6091097,Ouaka,Bakala,projected,2023-09-01,2024-03-31,1,2873,0.25
-Apr 2023,CAF,6091097,Ouaka,Bakala,projected,2023-09-01,2024-03-31,2,4022,0.35
-Apr 2023,CAF,6091097,Ouaka,Bakala,projected,2023-09-01,2024-03-31,3,3448,0.3
-Apr 2023,CAF,6091097,Ouaka,Bakala,projected,2023-09-01,2024-03-31,4,1149,0.1
-Apr 2023,CAF,6091097,Ouaka,Bakala,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Ouaka,Bakala,first projection,2023-09-01,2024-03-31,all,11492,1.0
+Apr 2023,CAF,6091097,Ouaka,Bakala,first projection,2023-09-01,2024-03-31,3+,4597,0.4
+Apr 2023,CAF,6091097,Ouaka,Bakala,first projection,2023-09-01,2024-03-31,1,2873,0.25
+Apr 2023,CAF,6091097,Ouaka,Bakala,first projection,2023-09-01,2024-03-31,2,4022,0.35
+Apr 2023,CAF,6091097,Ouaka,Bakala,first projection,2023-09-01,2024-03-31,3,3448,0.3
+Apr 2023,CAF,6091097,Ouaka,Bakala,first projection,2023-09-01,2024-03-31,4,1149,0.1
+Apr 2023,CAF,6091097,Ouaka,Bakala,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Ouaka,Ippy,current,2023-04-01,2023-08-31,all,59290,1.0
 Apr 2023,CAF,6091097,Ouaka,Ippy,current,2023-04-01,2023-08-31,3+,26681,0.45
 Apr 2023,CAF,6091097,Ouaka,Ippy,current,2023-04-01,2023-08-31,1,8894,0.15
@@ -35,13 +35,13 @@ Apr 2023,CAF,6091097,Ouaka,Ippy,current,2023-04-01,2023-08-31,2,23716,0.4
 Apr 2023,CAF,6091097,Ouaka,Ippy,current,2023-04-01,2023-08-31,3,20752,0.35
 Apr 2023,CAF,6091097,Ouaka,Ippy,current,2023-04-01,2023-08-31,4,5929,0.1
 Apr 2023,CAF,6091097,Ouaka,Ippy,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Ouaka,Ippy,projected,2023-09-01,2024-03-31,all,59290,1.0
-Apr 2023,CAF,6091097,Ouaka,Ippy,projected,2023-09-01,2024-03-31,3+,23717,0.4
-Apr 2023,CAF,6091097,Ouaka,Ippy,projected,2023-09-01,2024-03-31,1,11858,0.2
-Apr 2023,CAF,6091097,Ouaka,Ippy,projected,2023-09-01,2024-03-31,2,23716,0.4
-Apr 2023,CAF,6091097,Ouaka,Ippy,projected,2023-09-01,2024-03-31,3,20752,0.35
-Apr 2023,CAF,6091097,Ouaka,Ippy,projected,2023-09-01,2024-03-31,4,2965,0.05
-Apr 2023,CAF,6091097,Ouaka,Ippy,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Ouaka,Ippy,first projection,2023-09-01,2024-03-31,all,59290,1.0
+Apr 2023,CAF,6091097,Ouaka,Ippy,first projection,2023-09-01,2024-03-31,3+,23717,0.4
+Apr 2023,CAF,6091097,Ouaka,Ippy,first projection,2023-09-01,2024-03-31,1,11858,0.2
+Apr 2023,CAF,6091097,Ouaka,Ippy,first projection,2023-09-01,2024-03-31,2,23716,0.4
+Apr 2023,CAF,6091097,Ouaka,Ippy,first projection,2023-09-01,2024-03-31,3,20752,0.35
+Apr 2023,CAF,6091097,Ouaka,Ippy,first projection,2023-09-01,2024-03-31,4,2965,0.05
+Apr 2023,CAF,6091097,Ouaka,Ippy,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Ouaka,Kouango,current,2023-04-01,2023-08-31,all,107763,1.0
 Apr 2023,CAF,6091097,Ouaka,Kouango,current,2023-04-01,2023-08-31,3+,53881,0.5
 Apr 2023,CAF,6091097,Ouaka,Kouango,current,2023-04-01,2023-08-31,1,16164,0.15
@@ -49,13 +49,13 @@ Apr 2023,CAF,6091097,Ouaka,Kouango,current,2023-04-01,2023-08-31,2,37717,0.35
 Apr 2023,CAF,6091097,Ouaka,Kouango,current,2023-04-01,2023-08-31,3,37717,0.35
 Apr 2023,CAF,6091097,Ouaka,Kouango,current,2023-04-01,2023-08-31,4,16164,0.15
 Apr 2023,CAF,6091097,Ouaka,Kouango,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Ouaka,Kouango,projected,2023-09-01,2024-03-31,all,107763,1.0
-Apr 2023,CAF,6091097,Ouaka,Kouango,projected,2023-09-01,2024-03-31,3+,43105,0.4
-Apr 2023,CAF,6091097,Ouaka,Kouango,projected,2023-09-01,2024-03-31,1,26941,0.25
-Apr 2023,CAF,6091097,Ouaka,Kouango,projected,2023-09-01,2024-03-31,2,37717,0.35
-Apr 2023,CAF,6091097,Ouaka,Kouango,projected,2023-09-01,2024-03-31,3,37717,0.35
-Apr 2023,CAF,6091097,Ouaka,Kouango,projected,2023-09-01,2024-03-31,4,5388,0.05
-Apr 2023,CAF,6091097,Ouaka,Kouango,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Ouaka,Kouango,first projection,2023-09-01,2024-03-31,all,107763,1.0
+Apr 2023,CAF,6091097,Ouaka,Kouango,first projection,2023-09-01,2024-03-31,3+,43105,0.4
+Apr 2023,CAF,6091097,Ouaka,Kouango,first projection,2023-09-01,2024-03-31,1,26941,0.25
+Apr 2023,CAF,6091097,Ouaka,Kouango,first projection,2023-09-01,2024-03-31,2,37717,0.35
+Apr 2023,CAF,6091097,Ouaka,Kouango,first projection,2023-09-01,2024-03-31,3,37717,0.35
+Apr 2023,CAF,6091097,Ouaka,Kouango,first projection,2023-09-01,2024-03-31,4,5388,0.05
+Apr 2023,CAF,6091097,Ouaka,Kouango,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Ouaka,Bambari,current,2023-04-01,2023-08-31,all,216534,1.0
 Apr 2023,CAF,6091097,Ouaka,Bambari,current,2023-04-01,2023-08-31,3+,97440,0.45
 Apr 2023,CAF,6091097,Ouaka,Bambari,current,2023-04-01,2023-08-31,1,43307,0.2
@@ -63,13 +63,13 @@ Apr 2023,CAF,6091097,Ouaka,Bambari,current,2023-04-01,2023-08-31,2,75787,0.35
 Apr 2023,CAF,6091097,Ouaka,Bambari,current,2023-04-01,2023-08-31,3,75787,0.35
 Apr 2023,CAF,6091097,Ouaka,Bambari,current,2023-04-01,2023-08-31,4,21653,0.1
 Apr 2023,CAF,6091097,Ouaka,Bambari,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Ouaka,Bambari,projected,2023-09-01,2024-03-31,all,216534,1.0
-Apr 2023,CAF,6091097,Ouaka,Bambari,projected,2023-09-01,2024-03-31,3+,75787,0.35
-Apr 2023,CAF,6091097,Ouaka,Bambari,projected,2023-09-01,2024-03-31,1,54134,0.25
-Apr 2023,CAF,6091097,Ouaka,Bambari,projected,2023-09-01,2024-03-31,2,86614,0.4
-Apr 2023,CAF,6091097,Ouaka,Bambari,projected,2023-09-01,2024-03-31,3,64960,0.3
-Apr 2023,CAF,6091097,Ouaka,Bambari,projected,2023-09-01,2024-03-31,4,10827,0.05
-Apr 2023,CAF,6091097,Ouaka,Bambari,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Ouaka,Bambari,first projection,2023-09-01,2024-03-31,all,216534,1.0
+Apr 2023,CAF,6091097,Ouaka,Bambari,first projection,2023-09-01,2024-03-31,3+,75787,0.35
+Apr 2023,CAF,6091097,Ouaka,Bambari,first projection,2023-09-01,2024-03-31,1,54134,0.25
+Apr 2023,CAF,6091097,Ouaka,Bambari,first projection,2023-09-01,2024-03-31,2,86614,0.4
+Apr 2023,CAF,6091097,Ouaka,Bambari,first projection,2023-09-01,2024-03-31,3,64960,0.3
+Apr 2023,CAF,6091097,Ouaka,Bambari,first projection,2023-09-01,2024-03-31,4,10827,0.05
+Apr 2023,CAF,6091097,Ouaka,Bambari,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Kémo,Ndjoukou,current,2023-04-01,2023-08-31,all,46627,1.0
 Apr 2023,CAF,6091097,Kémo,Ndjoukou,current,2023-04-01,2023-08-31,3+,23313,0.5
 Apr 2023,CAF,6091097,Kémo,Ndjoukou,current,2023-04-01,2023-08-31,1,11657,0.25
@@ -77,13 +77,13 @@ Apr 2023,CAF,6091097,Kémo,Ndjoukou,current,2023-04-01,2023-08-31,2,11657,0.25
 Apr 2023,CAF,6091097,Kémo,Ndjoukou,current,2023-04-01,2023-08-31,3,16319,0.35
 Apr 2023,CAF,6091097,Kémo,Ndjoukou,current,2023-04-01,2023-08-31,4,6994,0.15
 Apr 2023,CAF,6091097,Kémo,Ndjoukou,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Kémo,Ndjoukou,projected,2023-09-01,2024-03-31,all,46627,1.0
-Apr 2023,CAF,6091097,Kémo,Ndjoukou,projected,2023-09-01,2024-03-31,3+,13988,0.3
-Apr 2023,CAF,6091097,Kémo,Ndjoukou,projected,2023-09-01,2024-03-31,1,13988,0.3
-Apr 2023,CAF,6091097,Kémo,Ndjoukou,projected,2023-09-01,2024-03-31,2,18651,0.4
-Apr 2023,CAF,6091097,Kémo,Ndjoukou,projected,2023-09-01,2024-03-31,3,11657,0.25
-Apr 2023,CAF,6091097,Kémo,Ndjoukou,projected,2023-09-01,2024-03-31,4,2331,0.05
-Apr 2023,CAF,6091097,Kémo,Ndjoukou,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Kémo,Ndjoukou,first projection,2023-09-01,2024-03-31,all,46627,1.0
+Apr 2023,CAF,6091097,Kémo,Ndjoukou,first projection,2023-09-01,2024-03-31,3+,13988,0.3
+Apr 2023,CAF,6091097,Kémo,Ndjoukou,first projection,2023-09-01,2024-03-31,1,13988,0.3
+Apr 2023,CAF,6091097,Kémo,Ndjoukou,first projection,2023-09-01,2024-03-31,2,18651,0.4
+Apr 2023,CAF,6091097,Kémo,Ndjoukou,first projection,2023-09-01,2024-03-31,3,11657,0.25
+Apr 2023,CAF,6091097,Kémo,Ndjoukou,first projection,2023-09-01,2024-03-31,4,2331,0.05
+Apr 2023,CAF,6091097,Kémo,Ndjoukou,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Kémo,Dékoa,current,2023-04-01,2023-08-31,all,57254,1.0
 Apr 2023,CAF,6091097,Kémo,Dékoa,current,2023-04-01,2023-08-31,3+,25765,0.45
 Apr 2023,CAF,6091097,Kémo,Dékoa,current,2023-04-01,2023-08-31,1,11451,0.2
@@ -91,13 +91,13 @@ Apr 2023,CAF,6091097,Kémo,Dékoa,current,2023-04-01,2023-08-31,2,20039,0.35
 Apr 2023,CAF,6091097,Kémo,Dékoa,current,2023-04-01,2023-08-31,3,14314,0.25
 Apr 2023,CAF,6091097,Kémo,Dékoa,current,2023-04-01,2023-08-31,4,11451,0.2
 Apr 2023,CAF,6091097,Kémo,Dékoa,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Kémo,Dékoa,projected,2023-09-01,2024-03-31,all,57254,1.0
-Apr 2023,CAF,6091097,Kémo,Dékoa,projected,2023-09-01,2024-03-31,3+,20039,0.35
-Apr 2023,CAF,6091097,Kémo,Dékoa,projected,2023-09-01,2024-03-31,1,14314,0.25
-Apr 2023,CAF,6091097,Kémo,Dékoa,projected,2023-09-01,2024-03-31,2,22902,0.4
-Apr 2023,CAF,6091097,Kémo,Dékoa,projected,2023-09-01,2024-03-31,3,11451,0.2
-Apr 2023,CAF,6091097,Kémo,Dékoa,projected,2023-09-01,2024-03-31,4,8588,0.15
-Apr 2023,CAF,6091097,Kémo,Dékoa,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Kémo,Dékoa,first projection,2023-09-01,2024-03-31,all,57254,1.0
+Apr 2023,CAF,6091097,Kémo,Dékoa,first projection,2023-09-01,2024-03-31,3+,20039,0.35
+Apr 2023,CAF,6091097,Kémo,Dékoa,first projection,2023-09-01,2024-03-31,1,14314,0.25
+Apr 2023,CAF,6091097,Kémo,Dékoa,first projection,2023-09-01,2024-03-31,2,22902,0.4
+Apr 2023,CAF,6091097,Kémo,Dékoa,first projection,2023-09-01,2024-03-31,3,11451,0.2
+Apr 2023,CAF,6091097,Kémo,Dékoa,first projection,2023-09-01,2024-03-31,4,8588,0.15
+Apr 2023,CAF,6091097,Kémo,Dékoa,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Kémo,Sibut,current,2023-04-01,2023-08-31,all,60181,1.0
 Apr 2023,CAF,6091097,Kémo,Sibut,current,2023-04-01,2023-08-31,3+,21063,0.35
 Apr 2023,CAF,6091097,Kémo,Sibut,current,2023-04-01,2023-08-31,1,15045,0.25
@@ -105,13 +105,13 @@ Apr 2023,CAF,6091097,Kémo,Sibut,current,2023-04-01,2023-08-31,2,24072,0.4
 Apr 2023,CAF,6091097,Kémo,Sibut,current,2023-04-01,2023-08-31,3,18054,0.3
 Apr 2023,CAF,6091097,Kémo,Sibut,current,2023-04-01,2023-08-31,4,3009,0.05
 Apr 2023,CAF,6091097,Kémo,Sibut,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Kémo,Sibut,projected,2023-09-01,2024-03-31,all,60181,1.0
-Apr 2023,CAF,6091097,Kémo,Sibut,projected,2023-09-01,2024-03-31,3+,18054,0.3
-Apr 2023,CAF,6091097,Kémo,Sibut,projected,2023-09-01,2024-03-31,1,18054,0.3
-Apr 2023,CAF,6091097,Kémo,Sibut,projected,2023-09-01,2024-03-31,2,24072,0.4
-Apr 2023,CAF,6091097,Kémo,Sibut,projected,2023-09-01,2024-03-31,3,15045,0.25
-Apr 2023,CAF,6091097,Kémo,Sibut,projected,2023-09-01,2024-03-31,4,3009,0.05
-Apr 2023,CAF,6091097,Kémo,Sibut,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Kémo,Sibut,first projection,2023-09-01,2024-03-31,all,60181,1.0
+Apr 2023,CAF,6091097,Kémo,Sibut,first projection,2023-09-01,2024-03-31,3+,18054,0.3
+Apr 2023,CAF,6091097,Kémo,Sibut,first projection,2023-09-01,2024-03-31,1,18054,0.3
+Apr 2023,CAF,6091097,Kémo,Sibut,first projection,2023-09-01,2024-03-31,2,24072,0.4
+Apr 2023,CAF,6091097,Kémo,Sibut,first projection,2023-09-01,2024-03-31,3,15045,0.25
+Apr 2023,CAF,6091097,Kémo,Sibut,first projection,2023-09-01,2024-03-31,4,3009,0.05
+Apr 2023,CAF,6091097,Kémo,Sibut,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Kémo,Mala,current,2023-04-01,2023-08-31,all,57254,1.0
 Apr 2023,CAF,6091097,Kémo,Mala,current,2023-04-01,2023-08-31,3+,22902,0.4
 Apr 2023,CAF,6091097,Kémo,Mala,current,2023-04-01,2023-08-31,1,11451,0.2
@@ -119,13 +119,13 @@ Apr 2023,CAF,6091097,Kémo,Mala,current,2023-04-01,2023-08-31,2,22902,0.4
 Apr 2023,CAF,6091097,Kémo,Mala,current,2023-04-01,2023-08-31,3,11451,0.2
 Apr 2023,CAF,6091097,Kémo,Mala,current,2023-04-01,2023-08-31,4,11451,0.2
 Apr 2023,CAF,6091097,Kémo,Mala,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Kémo,Mala,projected,2023-09-01,2024-03-31,all,57254,1.0
-Apr 2023,CAF,6091097,Kémo,Mala,projected,2023-09-01,2024-03-31,3+,20039,0.35
-Apr 2023,CAF,6091097,Kémo,Mala,projected,2023-09-01,2024-03-31,1,14314,0.25
-Apr 2023,CAF,6091097,Kémo,Mala,projected,2023-09-01,2024-03-31,2,22902,0.4
-Apr 2023,CAF,6091097,Kémo,Mala,projected,2023-09-01,2024-03-31,3,11451,0.2
-Apr 2023,CAF,6091097,Kémo,Mala,projected,2023-09-01,2024-03-31,4,8588,0.15
-Apr 2023,CAF,6091097,Kémo,Mala,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Kémo,Mala,first projection,2023-09-01,2024-03-31,all,57254,1.0
+Apr 2023,CAF,6091097,Kémo,Mala,first projection,2023-09-01,2024-03-31,3+,20039,0.35
+Apr 2023,CAF,6091097,Kémo,Mala,first projection,2023-09-01,2024-03-31,1,14314,0.25
+Apr 2023,CAF,6091097,Kémo,Mala,first projection,2023-09-01,2024-03-31,2,22902,0.4
+Apr 2023,CAF,6091097,Kémo,Mala,first projection,2023-09-01,2024-03-31,3,11451,0.2
+Apr 2023,CAF,6091097,Kémo,Mala,first projection,2023-09-01,2024-03-31,4,8588,0.15
+Apr 2023,CAF,6091097,Kémo,Mala,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Ombella M'Poko,Yaloké,current,2023-04-01,2023-08-31,all,82678,1.0
 Apr 2023,CAF,6091097,Ombella M'Poko,Yaloké,current,2023-04-01,2023-08-31,3+,20670,0.25
 Apr 2023,CAF,6091097,Ombella M'Poko,Yaloké,current,2023-04-01,2023-08-31,1,24803,0.3
@@ -133,13 +133,13 @@ Apr 2023,CAF,6091097,Ombella M'Poko,Yaloké,current,2023-04-01,2023-08-31,2,3720
 Apr 2023,CAF,6091097,Ombella M'Poko,Yaloké,current,2023-04-01,2023-08-31,3,20670,0.25
 Apr 2023,CAF,6091097,Ombella M'Poko,Yaloké,current,2023-04-01,2023-08-31,4,0,0
 Apr 2023,CAF,6091097,Ombella M'Poko,Yaloké,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Ombella M'Poko,Yaloké,projected,2023-09-01,2024-03-31,all,82678,1.0
-Apr 2023,CAF,6091097,Ombella M'Poko,Yaloké,projected,2023-09-01,2024-03-31,3+,16536,0.2
-Apr 2023,CAF,6091097,Ombella M'Poko,Yaloké,projected,2023-09-01,2024-03-31,1,28937,0.35
-Apr 2023,CAF,6091097,Ombella M'Poko,Yaloké,projected,2023-09-01,2024-03-31,2,37205,0.45
-Apr 2023,CAF,6091097,Ombella M'Poko,Yaloké,projected,2023-09-01,2024-03-31,3,16536,0.2
-Apr 2023,CAF,6091097,Ombella M'Poko,Yaloké,projected,2023-09-01,2024-03-31,4,0,0
-Apr 2023,CAF,6091097,Ombella M'Poko,Yaloké,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Ombella M'Poko,Yaloké,first projection,2023-09-01,2024-03-31,all,82678,1.0
+Apr 2023,CAF,6091097,Ombella M'Poko,Yaloké,first projection,2023-09-01,2024-03-31,3+,16536,0.2
+Apr 2023,CAF,6091097,Ombella M'Poko,Yaloké,first projection,2023-09-01,2024-03-31,1,28937,0.35
+Apr 2023,CAF,6091097,Ombella M'Poko,Yaloké,first projection,2023-09-01,2024-03-31,2,37205,0.45
+Apr 2023,CAF,6091097,Ombella M'Poko,Yaloké,first projection,2023-09-01,2024-03-31,3,16536,0.2
+Apr 2023,CAF,6091097,Ombella M'Poko,Yaloké,first projection,2023-09-01,2024-03-31,4,0,0
+Apr 2023,CAF,6091097,Ombella M'Poko,Yaloké,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Ombella M'Poko,Bimbo,current,2023-04-01,2023-08-31,all,612869,1.0
 Apr 2023,CAF,6091097,Ombella M'Poko,Bimbo,current,2023-04-01,2023-08-31,3+,153217,0.25
 Apr 2023,CAF,6091097,Ombella M'Poko,Bimbo,current,2023-04-01,2023-08-31,1,183861,0.3
@@ -147,13 +147,13 @@ Apr 2023,CAF,6091097,Ombella M'Poko,Bimbo,current,2023-04-01,2023-08-31,2,275791
 Apr 2023,CAF,6091097,Ombella M'Poko,Bimbo,current,2023-04-01,2023-08-31,3,122574,0.2
 Apr 2023,CAF,6091097,Ombella M'Poko,Bimbo,current,2023-04-01,2023-08-31,4,30643,0.05
 Apr 2023,CAF,6091097,Ombella M'Poko,Bimbo,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Ombella M'Poko,Bimbo,projected,2023-09-01,2024-03-31,all,612869,1.0
-Apr 2023,CAF,6091097,Ombella M'Poko,Bimbo,projected,2023-09-01,2024-03-31,3+,122574,0.2
-Apr 2023,CAF,6091097,Ombella M'Poko,Bimbo,projected,2023-09-01,2024-03-31,1,214504,0.35
-Apr 2023,CAF,6091097,Ombella M'Poko,Bimbo,projected,2023-09-01,2024-03-31,2,275791,0.45
-Apr 2023,CAF,6091097,Ombella M'Poko,Bimbo,projected,2023-09-01,2024-03-31,3,122574,0.2
-Apr 2023,CAF,6091097,Ombella M'Poko,Bimbo,projected,2023-09-01,2024-03-31,4,0,0
-Apr 2023,CAF,6091097,Ombella M'Poko,Bimbo,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Ombella M'Poko,Bimbo,first projection,2023-09-01,2024-03-31,all,612869,1.0
+Apr 2023,CAF,6091097,Ombella M'Poko,Bimbo,first projection,2023-09-01,2024-03-31,3+,122574,0.2
+Apr 2023,CAF,6091097,Ombella M'Poko,Bimbo,first projection,2023-09-01,2024-03-31,1,214504,0.35
+Apr 2023,CAF,6091097,Ombella M'Poko,Bimbo,first projection,2023-09-01,2024-03-31,2,275791,0.45
+Apr 2023,CAF,6091097,Ombella M'Poko,Bimbo,first projection,2023-09-01,2024-03-31,3,122574,0.2
+Apr 2023,CAF,6091097,Ombella M'Poko,Bimbo,first projection,2023-09-01,2024-03-31,4,0,0
+Apr 2023,CAF,6091097,Ombella M'Poko,Bimbo,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Ombella M'Poko,Boali,current,2023-04-01,2023-08-31,all,62071,1.0
 Apr 2023,CAF,6091097,Ombella M'Poko,Boali,current,2023-04-01,2023-08-31,3+,18622,0.3
 Apr 2023,CAF,6091097,Ombella M'Poko,Boali,current,2023-04-01,2023-08-31,1,18621,0.3
@@ -161,13 +161,13 @@ Apr 2023,CAF,6091097,Ombella M'Poko,Boali,current,2023-04-01,2023-08-31,2,24828,
 Apr 2023,CAF,6091097,Ombella M'Poko,Boali,current,2023-04-01,2023-08-31,3,15518,0.25
 Apr 2023,CAF,6091097,Ombella M'Poko,Boali,current,2023-04-01,2023-08-31,4,3104,0.05
 Apr 2023,CAF,6091097,Ombella M'Poko,Boali,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Ombella M'Poko,Boali,projected,2023-09-01,2024-03-31,all,62071,1.0
-Apr 2023,CAF,6091097,Ombella M'Poko,Boali,projected,2023-09-01,2024-03-31,3+,15518,0.25
-Apr 2023,CAF,6091097,Ombella M'Poko,Boali,projected,2023-09-01,2024-03-31,1,21725,0.35
-Apr 2023,CAF,6091097,Ombella M'Poko,Boali,projected,2023-09-01,2024-03-31,2,24828,0.4
-Apr 2023,CAF,6091097,Ombella M'Poko,Boali,projected,2023-09-01,2024-03-31,3,15518,0.25
-Apr 2023,CAF,6091097,Ombella M'Poko,Boali,projected,2023-09-01,2024-03-31,4,0,0
-Apr 2023,CAF,6091097,Ombella M'Poko,Boali,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Ombella M'Poko,Boali,first projection,2023-09-01,2024-03-31,all,62071,1.0
+Apr 2023,CAF,6091097,Ombella M'Poko,Boali,first projection,2023-09-01,2024-03-31,3+,15518,0.25
+Apr 2023,CAF,6091097,Ombella M'Poko,Boali,first projection,2023-09-01,2024-03-31,1,21725,0.35
+Apr 2023,CAF,6091097,Ombella M'Poko,Boali,first projection,2023-09-01,2024-03-31,2,24828,0.4
+Apr 2023,CAF,6091097,Ombella M'Poko,Boali,first projection,2023-09-01,2024-03-31,3,15518,0.25
+Apr 2023,CAF,6091097,Ombella M'Poko,Boali,first projection,2023-09-01,2024-03-31,4,0,0
+Apr 2023,CAF,6091097,Ombella M'Poko,Boali,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Ombella M'Poko,Bogangolo,current,2023-04-01,2023-08-31,all,9801,1.0
 Apr 2023,CAF,6091097,Ombella M'Poko,Bogangolo,current,2023-04-01,2023-08-31,3+,3430,0.35
 Apr 2023,CAF,6091097,Ombella M'Poko,Bogangolo,current,2023-04-01,2023-08-31,1,2450,0.25
@@ -175,13 +175,13 @@ Apr 2023,CAF,6091097,Ombella M'Poko,Bogangolo,current,2023-04-01,2023-08-31,2,39
 Apr 2023,CAF,6091097,Ombella M'Poko,Bogangolo,current,2023-04-01,2023-08-31,3,2940,0.3
 Apr 2023,CAF,6091097,Ombella M'Poko,Bogangolo,current,2023-04-01,2023-08-31,4,490,0.05
 Apr 2023,CAF,6091097,Ombella M'Poko,Bogangolo,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Ombella M'Poko,Bogangolo,projected,2023-09-01,2024-03-31,all,9801,1.0
-Apr 2023,CAF,6091097,Ombella M'Poko,Bogangolo,projected,2023-09-01,2024-03-31,3+,2940,0.3
-Apr 2023,CAF,6091097,Ombella M'Poko,Bogangolo,projected,2023-09-01,2024-03-31,1,2940,0.3
-Apr 2023,CAF,6091097,Ombella M'Poko,Bogangolo,projected,2023-09-01,2024-03-31,2,3920,0.4
-Apr 2023,CAF,6091097,Ombella M'Poko,Bogangolo,projected,2023-09-01,2024-03-31,3,2940,0.3
-Apr 2023,CAF,6091097,Ombella M'Poko,Bogangolo,projected,2023-09-01,2024-03-31,4,0,0
-Apr 2023,CAF,6091097,Ombella M'Poko,Bogangolo,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Ombella M'Poko,Bogangolo,first projection,2023-09-01,2024-03-31,all,9801,1.0
+Apr 2023,CAF,6091097,Ombella M'Poko,Bogangolo,first projection,2023-09-01,2024-03-31,3+,2940,0.3
+Apr 2023,CAF,6091097,Ombella M'Poko,Bogangolo,first projection,2023-09-01,2024-03-31,1,2940,0.3
+Apr 2023,CAF,6091097,Ombella M'Poko,Bogangolo,first projection,2023-09-01,2024-03-31,2,3920,0.4
+Apr 2023,CAF,6091097,Ombella M'Poko,Bogangolo,first projection,2023-09-01,2024-03-31,3,2940,0.3
+Apr 2023,CAF,6091097,Ombella M'Poko,Bogangolo,first projection,2023-09-01,2024-03-31,4,0,0
+Apr 2023,CAF,6091097,Ombella M'Poko,Bogangolo,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Ombella M'Poko,Bossembélé,current,2023-04-01,2023-08-31,all,58504,1.0
 Apr 2023,CAF,6091097,Ombella M'Poko,Bossembélé,current,2023-04-01,2023-08-31,3+,20476,0.35
 Apr 2023,CAF,6091097,Ombella M'Poko,Bossembélé,current,2023-04-01,2023-08-31,1,17551,0.3
@@ -189,13 +189,13 @@ Apr 2023,CAF,6091097,Ombella M'Poko,Bossembélé,current,2023-04-01,2023-08-31,2
 Apr 2023,CAF,6091097,Ombella M'Poko,Bossembélé,current,2023-04-01,2023-08-31,3,17551,0.3
 Apr 2023,CAF,6091097,Ombella M'Poko,Bossembélé,current,2023-04-01,2023-08-31,4,2925,0.05
 Apr 2023,CAF,6091097,Ombella M'Poko,Bossembélé,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Ombella M'Poko,Bossembélé,projected,2023-09-01,2024-03-31,all,58504,1.0
-Apr 2023,CAF,6091097,Ombella M'Poko,Bossembélé,projected,2023-09-01,2024-03-31,3+,17551,0.3
-Apr 2023,CAF,6091097,Ombella M'Poko,Bossembélé,projected,2023-09-01,2024-03-31,1,20476,0.35
-Apr 2023,CAF,6091097,Ombella M'Poko,Bossembélé,projected,2023-09-01,2024-03-31,2,20476,0.35
-Apr 2023,CAF,6091097,Ombella M'Poko,Bossembélé,projected,2023-09-01,2024-03-31,3,17551,0.3
-Apr 2023,CAF,6091097,Ombella M'Poko,Bossembélé,projected,2023-09-01,2024-03-31,4,0,0
-Apr 2023,CAF,6091097,Ombella M'Poko,Bossembélé,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Ombella M'Poko,Bossembélé,first projection,2023-09-01,2024-03-31,all,58504,1.0
+Apr 2023,CAF,6091097,Ombella M'Poko,Bossembélé,first projection,2023-09-01,2024-03-31,3+,17551,0.3
+Apr 2023,CAF,6091097,Ombella M'Poko,Bossembélé,first projection,2023-09-01,2024-03-31,1,20476,0.35
+Apr 2023,CAF,6091097,Ombella M'Poko,Bossembélé,first projection,2023-09-01,2024-03-31,2,20476,0.35
+Apr 2023,CAF,6091097,Ombella M'Poko,Bossembélé,first projection,2023-09-01,2024-03-31,3,17551,0.3
+Apr 2023,CAF,6091097,Ombella M'Poko,Bossembélé,first projection,2023-09-01,2024-03-31,4,0,0
+Apr 2023,CAF,6091097,Ombella M'Poko,Bossembélé,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Ombella M'Poko,Damara,current,2023-04-01,2023-08-31,all,56755,1.0
 Apr 2023,CAF,6091097,Ombella M'Poko,Damara,current,2023-04-01,2023-08-31,3+,17027,0.3
 Apr 2023,CAF,6091097,Ombella M'Poko,Damara,current,2023-04-01,2023-08-31,1,17027,0.3
@@ -203,13 +203,13 @@ Apr 2023,CAF,6091097,Ombella M'Poko,Damara,current,2023-04-01,2023-08-31,2,22702
 Apr 2023,CAF,6091097,Ombella M'Poko,Damara,current,2023-04-01,2023-08-31,3,14189,0.25
 Apr 2023,CAF,6091097,Ombella M'Poko,Damara,current,2023-04-01,2023-08-31,4,2838,0.05
 Apr 2023,CAF,6091097,Ombella M'Poko,Damara,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Ombella M'Poko,Damara,projected,2023-09-01,2024-03-31,all,56755,1.0
-Apr 2023,CAF,6091097,Ombella M'Poko,Damara,projected,2023-09-01,2024-03-31,3+,14189,0.25
-Apr 2023,CAF,6091097,Ombella M'Poko,Damara,projected,2023-09-01,2024-03-31,1,19864,0.35
-Apr 2023,CAF,6091097,Ombella M'Poko,Damara,projected,2023-09-01,2024-03-31,2,22702,0.4
-Apr 2023,CAF,6091097,Ombella M'Poko,Damara,projected,2023-09-01,2024-03-31,3,14189,0.25
-Apr 2023,CAF,6091097,Ombella M'Poko,Damara,projected,2023-09-01,2024-03-31,4,0,0
-Apr 2023,CAF,6091097,Ombella M'Poko,Damara,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Ombella M'Poko,Damara,first projection,2023-09-01,2024-03-31,all,56755,1.0
+Apr 2023,CAF,6091097,Ombella M'Poko,Damara,first projection,2023-09-01,2024-03-31,3+,14189,0.25
+Apr 2023,CAF,6091097,Ombella M'Poko,Damara,first projection,2023-09-01,2024-03-31,1,19864,0.35
+Apr 2023,CAF,6091097,Ombella M'Poko,Damara,first projection,2023-09-01,2024-03-31,2,22702,0.4
+Apr 2023,CAF,6091097,Ombella M'Poko,Damara,first projection,2023-09-01,2024-03-31,3,14189,0.25
+Apr 2023,CAF,6091097,Ombella M'Poko,Damara,first projection,2023-09-01,2024-03-31,4,0,0
+Apr 2023,CAF,6091097,Ombella M'Poko,Damara,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Amada-gaza,current,2023-04-01,2023-08-31,all,15151,1.0
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Amada-gaza,current,2023-04-01,2023-08-31,3+,7576,0.5
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Amada-gaza,current,2023-04-01,2023-08-31,1,3030,0.2
@@ -217,13 +217,13 @@ Apr 2023,CAF,6091097,Mambéré-Kadéï,Amada-gaza,current,2023-04-01,2023-08-31,
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Amada-gaza,current,2023-04-01,2023-08-31,3,6060,0.4
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Amada-gaza,current,2023-04-01,2023-08-31,4,1515,0.1
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Amada-gaza,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Amada-gaza,projected,2023-09-01,2024-03-31,all,15151,1.0
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Amada-gaza,projected,2023-09-01,2024-03-31,3+,6818,0.45
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Amada-gaza,projected,2023-09-01,2024-03-31,1,3788,0.25
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Amada-gaza,projected,2023-09-01,2024-03-31,2,4545,0.3
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Amada-gaza,projected,2023-09-01,2024-03-31,3,6060,0.4
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Amada-gaza,projected,2023-09-01,2024-03-31,4,758,0.05
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Amada-gaza,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Amada-gaza,first projection,2023-09-01,2024-03-31,all,15151,1.0
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Amada-gaza,first projection,2023-09-01,2024-03-31,3+,6818,0.45
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Amada-gaza,first projection,2023-09-01,2024-03-31,1,3788,0.25
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Amada-gaza,first projection,2023-09-01,2024-03-31,2,4545,0.3
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Amada-gaza,first projection,2023-09-01,2024-03-31,3,6060,0.4
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Amada-gaza,first projection,2023-09-01,2024-03-31,4,758,0.05
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Amada-gaza,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Dédé-mokouba,current,2023-04-01,2023-08-31,all,23708,1.0
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Dédé-mokouba,current,2023-04-01,2023-08-31,3+,9483,0.4
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Dédé-mokouba,current,2023-04-01,2023-08-31,1,4742,0.2
@@ -231,13 +231,13 @@ Apr 2023,CAF,6091097,Mambéré-Kadéï,Dédé-mokouba,current,2023-04-01,2023-08
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Dédé-mokouba,current,2023-04-01,2023-08-31,3,8298,0.35
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Dédé-mokouba,current,2023-04-01,2023-08-31,4,1185,0.05
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Dédé-mokouba,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Dédé-mokouba,projected,2023-09-01,2024-03-31,all,23708,1.0
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Dédé-mokouba,projected,2023-09-01,2024-03-31,3+,8298,0.35
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Dédé-mokouba,projected,2023-09-01,2024-03-31,1,5927,0.25
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Dédé-mokouba,projected,2023-09-01,2024-03-31,2,9483,0.4
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Dédé-mokouba,projected,2023-09-01,2024-03-31,3,8298,0.35
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Dédé-mokouba,projected,2023-09-01,2024-03-31,4,0,0
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Dédé-mokouba,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Dédé-mokouba,first projection,2023-09-01,2024-03-31,all,23708,1.0
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Dédé-mokouba,first projection,2023-09-01,2024-03-31,3+,8298,0.35
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Dédé-mokouba,first projection,2023-09-01,2024-03-31,1,5927,0.25
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Dédé-mokouba,first projection,2023-09-01,2024-03-31,2,9483,0.4
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Dédé-mokouba,first projection,2023-09-01,2024-03-31,3,8298,0.35
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Dédé-mokouba,first projection,2023-09-01,2024-03-31,4,0,0
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Dédé-mokouba,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Gamboula,current,2023-04-01,2023-08-31,all,41196,1.0
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Gamboula,current,2023-04-01,2023-08-31,3+,20598,0.5
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Gamboula,current,2023-04-01,2023-08-31,1,6179,0.15
@@ -245,13 +245,13 @@ Apr 2023,CAF,6091097,Mambéré-Kadéï,Gamboula,current,2023-04-01,2023-08-31,2,
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Gamboula,current,2023-04-01,2023-08-31,3,14419,0.35
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Gamboula,current,2023-04-01,2023-08-31,4,6179,0.15
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Gamboula,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Gamboula,projected,2023-09-01,2024-03-31,all,41196,1.0
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Gamboula,projected,2023-09-01,2024-03-31,3+,18538,0.45
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Gamboula,projected,2023-09-01,2024-03-31,1,8239,0.2
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Gamboula,projected,2023-09-01,2024-03-31,2,14419,0.35
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Gamboula,projected,2023-09-01,2024-03-31,3,14419,0.35
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Gamboula,projected,2023-09-01,2024-03-31,4,4120,0.1
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Gamboula,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Gamboula,first projection,2023-09-01,2024-03-31,all,41196,1.0
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Gamboula,first projection,2023-09-01,2024-03-31,3+,18538,0.45
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Gamboula,first projection,2023-09-01,2024-03-31,1,8239,0.2
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Gamboula,first projection,2023-09-01,2024-03-31,2,14419,0.35
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Gamboula,first projection,2023-09-01,2024-03-31,3,14419,0.35
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Gamboula,first projection,2023-09-01,2024-03-31,4,4120,0.1
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Gamboula,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Berbérati,current,2023-04-01,2023-08-31,all,189813,1.0
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Berbérati,current,2023-04-01,2023-08-31,3+,85416,0.45
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Berbérati,current,2023-04-01,2023-08-31,1,37963,0.2
@@ -259,13 +259,13 @@ Apr 2023,CAF,6091097,Mambéré-Kadéï,Berbérati,current,2023-04-01,2023-08-31,
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Berbérati,current,2023-04-01,2023-08-31,3,66435,0.35
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Berbérati,current,2023-04-01,2023-08-31,4,18981,0.1
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Berbérati,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Berbérati,projected,2023-09-01,2024-03-31,all,189813,1.0
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Berbérati,projected,2023-09-01,2024-03-31,3+,85416,0.45
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Berbérati,projected,2023-09-01,2024-03-31,1,47453,0.25
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Berbérati,projected,2023-09-01,2024-03-31,2,56944,0.3
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Berbérati,projected,2023-09-01,2024-03-31,3,66435,0.35
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Berbérati,projected,2023-09-01,2024-03-31,4,18981,0.1
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Berbérati,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Berbérati,first projection,2023-09-01,2024-03-31,all,189813,1.0
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Berbérati,first projection,2023-09-01,2024-03-31,3+,85416,0.45
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Berbérati,first projection,2023-09-01,2024-03-31,1,47453,0.25
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Berbérati,first projection,2023-09-01,2024-03-31,2,56944,0.3
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Berbérati,first projection,2023-09-01,2024-03-31,3,66435,0.35
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Berbérati,first projection,2023-09-01,2024-03-31,4,18981,0.1
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Berbérati,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Carnot,current,2023-04-01,2023-08-31,all,178257,1.0
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Carnot,current,2023-04-01,2023-08-31,3+,98042,0.55
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Carnot,current,2023-04-01,2023-08-31,1,35651,0.2
@@ -273,13 +273,13 @@ Apr 2023,CAF,6091097,Mambéré-Kadéï,Carnot,current,2023-04-01,2023-08-31,2,44
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Carnot,current,2023-04-01,2023-08-31,3,71303,0.4
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Carnot,current,2023-04-01,2023-08-31,4,26739,0.15
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Carnot,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Carnot,projected,2023-09-01,2024-03-31,all,178257,1.0
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Carnot,projected,2023-09-01,2024-03-31,3+,89129,0.5
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Carnot,projected,2023-09-01,2024-03-31,1,44564,0.25
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Carnot,projected,2023-09-01,2024-03-31,2,44564,0.25
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Carnot,projected,2023-09-01,2024-03-31,3,71303,0.4
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Carnot,projected,2023-09-01,2024-03-31,4,17826,0.1
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Carnot,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Carnot,first projection,2023-09-01,2024-03-31,all,178257,1.0
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Carnot,first projection,2023-09-01,2024-03-31,3+,89129,0.5
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Carnot,first projection,2023-09-01,2024-03-31,1,44564,0.25
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Carnot,first projection,2023-09-01,2024-03-31,2,44564,0.25
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Carnot,first projection,2023-09-01,2024-03-31,3,71303,0.4
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Carnot,first projection,2023-09-01,2024-03-31,4,17826,0.1
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Carnot,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Gadzi,current,2023-04-01,2023-08-31,all,72071,1.0
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Gadzi,current,2023-04-01,2023-08-31,3+,32432,0.45
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Gadzi,current,2023-04-01,2023-08-31,1,14414,0.2
@@ -287,13 +287,13 @@ Apr 2023,CAF,6091097,Mambéré-Kadéï,Gadzi,current,2023-04-01,2023-08-31,2,252
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Gadzi,current,2023-04-01,2023-08-31,3,25225,0.35
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Gadzi,current,2023-04-01,2023-08-31,4,7207,0.1
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Gadzi,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Gadzi,projected,2023-09-01,2024-03-31,all,72071,1.0
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Gadzi,projected,2023-09-01,2024-03-31,3+,28829,0.4
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Gadzi,projected,2023-09-01,2024-03-31,1,18018,0.25
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Gadzi,projected,2023-09-01,2024-03-31,2,25225,0.35
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Gadzi,projected,2023-09-01,2024-03-31,3,25225,0.35
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Gadzi,projected,2023-09-01,2024-03-31,4,3604,0.05
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Gadzi,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Gadzi,first projection,2023-09-01,2024-03-31,all,72071,1.0
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Gadzi,first projection,2023-09-01,2024-03-31,3+,28829,0.4
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Gadzi,first projection,2023-09-01,2024-03-31,1,18018,0.25
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Gadzi,first projection,2023-09-01,2024-03-31,2,25225,0.35
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Gadzi,first projection,2023-09-01,2024-03-31,3,25225,0.35
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Gadzi,first projection,2023-09-01,2024-03-31,4,3604,0.05
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Gadzi,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Sosso-nakombo,current,2023-04-01,2023-08-31,all,18449,1.0
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Sosso-nakombo,current,2023-04-01,2023-08-31,3+,9224,0.5
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Sosso-nakombo,current,2023-04-01,2023-08-31,1,3690,0.2
@@ -301,13 +301,13 @@ Apr 2023,CAF,6091097,Mambéré-Kadéï,Sosso-nakombo,current,2023-04-01,2023-08-
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Sosso-nakombo,current,2023-04-01,2023-08-31,3,6457,0.35
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Sosso-nakombo,current,2023-04-01,2023-08-31,4,2767,0.15
 Apr 2023,CAF,6091097,Mambéré-Kadéï,Sosso-nakombo,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Sosso-nakombo,projected,2023-09-01,2024-03-31,all,18449,1.0
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Sosso-nakombo,projected,2023-09-01,2024-03-31,3+,8302,0.45
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Sosso-nakombo,projected,2023-09-01,2024-03-31,1,4612,0.25
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Sosso-nakombo,projected,2023-09-01,2024-03-31,2,5535,0.3
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Sosso-nakombo,projected,2023-09-01,2024-03-31,3,6457,0.35
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Sosso-nakombo,projected,2023-09-01,2024-03-31,4,1845,0.1
-Apr 2023,CAF,6091097,Mambéré-Kadéï,Sosso-nakombo,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Sosso-nakombo,first projection,2023-09-01,2024-03-31,all,18449,1.0
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Sosso-nakombo,first projection,2023-09-01,2024-03-31,3+,8302,0.45
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Sosso-nakombo,first projection,2023-09-01,2024-03-31,1,4612,0.25
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Sosso-nakombo,first projection,2023-09-01,2024-03-31,2,5535,0.3
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Sosso-nakombo,first projection,2023-09-01,2024-03-31,3,6457,0.35
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Sosso-nakombo,first projection,2023-09-01,2024-03-31,4,1845,0.1
+Apr 2023,CAF,6091097,Mambéré-Kadéï,Sosso-nakombo,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Nana-Mambéré,Abba,current,2023-04-01,2023-08-31,all,31257,1.0
 Apr 2023,CAF,6091097,Nana-Mambéré,Abba,current,2023-04-01,2023-08-31,3+,12503,0.4
 Apr 2023,CAF,6091097,Nana-Mambéré,Abba,current,2023-04-01,2023-08-31,1,7814,0.25
@@ -315,13 +315,13 @@ Apr 2023,CAF,6091097,Nana-Mambéré,Abba,current,2023-04-01,2023-08-31,2,10940,0
 Apr 2023,CAF,6091097,Nana-Mambéré,Abba,current,2023-04-01,2023-08-31,3,9377,0.3
 Apr 2023,CAF,6091097,Nana-Mambéré,Abba,current,2023-04-01,2023-08-31,4,3126,0.1
 Apr 2023,CAF,6091097,Nana-Mambéré,Abba,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Nana-Mambéré,Abba,projected,2023-09-01,2024-03-31,all,31257,1.0
-Apr 2023,CAF,6091097,Nana-Mambéré,Abba,projected,2023-09-01,2024-03-31,3+,10940,0.35
-Apr 2023,CAF,6091097,Nana-Mambéré,Abba,projected,2023-09-01,2024-03-31,1,9377,0.3
-Apr 2023,CAF,6091097,Nana-Mambéré,Abba,projected,2023-09-01,2024-03-31,2,10940,0.35
-Apr 2023,CAF,6091097,Nana-Mambéré,Abba,projected,2023-09-01,2024-03-31,3,9377,0.3
-Apr 2023,CAF,6091097,Nana-Mambéré,Abba,projected,2023-09-01,2024-03-31,4,1563,0.05
-Apr 2023,CAF,6091097,Nana-Mambéré,Abba,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Nana-Mambéré,Abba,first projection,2023-09-01,2024-03-31,all,31257,1.0
+Apr 2023,CAF,6091097,Nana-Mambéré,Abba,first projection,2023-09-01,2024-03-31,3+,10940,0.35
+Apr 2023,CAF,6091097,Nana-Mambéré,Abba,first projection,2023-09-01,2024-03-31,1,9377,0.3
+Apr 2023,CAF,6091097,Nana-Mambéré,Abba,first projection,2023-09-01,2024-03-31,2,10940,0.35
+Apr 2023,CAF,6091097,Nana-Mambéré,Abba,first projection,2023-09-01,2024-03-31,3,9377,0.3
+Apr 2023,CAF,6091097,Nana-Mambéré,Abba,first projection,2023-09-01,2024-03-31,4,1563,0.05
+Apr 2023,CAF,6091097,Nana-Mambéré,Abba,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Nana-Mambéré,Baboua,current,2023-04-01,2023-08-31,all,77278,1.0
 Apr 2023,CAF,6091097,Nana-Mambéré,Baboua,current,2023-04-01,2023-08-31,3+,34775,0.45
 Apr 2023,CAF,6091097,Nana-Mambéré,Baboua,current,2023-04-01,2023-08-31,1,15456,0.2
@@ -329,13 +329,13 @@ Apr 2023,CAF,6091097,Nana-Mambéré,Baboua,current,2023-04-01,2023-08-31,2,27047
 Apr 2023,CAF,6091097,Nana-Mambéré,Baboua,current,2023-04-01,2023-08-31,3,23183,0.3
 Apr 2023,CAF,6091097,Nana-Mambéré,Baboua,current,2023-04-01,2023-08-31,4,11592,0.15
 Apr 2023,CAF,6091097,Nana-Mambéré,Baboua,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Nana-Mambéré,Baboua,projected,2023-09-01,2024-03-31,all,77278,1.0
-Apr 2023,CAF,6091097,Nana-Mambéré,Baboua,projected,2023-09-01,2024-03-31,3+,30911,0.4
-Apr 2023,CAF,6091097,Nana-Mambéré,Baboua,projected,2023-09-01,2024-03-31,1,19320,0.25
-Apr 2023,CAF,6091097,Nana-Mambéré,Baboua,projected,2023-09-01,2024-03-31,2,27047,0.35
-Apr 2023,CAF,6091097,Nana-Mambéré,Baboua,projected,2023-09-01,2024-03-31,3,23183,0.3
-Apr 2023,CAF,6091097,Nana-Mambéré,Baboua,projected,2023-09-01,2024-03-31,4,7728,0.1
-Apr 2023,CAF,6091097,Nana-Mambéré,Baboua,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Nana-Mambéré,Baboua,first projection,2023-09-01,2024-03-31,all,77278,1.0
+Apr 2023,CAF,6091097,Nana-Mambéré,Baboua,first projection,2023-09-01,2024-03-31,3+,30911,0.4
+Apr 2023,CAF,6091097,Nana-Mambéré,Baboua,first projection,2023-09-01,2024-03-31,1,19320,0.25
+Apr 2023,CAF,6091097,Nana-Mambéré,Baboua,first projection,2023-09-01,2024-03-31,2,27047,0.35
+Apr 2023,CAF,6091097,Nana-Mambéré,Baboua,first projection,2023-09-01,2024-03-31,3,23183,0.3
+Apr 2023,CAF,6091097,Nana-Mambéré,Baboua,first projection,2023-09-01,2024-03-31,4,7728,0.1
+Apr 2023,CAF,6091097,Nana-Mambéré,Baboua,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Nana-Mambéré,Baoro,current,2023-04-01,2023-08-31,all,58207,1.0
 Apr 2023,CAF,6091097,Nana-Mambéré,Baoro,current,2023-04-01,2023-08-31,3+,29103,0.5
 Apr 2023,CAF,6091097,Nana-Mambéré,Baoro,current,2023-04-01,2023-08-31,1,11641,0.2
@@ -343,13 +343,13 @@ Apr 2023,CAF,6091097,Nana-Mambéré,Baoro,current,2023-04-01,2023-08-31,2,17462,
 Apr 2023,CAF,6091097,Nana-Mambéré,Baoro,current,2023-04-01,2023-08-31,3,17462,0.3
 Apr 2023,CAF,6091097,Nana-Mambéré,Baoro,current,2023-04-01,2023-08-31,4,11641,0.2
 Apr 2023,CAF,6091097,Nana-Mambéré,Baoro,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Nana-Mambéré,Baoro,projected,2023-09-01,2024-03-31,all,58207,1.0
-Apr 2023,CAF,6091097,Nana-Mambéré,Baoro,projected,2023-09-01,2024-03-31,3+,26193,0.45
-Apr 2023,CAF,6091097,Nana-Mambéré,Baoro,projected,2023-09-01,2024-03-31,1,14552,0.25
-Apr 2023,CAF,6091097,Nana-Mambéré,Baoro,projected,2023-09-01,2024-03-31,2,17462,0.3
-Apr 2023,CAF,6091097,Nana-Mambéré,Baoro,projected,2023-09-01,2024-03-31,3,17462,0.3
-Apr 2023,CAF,6091097,Nana-Mambéré,Baoro,projected,2023-09-01,2024-03-31,4,8731,0.15
-Apr 2023,CAF,6091097,Nana-Mambéré,Baoro,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Nana-Mambéré,Baoro,first projection,2023-09-01,2024-03-31,all,58207,1.0
+Apr 2023,CAF,6091097,Nana-Mambéré,Baoro,first projection,2023-09-01,2024-03-31,3+,26193,0.45
+Apr 2023,CAF,6091097,Nana-Mambéré,Baoro,first projection,2023-09-01,2024-03-31,1,14552,0.25
+Apr 2023,CAF,6091097,Nana-Mambéré,Baoro,first projection,2023-09-01,2024-03-31,2,17462,0.3
+Apr 2023,CAF,6091097,Nana-Mambéré,Baoro,first projection,2023-09-01,2024-03-31,3,17462,0.3
+Apr 2023,CAF,6091097,Nana-Mambéré,Baoro,first projection,2023-09-01,2024-03-31,4,8731,0.15
+Apr 2023,CAF,6091097,Nana-Mambéré,Baoro,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Nana-Mambéré,Bouar,current,2023-04-01,2023-08-31,all,175054,1.0
 Apr 2023,CAF,6091097,Nana-Mambéré,Bouar,current,2023-04-01,2023-08-31,3+,78774,0.45
 Apr 2023,CAF,6091097,Nana-Mambéré,Bouar,current,2023-04-01,2023-08-31,1,35011,0.2
@@ -357,13 +357,13 @@ Apr 2023,CAF,6091097,Nana-Mambéré,Bouar,current,2023-04-01,2023-08-31,2,61269,
 Apr 2023,CAF,6091097,Nana-Mambéré,Bouar,current,2023-04-01,2023-08-31,3,52516,0.3
 Apr 2023,CAF,6091097,Nana-Mambéré,Bouar,current,2023-04-01,2023-08-31,4,26258,0.15
 Apr 2023,CAF,6091097,Nana-Mambéré,Bouar,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Nana-Mambéré,Bouar,projected,2023-09-01,2024-03-31,all,175054,1.0
-Apr 2023,CAF,6091097,Nana-Mambéré,Bouar,projected,2023-09-01,2024-03-31,3+,70022,0.4
-Apr 2023,CAF,6091097,Nana-Mambéré,Bouar,projected,2023-09-01,2024-03-31,1,43764,0.25
-Apr 2023,CAF,6091097,Nana-Mambéré,Bouar,projected,2023-09-01,2024-03-31,2,61269,0.35
-Apr 2023,CAF,6091097,Nana-Mambéré,Bouar,projected,2023-09-01,2024-03-31,3,52516,0.3
-Apr 2023,CAF,6091097,Nana-Mambéré,Bouar,projected,2023-09-01,2024-03-31,4,17505,0.1
-Apr 2023,CAF,6091097,Nana-Mambéré,Bouar,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Nana-Mambéré,Bouar,first projection,2023-09-01,2024-03-31,all,175054,1.0
+Apr 2023,CAF,6091097,Nana-Mambéré,Bouar,first projection,2023-09-01,2024-03-31,3+,70022,0.4
+Apr 2023,CAF,6091097,Nana-Mambéré,Bouar,first projection,2023-09-01,2024-03-31,1,43764,0.25
+Apr 2023,CAF,6091097,Nana-Mambéré,Bouar,first projection,2023-09-01,2024-03-31,2,61269,0.35
+Apr 2023,CAF,6091097,Nana-Mambéré,Bouar,first projection,2023-09-01,2024-03-31,3,52516,0.3
+Apr 2023,CAF,6091097,Nana-Mambéré,Bouar,first projection,2023-09-01,2024-03-31,4,17505,0.1
+Apr 2023,CAF,6091097,Nana-Mambéré,Bouar,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Sangha-Mbaéré,Bambio,current,2023-04-01,2023-08-31,all,24664,1.0
 Apr 2023,CAF,6091097,Sangha-Mbaéré,Bambio,current,2023-04-01,2023-08-31,3+,9865,0.4
 Apr 2023,CAF,6091097,Sangha-Mbaéré,Bambio,current,2023-04-01,2023-08-31,1,4933,0.2
@@ -371,13 +371,13 @@ Apr 2023,CAF,6091097,Sangha-Mbaéré,Bambio,current,2023-04-01,2023-08-31,2,9866
 Apr 2023,CAF,6091097,Sangha-Mbaéré,Bambio,current,2023-04-01,2023-08-31,3,7399,0.3
 Apr 2023,CAF,6091097,Sangha-Mbaéré,Bambio,current,2023-04-01,2023-08-31,4,2466,0.1
 Apr 2023,CAF,6091097,Sangha-Mbaéré,Bambio,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Sangha-Mbaéré,Bambio,projected,2023-09-01,2024-03-31,all,24664,1.0
-Apr 2023,CAF,6091097,Sangha-Mbaéré,Bambio,projected,2023-09-01,2024-03-31,3+,8632,0.35
-Apr 2023,CAF,6091097,Sangha-Mbaéré,Bambio,projected,2023-09-01,2024-03-31,1,6166,0.25
-Apr 2023,CAF,6091097,Sangha-Mbaéré,Bambio,projected,2023-09-01,2024-03-31,2,9866,0.4
-Apr 2023,CAF,6091097,Sangha-Mbaéré,Bambio,projected,2023-09-01,2024-03-31,3,7399,0.3
-Apr 2023,CAF,6091097,Sangha-Mbaéré,Bambio,projected,2023-09-01,2024-03-31,4,1233,0.05
-Apr 2023,CAF,6091097,Sangha-Mbaéré,Bambio,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Sangha-Mbaéré,Bambio,first projection,2023-09-01,2024-03-31,all,24664,1.0
+Apr 2023,CAF,6091097,Sangha-Mbaéré,Bambio,first projection,2023-09-01,2024-03-31,3+,8632,0.35
+Apr 2023,CAF,6091097,Sangha-Mbaéré,Bambio,first projection,2023-09-01,2024-03-31,1,6166,0.25
+Apr 2023,CAF,6091097,Sangha-Mbaéré,Bambio,first projection,2023-09-01,2024-03-31,2,9866,0.4
+Apr 2023,CAF,6091097,Sangha-Mbaéré,Bambio,first projection,2023-09-01,2024-03-31,3,7399,0.3
+Apr 2023,CAF,6091097,Sangha-Mbaéré,Bambio,first projection,2023-09-01,2024-03-31,4,1233,0.05
+Apr 2023,CAF,6091097,Sangha-Mbaéré,Bambio,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Sangha-Mbaéré,Bayanga,current,2023-04-01,2023-08-31,all,18556,1.0
 Apr 2023,CAF,6091097,Sangha-Mbaéré,Bayanga,current,2023-04-01,2023-08-31,3+,8351,0.45
 Apr 2023,CAF,6091097,Sangha-Mbaéré,Bayanga,current,2023-04-01,2023-08-31,1,3711,0.2
@@ -385,13 +385,13 @@ Apr 2023,CAF,6091097,Sangha-Mbaéré,Bayanga,current,2023-04-01,2023-08-31,2,649
 Apr 2023,CAF,6091097,Sangha-Mbaéré,Bayanga,current,2023-04-01,2023-08-31,3,6495,0.35
 Apr 2023,CAF,6091097,Sangha-Mbaéré,Bayanga,current,2023-04-01,2023-08-31,4,1856,0.1
 Apr 2023,CAF,6091097,Sangha-Mbaéré,Bayanga,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Sangha-Mbaéré,Bayanga,projected,2023-09-01,2024-03-31,all,18556,1.0
-Apr 2023,CAF,6091097,Sangha-Mbaéré,Bayanga,projected,2023-09-01,2024-03-31,3+,7422,0.4
-Apr 2023,CAF,6091097,Sangha-Mbaéré,Bayanga,projected,2023-09-01,2024-03-31,1,4639,0.25
-Apr 2023,CAF,6091097,Sangha-Mbaéré,Bayanga,projected,2023-09-01,2024-03-31,2,6495,0.35
-Apr 2023,CAF,6091097,Sangha-Mbaéré,Bayanga,projected,2023-09-01,2024-03-31,3,6495,0.35
-Apr 2023,CAF,6091097,Sangha-Mbaéré,Bayanga,projected,2023-09-01,2024-03-31,4,928,0.05
-Apr 2023,CAF,6091097,Sangha-Mbaéré,Bayanga,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Sangha-Mbaéré,Bayanga,first projection,2023-09-01,2024-03-31,all,18556,1.0
+Apr 2023,CAF,6091097,Sangha-Mbaéré,Bayanga,first projection,2023-09-01,2024-03-31,3+,7422,0.4
+Apr 2023,CAF,6091097,Sangha-Mbaéré,Bayanga,first projection,2023-09-01,2024-03-31,1,4639,0.25
+Apr 2023,CAF,6091097,Sangha-Mbaéré,Bayanga,first projection,2023-09-01,2024-03-31,2,6495,0.35
+Apr 2023,CAF,6091097,Sangha-Mbaéré,Bayanga,first projection,2023-09-01,2024-03-31,3,6495,0.35
+Apr 2023,CAF,6091097,Sangha-Mbaéré,Bayanga,first projection,2023-09-01,2024-03-31,4,928,0.05
+Apr 2023,CAF,6091097,Sangha-Mbaéré,Bayanga,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Sangha-Mbaéré,Nola,current,2023-04-01,2023-08-31,all,24416,1.0
 Apr 2023,CAF,6091097,Sangha-Mbaéré,Nola,current,2023-04-01,2023-08-31,3+,9767,0.4
 Apr 2023,CAF,6091097,Sangha-Mbaéré,Nola,current,2023-04-01,2023-08-31,1,6104,0.25
@@ -399,13 +399,13 @@ Apr 2023,CAF,6091097,Sangha-Mbaéré,Nola,current,2023-04-01,2023-08-31,2,8546,0
 Apr 2023,CAF,6091097,Sangha-Mbaéré,Nola,current,2023-04-01,2023-08-31,3,7325,0.3
 Apr 2023,CAF,6091097,Sangha-Mbaéré,Nola,current,2023-04-01,2023-08-31,4,2442,0.1
 Apr 2023,CAF,6091097,Sangha-Mbaéré,Nola,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Sangha-Mbaéré,Nola,projected,2023-09-01,2024-03-31,all,24416,1.0
-Apr 2023,CAF,6091097,Sangha-Mbaéré,Nola,projected,2023-09-01,2024-03-31,3+,9766,0.4
-Apr 2023,CAF,6091097,Sangha-Mbaéré,Nola,projected,2023-09-01,2024-03-31,1,6104,0.25
-Apr 2023,CAF,6091097,Sangha-Mbaéré,Nola,projected,2023-09-01,2024-03-31,2,8546,0.35
-Apr 2023,CAF,6091097,Sangha-Mbaéré,Nola,projected,2023-09-01,2024-03-31,3,7325,0.3
-Apr 2023,CAF,6091097,Sangha-Mbaéré,Nola,projected,2023-09-01,2024-03-31,4,2442,0.1
-Apr 2023,CAF,6091097,Sangha-Mbaéré,Nola,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Sangha-Mbaéré,Nola,first projection,2023-09-01,2024-03-31,all,24416,1.0
+Apr 2023,CAF,6091097,Sangha-Mbaéré,Nola,first projection,2023-09-01,2024-03-31,3+,9766,0.4
+Apr 2023,CAF,6091097,Sangha-Mbaéré,Nola,first projection,2023-09-01,2024-03-31,1,6104,0.25
+Apr 2023,CAF,6091097,Sangha-Mbaéré,Nola,first projection,2023-09-01,2024-03-31,2,8546,0.35
+Apr 2023,CAF,6091097,Sangha-Mbaéré,Nola,first projection,2023-09-01,2024-03-31,3,7325,0.3
+Apr 2023,CAF,6091097,Sangha-Mbaéré,Nola,first projection,2023-09-01,2024-03-31,4,2442,0.1
+Apr 2023,CAF,6091097,Sangha-Mbaéré,Nola,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Mbomou,Bangassou,current,2023-04-01,2023-08-31,all,111208,1.0
 Apr 2023,CAF,6091097,Mbomou,Bangassou,current,2023-04-01,2023-08-31,3+,55604,0.5
 Apr 2023,CAF,6091097,Mbomou,Bangassou,current,2023-04-01,2023-08-31,1,22242,0.2
@@ -413,13 +413,13 @@ Apr 2023,CAF,6091097,Mbomou,Bangassou,current,2023-04-01,2023-08-31,2,33362,0.3
 Apr 2023,CAF,6091097,Mbomou,Bangassou,current,2023-04-01,2023-08-31,3,44483,0.4
 Apr 2023,CAF,6091097,Mbomou,Bangassou,current,2023-04-01,2023-08-31,4,11121,0.1
 Apr 2023,CAF,6091097,Mbomou,Bangassou,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Mbomou,Bangassou,projected,2023-09-01,2024-03-31,all,111208,1.0
-Apr 2023,CAF,6091097,Mbomou,Bangassou,projected,2023-09-01,2024-03-31,3+,50044,0.45
-Apr 2023,CAF,6091097,Mbomou,Bangassou,projected,2023-09-01,2024-03-31,1,27802,0.25
-Apr 2023,CAF,6091097,Mbomou,Bangassou,projected,2023-09-01,2024-03-31,2,33362,0.3
-Apr 2023,CAF,6091097,Mbomou,Bangassou,projected,2023-09-01,2024-03-31,3,38923,0.35
-Apr 2023,CAF,6091097,Mbomou,Bangassou,projected,2023-09-01,2024-03-31,4,11121,0.1
-Apr 2023,CAF,6091097,Mbomou,Bangassou,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Mbomou,Bangassou,first projection,2023-09-01,2024-03-31,all,111208,1.0
+Apr 2023,CAF,6091097,Mbomou,Bangassou,first projection,2023-09-01,2024-03-31,3+,50044,0.45
+Apr 2023,CAF,6091097,Mbomou,Bangassou,first projection,2023-09-01,2024-03-31,1,27802,0.25
+Apr 2023,CAF,6091097,Mbomou,Bangassou,first projection,2023-09-01,2024-03-31,2,33362,0.3
+Apr 2023,CAF,6091097,Mbomou,Bangassou,first projection,2023-09-01,2024-03-31,3,38923,0.35
+Apr 2023,CAF,6091097,Mbomou,Bangassou,first projection,2023-09-01,2024-03-31,4,11121,0.1
+Apr 2023,CAF,6091097,Mbomou,Bangassou,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Mbomou,Gambo,current,2023-04-01,2023-08-31,all,33294,1.0
 Apr 2023,CAF,6091097,Mbomou,Gambo,current,2023-04-01,2023-08-31,3+,18311,0.55
 Apr 2023,CAF,6091097,Mbomou,Gambo,current,2023-04-01,2023-08-31,1,6659,0.2
@@ -427,13 +427,13 @@ Apr 2023,CAF,6091097,Mbomou,Gambo,current,2023-04-01,2023-08-31,2,8324,0.25
 Apr 2023,CAF,6091097,Mbomou,Gambo,current,2023-04-01,2023-08-31,3,14982,0.45
 Apr 2023,CAF,6091097,Mbomou,Gambo,current,2023-04-01,2023-08-31,4,3329,0.1
 Apr 2023,CAF,6091097,Mbomou,Gambo,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Mbomou,Gambo,projected,2023-09-01,2024-03-31,all,33294,1.0
-Apr 2023,CAF,6091097,Mbomou,Gambo,projected,2023-09-01,2024-03-31,3+,16647,0.5
-Apr 2023,CAF,6091097,Mbomou,Gambo,projected,2023-09-01,2024-03-31,1,6659,0.2
-Apr 2023,CAF,6091097,Mbomou,Gambo,projected,2023-09-01,2024-03-31,2,9988,0.3
-Apr 2023,CAF,6091097,Mbomou,Gambo,projected,2023-09-01,2024-03-31,3,13318,0.4
-Apr 2023,CAF,6091097,Mbomou,Gambo,projected,2023-09-01,2024-03-31,4,3329,0.1
-Apr 2023,CAF,6091097,Mbomou,Gambo,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Mbomou,Gambo,first projection,2023-09-01,2024-03-31,all,33294,1.0
+Apr 2023,CAF,6091097,Mbomou,Gambo,first projection,2023-09-01,2024-03-31,3+,16647,0.5
+Apr 2023,CAF,6091097,Mbomou,Gambo,first projection,2023-09-01,2024-03-31,1,6659,0.2
+Apr 2023,CAF,6091097,Mbomou,Gambo,first projection,2023-09-01,2024-03-31,2,9988,0.3
+Apr 2023,CAF,6091097,Mbomou,Gambo,first projection,2023-09-01,2024-03-31,3,13318,0.4
+Apr 2023,CAF,6091097,Mbomou,Gambo,first projection,2023-09-01,2024-03-31,4,3329,0.1
+Apr 2023,CAF,6091097,Mbomou,Gambo,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Mbomou,Rafai,current,2023-04-01,2023-08-31,all,21936,1.0
 Apr 2023,CAF,6091097,Mbomou,Rafai,current,2023-04-01,2023-08-31,3+,12064,0.55
 Apr 2023,CAF,6091097,Mbomou,Rafai,current,2023-04-01,2023-08-31,1,4387,0.2
@@ -441,13 +441,13 @@ Apr 2023,CAF,6091097,Mbomou,Rafai,current,2023-04-01,2023-08-31,2,5484,0.25
 Apr 2023,CAF,6091097,Mbomou,Rafai,current,2023-04-01,2023-08-31,3,8774,0.4
 Apr 2023,CAF,6091097,Mbomou,Rafai,current,2023-04-01,2023-08-31,4,3290,0.15
 Apr 2023,CAF,6091097,Mbomou,Rafai,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Mbomou,Rafai,projected,2023-09-01,2024-03-31,all,21936,1.0
-Apr 2023,CAF,6091097,Mbomou,Rafai,projected,2023-09-01,2024-03-31,3+,10968,0.5
-Apr 2023,CAF,6091097,Mbomou,Rafai,projected,2023-09-01,2024-03-31,1,4387,0.2
-Apr 2023,CAF,6091097,Mbomou,Rafai,projected,2023-09-01,2024-03-31,2,6581,0.3
-Apr 2023,CAF,6091097,Mbomou,Rafai,projected,2023-09-01,2024-03-31,3,8774,0.4
-Apr 2023,CAF,6091097,Mbomou,Rafai,projected,2023-09-01,2024-03-31,4,2194,0.1
-Apr 2023,CAF,6091097,Mbomou,Rafai,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Mbomou,Rafai,first projection,2023-09-01,2024-03-31,all,21936,1.0
+Apr 2023,CAF,6091097,Mbomou,Rafai,first projection,2023-09-01,2024-03-31,3+,10968,0.5
+Apr 2023,CAF,6091097,Mbomou,Rafai,first projection,2023-09-01,2024-03-31,1,4387,0.2
+Apr 2023,CAF,6091097,Mbomou,Rafai,first projection,2023-09-01,2024-03-31,2,6581,0.3
+Apr 2023,CAF,6091097,Mbomou,Rafai,first projection,2023-09-01,2024-03-31,3,8774,0.4
+Apr 2023,CAF,6091097,Mbomou,Rafai,first projection,2023-09-01,2024-03-31,4,2194,0.1
+Apr 2023,CAF,6091097,Mbomou,Rafai,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Mbomou,Bakouma,current,2023-04-01,2023-08-31,all,28703,1.0
 Apr 2023,CAF,6091097,Mbomou,Bakouma,current,2023-04-01,2023-08-31,3+,17221,0.6
 Apr 2023,CAF,6091097,Mbomou,Bakouma,current,2023-04-01,2023-08-31,1,4305,0.15
@@ -455,13 +455,13 @@ Apr 2023,CAF,6091097,Mbomou,Bakouma,current,2023-04-01,2023-08-31,2,7176,0.25
 Apr 2023,CAF,6091097,Mbomou,Bakouma,current,2023-04-01,2023-08-31,3,12916,0.45
 Apr 2023,CAF,6091097,Mbomou,Bakouma,current,2023-04-01,2023-08-31,4,4305,0.15
 Apr 2023,CAF,6091097,Mbomou,Bakouma,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Mbomou,Bakouma,projected,2023-09-01,2024-03-31,all,28703,1.0
-Apr 2023,CAF,6091097,Mbomou,Bakouma,projected,2023-09-01,2024-03-31,3+,14351,0.5
-Apr 2023,CAF,6091097,Mbomou,Bakouma,projected,2023-09-01,2024-03-31,1,5741,0.2
-Apr 2023,CAF,6091097,Mbomou,Bakouma,projected,2023-09-01,2024-03-31,2,8611,0.3
-Apr 2023,CAF,6091097,Mbomou,Bakouma,projected,2023-09-01,2024-03-31,3,11481,0.4
-Apr 2023,CAF,6091097,Mbomou,Bakouma,projected,2023-09-01,2024-03-31,4,2870,0.1
-Apr 2023,CAF,6091097,Mbomou,Bakouma,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Mbomou,Bakouma,first projection,2023-09-01,2024-03-31,all,28703,1.0
+Apr 2023,CAF,6091097,Mbomou,Bakouma,first projection,2023-09-01,2024-03-31,3+,14351,0.5
+Apr 2023,CAF,6091097,Mbomou,Bakouma,first projection,2023-09-01,2024-03-31,1,5741,0.2
+Apr 2023,CAF,6091097,Mbomou,Bakouma,first projection,2023-09-01,2024-03-31,2,8611,0.3
+Apr 2023,CAF,6091097,Mbomou,Bakouma,first projection,2023-09-01,2024-03-31,3,11481,0.4
+Apr 2023,CAF,6091097,Mbomou,Bakouma,first projection,2023-09-01,2024-03-31,4,2870,0.1
+Apr 2023,CAF,6091097,Mbomou,Bakouma,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Mbomou,Ouango,current,2023-04-01,2023-08-31,all,62662,1.0
 Apr 2023,CAF,6091097,Mbomou,Ouango,current,2023-04-01,2023-08-31,3+,34464,0.55
 Apr 2023,CAF,6091097,Mbomou,Ouango,current,2023-04-01,2023-08-31,1,12532,0.2
@@ -469,13 +469,13 @@ Apr 2023,CAF,6091097,Mbomou,Ouango,current,2023-04-01,2023-08-31,2,15666,0.25
 Apr 2023,CAF,6091097,Mbomou,Ouango,current,2023-04-01,2023-08-31,3,28198,0.45
 Apr 2023,CAF,6091097,Mbomou,Ouango,current,2023-04-01,2023-08-31,4,6266,0.1
 Apr 2023,CAF,6091097,Mbomou,Ouango,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Mbomou,Ouango,projected,2023-09-01,2024-03-31,all,62662,1.0
-Apr 2023,CAF,6091097,Mbomou,Ouango,projected,2023-09-01,2024-03-31,3+,31331,0.5
-Apr 2023,CAF,6091097,Mbomou,Ouango,projected,2023-09-01,2024-03-31,1,12532,0.2
-Apr 2023,CAF,6091097,Mbomou,Ouango,projected,2023-09-01,2024-03-31,2,18799,0.3
-Apr 2023,CAF,6091097,Mbomou,Ouango,projected,2023-09-01,2024-03-31,3,25065,0.4
-Apr 2023,CAF,6091097,Mbomou,Ouango,projected,2023-09-01,2024-03-31,4,6266,0.1
-Apr 2023,CAF,6091097,Mbomou,Ouango,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Mbomou,Ouango,first projection,2023-09-01,2024-03-31,all,62662,1.0
+Apr 2023,CAF,6091097,Mbomou,Ouango,first projection,2023-09-01,2024-03-31,3+,31331,0.5
+Apr 2023,CAF,6091097,Mbomou,Ouango,first projection,2023-09-01,2024-03-31,1,12532,0.2
+Apr 2023,CAF,6091097,Mbomou,Ouango,first projection,2023-09-01,2024-03-31,2,18799,0.3
+Apr 2023,CAF,6091097,Mbomou,Ouango,first projection,2023-09-01,2024-03-31,3,25065,0.4
+Apr 2023,CAF,6091097,Mbomou,Ouango,first projection,2023-09-01,2024-03-31,4,6266,0.1
+Apr 2023,CAF,6091097,Mbomou,Ouango,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Ouham,Batangafo,current,2023-04-01,2023-08-31,all,88407,1.0
 Apr 2023,CAF,6091097,Ouham,Batangafo,current,2023-04-01,2023-08-31,3+,44204,0.5
 Apr 2023,CAF,6091097,Ouham,Batangafo,current,2023-04-01,2023-08-31,1,17681,0.2
@@ -483,13 +483,13 @@ Apr 2023,CAF,6091097,Ouham,Batangafo,current,2023-04-01,2023-08-31,2,26522,0.3
 Apr 2023,CAF,6091097,Ouham,Batangafo,current,2023-04-01,2023-08-31,3,30942,0.35
 Apr 2023,CAF,6091097,Ouham,Batangafo,current,2023-04-01,2023-08-31,4,13261,0.15
 Apr 2023,CAF,6091097,Ouham,Batangafo,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Ouham,Batangafo,projected,2023-09-01,2024-03-31,all,88407,1.0
-Apr 2023,CAF,6091097,Ouham,Batangafo,projected,2023-09-01,2024-03-31,3+,39783,0.45
-Apr 2023,CAF,6091097,Ouham,Batangafo,projected,2023-09-01,2024-03-31,1,22102,0.25
-Apr 2023,CAF,6091097,Ouham,Batangafo,projected,2023-09-01,2024-03-31,2,26522,0.3
-Apr 2023,CAF,6091097,Ouham,Batangafo,projected,2023-09-01,2024-03-31,3,30942,0.35
-Apr 2023,CAF,6091097,Ouham,Batangafo,projected,2023-09-01,2024-03-31,4,8841,0.1
-Apr 2023,CAF,6091097,Ouham,Batangafo,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Ouham,Batangafo,first projection,2023-09-01,2024-03-31,all,88407,1.0
+Apr 2023,CAF,6091097,Ouham,Batangafo,first projection,2023-09-01,2024-03-31,3+,39783,0.45
+Apr 2023,CAF,6091097,Ouham,Batangafo,first projection,2023-09-01,2024-03-31,1,22102,0.25
+Apr 2023,CAF,6091097,Ouham,Batangafo,first projection,2023-09-01,2024-03-31,2,26522,0.3
+Apr 2023,CAF,6091097,Ouham,Batangafo,first projection,2023-09-01,2024-03-31,3,30942,0.35
+Apr 2023,CAF,6091097,Ouham,Batangafo,first projection,2023-09-01,2024-03-31,4,8841,0.1
+Apr 2023,CAF,6091097,Ouham,Batangafo,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Ouham,Bossangoa,current,2023-04-01,2023-08-31,all,167214,1.0
 Apr 2023,CAF,6091097,Ouham,Bossangoa,current,2023-04-01,2023-08-31,3+,75246,0.45
 Apr 2023,CAF,6091097,Ouham,Bossangoa,current,2023-04-01,2023-08-31,1,33443,0.2
@@ -497,13 +497,13 @@ Apr 2023,CAF,6091097,Ouham,Bossangoa,current,2023-04-01,2023-08-31,2,58525,0.35
 Apr 2023,CAF,6091097,Ouham,Bossangoa,current,2023-04-01,2023-08-31,3,50164,0.3
 Apr 2023,CAF,6091097,Ouham,Bossangoa,current,2023-04-01,2023-08-31,4,25082,0.15
 Apr 2023,CAF,6091097,Ouham,Bossangoa,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Ouham,Bossangoa,projected,2023-09-01,2024-03-31,all,167214,1.0
-Apr 2023,CAF,6091097,Ouham,Bossangoa,projected,2023-09-01,2024-03-31,3+,66885,0.4
-Apr 2023,CAF,6091097,Ouham,Bossangoa,projected,2023-09-01,2024-03-31,1,41804,0.25
-Apr 2023,CAF,6091097,Ouham,Bossangoa,projected,2023-09-01,2024-03-31,2,58525,0.35
-Apr 2023,CAF,6091097,Ouham,Bossangoa,projected,2023-09-01,2024-03-31,3,50164,0.3
-Apr 2023,CAF,6091097,Ouham,Bossangoa,projected,2023-09-01,2024-03-31,4,16721,0.1
-Apr 2023,CAF,6091097,Ouham,Bossangoa,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Ouham,Bossangoa,first projection,2023-09-01,2024-03-31,all,167214,1.0
+Apr 2023,CAF,6091097,Ouham,Bossangoa,first projection,2023-09-01,2024-03-31,3+,66885,0.4
+Apr 2023,CAF,6091097,Ouham,Bossangoa,first projection,2023-09-01,2024-03-31,1,41804,0.25
+Apr 2023,CAF,6091097,Ouham,Bossangoa,first projection,2023-09-01,2024-03-31,2,58525,0.35
+Apr 2023,CAF,6091097,Ouham,Bossangoa,first projection,2023-09-01,2024-03-31,3,50164,0.3
+Apr 2023,CAF,6091097,Ouham,Bossangoa,first projection,2023-09-01,2024-03-31,4,16721,0.1
+Apr 2023,CAF,6091097,Ouham,Bossangoa,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Ouham,Bouca,current,2023-04-01,2023-08-31,all,80531,1.0
 Apr 2023,CAF,6091097,Ouham,Bouca,current,2023-04-01,2023-08-31,3+,40265,0.5
 Apr 2023,CAF,6091097,Ouham,Bouca,current,2023-04-01,2023-08-31,1,12080,0.15
@@ -511,13 +511,13 @@ Apr 2023,CAF,6091097,Ouham,Bouca,current,2023-04-01,2023-08-31,2,28186,0.35
 Apr 2023,CAF,6091097,Ouham,Bouca,current,2023-04-01,2023-08-31,3,24159,0.3
 Apr 2023,CAF,6091097,Ouham,Bouca,current,2023-04-01,2023-08-31,4,16106,0.2
 Apr 2023,CAF,6091097,Ouham,Bouca,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Ouham,Bouca,projected,2023-09-01,2024-03-31,all,80531,1.0
-Apr 2023,CAF,6091097,Ouham,Bouca,projected,2023-09-01,2024-03-31,3+,36239,0.45
-Apr 2023,CAF,6091097,Ouham,Bouca,projected,2023-09-01,2024-03-31,1,16106,0.2
-Apr 2023,CAF,6091097,Ouham,Bouca,projected,2023-09-01,2024-03-31,2,28186,0.35
-Apr 2023,CAF,6091097,Ouham,Bouca,projected,2023-09-01,2024-03-31,3,24159,0.3
-Apr 2023,CAF,6091097,Ouham,Bouca,projected,2023-09-01,2024-03-31,4,12080,0.15
-Apr 2023,CAF,6091097,Ouham,Bouca,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Ouham,Bouca,first projection,2023-09-01,2024-03-31,all,80531,1.0
+Apr 2023,CAF,6091097,Ouham,Bouca,first projection,2023-09-01,2024-03-31,3+,36239,0.45
+Apr 2023,CAF,6091097,Ouham,Bouca,first projection,2023-09-01,2024-03-31,1,16106,0.2
+Apr 2023,CAF,6091097,Ouham,Bouca,first projection,2023-09-01,2024-03-31,2,28186,0.35
+Apr 2023,CAF,6091097,Ouham,Bouca,first projection,2023-09-01,2024-03-31,3,24159,0.3
+Apr 2023,CAF,6091097,Ouham,Bouca,first projection,2023-09-01,2024-03-31,4,12080,0.15
+Apr 2023,CAF,6091097,Ouham,Bouca,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Ouham,Markounda,current,2023-04-01,2023-08-31,all,37399,1.0
 Apr 2023,CAF,6091097,Ouham,Markounda,current,2023-04-01,2023-08-31,3+,20570,0.55
 Apr 2023,CAF,6091097,Ouham,Markounda,current,2023-04-01,2023-08-31,1,7480,0.2
@@ -525,13 +525,13 @@ Apr 2023,CAF,6091097,Ouham,Markounda,current,2023-04-01,2023-08-31,2,9350,0.25
 Apr 2023,CAF,6091097,Ouham,Markounda,current,2023-04-01,2023-08-31,3,13090,0.35
 Apr 2023,CAF,6091097,Ouham,Markounda,current,2023-04-01,2023-08-31,4,7480,0.2
 Apr 2023,CAF,6091097,Ouham,Markounda,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Ouham,Markounda,projected,2023-09-01,2024-03-31,all,37399,1.0
-Apr 2023,CAF,6091097,Ouham,Markounda,projected,2023-09-01,2024-03-31,3+,18700,0.5
-Apr 2023,CAF,6091097,Ouham,Markounda,projected,2023-09-01,2024-03-31,1,9350,0.25
-Apr 2023,CAF,6091097,Ouham,Markounda,projected,2023-09-01,2024-03-31,2,9350,0.25
-Apr 2023,CAF,6091097,Ouham,Markounda,projected,2023-09-01,2024-03-31,3,13090,0.35
-Apr 2023,CAF,6091097,Ouham,Markounda,projected,2023-09-01,2024-03-31,4,5610,0.15
-Apr 2023,CAF,6091097,Ouham,Markounda,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Ouham,Markounda,first projection,2023-09-01,2024-03-31,all,37399,1.0
+Apr 2023,CAF,6091097,Ouham,Markounda,first projection,2023-09-01,2024-03-31,3+,18700,0.5
+Apr 2023,CAF,6091097,Ouham,Markounda,first projection,2023-09-01,2024-03-31,1,9350,0.25
+Apr 2023,CAF,6091097,Ouham,Markounda,first projection,2023-09-01,2024-03-31,2,9350,0.25
+Apr 2023,CAF,6091097,Ouham,Markounda,first projection,2023-09-01,2024-03-31,3,13090,0.35
+Apr 2023,CAF,6091097,Ouham,Markounda,first projection,2023-09-01,2024-03-31,4,5610,0.15
+Apr 2023,CAF,6091097,Ouham,Markounda,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Ouham,Nana-bakassa,current,2023-04-01,2023-08-31,all,55642,1.0
 Apr 2023,CAF,6091097,Ouham,Nana-bakassa,current,2023-04-01,2023-08-31,3+,27821,0.5
 Apr 2023,CAF,6091097,Ouham,Nana-bakassa,current,2023-04-01,2023-08-31,1,8346,0.15
@@ -539,13 +539,13 @@ Apr 2023,CAF,6091097,Ouham,Nana-bakassa,current,2023-04-01,2023-08-31,2,19475,0.
 Apr 2023,CAF,6091097,Ouham,Nana-bakassa,current,2023-04-01,2023-08-31,3,16693,0.3
 Apr 2023,CAF,6091097,Ouham,Nana-bakassa,current,2023-04-01,2023-08-31,4,11128,0.2
 Apr 2023,CAF,6091097,Ouham,Nana-bakassa,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Ouham,Nana-bakassa,projected,2023-09-01,2024-03-31,all,55642,1.0
-Apr 2023,CAF,6091097,Ouham,Nana-bakassa,projected,2023-09-01,2024-03-31,3+,25039,0.45
-Apr 2023,CAF,6091097,Ouham,Nana-bakassa,projected,2023-09-01,2024-03-31,1,11128,0.2
-Apr 2023,CAF,6091097,Ouham,Nana-bakassa,projected,2023-09-01,2024-03-31,2,19475,0.35
-Apr 2023,CAF,6091097,Ouham,Nana-bakassa,projected,2023-09-01,2024-03-31,3,16693,0.3
-Apr 2023,CAF,6091097,Ouham,Nana-bakassa,projected,2023-09-01,2024-03-31,4,8346,0.15
-Apr 2023,CAF,6091097,Ouham,Nana-bakassa,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Ouham,Nana-bakassa,first projection,2023-09-01,2024-03-31,all,55642,1.0
+Apr 2023,CAF,6091097,Ouham,Nana-bakassa,first projection,2023-09-01,2024-03-31,3+,25039,0.45
+Apr 2023,CAF,6091097,Ouham,Nana-bakassa,first projection,2023-09-01,2024-03-31,1,11128,0.2
+Apr 2023,CAF,6091097,Ouham,Nana-bakassa,first projection,2023-09-01,2024-03-31,2,19475,0.35
+Apr 2023,CAF,6091097,Ouham,Nana-bakassa,first projection,2023-09-01,2024-03-31,3,16693,0.3
+Apr 2023,CAF,6091097,Ouham,Nana-bakassa,first projection,2023-09-01,2024-03-31,4,8346,0.15
+Apr 2023,CAF,6091097,Ouham,Nana-bakassa,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Ouham,Kabo,current,2023-04-01,2023-08-31,all,56541,1.0
 Apr 2023,CAF,6091097,Ouham,Kabo,current,2023-04-01,2023-08-31,3+,28271,0.5
 Apr 2023,CAF,6091097,Ouham,Kabo,current,2023-04-01,2023-08-31,1,11308,0.2
@@ -553,13 +553,13 @@ Apr 2023,CAF,6091097,Ouham,Kabo,current,2023-04-01,2023-08-31,2,16962,0.3
 Apr 2023,CAF,6091097,Ouham,Kabo,current,2023-04-01,2023-08-31,3,19789,0.35
 Apr 2023,CAF,6091097,Ouham,Kabo,current,2023-04-01,2023-08-31,4,8481,0.15
 Apr 2023,CAF,6091097,Ouham,Kabo,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Ouham,Kabo,projected,2023-09-01,2024-03-31,all,56541,1.0
-Apr 2023,CAF,6091097,Ouham,Kabo,projected,2023-09-01,2024-03-31,3+,25443,0.45
-Apr 2023,CAF,6091097,Ouham,Kabo,projected,2023-09-01,2024-03-31,1,14135,0.25
-Apr 2023,CAF,6091097,Ouham,Kabo,projected,2023-09-01,2024-03-31,2,16962,0.3
-Apr 2023,CAF,6091097,Ouham,Kabo,projected,2023-09-01,2024-03-31,3,19789,0.35
-Apr 2023,CAF,6091097,Ouham,Kabo,projected,2023-09-01,2024-03-31,4,5654,0.1
-Apr 2023,CAF,6091097,Ouham,Kabo,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Ouham,Kabo,first projection,2023-09-01,2024-03-31,all,56541,1.0
+Apr 2023,CAF,6091097,Ouham,Kabo,first projection,2023-09-01,2024-03-31,3+,25443,0.45
+Apr 2023,CAF,6091097,Ouham,Kabo,first projection,2023-09-01,2024-03-31,1,14135,0.25
+Apr 2023,CAF,6091097,Ouham,Kabo,first projection,2023-09-01,2024-03-31,2,16962,0.3
+Apr 2023,CAF,6091097,Ouham,Kabo,first projection,2023-09-01,2024-03-31,3,19789,0.35
+Apr 2023,CAF,6091097,Ouham,Kabo,first projection,2023-09-01,2024-03-31,4,5654,0.1
+Apr 2023,CAF,6091097,Ouham,Kabo,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Ouham,Nangha boguila,current,2023-04-01,2023-08-31,all,37649,1.0
 Apr 2023,CAF,6091097,Ouham,Nangha boguila,current,2023-04-01,2023-08-31,3+,20707,0.55
 Apr 2023,CAF,6091097,Ouham,Nangha boguila,current,2023-04-01,2023-08-31,1,7530,0.2
@@ -567,13 +567,13 @@ Apr 2023,CAF,6091097,Ouham,Nangha boguila,current,2023-04-01,2023-08-31,2,9412,0
 Apr 2023,CAF,6091097,Ouham,Nangha boguila,current,2023-04-01,2023-08-31,3,13177,0.35
 Apr 2023,CAF,6091097,Ouham,Nangha boguila,current,2023-04-01,2023-08-31,4,7530,0.2
 Apr 2023,CAF,6091097,Ouham,Nangha boguila,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Ouham,Nangha boguila,projected,2023-09-01,2024-03-31,all,37649,1.0
-Apr 2023,CAF,6091097,Ouham,Nangha boguila,projected,2023-09-01,2024-03-31,3+,18824,0.5
-Apr 2023,CAF,6091097,Ouham,Nangha boguila,projected,2023-09-01,2024-03-31,1,9412,0.25
-Apr 2023,CAF,6091097,Ouham,Nangha boguila,projected,2023-09-01,2024-03-31,2,9412,0.25
-Apr 2023,CAF,6091097,Ouham,Nangha boguila,projected,2023-09-01,2024-03-31,3,13177,0.35
-Apr 2023,CAF,6091097,Ouham,Nangha boguila,projected,2023-09-01,2024-03-31,4,5647,0.15
-Apr 2023,CAF,6091097,Ouham,Nangha boguila,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Ouham,Nangha boguila,first projection,2023-09-01,2024-03-31,all,37649,1.0
+Apr 2023,CAF,6091097,Ouham,Nangha boguila,first projection,2023-09-01,2024-03-31,3+,18824,0.5
+Apr 2023,CAF,6091097,Ouham,Nangha boguila,first projection,2023-09-01,2024-03-31,1,9412,0.25
+Apr 2023,CAF,6091097,Ouham,Nangha boguila,first projection,2023-09-01,2024-03-31,2,9412,0.25
+Apr 2023,CAF,6091097,Ouham,Nangha boguila,first projection,2023-09-01,2024-03-31,3,13177,0.35
+Apr 2023,CAF,6091097,Ouham,Nangha boguila,first projection,2023-09-01,2024-03-31,4,5647,0.15
+Apr 2023,CAF,6091097,Ouham,Nangha boguila,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Vakaga,Birao,current,2023-04-01,2023-08-31,all,76267,1.0
 Apr 2023,CAF,6091097,Vakaga,Birao,current,2023-04-01,2023-08-31,3+,30507,0.4
 Apr 2023,CAF,6091097,Vakaga,Birao,current,2023-04-01,2023-08-31,1,15253,0.2
@@ -581,13 +581,13 @@ Apr 2023,CAF,6091097,Vakaga,Birao,current,2023-04-01,2023-08-31,2,30507,0.4
 Apr 2023,CAF,6091097,Vakaga,Birao,current,2023-04-01,2023-08-31,3,22880,0.3
 Apr 2023,CAF,6091097,Vakaga,Birao,current,2023-04-01,2023-08-31,4,7627,0.1
 Apr 2023,CAF,6091097,Vakaga,Birao,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Vakaga,Birao,projected,2023-09-01,2024-03-31,all,76267,1.0
-Apr 2023,CAF,6091097,Vakaga,Birao,projected,2023-09-01,2024-03-31,3+,38133,0.5
-Apr 2023,CAF,6091097,Vakaga,Birao,projected,2023-09-01,2024-03-31,1,11440,0.15
-Apr 2023,CAF,6091097,Vakaga,Birao,projected,2023-09-01,2024-03-31,2,26693,0.35
-Apr 2023,CAF,6091097,Vakaga,Birao,projected,2023-09-01,2024-03-31,3,22880,0.3
-Apr 2023,CAF,6091097,Vakaga,Birao,projected,2023-09-01,2024-03-31,4,15253,0.2
-Apr 2023,CAF,6091097,Vakaga,Birao,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Vakaga,Birao,first projection,2023-09-01,2024-03-31,all,76267,1.0
+Apr 2023,CAF,6091097,Vakaga,Birao,first projection,2023-09-01,2024-03-31,3+,38133,0.5
+Apr 2023,CAF,6091097,Vakaga,Birao,first projection,2023-09-01,2024-03-31,1,11440,0.15
+Apr 2023,CAF,6091097,Vakaga,Birao,first projection,2023-09-01,2024-03-31,2,26693,0.35
+Apr 2023,CAF,6091097,Vakaga,Birao,first projection,2023-09-01,2024-03-31,3,22880,0.3
+Apr 2023,CAF,6091097,Vakaga,Birao,first projection,2023-09-01,2024-03-31,4,15253,0.2
+Apr 2023,CAF,6091097,Vakaga,Birao,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Vakaga,Ouanda-djallé,current,2023-04-01,2023-08-31,all,6921,1.0
 Apr 2023,CAF,6091097,Vakaga,Ouanda-djallé,current,2023-04-01,2023-08-31,3+,3114,0.45
 Apr 2023,CAF,6091097,Vakaga,Ouanda-djallé,current,2023-04-01,2023-08-31,1,1384,0.2
@@ -595,13 +595,13 @@ Apr 2023,CAF,6091097,Vakaga,Ouanda-djallé,current,2023-04-01,2023-08-31,2,2422,
 Apr 2023,CAF,6091097,Vakaga,Ouanda-djallé,current,2023-04-01,2023-08-31,3,2422,0.35
 Apr 2023,CAF,6091097,Vakaga,Ouanda-djallé,current,2023-04-01,2023-08-31,4,692,0.1
 Apr 2023,CAF,6091097,Vakaga,Ouanda-djallé,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Vakaga,Ouanda-djallé,projected,2023-09-01,2024-03-31,all,6921,1.0
-Apr 2023,CAF,6091097,Vakaga,Ouanda-djallé,projected,2023-09-01,2024-03-31,3+,2768,0.4
-Apr 2023,CAF,6091097,Vakaga,Ouanda-djallé,projected,2023-09-01,2024-03-31,1,1730,0.25
-Apr 2023,CAF,6091097,Vakaga,Ouanda-djallé,projected,2023-09-01,2024-03-31,2,2422,0.35
-Apr 2023,CAF,6091097,Vakaga,Ouanda-djallé,projected,2023-09-01,2024-03-31,3,2422,0.35
-Apr 2023,CAF,6091097,Vakaga,Ouanda-djallé,projected,2023-09-01,2024-03-31,4,346,0.05
-Apr 2023,CAF,6091097,Vakaga,Ouanda-djallé,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Vakaga,Ouanda-djallé,first projection,2023-09-01,2024-03-31,all,6921,1.0
+Apr 2023,CAF,6091097,Vakaga,Ouanda-djallé,first projection,2023-09-01,2024-03-31,3+,2768,0.4
+Apr 2023,CAF,6091097,Vakaga,Ouanda-djallé,first projection,2023-09-01,2024-03-31,1,1730,0.25
+Apr 2023,CAF,6091097,Vakaga,Ouanda-djallé,first projection,2023-09-01,2024-03-31,2,2422,0.35
+Apr 2023,CAF,6091097,Vakaga,Ouanda-djallé,first projection,2023-09-01,2024-03-31,3,2422,0.35
+Apr 2023,CAF,6091097,Vakaga,Ouanda-djallé,first projection,2023-09-01,2024-03-31,4,346,0.05
+Apr 2023,CAF,6091097,Vakaga,Ouanda-djallé,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Haute-Kotto,Bria,current,2023-04-01,2023-08-31,all,102356,1.0
 Apr 2023,CAF,6091097,Haute-Kotto,Bria,current,2023-04-01,2023-08-31,3+,46060,0.45
 Apr 2023,CAF,6091097,Haute-Kotto,Bria,current,2023-04-01,2023-08-31,1,20471,0.2
@@ -609,13 +609,13 @@ Apr 2023,CAF,6091097,Haute-Kotto,Bria,current,2023-04-01,2023-08-31,2,35825,0.35
 Apr 2023,CAF,6091097,Haute-Kotto,Bria,current,2023-04-01,2023-08-31,3,25589,0.25
 Apr 2023,CAF,6091097,Haute-Kotto,Bria,current,2023-04-01,2023-08-31,4,20471,0.2
 Apr 2023,CAF,6091097,Haute-Kotto,Bria,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Haute-Kotto,Bria,projected,2023-09-01,2024-03-31,all,102356,1.0
-Apr 2023,CAF,6091097,Haute-Kotto,Bria,projected,2023-09-01,2024-03-31,3+,40942,0.4
-Apr 2023,CAF,6091097,Haute-Kotto,Bria,projected,2023-09-01,2024-03-31,1,25589,0.25
-Apr 2023,CAF,6091097,Haute-Kotto,Bria,projected,2023-09-01,2024-03-31,2,35825,0.35
-Apr 2023,CAF,6091097,Haute-Kotto,Bria,projected,2023-09-01,2024-03-31,3,25589,0.25
-Apr 2023,CAF,6091097,Haute-Kotto,Bria,projected,2023-09-01,2024-03-31,4,15353,0.15
-Apr 2023,CAF,6091097,Haute-Kotto,Bria,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Haute-Kotto,Bria,first projection,2023-09-01,2024-03-31,all,102356,1.0
+Apr 2023,CAF,6091097,Haute-Kotto,Bria,first projection,2023-09-01,2024-03-31,3+,40942,0.4
+Apr 2023,CAF,6091097,Haute-Kotto,Bria,first projection,2023-09-01,2024-03-31,1,25589,0.25
+Apr 2023,CAF,6091097,Haute-Kotto,Bria,first projection,2023-09-01,2024-03-31,2,35825,0.35
+Apr 2023,CAF,6091097,Haute-Kotto,Bria,first projection,2023-09-01,2024-03-31,3,25589,0.25
+Apr 2023,CAF,6091097,Haute-Kotto,Bria,first projection,2023-09-01,2024-03-31,4,15353,0.15
+Apr 2023,CAF,6091097,Haute-Kotto,Bria,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Haute-Kotto,Yalinga,current,2023-04-01,2023-08-31,all,4562,1.0
 Apr 2023,CAF,6091097,Haute-Kotto,Yalinga,current,2023-04-01,2023-08-31,3+,2053,0.45
 Apr 2023,CAF,6091097,Haute-Kotto,Yalinga,current,2023-04-01,2023-08-31,1,1141,0.25
@@ -623,13 +623,13 @@ Apr 2023,CAF,6091097,Haute-Kotto,Yalinga,current,2023-04-01,2023-08-31,2,1369,0.
 Apr 2023,CAF,6091097,Haute-Kotto,Yalinga,current,2023-04-01,2023-08-31,3,1369,0.3
 Apr 2023,CAF,6091097,Haute-Kotto,Yalinga,current,2023-04-01,2023-08-31,4,684,0.15
 Apr 2023,CAF,6091097,Haute-Kotto,Yalinga,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Haute-Kotto,Yalinga,projected,2023-09-01,2024-03-31,all,4562,1.0
-Apr 2023,CAF,6091097,Haute-Kotto,Yalinga,projected,2023-09-01,2024-03-31,3+,2053,0.45
-Apr 2023,CAF,6091097,Haute-Kotto,Yalinga,projected,2023-09-01,2024-03-31,1,1141,0.25
-Apr 2023,CAF,6091097,Haute-Kotto,Yalinga,projected,2023-09-01,2024-03-31,2,1369,0.3
-Apr 2023,CAF,6091097,Haute-Kotto,Yalinga,projected,2023-09-01,2024-03-31,3,1369,0.3
-Apr 2023,CAF,6091097,Haute-Kotto,Yalinga,projected,2023-09-01,2024-03-31,4,684,0.15
-Apr 2023,CAF,6091097,Haute-Kotto,Yalinga,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Haute-Kotto,Yalinga,first projection,2023-09-01,2024-03-31,all,4562,1.0
+Apr 2023,CAF,6091097,Haute-Kotto,Yalinga,first projection,2023-09-01,2024-03-31,3+,2053,0.45
+Apr 2023,CAF,6091097,Haute-Kotto,Yalinga,first projection,2023-09-01,2024-03-31,1,1141,0.25
+Apr 2023,CAF,6091097,Haute-Kotto,Yalinga,first projection,2023-09-01,2024-03-31,2,1369,0.3
+Apr 2023,CAF,6091097,Haute-Kotto,Yalinga,first projection,2023-09-01,2024-03-31,3,1369,0.3
+Apr 2023,CAF,6091097,Haute-Kotto,Yalinga,first projection,2023-09-01,2024-03-31,4,684,0.15
+Apr 2023,CAF,6091097,Haute-Kotto,Yalinga,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Haute-Kotto,Ouadda,current,2023-04-01,2023-08-31,all,21424,1.0
 Apr 2023,CAF,6091097,Haute-Kotto,Ouadda,current,2023-04-01,2023-08-31,3+,10712,0.5
 Apr 2023,CAF,6091097,Haute-Kotto,Ouadda,current,2023-04-01,2023-08-31,1,4285,0.2
@@ -637,13 +637,13 @@ Apr 2023,CAF,6091097,Haute-Kotto,Ouadda,current,2023-04-01,2023-08-31,2,6427,0.3
 Apr 2023,CAF,6091097,Haute-Kotto,Ouadda,current,2023-04-01,2023-08-31,3,6427,0.3
 Apr 2023,CAF,6091097,Haute-Kotto,Ouadda,current,2023-04-01,2023-08-31,4,4285,0.2
 Apr 2023,CAF,6091097,Haute-Kotto,Ouadda,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Haute-Kotto,Ouadda,projected,2023-09-01,2024-03-31,all,21424,1.0
-Apr 2023,CAF,6091097,Haute-Kotto,Ouadda,projected,2023-09-01,2024-03-31,3+,9641,0.45
-Apr 2023,CAF,6091097,Haute-Kotto,Ouadda,projected,2023-09-01,2024-03-31,1,5356,0.25
-Apr 2023,CAF,6091097,Haute-Kotto,Ouadda,projected,2023-09-01,2024-03-31,2,6427,0.3
-Apr 2023,CAF,6091097,Haute-Kotto,Ouadda,projected,2023-09-01,2024-03-31,3,6427,0.3
-Apr 2023,CAF,6091097,Haute-Kotto,Ouadda,projected,2023-09-01,2024-03-31,4,3214,0.15
-Apr 2023,CAF,6091097,Haute-Kotto,Ouadda,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Haute-Kotto,Ouadda,first projection,2023-09-01,2024-03-31,all,21424,1.0
+Apr 2023,CAF,6091097,Haute-Kotto,Ouadda,first projection,2023-09-01,2024-03-31,3+,9641,0.45
+Apr 2023,CAF,6091097,Haute-Kotto,Ouadda,first projection,2023-09-01,2024-03-31,1,5356,0.25
+Apr 2023,CAF,6091097,Haute-Kotto,Ouadda,first projection,2023-09-01,2024-03-31,2,6427,0.3
+Apr 2023,CAF,6091097,Haute-Kotto,Ouadda,first projection,2023-09-01,2024-03-31,3,6427,0.3
+Apr 2023,CAF,6091097,Haute-Kotto,Ouadda,first projection,2023-09-01,2024-03-31,4,3214,0.15
+Apr 2023,CAF,6091097,Haute-Kotto,Ouadda,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Lobaye,Boganangone,current,2023-04-01,2023-08-31,all,39115,1.0
 Apr 2023,CAF,6091097,Lobaye,Boganangone,current,2023-04-01,2023-08-31,3+,13691,0.35
 Apr 2023,CAF,6091097,Lobaye,Boganangone,current,2023-04-01,2023-08-31,1,11735,0.3
@@ -651,13 +651,13 @@ Apr 2023,CAF,6091097,Lobaye,Boganangone,current,2023-04-01,2023-08-31,2,13690,0.
 Apr 2023,CAF,6091097,Lobaye,Boganangone,current,2023-04-01,2023-08-31,3,11735,0.3
 Apr 2023,CAF,6091097,Lobaye,Boganangone,current,2023-04-01,2023-08-31,4,1956,0.05
 Apr 2023,CAF,6091097,Lobaye,Boganangone,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Lobaye,Boganangone,projected,2023-09-01,2024-03-31,all,39115,1.0
-Apr 2023,CAF,6091097,Lobaye,Boganangone,projected,2023-09-01,2024-03-31,3+,25425,0.65
-Apr 2023,CAF,6091097,Lobaye,Boganangone,projected,2023-09-01,2024-03-31,1,13690,0.35
-Apr 2023,CAF,6091097,Lobaye,Boganangone,projected,2023-09-01,2024-03-31,2,19558,0.5
-Apr 2023,CAF,6091097,Lobaye,Boganangone,projected,2023-09-01,2024-03-31,3,5867,0.15
-Apr 2023,CAF,6091097,Lobaye,Boganangone,projected,2023-09-01,2024-03-31,4,0,0
-Apr 2023,CAF,6091097,Lobaye,Boganangone,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Lobaye,Boganangone,first projection,2023-09-01,2024-03-31,all,39115,1.0
+Apr 2023,CAF,6091097,Lobaye,Boganangone,first projection,2023-09-01,2024-03-31,3+,25425,0.65
+Apr 2023,CAF,6091097,Lobaye,Boganangone,first projection,2023-09-01,2024-03-31,1,13690,0.35
+Apr 2023,CAF,6091097,Lobaye,Boganangone,first projection,2023-09-01,2024-03-31,2,19558,0.5
+Apr 2023,CAF,6091097,Lobaye,Boganangone,first projection,2023-09-01,2024-03-31,3,5867,0.15
+Apr 2023,CAF,6091097,Lobaye,Boganangone,first projection,2023-09-01,2024-03-31,4,0,0
+Apr 2023,CAF,6091097,Lobaye,Boganangone,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Lobaye,Boda,current,2023-04-01,2023-08-31,all,64013,1.0
 Apr 2023,CAF,6091097,Lobaye,Boda,current,2023-04-01,2023-08-31,3+,28806,0.45
 Apr 2023,CAF,6091097,Lobaye,Boda,current,2023-04-01,2023-08-31,1,16003,0.25
@@ -665,13 +665,13 @@ Apr 2023,CAF,6091097,Lobaye,Boda,current,2023-04-01,2023-08-31,2,19204,0.3
 Apr 2023,CAF,6091097,Lobaye,Boda,current,2023-04-01,2023-08-31,3,22405,0.35
 Apr 2023,CAF,6091097,Lobaye,Boda,current,2023-04-01,2023-08-31,4,6401,0.1
 Apr 2023,CAF,6091097,Lobaye,Boda,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Lobaye,Boda,projected,2023-09-01,2024-03-31,all,64013,1.0
-Apr 2023,CAF,6091097,Lobaye,Boda,projected,2023-09-01,2024-03-31,3+,25605,0.4
-Apr 2023,CAF,6091097,Lobaye,Boda,projected,2023-09-01,2024-03-31,1,16003,0.25
-Apr 2023,CAF,6091097,Lobaye,Boda,projected,2023-09-01,2024-03-31,2,22405,0.35
-Apr 2023,CAF,6091097,Lobaye,Boda,projected,2023-09-01,2024-03-31,3,22405,0.35
-Apr 2023,CAF,6091097,Lobaye,Boda,projected,2023-09-01,2024-03-31,4,3201,0.05
-Apr 2023,CAF,6091097,Lobaye,Boda,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Lobaye,Boda,first projection,2023-09-01,2024-03-31,all,64013,1.0
+Apr 2023,CAF,6091097,Lobaye,Boda,first projection,2023-09-01,2024-03-31,3+,25605,0.4
+Apr 2023,CAF,6091097,Lobaye,Boda,first projection,2023-09-01,2024-03-31,1,16003,0.25
+Apr 2023,CAF,6091097,Lobaye,Boda,first projection,2023-09-01,2024-03-31,2,22405,0.35
+Apr 2023,CAF,6091097,Lobaye,Boda,first projection,2023-09-01,2024-03-31,3,22405,0.35
+Apr 2023,CAF,6091097,Lobaye,Boda,first projection,2023-09-01,2024-03-31,4,3201,0.05
+Apr 2023,CAF,6091097,Lobaye,Boda,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Lobaye,Boganda,current,2023-04-01,2023-08-31,all,19823,1.0
 Apr 2023,CAF,6091097,Lobaye,Boganda,current,2023-04-01,2023-08-31,3+,6938,0.35
 Apr 2023,CAF,6091097,Lobaye,Boganda,current,2023-04-01,2023-08-31,1,5947,0.3
@@ -679,13 +679,13 @@ Apr 2023,CAF,6091097,Lobaye,Boganda,current,2023-04-01,2023-08-31,2,6938,0.35
 Apr 2023,CAF,6091097,Lobaye,Boganda,current,2023-04-01,2023-08-31,3,5947,0.3
 Apr 2023,CAF,6091097,Lobaye,Boganda,current,2023-04-01,2023-08-31,4,991,0.05
 Apr 2023,CAF,6091097,Lobaye,Boganda,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Lobaye,Boganda,projected,2023-09-01,2024-03-31,all,19823,1.0
-Apr 2023,CAF,6091097,Lobaye,Boganda,projected,2023-09-01,2024-03-31,3+,11894,0.6
-Apr 2023,CAF,6091097,Lobaye,Boganda,projected,2023-09-01,2024-03-31,1,7929,0.4
-Apr 2023,CAF,6091097,Lobaye,Boganda,projected,2023-09-01,2024-03-31,2,8920,0.45
-Apr 2023,CAF,6091097,Lobaye,Boganda,projected,2023-09-01,2024-03-31,3,2973,0.15
-Apr 2023,CAF,6091097,Lobaye,Boganda,projected,2023-09-01,2024-03-31,4,0,0
-Apr 2023,CAF,6091097,Lobaye,Boganda,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Lobaye,Boganda,first projection,2023-09-01,2024-03-31,all,19823,1.0
+Apr 2023,CAF,6091097,Lobaye,Boganda,first projection,2023-09-01,2024-03-31,3+,11894,0.6
+Apr 2023,CAF,6091097,Lobaye,Boganda,first projection,2023-09-01,2024-03-31,1,7929,0.4
+Apr 2023,CAF,6091097,Lobaye,Boganda,first projection,2023-09-01,2024-03-31,2,8920,0.45
+Apr 2023,CAF,6091097,Lobaye,Boganda,first projection,2023-09-01,2024-03-31,3,2973,0.15
+Apr 2023,CAF,6091097,Lobaye,Boganda,first projection,2023-09-01,2024-03-31,4,0,0
+Apr 2023,CAF,6091097,Lobaye,Boganda,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Lobaye,Mbaïki,current,2023-04-01,2023-08-31,all,259397,1.0
 Apr 2023,CAF,6091097,Lobaye,Mbaïki,current,2023-04-01,2023-08-31,3+,116729,0.45
 Apr 2023,CAF,6091097,Lobaye,Mbaïki,current,2023-04-01,2023-08-31,1,64849,0.25
@@ -693,13 +693,13 @@ Apr 2023,CAF,6091097,Lobaye,Mbaïki,current,2023-04-01,2023-08-31,2,77819,0.3
 Apr 2023,CAF,6091097,Lobaye,Mbaïki,current,2023-04-01,2023-08-31,3,77819,0.3
 Apr 2023,CAF,6091097,Lobaye,Mbaïki,current,2023-04-01,2023-08-31,4,38910,0.15
 Apr 2023,CAF,6091097,Lobaye,Mbaïki,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Lobaye,Mbaïki,projected,2023-09-01,2024-03-31,all,259397,1.0
-Apr 2023,CAF,6091097,Lobaye,Mbaïki,projected,2023-09-01,2024-03-31,3+,103759,0.4
-Apr 2023,CAF,6091097,Lobaye,Mbaïki,projected,2023-09-01,2024-03-31,1,77819,0.3
-Apr 2023,CAF,6091097,Lobaye,Mbaïki,projected,2023-09-01,2024-03-31,2,77819,0.3
-Apr 2023,CAF,6091097,Lobaye,Mbaïki,projected,2023-09-01,2024-03-31,3,90789,0.35
-Apr 2023,CAF,6091097,Lobaye,Mbaïki,projected,2023-09-01,2024-03-31,4,12970,0.05
-Apr 2023,CAF,6091097,Lobaye,Mbaïki,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Lobaye,Mbaïki,first projection,2023-09-01,2024-03-31,all,259397,1.0
+Apr 2023,CAF,6091097,Lobaye,Mbaïki,first projection,2023-09-01,2024-03-31,3+,103759,0.4
+Apr 2023,CAF,6091097,Lobaye,Mbaïki,first projection,2023-09-01,2024-03-31,1,77819,0.3
+Apr 2023,CAF,6091097,Lobaye,Mbaïki,first projection,2023-09-01,2024-03-31,2,77819,0.3
+Apr 2023,CAF,6091097,Lobaye,Mbaïki,first projection,2023-09-01,2024-03-31,3,90789,0.35
+Apr 2023,CAF,6091097,Lobaye,Mbaïki,first projection,2023-09-01,2024-03-31,4,12970,0.05
+Apr 2023,CAF,6091097,Lobaye,Mbaïki,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Lobaye,Mongoumba,current,2023-04-01,2023-08-31,all,33894,1.0
 Apr 2023,CAF,6091097,Lobaye,Mongoumba,current,2023-04-01,2023-08-31,3+,13557,0.4
 Apr 2023,CAF,6091097,Lobaye,Mongoumba,current,2023-04-01,2023-08-31,1,8474,0.25
@@ -707,13 +707,13 @@ Apr 2023,CAF,6091097,Lobaye,Mongoumba,current,2023-04-01,2023-08-31,2,11863,0.35
 Apr 2023,CAF,6091097,Lobaye,Mongoumba,current,2023-04-01,2023-08-31,3,10168,0.3
 Apr 2023,CAF,6091097,Lobaye,Mongoumba,current,2023-04-01,2023-08-31,4,3389,0.1
 Apr 2023,CAF,6091097,Lobaye,Mongoumba,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Lobaye,Mongoumba,projected,2023-09-01,2024-03-31,all,33894,1.0
-Apr 2023,CAF,6091097,Lobaye,Mongoumba,projected,2023-09-01,2024-03-31,3+,11863,0.35
-Apr 2023,CAF,6091097,Lobaye,Mongoumba,projected,2023-09-01,2024-03-31,1,10168,0.3
-Apr 2023,CAF,6091097,Lobaye,Mongoumba,projected,2023-09-01,2024-03-31,2,11863,0.35
-Apr 2023,CAF,6091097,Lobaye,Mongoumba,projected,2023-09-01,2024-03-31,3,10168,0.3
-Apr 2023,CAF,6091097,Lobaye,Mongoumba,projected,2023-09-01,2024-03-31,4,1695,0.05
-Apr 2023,CAF,6091097,Lobaye,Mongoumba,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Lobaye,Mongoumba,first projection,2023-09-01,2024-03-31,all,33894,1.0
+Apr 2023,CAF,6091097,Lobaye,Mongoumba,first projection,2023-09-01,2024-03-31,3+,11863,0.35
+Apr 2023,CAF,6091097,Lobaye,Mongoumba,first projection,2023-09-01,2024-03-31,1,10168,0.3
+Apr 2023,CAF,6091097,Lobaye,Mongoumba,first projection,2023-09-01,2024-03-31,2,11863,0.35
+Apr 2023,CAF,6091097,Lobaye,Mongoumba,first projection,2023-09-01,2024-03-31,3,10168,0.3
+Apr 2023,CAF,6091097,Lobaye,Mongoumba,first projection,2023-09-01,2024-03-31,4,1695,0.05
+Apr 2023,CAF,6091097,Lobaye,Mongoumba,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Ouham Pendé,Bossemtélé,current,2023-04-01,2023-08-31,all,24328,1.0
 Apr 2023,CAF,6091097,Ouham Pendé,Bossemtélé,current,2023-04-01,2023-08-31,3+,9731,0.4
 Apr 2023,CAF,6091097,Ouham Pendé,Bossemtélé,current,2023-04-01,2023-08-31,1,4866,0.2
@@ -721,13 +721,13 @@ Apr 2023,CAF,6091097,Ouham Pendé,Bossemtélé,current,2023-04-01,2023-08-31,2,9
 Apr 2023,CAF,6091097,Ouham Pendé,Bossemtélé,current,2023-04-01,2023-08-31,3,7298,0.3
 Apr 2023,CAF,6091097,Ouham Pendé,Bossemtélé,current,2023-04-01,2023-08-31,4,2433,0.1
 Apr 2023,CAF,6091097,Ouham Pendé,Bossemtélé,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Ouham Pendé,Bossemtélé,projected,2023-09-01,2024-03-31,all,24328,1.0
-Apr 2023,CAF,6091097,Ouham Pendé,Bossemtélé,projected,2023-09-01,2024-03-31,3+,7298,0.3
-Apr 2023,CAF,6091097,Ouham Pendé,Bossemtélé,projected,2023-09-01,2024-03-31,1,7298,0.3
-Apr 2023,CAF,6091097,Ouham Pendé,Bossemtélé,projected,2023-09-01,2024-03-31,2,9731,0.4
-Apr 2023,CAF,6091097,Ouham Pendé,Bossemtélé,projected,2023-09-01,2024-03-31,3,7298,0.3
-Apr 2023,CAF,6091097,Ouham Pendé,Bossemtélé,projected,2023-09-01,2024-03-31,4,0,0
-Apr 2023,CAF,6091097,Ouham Pendé,Bossemtélé,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Ouham Pendé,Bossemtélé,first projection,2023-09-01,2024-03-31,all,24328,1.0
+Apr 2023,CAF,6091097,Ouham Pendé,Bossemtélé,first projection,2023-09-01,2024-03-31,3+,7298,0.3
+Apr 2023,CAF,6091097,Ouham Pendé,Bossemtélé,first projection,2023-09-01,2024-03-31,1,7298,0.3
+Apr 2023,CAF,6091097,Ouham Pendé,Bossemtélé,first projection,2023-09-01,2024-03-31,2,9731,0.4
+Apr 2023,CAF,6091097,Ouham Pendé,Bossemtélé,first projection,2023-09-01,2024-03-31,3,7298,0.3
+Apr 2023,CAF,6091097,Ouham Pendé,Bossemtélé,first projection,2023-09-01,2024-03-31,4,0,0
+Apr 2023,CAF,6091097,Ouham Pendé,Bossemtélé,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Ouham Pendé,Bozoum,current,2023-04-01,2023-08-31,all,75139,1.0
 Apr 2023,CAF,6091097,Ouham Pendé,Bozoum,current,2023-04-01,2023-08-31,3+,33813,0.45
 Apr 2023,CAF,6091097,Ouham Pendé,Bozoum,current,2023-04-01,2023-08-31,1,11271,0.15
@@ -735,13 +735,13 @@ Apr 2023,CAF,6091097,Ouham Pendé,Bozoum,current,2023-04-01,2023-08-31,2,30056,0
 Apr 2023,CAF,6091097,Ouham Pendé,Bozoum,current,2023-04-01,2023-08-31,3,22542,0.3
 Apr 2023,CAF,6091097,Ouham Pendé,Bozoum,current,2023-04-01,2023-08-31,4,11271,0.15
 Apr 2023,CAF,6091097,Ouham Pendé,Bozoum,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Ouham Pendé,Bozoum,projected,2023-09-01,2024-03-31,all,75139,1.0
-Apr 2023,CAF,6091097,Ouham Pendé,Bozoum,projected,2023-09-01,2024-03-31,3+,30056,0.4
-Apr 2023,CAF,6091097,Ouham Pendé,Bozoum,projected,2023-09-01,2024-03-31,1,15028,0.2
-Apr 2023,CAF,6091097,Ouham Pendé,Bozoum,projected,2023-09-01,2024-03-31,2,30056,0.4
-Apr 2023,CAF,6091097,Ouham Pendé,Bozoum,projected,2023-09-01,2024-03-31,3,22542,0.3
-Apr 2023,CAF,6091097,Ouham Pendé,Bozoum,projected,2023-09-01,2024-03-31,4,7514,0.1
-Apr 2023,CAF,6091097,Ouham Pendé,Bozoum,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Ouham Pendé,Bozoum,first projection,2023-09-01,2024-03-31,all,75139,1.0
+Apr 2023,CAF,6091097,Ouham Pendé,Bozoum,first projection,2023-09-01,2024-03-31,3+,30056,0.4
+Apr 2023,CAF,6091097,Ouham Pendé,Bozoum,first projection,2023-09-01,2024-03-31,1,15028,0.2
+Apr 2023,CAF,6091097,Ouham Pendé,Bozoum,first projection,2023-09-01,2024-03-31,2,30056,0.4
+Apr 2023,CAF,6091097,Ouham Pendé,Bozoum,first projection,2023-09-01,2024-03-31,3,22542,0.3
+Apr 2023,CAF,6091097,Ouham Pendé,Bozoum,first projection,2023-09-01,2024-03-31,4,7514,0.1
+Apr 2023,CAF,6091097,Ouham Pendé,Bozoum,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Ouham Pendé,Koui,current,2023-04-01,2023-08-31,all,41551,1.0
 Apr 2023,CAF,6091097,Ouham Pendé,Koui,current,2023-04-01,2023-08-31,3+,18698,0.45
 Apr 2023,CAF,6091097,Ouham Pendé,Koui,current,2023-04-01,2023-08-31,1,8310,0.2
@@ -749,13 +749,13 @@ Apr 2023,CAF,6091097,Ouham Pendé,Koui,current,2023-04-01,2023-08-31,2,14543,0.3
 Apr 2023,CAF,6091097,Ouham Pendé,Koui,current,2023-04-01,2023-08-31,3,12465,0.3
 Apr 2023,CAF,6091097,Ouham Pendé,Koui,current,2023-04-01,2023-08-31,4,6233,0.15
 Apr 2023,CAF,6091097,Ouham Pendé,Koui,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Ouham Pendé,Koui,projected,2023-09-01,2024-03-31,all,41551,1.0
-Apr 2023,CAF,6091097,Ouham Pendé,Koui,projected,2023-09-01,2024-03-31,3+,20776,0.5
-Apr 2023,CAF,6091097,Ouham Pendé,Koui,projected,2023-09-01,2024-03-31,1,8310,0.2
-Apr 2023,CAF,6091097,Ouham Pendé,Koui,projected,2023-09-01,2024-03-31,2,12465,0.3
-Apr 2023,CAF,6091097,Ouham Pendé,Koui,projected,2023-09-01,2024-03-31,3,14543,0.35
-Apr 2023,CAF,6091097,Ouham Pendé,Koui,projected,2023-09-01,2024-03-31,4,6233,0.15
-Apr 2023,CAF,6091097,Ouham Pendé,Koui,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Ouham Pendé,Koui,first projection,2023-09-01,2024-03-31,all,41551,1.0
+Apr 2023,CAF,6091097,Ouham Pendé,Koui,first projection,2023-09-01,2024-03-31,3+,20776,0.5
+Apr 2023,CAF,6091097,Ouham Pendé,Koui,first projection,2023-09-01,2024-03-31,1,8310,0.2
+Apr 2023,CAF,6091097,Ouham Pendé,Koui,first projection,2023-09-01,2024-03-31,2,12465,0.3
+Apr 2023,CAF,6091097,Ouham Pendé,Koui,first projection,2023-09-01,2024-03-31,3,14543,0.35
+Apr 2023,CAF,6091097,Ouham Pendé,Koui,first projection,2023-09-01,2024-03-31,4,6233,0.15
+Apr 2023,CAF,6091097,Ouham Pendé,Koui,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Ouham Pendé,Ngaoundaye,current,2023-04-01,2023-08-31,all,134979,1.0
 Apr 2023,CAF,6091097,Ouham Pendé,Ngaoundaye,current,2023-04-01,2023-08-31,3+,60741,0.45
 Apr 2023,CAF,6091097,Ouham Pendé,Ngaoundaye,current,2023-04-01,2023-08-31,1,26996,0.2
@@ -763,13 +763,13 @@ Apr 2023,CAF,6091097,Ouham Pendé,Ngaoundaye,current,2023-04-01,2023-08-31,2,472
 Apr 2023,CAF,6091097,Ouham Pendé,Ngaoundaye,current,2023-04-01,2023-08-31,3,40494,0.3
 Apr 2023,CAF,6091097,Ouham Pendé,Ngaoundaye,current,2023-04-01,2023-08-31,4,20247,0.15
 Apr 2023,CAF,6091097,Ouham Pendé,Ngaoundaye,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Ouham Pendé,Ngaoundaye,projected,2023-09-01,2024-03-31,all,134979,1.0
-Apr 2023,CAF,6091097,Ouham Pendé,Ngaoundaye,projected,2023-09-01,2024-03-31,3+,53992,0.4
-Apr 2023,CAF,6091097,Ouham Pendé,Ngaoundaye,projected,2023-09-01,2024-03-31,1,33745,0.25
-Apr 2023,CAF,6091097,Ouham Pendé,Ngaoundaye,projected,2023-09-01,2024-03-31,2,47243,0.35
-Apr 2023,CAF,6091097,Ouham Pendé,Ngaoundaye,projected,2023-09-01,2024-03-31,3,40494,0.3
-Apr 2023,CAF,6091097,Ouham Pendé,Ngaoundaye,projected,2023-09-01,2024-03-31,4,13498,0.1
-Apr 2023,CAF,6091097,Ouham Pendé,Ngaoundaye,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Ouham Pendé,Ngaoundaye,first projection,2023-09-01,2024-03-31,all,134979,1.0
+Apr 2023,CAF,6091097,Ouham Pendé,Ngaoundaye,first projection,2023-09-01,2024-03-31,3+,53992,0.4
+Apr 2023,CAF,6091097,Ouham Pendé,Ngaoundaye,first projection,2023-09-01,2024-03-31,1,33745,0.25
+Apr 2023,CAF,6091097,Ouham Pendé,Ngaoundaye,first projection,2023-09-01,2024-03-31,2,47243,0.35
+Apr 2023,CAF,6091097,Ouham Pendé,Ngaoundaye,first projection,2023-09-01,2024-03-31,3,40494,0.3
+Apr 2023,CAF,6091097,Ouham Pendé,Ngaoundaye,first projection,2023-09-01,2024-03-31,4,13498,0.1
+Apr 2023,CAF,6091097,Ouham Pendé,Ngaoundaye,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Ouham Pendé,Paoua,current,2023-04-01,2023-08-31,all,307172,1.0
 Apr 2023,CAF,6091097,Ouham Pendé,Paoua,current,2023-04-01,2023-08-31,3+,153586,0.5
 Apr 2023,CAF,6091097,Ouham Pendé,Paoua,current,2023-04-01,2023-08-31,1,61434,0.2
@@ -777,13 +777,13 @@ Apr 2023,CAF,6091097,Ouham Pendé,Paoua,current,2023-04-01,2023-08-31,2,92152,0.
 Apr 2023,CAF,6091097,Ouham Pendé,Paoua,current,2023-04-01,2023-08-31,3,107510,0.35
 Apr 2023,CAF,6091097,Ouham Pendé,Paoua,current,2023-04-01,2023-08-31,4,46076,0.15
 Apr 2023,CAF,6091097,Ouham Pendé,Paoua,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Ouham Pendé,Paoua,projected,2023-09-01,2024-03-31,all,307172,1.0
-Apr 2023,CAF,6091097,Ouham Pendé,Paoua,projected,2023-09-01,2024-03-31,3+,122869,0.4
-Apr 2023,CAF,6091097,Ouham Pendé,Paoua,projected,2023-09-01,2024-03-31,1,76793,0.25
-Apr 2023,CAF,6091097,Ouham Pendé,Paoua,projected,2023-09-01,2024-03-31,2,107510,0.35
-Apr 2023,CAF,6091097,Ouham Pendé,Paoua,projected,2023-09-01,2024-03-31,3,92152,0.3
-Apr 2023,CAF,6091097,Ouham Pendé,Paoua,projected,2023-09-01,2024-03-31,4,30717,0.1
-Apr 2023,CAF,6091097,Ouham Pendé,Paoua,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Ouham Pendé,Paoua,first projection,2023-09-01,2024-03-31,all,307172,1.0
+Apr 2023,CAF,6091097,Ouham Pendé,Paoua,first projection,2023-09-01,2024-03-31,3+,122869,0.4
+Apr 2023,CAF,6091097,Ouham Pendé,Paoua,first projection,2023-09-01,2024-03-31,1,76793,0.25
+Apr 2023,CAF,6091097,Ouham Pendé,Paoua,first projection,2023-09-01,2024-03-31,2,107510,0.35
+Apr 2023,CAF,6091097,Ouham Pendé,Paoua,first projection,2023-09-01,2024-03-31,3,92152,0.3
+Apr 2023,CAF,6091097,Ouham Pendé,Paoua,first projection,2023-09-01,2024-03-31,4,30717,0.1
+Apr 2023,CAF,6091097,Ouham Pendé,Paoua,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Ouham Pendé,Bocaranga,current,2023-04-01,2023-08-31,all,102297,1.0
 Apr 2023,CAF,6091097,Ouham Pendé,Bocaranga,current,2023-04-01,2023-08-31,3+,46034,0.45
 Apr 2023,CAF,6091097,Ouham Pendé,Bocaranga,current,2023-04-01,2023-08-31,1,20459,0.2
@@ -791,13 +791,13 @@ Apr 2023,CAF,6091097,Ouham Pendé,Bocaranga,current,2023-04-01,2023-08-31,2,3580
 Apr 2023,CAF,6091097,Ouham Pendé,Bocaranga,current,2023-04-01,2023-08-31,3,30689,0.3
 Apr 2023,CAF,6091097,Ouham Pendé,Bocaranga,current,2023-04-01,2023-08-31,4,15345,0.15
 Apr 2023,CAF,6091097,Ouham Pendé,Bocaranga,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Ouham Pendé,Bocaranga,projected,2023-09-01,2024-03-31,all,102297,1.0
-Apr 2023,CAF,6091097,Ouham Pendé,Bocaranga,projected,2023-09-01,2024-03-31,3+,40919,0.4
-Apr 2023,CAF,6091097,Ouham Pendé,Bocaranga,projected,2023-09-01,2024-03-31,1,25574,0.25
-Apr 2023,CAF,6091097,Ouham Pendé,Bocaranga,projected,2023-09-01,2024-03-31,2,35804,0.35
-Apr 2023,CAF,6091097,Ouham Pendé,Bocaranga,projected,2023-09-01,2024-03-31,3,30689,0.3
-Apr 2023,CAF,6091097,Ouham Pendé,Bocaranga,projected,2023-09-01,2024-03-31,4,10230,0.1
-Apr 2023,CAF,6091097,Ouham Pendé,Bocaranga,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Ouham Pendé,Bocaranga,first projection,2023-09-01,2024-03-31,all,102297,1.0
+Apr 2023,CAF,6091097,Ouham Pendé,Bocaranga,first projection,2023-09-01,2024-03-31,3+,40919,0.4
+Apr 2023,CAF,6091097,Ouham Pendé,Bocaranga,first projection,2023-09-01,2024-03-31,1,25574,0.25
+Apr 2023,CAF,6091097,Ouham Pendé,Bocaranga,first projection,2023-09-01,2024-03-31,2,35804,0.35
+Apr 2023,CAF,6091097,Ouham Pendé,Bocaranga,first projection,2023-09-01,2024-03-31,3,30689,0.3
+Apr 2023,CAF,6091097,Ouham Pendé,Bocaranga,first projection,2023-09-01,2024-03-31,4,10230,0.1
+Apr 2023,CAF,6091097,Ouham Pendé,Bocaranga,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Nana-Gribizi,Kaga-bandoro,current,2023-04-01,2023-08-31,all,175498,1.0
 Apr 2023,CAF,6091097,Nana-Gribizi,Kaga-bandoro,current,2023-04-01,2023-08-31,3+,61425,0.35
 Apr 2023,CAF,6091097,Nana-Gribizi,Kaga-bandoro,current,2023-04-01,2023-08-31,1,61424,0.35
@@ -805,13 +805,13 @@ Apr 2023,CAF,6091097,Nana-Gribizi,Kaga-bandoro,current,2023-04-01,2023-08-31,2,5
 Apr 2023,CAF,6091097,Nana-Gribizi,Kaga-bandoro,current,2023-04-01,2023-08-31,3,43875,0.25
 Apr 2023,CAF,6091097,Nana-Gribizi,Kaga-bandoro,current,2023-04-01,2023-08-31,4,17550,0.1
 Apr 2023,CAF,6091097,Nana-Gribizi,Kaga-bandoro,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Nana-Gribizi,Kaga-bandoro,projected,2023-09-01,2024-03-31,all,175498,1.0
-Apr 2023,CAF,6091097,Nana-Gribizi,Kaga-bandoro,projected,2023-09-01,2024-03-31,3+,43875,0.25
-Apr 2023,CAF,6091097,Nana-Gribizi,Kaga-bandoro,projected,2023-09-01,2024-03-31,1,61424,0.35
-Apr 2023,CAF,6091097,Nana-Gribizi,Kaga-bandoro,projected,2023-09-01,2024-03-31,2,70199,0.4
-Apr 2023,CAF,6091097,Nana-Gribizi,Kaga-bandoro,projected,2023-09-01,2024-03-31,3,43875,0.25
-Apr 2023,CAF,6091097,Nana-Gribizi,Kaga-bandoro,projected,2023-09-01,2024-03-31,4,0,0
-Apr 2023,CAF,6091097,Nana-Gribizi,Kaga-bandoro,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Nana-Gribizi,Kaga-bandoro,first projection,2023-09-01,2024-03-31,all,175498,1.0
+Apr 2023,CAF,6091097,Nana-Gribizi,Kaga-bandoro,first projection,2023-09-01,2024-03-31,3+,43875,0.25
+Apr 2023,CAF,6091097,Nana-Gribizi,Kaga-bandoro,first projection,2023-09-01,2024-03-31,1,61424,0.35
+Apr 2023,CAF,6091097,Nana-Gribizi,Kaga-bandoro,first projection,2023-09-01,2024-03-31,2,70199,0.4
+Apr 2023,CAF,6091097,Nana-Gribizi,Kaga-bandoro,first projection,2023-09-01,2024-03-31,3,43875,0.25
+Apr 2023,CAF,6091097,Nana-Gribizi,Kaga-bandoro,first projection,2023-09-01,2024-03-31,4,0,0
+Apr 2023,CAF,6091097,Nana-Gribizi,Kaga-bandoro,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Nana-Gribizi,Mbrès,current,2023-04-01,2023-08-31,all,33323,1.0
 Apr 2023,CAF,6091097,Nana-Gribizi,Mbrès,current,2023-04-01,2023-08-31,3+,14995,0.45
 Apr 2023,CAF,6091097,Nana-Gribizi,Mbrès,current,2023-04-01,2023-08-31,1,8331,0.25
@@ -819,13 +819,13 @@ Apr 2023,CAF,6091097,Nana-Gribizi,Mbrès,current,2023-04-01,2023-08-31,2,9997,0.
 Apr 2023,CAF,6091097,Nana-Gribizi,Mbrès,current,2023-04-01,2023-08-31,3,11663,0.35
 Apr 2023,CAF,6091097,Nana-Gribizi,Mbrès,current,2023-04-01,2023-08-31,4,3332,0.1
 Apr 2023,CAF,6091097,Nana-Gribizi,Mbrès,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Nana-Gribizi,Mbrès,projected,2023-09-01,2024-03-31,all,33323,1.0
-Apr 2023,CAF,6091097,Nana-Gribizi,Mbrès,projected,2023-09-01,2024-03-31,3+,8331,0.25
-Apr 2023,CAF,6091097,Nana-Gribizi,Mbrès,projected,2023-09-01,2024-03-31,1,11663,0.35
-Apr 2023,CAF,6091097,Nana-Gribizi,Mbrès,projected,2023-09-01,2024-03-31,2,13329,0.4
-Apr 2023,CAF,6091097,Nana-Gribizi,Mbrès,projected,2023-09-01,2024-03-31,3,8331,0.25
-Apr 2023,CAF,6091097,Nana-Gribizi,Mbrès,projected,2023-09-01,2024-03-31,4,0,0
-Apr 2023,CAF,6091097,Nana-Gribizi,Mbrès,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Nana-Gribizi,Mbrès,first projection,2023-09-01,2024-03-31,all,33323,1.0
+Apr 2023,CAF,6091097,Nana-Gribizi,Mbrès,first projection,2023-09-01,2024-03-31,3+,8331,0.25
+Apr 2023,CAF,6091097,Nana-Gribizi,Mbrès,first projection,2023-09-01,2024-03-31,1,11663,0.35
+Apr 2023,CAF,6091097,Nana-Gribizi,Mbrès,first projection,2023-09-01,2024-03-31,2,13329,0.4
+Apr 2023,CAF,6091097,Nana-Gribizi,Mbrès,first projection,2023-09-01,2024-03-31,3,8331,0.25
+Apr 2023,CAF,6091097,Nana-Gribizi,Mbrès,first projection,2023-09-01,2024-03-31,4,0,0
+Apr 2023,CAF,6091097,Nana-Gribizi,Mbrès,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Haut-Mbomou,Obo,current,2023-04-01,2023-08-31,all,26262,1.0
 Apr 2023,CAF,6091097,Haut-Mbomou,Obo,current,2023-04-01,2023-08-31,3+,17070,0.65
 Apr 2023,CAF,6091097,Haut-Mbomou,Obo,current,2023-04-01,2023-08-31,1,2626,0.1
@@ -833,13 +833,13 @@ Apr 2023,CAF,6091097,Haut-Mbomou,Obo,current,2023-04-01,2023-08-31,2,6566,0.25
 Apr 2023,CAF,6091097,Haut-Mbomou,Obo,current,2023-04-01,2023-08-31,3,11818,0.45
 Apr 2023,CAF,6091097,Haut-Mbomou,Obo,current,2023-04-01,2023-08-31,4,5252,0.2
 Apr 2023,CAF,6091097,Haut-Mbomou,Obo,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Haut-Mbomou,Obo,projected,2023-09-01,2024-03-31,all,26262,1.0
-Apr 2023,CAF,6091097,Haut-Mbomou,Obo,projected,2023-09-01,2024-03-31,3+,18383,0.7
-Apr 2023,CAF,6091097,Haut-Mbomou,Obo,projected,2023-09-01,2024-03-31,1,2626,0.1
-Apr 2023,CAF,6091097,Haut-Mbomou,Obo,projected,2023-09-01,2024-03-31,2,5252,0.2
-Apr 2023,CAF,6091097,Haut-Mbomou,Obo,projected,2023-09-01,2024-03-31,3,13131,0.5
-Apr 2023,CAF,6091097,Haut-Mbomou,Obo,projected,2023-09-01,2024-03-31,4,5252,0.2
-Apr 2023,CAF,6091097,Haut-Mbomou,Obo,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Haut-Mbomou,Obo,first projection,2023-09-01,2024-03-31,all,26262,1.0
+Apr 2023,CAF,6091097,Haut-Mbomou,Obo,first projection,2023-09-01,2024-03-31,3+,18383,0.7
+Apr 2023,CAF,6091097,Haut-Mbomou,Obo,first projection,2023-09-01,2024-03-31,1,2626,0.1
+Apr 2023,CAF,6091097,Haut-Mbomou,Obo,first projection,2023-09-01,2024-03-31,2,5252,0.2
+Apr 2023,CAF,6091097,Haut-Mbomou,Obo,first projection,2023-09-01,2024-03-31,3,13131,0.5
+Apr 2023,CAF,6091097,Haut-Mbomou,Obo,first projection,2023-09-01,2024-03-31,4,5252,0.2
+Apr 2023,CAF,6091097,Haut-Mbomou,Obo,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Haut-Mbomou,Bambouti,current,2023-04-01,2023-08-31,all,2148,1.0
 Apr 2023,CAF,6091097,Haut-Mbomou,Bambouti,current,2023-04-01,2023-08-31,3+,1504,0.7
 Apr 2023,CAF,6091097,Haut-Mbomou,Bambouti,current,2023-04-01,2023-08-31,1,215,0.1
@@ -847,13 +847,13 @@ Apr 2023,CAF,6091097,Haut-Mbomou,Bambouti,current,2023-04-01,2023-08-31,2,430,0.
 Apr 2023,CAF,6091097,Haut-Mbomou,Bambouti,current,2023-04-01,2023-08-31,3,1074,0.5
 Apr 2023,CAF,6091097,Haut-Mbomou,Bambouti,current,2023-04-01,2023-08-31,4,430,0.2
 Apr 2023,CAF,6091097,Haut-Mbomou,Bambouti,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Haut-Mbomou,Bambouti,projected,2023-09-01,2024-03-31,all,2148,1.0
-Apr 2023,CAF,6091097,Haut-Mbomou,Bambouti,projected,2023-09-01,2024-03-31,3+,1397,0.65
-Apr 2023,CAF,6091097,Haut-Mbomou,Bambouti,projected,2023-09-01,2024-03-31,1,215,0.1
-Apr 2023,CAF,6091097,Haut-Mbomou,Bambouti,projected,2023-09-01,2024-03-31,2,537,0.25
-Apr 2023,CAF,6091097,Haut-Mbomou,Bambouti,projected,2023-09-01,2024-03-31,3,967,0.45
-Apr 2023,CAF,6091097,Haut-Mbomou,Bambouti,projected,2023-09-01,2024-03-31,4,430,0.2
-Apr 2023,CAF,6091097,Haut-Mbomou,Bambouti,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Haut-Mbomou,Bambouti,first projection,2023-09-01,2024-03-31,all,2148,1.0
+Apr 2023,CAF,6091097,Haut-Mbomou,Bambouti,first projection,2023-09-01,2024-03-31,3+,1397,0.65
+Apr 2023,CAF,6091097,Haut-Mbomou,Bambouti,first projection,2023-09-01,2024-03-31,1,215,0.1
+Apr 2023,CAF,6091097,Haut-Mbomou,Bambouti,first projection,2023-09-01,2024-03-31,2,537,0.25
+Apr 2023,CAF,6091097,Haut-Mbomou,Bambouti,first projection,2023-09-01,2024-03-31,3,967,0.45
+Apr 2023,CAF,6091097,Haut-Mbomou,Bambouti,first projection,2023-09-01,2024-03-31,4,430,0.2
+Apr 2023,CAF,6091097,Haut-Mbomou,Bambouti,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Haut-Mbomou,Djéma,current,2023-04-01,2023-08-31,all,2484,1.0
 Apr 2023,CAF,6091097,Haut-Mbomou,Djéma,current,2023-04-01,2023-08-31,3+,1615,0.65
 Apr 2023,CAF,6091097,Haut-Mbomou,Djéma,current,2023-04-01,2023-08-31,1,373,0.15
@@ -861,13 +861,13 @@ Apr 2023,CAF,6091097,Haut-Mbomou,Djéma,current,2023-04-01,2023-08-31,2,497,0.2
 Apr 2023,CAF,6091097,Haut-Mbomou,Djéma,current,2023-04-01,2023-08-31,3,1118,0.45
 Apr 2023,CAF,6091097,Haut-Mbomou,Djéma,current,2023-04-01,2023-08-31,4,497,0.2
 Apr 2023,CAF,6091097,Haut-Mbomou,Djéma,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Haut-Mbomou,Djéma,projected,2023-09-01,2024-03-31,all,2484,1.0
-Apr 2023,CAF,6091097,Haut-Mbomou,Djéma,projected,2023-09-01,2024-03-31,3+,497,0.2
-Apr 2023,CAF,6091097,Haut-Mbomou,Djéma,projected,2023-09-01,2024-03-31,1,248,0.1
-Apr 2023,CAF,6091097,Haut-Mbomou,Djéma,projected,2023-09-01,2024-03-31,2,497,0.2
-Apr 2023,CAF,6091097,Haut-Mbomou,Djéma,projected,2023-09-01,2024-03-31,3,1242,0.5
-Apr 2023,CAF,6091097,Haut-Mbomou,Djéma,projected,2023-09-01,2024-03-31,4,497,0.2
-Apr 2023,CAF,6091097,Haut-Mbomou,Djéma,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Haut-Mbomou,Djéma,first projection,2023-09-01,2024-03-31,all,2484,1.0
+Apr 2023,CAF,6091097,Haut-Mbomou,Djéma,first projection,2023-09-01,2024-03-31,3+,497,0.2
+Apr 2023,CAF,6091097,Haut-Mbomou,Djéma,first projection,2023-09-01,2024-03-31,1,248,0.1
+Apr 2023,CAF,6091097,Haut-Mbomou,Djéma,first projection,2023-09-01,2024-03-31,2,497,0.2
+Apr 2023,CAF,6091097,Haut-Mbomou,Djéma,first projection,2023-09-01,2024-03-31,3,1242,0.5
+Apr 2023,CAF,6091097,Haut-Mbomou,Djéma,first projection,2023-09-01,2024-03-31,4,497,0.2
+Apr 2023,CAF,6091097,Haut-Mbomou,Djéma,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Haut-Mbomou,Zémio,current,2023-04-01,2023-08-31,all,21420,1.0
 Apr 2023,CAF,6091097,Haut-Mbomou,Zémio,current,2023-04-01,2023-08-31,3+,12852,0.6
 Apr 2023,CAF,6091097,Haut-Mbomou,Zémio,current,2023-04-01,2023-08-31,1,3213,0.15
@@ -875,13 +875,13 @@ Apr 2023,CAF,6091097,Haut-Mbomou,Zémio,current,2023-04-01,2023-08-31,2,5355,0.2
 Apr 2023,CAF,6091097,Haut-Mbomou,Zémio,current,2023-04-01,2023-08-31,3,8568,0.4
 Apr 2023,CAF,6091097,Haut-Mbomou,Zémio,current,2023-04-01,2023-08-31,4,4284,0.2
 Apr 2023,CAF,6091097,Haut-Mbomou,Zémio,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Haut-Mbomou,Zémio,projected,2023-09-01,2024-03-31,all,21420,1.0
-Apr 2023,CAF,6091097,Haut-Mbomou,Zémio,projected,2023-09-01,2024-03-31,3+,13923,0.65
-Apr 2023,CAF,6091097,Haut-Mbomou,Zémio,projected,2023-09-01,2024-03-31,1,3213,0.15
-Apr 2023,CAF,6091097,Haut-Mbomou,Zémio,projected,2023-09-01,2024-03-31,2,4284,0.2
-Apr 2023,CAF,6091097,Haut-Mbomou,Zémio,projected,2023-09-01,2024-03-31,3,9639,0.45
-Apr 2023,CAF,6091097,Haut-Mbomou,Zémio,projected,2023-09-01,2024-03-31,4,4284,0.2
-Apr 2023,CAF,6091097,Haut-Mbomou,Zémio,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Haut-Mbomou,Zémio,first projection,2023-09-01,2024-03-31,all,21420,1.0
+Apr 2023,CAF,6091097,Haut-Mbomou,Zémio,first projection,2023-09-01,2024-03-31,3+,13923,0.65
+Apr 2023,CAF,6091097,Haut-Mbomou,Zémio,first projection,2023-09-01,2024-03-31,1,3213,0.15
+Apr 2023,CAF,6091097,Haut-Mbomou,Zémio,first projection,2023-09-01,2024-03-31,2,4284,0.2
+Apr 2023,CAF,6091097,Haut-Mbomou,Zémio,first projection,2023-09-01,2024-03-31,3,9639,0.45
+Apr 2023,CAF,6091097,Haut-Mbomou,Zémio,first projection,2023-09-01,2024-03-31,4,4284,0.2
+Apr 2023,CAF,6091097,Haut-Mbomou,Zémio,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Bamingui-Bangoran,Ndélé,current,2023-04-01,2023-08-31,all,71824,1.0
 Apr 2023,CAF,6091097,Bamingui-Bangoran,Ndélé,current,2023-04-01,2023-08-31,3+,28729,0.4
 Apr 2023,CAF,6091097,Bamingui-Bangoran,Ndélé,current,2023-04-01,2023-08-31,1,21547,0.3
@@ -889,13 +889,13 @@ Apr 2023,CAF,6091097,Bamingui-Bangoran,Ndélé,current,2023-04-01,2023-08-31,2,2
 Apr 2023,CAF,6091097,Bamingui-Bangoran,Ndélé,current,2023-04-01,2023-08-31,3,25138,0.35
 Apr 2023,CAF,6091097,Bamingui-Bangoran,Ndélé,current,2023-04-01,2023-08-31,4,3591,0.05
 Apr 2023,CAF,6091097,Bamingui-Bangoran,Ndélé,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Bamingui-Bangoran,Ndélé,projected,2023-09-01,2024-03-31,all,71824,1.0
-Apr 2023,CAF,6091097,Bamingui-Bangoran,Ndélé,projected,2023-09-01,2024-03-31,3+,25138,0.35
-Apr 2023,CAF,6091097,Bamingui-Bangoran,Ndélé,projected,2023-09-01,2024-03-31,1,25138,0.35
-Apr 2023,CAF,6091097,Bamingui-Bangoran,Ndélé,projected,2023-09-01,2024-03-31,2,21547,0.3
-Apr 2023,CAF,6091097,Bamingui-Bangoran,Ndélé,projected,2023-09-01,2024-03-31,3,21547,0.3
-Apr 2023,CAF,6091097,Bamingui-Bangoran,Ndélé,projected,2023-09-01,2024-03-31,4,3591,0.05
-Apr 2023,CAF,6091097,Bamingui-Bangoran,Ndélé,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Bamingui-Bangoran,Ndélé,first projection,2023-09-01,2024-03-31,all,71824,1.0
+Apr 2023,CAF,6091097,Bamingui-Bangoran,Ndélé,first projection,2023-09-01,2024-03-31,3+,25138,0.35
+Apr 2023,CAF,6091097,Bamingui-Bangoran,Ndélé,first projection,2023-09-01,2024-03-31,1,25138,0.35
+Apr 2023,CAF,6091097,Bamingui-Bangoran,Ndélé,first projection,2023-09-01,2024-03-31,2,21547,0.3
+Apr 2023,CAF,6091097,Bamingui-Bangoran,Ndélé,first projection,2023-09-01,2024-03-31,3,21547,0.3
+Apr 2023,CAF,6091097,Bamingui-Bangoran,Ndélé,first projection,2023-09-01,2024-03-31,4,3591,0.05
+Apr 2023,CAF,6091097,Bamingui-Bangoran,Ndélé,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Bamingui-Bangoran,Bamingui,current,2023-04-01,2023-08-31,all,10284,1.0
 Apr 2023,CAF,6091097,Bamingui-Bangoran,Bamingui,current,2023-04-01,2023-08-31,3+,4113,0.4
 Apr 2023,CAF,6091097,Bamingui-Bangoran,Bamingui,current,2023-04-01,2023-08-31,1,2571,0.25
@@ -903,13 +903,13 @@ Apr 2023,CAF,6091097,Bamingui-Bangoran,Bamingui,current,2023-04-01,2023-08-31,2,
 Apr 2023,CAF,6091097,Bamingui-Bangoran,Bamingui,current,2023-04-01,2023-08-31,3,3599,0.35
 Apr 2023,CAF,6091097,Bamingui-Bangoran,Bamingui,current,2023-04-01,2023-08-31,4,514,0.05
 Apr 2023,CAF,6091097,Bamingui-Bangoran,Bamingui,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Bamingui-Bangoran,Bamingui,projected,2023-09-01,2024-03-31,all,10284,1.0
-Apr 2023,CAF,6091097,Bamingui-Bangoran,Bamingui,projected,2023-09-01,2024-03-31,3+,4628,0.45
-Apr 2023,CAF,6091097,Bamingui-Bangoran,Bamingui,projected,2023-09-01,2024-03-31,1,2057,0.2
-Apr 2023,CAF,6091097,Bamingui-Bangoran,Bamingui,projected,2023-09-01,2024-03-31,2,3599,0.35
-Apr 2023,CAF,6091097,Bamingui-Bangoran,Bamingui,projected,2023-09-01,2024-03-31,3,4114,0.4
-Apr 2023,CAF,6091097,Bamingui-Bangoran,Bamingui,projected,2023-09-01,2024-03-31,4,514,0.05
-Apr 2023,CAF,6091097,Bamingui-Bangoran,Bamingui,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Bamingui-Bangoran,Bamingui,first projection,2023-09-01,2024-03-31,all,10284,1.0
+Apr 2023,CAF,6091097,Bamingui-Bangoran,Bamingui,first projection,2023-09-01,2024-03-31,3+,4628,0.45
+Apr 2023,CAF,6091097,Bamingui-Bangoran,Bamingui,first projection,2023-09-01,2024-03-31,1,2057,0.2
+Apr 2023,CAF,6091097,Bamingui-Bangoran,Bamingui,first projection,2023-09-01,2024-03-31,2,3599,0.35
+Apr 2023,CAF,6091097,Bamingui-Bangoran,Bamingui,first projection,2023-09-01,2024-03-31,3,4114,0.4
+Apr 2023,CAF,6091097,Bamingui-Bangoran,Bamingui,first projection,2023-09-01,2024-03-31,4,514,0.05
+Apr 2023,CAF,6091097,Bamingui-Bangoran,Bamingui,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Basse-Kotto,Zangba,current,2023-04-01,2023-08-31,all,50815,1.0
 Apr 2023,CAF,6091097,Basse-Kotto,Zangba,current,2023-04-01,2023-08-31,3+,20327,0.4
 Apr 2023,CAF,6091097,Basse-Kotto,Zangba,current,2023-04-01,2023-08-31,1,12704,0.25
@@ -917,13 +917,13 @@ Apr 2023,CAF,6091097,Basse-Kotto,Zangba,current,2023-04-01,2023-08-31,2,17785,0.
 Apr 2023,CAF,6091097,Basse-Kotto,Zangba,current,2023-04-01,2023-08-31,3,15245,0.3
 Apr 2023,CAF,6091097,Basse-Kotto,Zangba,current,2023-04-01,2023-08-31,4,5082,0.1
 Apr 2023,CAF,6091097,Basse-Kotto,Zangba,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Basse-Kotto,Zangba,projected,2023-09-01,2024-03-31,all,50815,1.0
-Apr 2023,CAF,6091097,Basse-Kotto,Zangba,projected,2023-09-01,2024-03-31,3+,20326,0.4
-Apr 2023,CAF,6091097,Basse-Kotto,Zangba,projected,2023-09-01,2024-03-31,1,12704,0.25
-Apr 2023,CAF,6091097,Basse-Kotto,Zangba,projected,2023-09-01,2024-03-31,2,17785,0.35
-Apr 2023,CAF,6091097,Basse-Kotto,Zangba,projected,2023-09-01,2024-03-31,3,17785,0.35
-Apr 2023,CAF,6091097,Basse-Kotto,Zangba,projected,2023-09-01,2024-03-31,4,2541,0.05
-Apr 2023,CAF,6091097,Basse-Kotto,Zangba,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Basse-Kotto,Zangba,first projection,2023-09-01,2024-03-31,all,50815,1.0
+Apr 2023,CAF,6091097,Basse-Kotto,Zangba,first projection,2023-09-01,2024-03-31,3+,20326,0.4
+Apr 2023,CAF,6091097,Basse-Kotto,Zangba,first projection,2023-09-01,2024-03-31,1,12704,0.25
+Apr 2023,CAF,6091097,Basse-Kotto,Zangba,first projection,2023-09-01,2024-03-31,2,17785,0.35
+Apr 2023,CAF,6091097,Basse-Kotto,Zangba,first projection,2023-09-01,2024-03-31,3,17785,0.35
+Apr 2023,CAF,6091097,Basse-Kotto,Zangba,first projection,2023-09-01,2024-03-31,4,2541,0.05
+Apr 2023,CAF,6091097,Basse-Kotto,Zangba,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Basse-Kotto,Alindao,current,2023-04-01,2023-08-31,all,125040,1.0
 Apr 2023,CAF,6091097,Basse-Kotto,Alindao,current,2023-04-01,2023-08-31,3+,43764,0.35
 Apr 2023,CAF,6091097,Basse-Kotto,Alindao,current,2023-04-01,2023-08-31,1,37512,0.3
@@ -931,13 +931,13 @@ Apr 2023,CAF,6091097,Basse-Kotto,Alindao,current,2023-04-01,2023-08-31,2,43764,0
 Apr 2023,CAF,6091097,Basse-Kotto,Alindao,current,2023-04-01,2023-08-31,3,37512,0.3
 Apr 2023,CAF,6091097,Basse-Kotto,Alindao,current,2023-04-01,2023-08-31,4,6252,0.05
 Apr 2023,CAF,6091097,Basse-Kotto,Alindao,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Basse-Kotto,Alindao,projected,2023-09-01,2024-03-31,all,125040,1.0
-Apr 2023,CAF,6091097,Basse-Kotto,Alindao,projected,2023-09-01,2024-03-31,3+,50016,0.4
-Apr 2023,CAF,6091097,Basse-Kotto,Alindao,projected,2023-09-01,2024-03-31,1,37512,0.3
-Apr 2023,CAF,6091097,Basse-Kotto,Alindao,projected,2023-09-01,2024-03-31,2,37512,0.3
-Apr 2023,CAF,6091097,Basse-Kotto,Alindao,projected,2023-09-01,2024-03-31,3,43764,0.35
-Apr 2023,CAF,6091097,Basse-Kotto,Alindao,projected,2023-09-01,2024-03-31,4,6252,0.05
-Apr 2023,CAF,6091097,Basse-Kotto,Alindao,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Basse-Kotto,Alindao,first projection,2023-09-01,2024-03-31,all,125040,1.0
+Apr 2023,CAF,6091097,Basse-Kotto,Alindao,first projection,2023-09-01,2024-03-31,3+,50016,0.4
+Apr 2023,CAF,6091097,Basse-Kotto,Alindao,first projection,2023-09-01,2024-03-31,1,37512,0.3
+Apr 2023,CAF,6091097,Basse-Kotto,Alindao,first projection,2023-09-01,2024-03-31,2,37512,0.3
+Apr 2023,CAF,6091097,Basse-Kotto,Alindao,first projection,2023-09-01,2024-03-31,3,43764,0.35
+Apr 2023,CAF,6091097,Basse-Kotto,Alindao,first projection,2023-09-01,2024-03-31,4,6252,0.05
+Apr 2023,CAF,6091097,Basse-Kotto,Alindao,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Basse-Kotto,Kembé,current,2023-04-01,2023-08-31,all,46050,1.0
 Apr 2023,CAF,6091097,Basse-Kotto,Kembé,current,2023-04-01,2023-08-31,3+,16118,0.35
 Apr 2023,CAF,6091097,Basse-Kotto,Kembé,current,2023-04-01,2023-08-31,1,11513,0.25
@@ -945,13 +945,13 @@ Apr 2023,CAF,6091097,Basse-Kotto,Kembé,current,2023-04-01,2023-08-31,2,18420,0.
 Apr 2023,CAF,6091097,Basse-Kotto,Kembé,current,2023-04-01,2023-08-31,3,11513,0.25
 Apr 2023,CAF,6091097,Basse-Kotto,Kembé,current,2023-04-01,2023-08-31,4,4605,0.1
 Apr 2023,CAF,6091097,Basse-Kotto,Kembé,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Basse-Kotto,Kembé,projected,2023-09-01,2024-03-31,all,46050,1.0
-Apr 2023,CAF,6091097,Basse-Kotto,Kembé,projected,2023-09-01,2024-03-31,3+,13816,0.3
-Apr 2023,CAF,6091097,Basse-Kotto,Kembé,projected,2023-09-01,2024-03-31,1,13815,0.3
-Apr 2023,CAF,6091097,Basse-Kotto,Kembé,projected,2023-09-01,2024-03-31,2,18420,0.4
-Apr 2023,CAF,6091097,Basse-Kotto,Kembé,projected,2023-09-01,2024-03-31,3,11513,0.25
-Apr 2023,CAF,6091097,Basse-Kotto,Kembé,projected,2023-09-01,2024-03-31,4,2303,0.05
-Apr 2023,CAF,6091097,Basse-Kotto,Kembé,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Basse-Kotto,Kembé,first projection,2023-09-01,2024-03-31,all,46050,1.0
+Apr 2023,CAF,6091097,Basse-Kotto,Kembé,first projection,2023-09-01,2024-03-31,3+,13816,0.3
+Apr 2023,CAF,6091097,Basse-Kotto,Kembé,first projection,2023-09-01,2024-03-31,1,13815,0.3
+Apr 2023,CAF,6091097,Basse-Kotto,Kembé,first projection,2023-09-01,2024-03-31,2,18420,0.4
+Apr 2023,CAF,6091097,Basse-Kotto,Kembé,first projection,2023-09-01,2024-03-31,3,11513,0.25
+Apr 2023,CAF,6091097,Basse-Kotto,Kembé,first projection,2023-09-01,2024-03-31,4,2303,0.05
+Apr 2023,CAF,6091097,Basse-Kotto,Kembé,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Basse-Kotto,Mobaye,current,2023-04-01,2023-08-31,all,81498,1.0
 Apr 2023,CAF,6091097,Basse-Kotto,Mobaye,current,2023-04-01,2023-08-31,3+,24450,0.3
 Apr 2023,CAF,6091097,Basse-Kotto,Mobaye,current,2023-04-01,2023-08-31,1,24449,0.3
@@ -959,13 +959,13 @@ Apr 2023,CAF,6091097,Basse-Kotto,Mobaye,current,2023-04-01,2023-08-31,2,32599,0.
 Apr 2023,CAF,6091097,Basse-Kotto,Mobaye,current,2023-04-01,2023-08-31,3,16300,0.2
 Apr 2023,CAF,6091097,Basse-Kotto,Mobaye,current,2023-04-01,2023-08-31,4,8150,0.1
 Apr 2023,CAF,6091097,Basse-Kotto,Mobaye,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Basse-Kotto,Mobaye,projected,2023-09-01,2024-03-31,all,81498,1.0
-Apr 2023,CAF,6091097,Basse-Kotto,Mobaye,projected,2023-09-01,2024-03-31,3+,20375,0.25
-Apr 2023,CAF,6091097,Basse-Kotto,Mobaye,projected,2023-09-01,2024-03-31,1,28524,0.35
-Apr 2023,CAF,6091097,Basse-Kotto,Mobaye,projected,2023-09-01,2024-03-31,2,32599,0.4
-Apr 2023,CAF,6091097,Basse-Kotto,Mobaye,projected,2023-09-01,2024-03-31,3,16300,0.2
-Apr 2023,CAF,6091097,Basse-Kotto,Mobaye,projected,2023-09-01,2024-03-31,4,4075,0.05
-Apr 2023,CAF,6091097,Basse-Kotto,Mobaye,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Basse-Kotto,Mobaye,first projection,2023-09-01,2024-03-31,all,81498,1.0
+Apr 2023,CAF,6091097,Basse-Kotto,Mobaye,first projection,2023-09-01,2024-03-31,3+,20375,0.25
+Apr 2023,CAF,6091097,Basse-Kotto,Mobaye,first projection,2023-09-01,2024-03-31,1,28524,0.35
+Apr 2023,CAF,6091097,Basse-Kotto,Mobaye,first projection,2023-09-01,2024-03-31,2,32599,0.4
+Apr 2023,CAF,6091097,Basse-Kotto,Mobaye,first projection,2023-09-01,2024-03-31,3,16300,0.2
+Apr 2023,CAF,6091097,Basse-Kotto,Mobaye,first projection,2023-09-01,2024-03-31,4,4075,0.05
+Apr 2023,CAF,6091097,Basse-Kotto,Mobaye,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Basse-Kotto,Mingala,current,2023-04-01,2023-08-31,all,39672,1.0
 Apr 2023,CAF,6091097,Basse-Kotto,Mingala,current,2023-04-01,2023-08-31,3+,15869,0.4
 Apr 2023,CAF,6091097,Basse-Kotto,Mingala,current,2023-04-01,2023-08-31,1,9918,0.25
@@ -973,13 +973,13 @@ Apr 2023,CAF,6091097,Basse-Kotto,Mingala,current,2023-04-01,2023-08-31,2,13885,0
 Apr 2023,CAF,6091097,Basse-Kotto,Mingala,current,2023-04-01,2023-08-31,3,11902,0.3
 Apr 2023,CAF,6091097,Basse-Kotto,Mingala,current,2023-04-01,2023-08-31,4,3967,0.1
 Apr 2023,CAF,6091097,Basse-Kotto,Mingala,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Basse-Kotto,Mingala,projected,2023-09-01,2024-03-31,all,39672,1.0
-Apr 2023,CAF,6091097,Basse-Kotto,Mingala,projected,2023-09-01,2024-03-31,3+,15869,0.4
-Apr 2023,CAF,6091097,Basse-Kotto,Mingala,projected,2023-09-01,2024-03-31,1,11902,0.3
-Apr 2023,CAF,6091097,Basse-Kotto,Mingala,projected,2023-09-01,2024-03-31,2,11902,0.3
-Apr 2023,CAF,6091097,Basse-Kotto,Mingala,projected,2023-09-01,2024-03-31,3,13885,0.35
-Apr 2023,CAF,6091097,Basse-Kotto,Mingala,projected,2023-09-01,2024-03-31,4,1984,0.05
-Apr 2023,CAF,6091097,Basse-Kotto,Mingala,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Basse-Kotto,Mingala,first projection,2023-09-01,2024-03-31,all,39672,1.0
+Apr 2023,CAF,6091097,Basse-Kotto,Mingala,first projection,2023-09-01,2024-03-31,3+,15869,0.4
+Apr 2023,CAF,6091097,Basse-Kotto,Mingala,first projection,2023-09-01,2024-03-31,1,11902,0.3
+Apr 2023,CAF,6091097,Basse-Kotto,Mingala,first projection,2023-09-01,2024-03-31,2,11902,0.3
+Apr 2023,CAF,6091097,Basse-Kotto,Mingala,first projection,2023-09-01,2024-03-31,3,13885,0.35
+Apr 2023,CAF,6091097,Basse-Kotto,Mingala,first projection,2023-09-01,2024-03-31,4,1984,0.05
+Apr 2023,CAF,6091097,Basse-Kotto,Mingala,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Basse-Kotto,Satéma,current,2023-04-01,2023-08-31,all,37097,1.0
 Apr 2023,CAF,6091097,Basse-Kotto,Satéma,current,2023-04-01,2023-08-31,3+,14839,0.4
 Apr 2023,CAF,6091097,Basse-Kotto,Satéma,current,2023-04-01,2023-08-31,1,9274,0.25
@@ -987,13 +987,13 @@ Apr 2023,CAF,6091097,Basse-Kotto,Satéma,current,2023-04-01,2023-08-31,2,12984,0
 Apr 2023,CAF,6091097,Basse-Kotto,Satéma,current,2023-04-01,2023-08-31,3,11129,0.3
 Apr 2023,CAF,6091097,Basse-Kotto,Satéma,current,2023-04-01,2023-08-31,4,3710,0.1
 Apr 2023,CAF,6091097,Basse-Kotto,Satéma,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Basse-Kotto,Satéma,projected,2023-09-01,2024-03-31,all,37097,1.0
-Apr 2023,CAF,6091097,Basse-Kotto,Satéma,projected,2023-09-01,2024-03-31,3+,12984,0.35
-Apr 2023,CAF,6091097,Basse-Kotto,Satéma,projected,2023-09-01,2024-03-31,1,11129,0.3
-Apr 2023,CAF,6091097,Basse-Kotto,Satéma,projected,2023-09-01,2024-03-31,2,12984,0.35
-Apr 2023,CAF,6091097,Basse-Kotto,Satéma,projected,2023-09-01,2024-03-31,3,11129,0.3
-Apr 2023,CAF,6091097,Basse-Kotto,Satéma,projected,2023-09-01,2024-03-31,4,1855,0.05
-Apr 2023,CAF,6091097,Basse-Kotto,Satéma,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Basse-Kotto,Satéma,first projection,2023-09-01,2024-03-31,all,37097,1.0
+Apr 2023,CAF,6091097,Basse-Kotto,Satéma,first projection,2023-09-01,2024-03-31,3+,12984,0.35
+Apr 2023,CAF,6091097,Basse-Kotto,Satéma,first projection,2023-09-01,2024-03-31,1,11129,0.3
+Apr 2023,CAF,6091097,Basse-Kotto,Satéma,first projection,2023-09-01,2024-03-31,2,12984,0.35
+Apr 2023,CAF,6091097,Basse-Kotto,Satéma,first projection,2023-09-01,2024-03-31,3,11129,0.3
+Apr 2023,CAF,6091097,Basse-Kotto,Satéma,first projection,2023-09-01,2024-03-31,4,1855,0.05
+Apr 2023,CAF,6091097,Basse-Kotto,Satéma,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Bangui,Arrondissement 5,current,2023-04-01,2023-08-31,all,154000,1.0
 Apr 2023,CAF,6091097,Bangui,Arrondissement 5,current,2023-04-01,2023-08-31,3+,23100,0.15
 Apr 2023,CAF,6091097,Bangui,Arrondissement 5,current,2023-04-01,2023-08-31,1,69300,0.45
@@ -1001,13 +1001,13 @@ Apr 2023,CAF,6091097,Bangui,Arrondissement 5,current,2023-04-01,2023-08-31,2,616
 Apr 2023,CAF,6091097,Bangui,Arrondissement 5,current,2023-04-01,2023-08-31,3,23100,0.15
 Apr 2023,CAF,6091097,Bangui,Arrondissement 5,current,2023-04-01,2023-08-31,4,0,0
 Apr 2023,CAF,6091097,Bangui,Arrondissement 5,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Bangui,Arrondissement 5,projected,2023-09-01,2024-03-31,all,154000,1.0
-Apr 2023,CAF,6091097,Bangui,Arrondissement 5,projected,2023-09-01,2024-03-31,3+,15400,0.1
-Apr 2023,CAF,6091097,Bangui,Arrondissement 5,projected,2023-09-01,2024-03-31,1,61600,0.4
-Apr 2023,CAF,6091097,Bangui,Arrondissement 5,projected,2023-09-01,2024-03-31,2,77000,0.5
-Apr 2023,CAF,6091097,Bangui,Arrondissement 5,projected,2023-09-01,2024-03-31,3,15400,0.1
-Apr 2023,CAF,6091097,Bangui,Arrondissement 5,projected,2023-09-01,2024-03-31,4,0,0
-Apr 2023,CAF,6091097,Bangui,Arrondissement 5,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Bangui,Arrondissement 5,first projection,2023-09-01,2024-03-31,all,154000,1.0
+Apr 2023,CAF,6091097,Bangui,Arrondissement 5,first projection,2023-09-01,2024-03-31,3+,15400,0.1
+Apr 2023,CAF,6091097,Bangui,Arrondissement 5,first projection,2023-09-01,2024-03-31,1,61600,0.4
+Apr 2023,CAF,6091097,Bangui,Arrondissement 5,first projection,2023-09-01,2024-03-31,2,77000,0.5
+Apr 2023,CAF,6091097,Bangui,Arrondissement 5,first projection,2023-09-01,2024-03-31,3,15400,0.1
+Apr 2023,CAF,6091097,Bangui,Arrondissement 5,first projection,2023-09-01,2024-03-31,4,0,0
+Apr 2023,CAF,6091097,Bangui,Arrondissement 5,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Bangui,Arrondissement 2,current,2023-04-01,2023-08-31,all,66267,1.0
 Apr 2023,CAF,6091097,Bangui,Arrondissement 2,current,2023-04-01,2023-08-31,3+,13253,0.2
 Apr 2023,CAF,6091097,Bangui,Arrondissement 2,current,2023-04-01,2023-08-31,1,23193,0.35
@@ -1015,13 +1015,13 @@ Apr 2023,CAF,6091097,Bangui,Arrondissement 2,current,2023-04-01,2023-08-31,2,298
 Apr 2023,CAF,6091097,Bangui,Arrondissement 2,current,2023-04-01,2023-08-31,3,13253,0.2
 Apr 2023,CAF,6091097,Bangui,Arrondissement 2,current,2023-04-01,2023-08-31,4,0,0
 Apr 2023,CAF,6091097,Bangui,Arrondissement 2,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Bangui,Arrondissement 2,projected,2023-09-01,2024-03-31,all,66267,1.0
-Apr 2023,CAF,6091097,Bangui,Arrondissement 2,projected,2023-09-01,2024-03-31,3+,9940,0.15
-Apr 2023,CAF,6091097,Bangui,Arrondissement 2,projected,2023-09-01,2024-03-31,1,29820,0.45
-Apr 2023,CAF,6091097,Bangui,Arrondissement 2,projected,2023-09-01,2024-03-31,2,26507,0.4
-Apr 2023,CAF,6091097,Bangui,Arrondissement 2,projected,2023-09-01,2024-03-31,3,9940,0.15
-Apr 2023,CAF,6091097,Bangui,Arrondissement 2,projected,2023-09-01,2024-03-31,4,0,0
-Apr 2023,CAF,6091097,Bangui,Arrondissement 2,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Bangui,Arrondissement 2,first projection,2023-09-01,2024-03-31,all,66267,1.0
+Apr 2023,CAF,6091097,Bangui,Arrondissement 2,first projection,2023-09-01,2024-03-31,3+,9940,0.15
+Apr 2023,CAF,6091097,Bangui,Arrondissement 2,first projection,2023-09-01,2024-03-31,1,29820,0.45
+Apr 2023,CAF,6091097,Bangui,Arrondissement 2,first projection,2023-09-01,2024-03-31,2,26507,0.4
+Apr 2023,CAF,6091097,Bangui,Arrondissement 2,first projection,2023-09-01,2024-03-31,3,9940,0.15
+Apr 2023,CAF,6091097,Bangui,Arrondissement 2,first projection,2023-09-01,2024-03-31,4,0,0
+Apr 2023,CAF,6091097,Bangui,Arrondissement 2,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Bangui,Arrondissement 4,current,2023-04-01,2023-08-31,all,162422,1.0
 Apr 2023,CAF,6091097,Bangui,Arrondissement 4,current,2023-04-01,2023-08-31,3+,24363,0.15
 Apr 2023,CAF,6091097,Bangui,Arrondissement 4,current,2023-04-01,2023-08-31,1,81211,0.5
@@ -1029,13 +1029,13 @@ Apr 2023,CAF,6091097,Bangui,Arrondissement 4,current,2023-04-01,2023-08-31,2,568
 Apr 2023,CAF,6091097,Bangui,Arrondissement 4,current,2023-04-01,2023-08-31,3,24363,0.15
 Apr 2023,CAF,6091097,Bangui,Arrondissement 4,current,2023-04-01,2023-08-31,4,0,0
 Apr 2023,CAF,6091097,Bangui,Arrondissement 4,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Bangui,Arrondissement 4,projected,2023-09-01,2024-03-31,all,162422,1.0
-Apr 2023,CAF,6091097,Bangui,Arrondissement 4,projected,2023-09-01,2024-03-31,3+,16242,0.1
-Apr 2023,CAF,6091097,Bangui,Arrondissement 4,projected,2023-09-01,2024-03-31,1,73090,0.45
-Apr 2023,CAF,6091097,Bangui,Arrondissement 4,projected,2023-09-01,2024-03-31,2,73090,0.45
-Apr 2023,CAF,6091097,Bangui,Arrondissement 4,projected,2023-09-01,2024-03-31,3,16242,0.1
-Apr 2023,CAF,6091097,Bangui,Arrondissement 4,projected,2023-09-01,2024-03-31,4,0,0
-Apr 2023,CAF,6091097,Bangui,Arrondissement 4,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Bangui,Arrondissement 4,first projection,2023-09-01,2024-03-31,all,162422,1.0
+Apr 2023,CAF,6091097,Bangui,Arrondissement 4,first projection,2023-09-01,2024-03-31,3+,16242,0.1
+Apr 2023,CAF,6091097,Bangui,Arrondissement 4,first projection,2023-09-01,2024-03-31,1,73090,0.45
+Apr 2023,CAF,6091097,Bangui,Arrondissement 4,first projection,2023-09-01,2024-03-31,2,73090,0.45
+Apr 2023,CAF,6091097,Bangui,Arrondissement 4,first projection,2023-09-01,2024-03-31,3,16242,0.1
+Apr 2023,CAF,6091097,Bangui,Arrondissement 4,first projection,2023-09-01,2024-03-31,4,0,0
+Apr 2023,CAF,6091097,Bangui,Arrondissement 4,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Bangui,Arrondissement 3,current,2023-04-01,2023-08-31,all,79749,1.0
 Apr 2023,CAF,6091097,Bangui,Arrondissement 3,current,2023-04-01,2023-08-31,3+,15950,0.2
 Apr 2023,CAF,6091097,Bangui,Arrondissement 3,current,2023-04-01,2023-08-31,1,31900,0.4
@@ -1043,13 +1043,13 @@ Apr 2023,CAF,6091097,Bangui,Arrondissement 3,current,2023-04-01,2023-08-31,2,319
 Apr 2023,CAF,6091097,Bangui,Arrondissement 3,current,2023-04-01,2023-08-31,3,15950,0.2
 Apr 2023,CAF,6091097,Bangui,Arrondissement 3,current,2023-04-01,2023-08-31,4,0,0
 Apr 2023,CAF,6091097,Bangui,Arrondissement 3,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Bangui,Arrondissement 3,projected,2023-09-01,2024-03-31,all,79749,1.0
-Apr 2023,CAF,6091097,Bangui,Arrondissement 3,projected,2023-09-01,2024-03-31,3+,11962,0.15
-Apr 2023,CAF,6091097,Bangui,Arrondissement 3,projected,2023-09-01,2024-03-31,1,27912,0.35
-Apr 2023,CAF,6091097,Bangui,Arrondissement 3,projected,2023-09-01,2024-03-31,2,39875,0.5
-Apr 2023,CAF,6091097,Bangui,Arrondissement 3,projected,2023-09-01,2024-03-31,3,11962,0.15
-Apr 2023,CAF,6091097,Bangui,Arrondissement 3,projected,2023-09-01,2024-03-31,4,0,0
-Apr 2023,CAF,6091097,Bangui,Arrondissement 3,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Bangui,Arrondissement 3,first projection,2023-09-01,2024-03-31,all,79749,1.0
+Apr 2023,CAF,6091097,Bangui,Arrondissement 3,first projection,2023-09-01,2024-03-31,3+,11962,0.15
+Apr 2023,CAF,6091097,Bangui,Arrondissement 3,first projection,2023-09-01,2024-03-31,1,27912,0.35
+Apr 2023,CAF,6091097,Bangui,Arrondissement 3,first projection,2023-09-01,2024-03-31,2,39875,0.5
+Apr 2023,CAF,6091097,Bangui,Arrondissement 3,first projection,2023-09-01,2024-03-31,3,11962,0.15
+Apr 2023,CAF,6091097,Bangui,Arrondissement 3,first projection,2023-09-01,2024-03-31,4,0,0
+Apr 2023,CAF,6091097,Bangui,Arrondissement 3,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Bangui,Arrondissement 8,current,2023-04-01,2023-08-31,all,122303,1.0
 Apr 2023,CAF,6091097,Bangui,Arrondissement 8,current,2023-04-01,2023-08-31,3+,24461,0.2
 Apr 2023,CAF,6091097,Bangui,Arrondissement 8,current,2023-04-01,2023-08-31,1,48921,0.4
@@ -1057,13 +1057,13 @@ Apr 2023,CAF,6091097,Bangui,Arrondissement 8,current,2023-04-01,2023-08-31,2,489
 Apr 2023,CAF,6091097,Bangui,Arrondissement 8,current,2023-04-01,2023-08-31,3,24461,0.2
 Apr 2023,CAF,6091097,Bangui,Arrondissement 8,current,2023-04-01,2023-08-31,4,0,0
 Apr 2023,CAF,6091097,Bangui,Arrondissement 8,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Bangui,Arrondissement 8,projected,2023-09-01,2024-03-31,all,122303,1.0
-Apr 2023,CAF,6091097,Bangui,Arrondissement 8,projected,2023-09-01,2024-03-31,3+,18345,0.15
-Apr 2023,CAF,6091097,Bangui,Arrondissement 8,projected,2023-09-01,2024-03-31,1,42806,0.35
-Apr 2023,CAF,6091097,Bangui,Arrondissement 8,projected,2023-09-01,2024-03-31,2,61152,0.5
-Apr 2023,CAF,6091097,Bangui,Arrondissement 8,projected,2023-09-01,2024-03-31,3,18345,0.15
-Apr 2023,CAF,6091097,Bangui,Arrondissement 8,projected,2023-09-01,2024-03-31,4,0,0
-Apr 2023,CAF,6091097,Bangui,Arrondissement 8,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Bangui,Arrondissement 8,first projection,2023-09-01,2024-03-31,all,122303,1.0
+Apr 2023,CAF,6091097,Bangui,Arrondissement 8,first projection,2023-09-01,2024-03-31,3+,18345,0.15
+Apr 2023,CAF,6091097,Bangui,Arrondissement 8,first projection,2023-09-01,2024-03-31,1,42806,0.35
+Apr 2023,CAF,6091097,Bangui,Arrondissement 8,first projection,2023-09-01,2024-03-31,2,61152,0.5
+Apr 2023,CAF,6091097,Bangui,Arrondissement 8,first projection,2023-09-01,2024-03-31,3,18345,0.15
+Apr 2023,CAF,6091097,Bangui,Arrondissement 8,first projection,2023-09-01,2024-03-31,4,0,0
+Apr 2023,CAF,6091097,Bangui,Arrondissement 8,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Bangui,Arrondissement 1,current,2023-04-01,2023-08-31,all,7741,1.0
 Apr 2023,CAF,6091097,Bangui,Arrondissement 1,current,2023-04-01,2023-08-31,3+,1161,0.15
 Apr 2023,CAF,6091097,Bangui,Arrondissement 1,current,2023-04-01,2023-08-31,1,4258,0.55
@@ -1071,13 +1071,13 @@ Apr 2023,CAF,6091097,Bangui,Arrondissement 1,current,2023-04-01,2023-08-31,2,232
 Apr 2023,CAF,6091097,Bangui,Arrondissement 1,current,2023-04-01,2023-08-31,3,1161,0.15
 Apr 2023,CAF,6091097,Bangui,Arrondissement 1,current,2023-04-01,2023-08-31,4,0,0
 Apr 2023,CAF,6091097,Bangui,Arrondissement 1,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Bangui,Arrondissement 1,projected,2023-09-01,2024-03-31,all,7741,1.0
-Apr 2023,CAF,6091097,Bangui,Arrondissement 1,projected,2023-09-01,2024-03-31,3+,774,0.1
-Apr 2023,CAF,6091097,Bangui,Arrondissement 1,projected,2023-09-01,2024-03-31,1,4645,0.6
-Apr 2023,CAF,6091097,Bangui,Arrondissement 1,projected,2023-09-01,2024-03-31,2,2322,0.3
-Apr 2023,CAF,6091097,Bangui,Arrondissement 1,projected,2023-09-01,2024-03-31,3,774,0.1
-Apr 2023,CAF,6091097,Bangui,Arrondissement 1,projected,2023-09-01,2024-03-31,4,0,0
-Apr 2023,CAF,6091097,Bangui,Arrondissement 1,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Bangui,Arrondissement 1,first projection,2023-09-01,2024-03-31,all,7741,1.0
+Apr 2023,CAF,6091097,Bangui,Arrondissement 1,first projection,2023-09-01,2024-03-31,3+,774,0.1
+Apr 2023,CAF,6091097,Bangui,Arrondissement 1,first projection,2023-09-01,2024-03-31,1,4645,0.6
+Apr 2023,CAF,6091097,Bangui,Arrondissement 1,first projection,2023-09-01,2024-03-31,2,2322,0.3
+Apr 2023,CAF,6091097,Bangui,Arrondissement 1,first projection,2023-09-01,2024-03-31,3,774,0.1
+Apr 2023,CAF,6091097,Bangui,Arrondissement 1,first projection,2023-09-01,2024-03-31,4,0,0
+Apr 2023,CAF,6091097,Bangui,Arrondissement 1,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Bangui,Arrondissement 7,current,2023-04-01,2023-08-31,all,98942,1.0
 Apr 2023,CAF,6091097,Bangui,Arrondissement 7,current,2023-04-01,2023-08-31,3+,24736,0.25
 Apr 2023,CAF,6091097,Bangui,Arrondissement 7,current,2023-04-01,2023-08-31,1,24736,0.25
@@ -1085,12 +1085,12 @@ Apr 2023,CAF,6091097,Bangui,Arrondissement 7,current,2023-04-01,2023-08-31,2,494
 Apr 2023,CAF,6091097,Bangui,Arrondissement 7,current,2023-04-01,2023-08-31,3,24736,0.25
 Apr 2023,CAF,6091097,Bangui,Arrondissement 7,current,2023-04-01,2023-08-31,4,0,0
 Apr 2023,CAF,6091097,Bangui,Arrondissement 7,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Bangui,Arrondissement 7,projected,2023-09-01,2024-03-31,all,98942,1.0
-Apr 2023,CAF,6091097,Bangui,Arrondissement 7,projected,2023-09-01,2024-03-31,3+,19788,0.2
-Apr 2023,CAF,6091097,Bangui,Arrondissement 7,projected,2023-09-01,2024-03-31,1,29683,0.3
-Apr 2023,CAF,6091097,Bangui,Arrondissement 7,projected,2023-09-01,2024-03-31,2,49471,0.5
-Apr 2023,CAF,6091097,Bangui,Arrondissement 7,projected,2023-09-01,2024-03-31,3,19788,0.2
-Apr 2023,CAF,6091097,Bangui,Arrondissement 7,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Bangui,Arrondissement 7,first projection,2023-09-01,2024-03-31,all,98942,1.0
+Apr 2023,CAF,6091097,Bangui,Arrondissement 7,first projection,2023-09-01,2024-03-31,3+,19788,0.2
+Apr 2023,CAF,6091097,Bangui,Arrondissement 7,first projection,2023-09-01,2024-03-31,1,29683,0.3
+Apr 2023,CAF,6091097,Bangui,Arrondissement 7,first projection,2023-09-01,2024-03-31,2,49471,0.5
+Apr 2023,CAF,6091097,Bangui,Arrondissement 7,first projection,2023-09-01,2024-03-31,3,19788,0.2
+Apr 2023,CAF,6091097,Bangui,Arrondissement 7,first projection,2023-09-01,2024-03-31,5,0,0
 Apr 2023,CAF,6091097,Bangui,Arrondissement 6,current,2023-04-01,2023-08-31,all,120983,1.0
 Apr 2023,CAF,6091097,Bangui,Arrondissement 6,current,2023-04-01,2023-08-31,3+,0,0.1
 Apr 2023,CAF,6091097,Bangui,Arrondissement 6,current,2023-04-01,2023-08-31,1,54442,0.45
@@ -1098,10 +1098,10 @@ Apr 2023,CAF,6091097,Bangui,Arrondissement 6,current,2023-04-01,2023-08-31,2,544
 Apr 2023,CAF,6091097,Bangui,Arrondissement 6,current,2023-04-01,2023-08-31,3,12098,0.1
 Apr 2023,CAF,6091097,Bangui,Arrondissement 6,current,2023-04-01,2023-08-31,4,0,0
 Apr 2023,CAF,6091097,Bangui,Arrondissement 6,current,2023-04-01,2023-08-31,5,0,0
-Apr 2023,CAF,6091097,Bangui,Arrondissement 6,projected,2023-09-01,2024-03-31,all,120983,1.0
-Apr 2023,CAF,6091097,Bangui,Arrondissement 6,projected,2023-09-01,2024-03-31,3+,6049,0.05
-Apr 2023,CAF,6091097,Bangui,Arrondissement 6,projected,2023-09-01,2024-03-31,1,66541,0.55
-Apr 2023,CAF,6091097,Bangui,Arrondissement 6,projected,2023-09-01,2024-03-31,2,48393,0.4
-Apr 2023,CAF,6091097,Bangui,Arrondissement 6,projected,2023-09-01,2024-03-31,3,6049,0.05
-Apr 2023,CAF,6091097,Bangui,Arrondissement 6,projected,2023-09-01,2024-03-31,4,0,0
-Apr 2023,CAF,6091097,Bangui,Arrondissement 6,projected,2023-09-01,2024-03-31,5,0,0
+Apr 2023,CAF,6091097,Bangui,Arrondissement 6,first projection,2023-09-01,2024-03-31,all,120983,1.0
+Apr 2023,CAF,6091097,Bangui,Arrondissement 6,first projection,2023-09-01,2024-03-31,3+,6049,0.05
+Apr 2023,CAF,6091097,Bangui,Arrondissement 6,first projection,2023-09-01,2024-03-31,1,66541,0.55
+Apr 2023,CAF,6091097,Bangui,Arrondissement 6,first projection,2023-09-01,2024-03-31,2,48393,0.4
+Apr 2023,CAF,6091097,Bangui,Arrondissement 6,first projection,2023-09-01,2024-03-31,3,6049,0.05
+Apr 2023,CAF,6091097,Bangui,Arrondissement 6,first projection,2023-09-01,2024-03-31,4,0,0
+Apr 2023,CAF,6091097,Bangui,Arrondissement 6,first projection,2023-09-01,2024-03-31,5,0,0

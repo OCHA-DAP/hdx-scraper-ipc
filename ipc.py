@@ -30,7 +30,7 @@ class IPC:
         self.state = state
         self.default_start_date = state["DEFAULT"]
         self.base_url = configuration["base_url"]
-        self.projection_names = ["Current", "Projection", "Second projection"]
+        self.projection_names = ["Current", "First projection", "Second projection"]
         self.projection_suffixes = ["", "_projected", "_second_projected"]
         self.projections = ["current", "projected", "second_projected"]
         self.phasemapping = {
@@ -123,13 +123,14 @@ class IPC:
                                                                  time_period)
             else:
                 period_start = period_end = None
-            projection_row["Validity period"] = projection
+            projection_name = self.projection_names[i]
+            projection_name_l = projection_name.lower()
+            projection_row["Validity period"] = projection_name_l
             projection_row["From"] = period_start
             projection_row["To"] = period_end
-            projection_name = self.projection_names[i]
-            projection_suffix = self.projection_suffixes[i]
             row_wide[f"{projection_name} from"] = period_start
             row_wide[f"{projection_name} to"] = period_end
+            projection_suffix = self.projection_suffixes[i]
             location[f"estimated_percentage{projection_suffix}"] = 1.0
             for prefix, phase in self.phasemapping.items():
                 row = deepcopy(projection_row)
