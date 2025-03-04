@@ -3,6 +3,7 @@
 Unit tests for InterAction.
 
 """
+
 from datetime import datetime, timezone
 from os.path import join
 
@@ -17,16 +18,18 @@ from hdx.utilities.downloader import Download
 from hdx.utilities.path import temp_dir
 from hdx.utilities.retriever import Retrieve
 from hdx.utilities.useragent import UserAgent
-from ipc import IPC
+
+from hdx.scraper.ipc.ipc import IPC
 
 
 class TestIPC:
     @pytest.fixture(scope="function")
-    def configuration(self):
+    def configuration(self, config_dir):
         Configuration._create(
             hdx_read_only=True,
+            hdx_site="stage",
             user_agent="test",
-            project_config_yaml=join("config", "project_configuration.yaml"),
+            project_config_yaml=join(config_dir, "project_configuration.yaml"),
         )
         UserAgent.set_global("test")
         Country.countriesdata(use_live=False)
@@ -50,29 +53,29 @@ class TestIPC:
         }
         return Configuration.read()
 
-    @pytest.fixture(scope="function")
-    def fixtures(self):
+    @pytest.fixture(scope="class")
+    def fixtures_dir(self):
         return join("tests", "fixtures")
 
-    @pytest.fixture(scope="function")
-    def input_folder(self, fixtures):
-        return join(fixtures, "input")
+    @pytest.fixture(scope="class")
+    def input_dir(self, fixtures_dir):
+        return join(fixtures_dir, "input")
+
+    @pytest.fixture(scope="class")
+    def config_dir(self, fixtures_dir):
+        return join("src", "hdx", "scraper", "ipc", "config")
 
     def test_generate_datasets_and_showcases(
-            self, configuration, fixtures, input_folder
+        self, configuration, fixtures_dir, input_dir, config_dir
     ):
-        with temp_dir(
-                "test_ipc", delete_on_success=True, delete_on_failure=False
-        ) as folder:
+        with temp_dir("test_ipc", delete_on_success=True, delete_on_failure=False) as folder:
             with Download() as downloader:
-                retriever = Retrieve(
-                    downloader, folder, input_folder, folder, False, True
-                )
+                retriever = Retrieve(downloader, folder, input_dir, folder, False, True)
 
                 def check_files(resources):
                     for resource in resources:
                         filename = resource["name"]
-                        expected_path = join(fixtures, filename)
+                        expected_path = join(fixtures_dir, filename)
                         actual_path = join(folder, filename)
                         assert_files_same(expected_path, actual_path)
 
@@ -87,8 +90,7 @@ class TestIPC:
                 ]
 
                 output = ipc.get_country_data("AFG")
-                dataset, showcase = ipc.generate_dataset_and_showcase(folder,
-                                                                      output)
+                dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
                 assert dataset == {
                     "data_update_frequency": "-2",
                     "dataset_date": "[2017-05-01T00:00:00 TO 2023-10-31T23:59:59]",
@@ -96,7 +98,7 @@ class TestIPC:
                     "maintainer": "196196be-6037-4488-8b71-d786adf4c081",
                     "name": "afghanistan-acute-food-insecurity-country-data",
                     "notes": "There is also a [global "
-                             "dataset](https://stage.data-humdata-org.ahconu.org/dataset/global-acute-food-insecurity-country-data).",
+                    "dataset](https://stage.data-humdata-org.ahconu.org/dataset/global-acute-food-insecurity-country-data).",
                     "owner_org": "da501ffc-aadb-43f5-9d28-8fa572fd9ce0",
                     "subnational": "1",
                     "tags": [
@@ -229,8 +231,7 @@ class TestIPC:
                 }
 
                 output = ipc.get_country_data("AGO")
-                dataset, showcase = ipc.generate_dataset_and_showcase(folder,
-                                                                      output)
+                dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
                 resources = dataset.get_resources()
                 assert resources == [
                     {
@@ -313,17 +314,14 @@ class TestIPC:
                 ]
                 check_files(resources)
                 output = ipc.get_country_data("CAF")
-                dataset, showcase = ipc.generate_dataset_and_showcase(folder,
-                                                                      output)
+                dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
                 check_files(dataset.get_resources())
                 output = ipc.get_country_data("ETH")
-                dataset, showcase = ipc.generate_dataset_and_showcase(folder,
-                                                                      output)
+                dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
                 check_files(dataset.get_resources())
 
                 output = ipc.get_all_data()
-                dataset, showcase = ipc.generate_dataset_and_showcase(folder,
-                                                                      output)
+                dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
                 assert dataset == {
                     "data_update_frequency": "-2",
                     "dataset_date": "[2017-02-01T00:00:00 TO 2024-03-31T23:59:59]",
@@ -331,7 +329,7 @@ class TestIPC:
                     "maintainer": "196196be-6037-4488-8b71-d786adf4c081",
                     "name": "global-acute-food-insecurity-country-data",
                     "notes": "There are also [country "
-                             "datasets](https://stage.data-humdata-org.ahconu.org/organization/da501ffc-aadb-43f5-9d28-8fa572fd9ce0)",
+                    "datasets](https://stage.data-humdata-org.ahconu.org/organization/da501ffc-aadb-43f5-9d28-8fa572fd9ce0)",
                     "owner_org": "da501ffc-aadb-43f5-9d28-8fa572fd9ce0",
                     "subnational": "1",
                     "tags": [
@@ -464,9 +462,7 @@ class TestIPC:
                     "AGO": datetime(2021, 6, 1, 0, 0, tzinfo=timezone.utc),
                     "CAF": datetime(2023, 4, 1, 0, 0, tzinfo=timezone.utc),
                     "DEFAULT": datetime(2017, 1, 1, 0, 0, tzinfo=timezone.utc),
-                    "END_DATE": datetime(2024, 3, 31, 0, 0,
-                                         tzinfo=timezone.utc),
+                    "END_DATE": datetime(2024, 3, 31, 0, 0, tzinfo=timezone.utc),
                     "ETH": datetime(2021, 5, 1, 0, 0, tzinfo=timezone.utc),
-                    "START_DATE": datetime(2017, 2, 1, 0, 0,
-                                           tzinfo=timezone.utc),
+                    "START_DATE": datetime(2017, 2, 1, 0, 0, tzinfo=timezone.utc),
                 }
