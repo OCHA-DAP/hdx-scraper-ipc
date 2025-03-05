@@ -65,3 +65,91 @@ wide_hxltags:
   "Phase 4 percentage second projection": "#affected+pct+ipc+second_projection+phase4"
   "Phase 5 number second projection": "#affected+num+ipc+second_projection+phase5"
   "Phase 5 percentage second projection": "#affected+pct+ipc+second_projection+phase5"
+hapi_hxltags:
+  location_code: "#country+code"
+  has_hrp: "#meta+has_hrp"
+  in_gho: "#meta+in_gho"
+  provider_admin1_name: "#adm1+name+provider"
+  provider_admin2_name: "#adm2+name+provider"
+  admin1_code: "#adm1+code"
+  admin1_name: "#adm1+name"
+  admin2_code: "#adm2+code"
+  admin2_name: "#adm2+name"
+  admin_level: "#adm+level"
+  ipc_phase: "#severity+v_ipc"
+  ipc_type: "#period+v_ipc"
+  population_in_phase: "#affected+num"
+  population_fraction_in_phase: "#affected+pct"
+  reference_period_start: "#date+start"
+  reference_period_end: "#date+end"
+  dataset_hdx_id: "#meta+dataset_id"
+  resource_hdx_id: "#meta+resource_id"
+  warning: "#meta+warning"
+  error: "#meta+error"
+hapi_resource:
+  name: "Global Food Security, Nutrition & Poverty: Food Security"
+  description: "Food Security data from HDX HAPI, please see [the documentation](https://hdx-hapi.readthedocs.io/en/latest/data_usage_guides/food_security_nutrition_and_poverty/#food-security) for more information"
+hapi_adm_matching:
+  # The patterns ensure removal of non-admin units. These are where admin units
+  # have been split to suit the org's own purposes, for example into
+  # ural/urban, (1)...(5), _1..._4, or where the org reports data on a
+  # subset of the population like idps/refugees/returnees
+  adm_ignore_patterns:
+    - " urban"
+    - " rural"
+    - "rural "
+    - "(1)"
+    - "(2)"
+    - "(3)"
+    - "(4)"
+    - "(5)"
+    - "_1"
+    - "_2"
+    - "_3"
+    - "_4"
+    - "idp"
+    - "refugee"
+    - "returnee"
+    - " cluster "
+    - " commune "
+    - " accessible"
+
+  # This is where all "Areas" are non-admin units and so there is only admin 1
+  # data available in "Level 1"
+  adm1_only:
+    - "DJI"
+    - "HTI"
+    - "MMR"
+    - "SOM"
+    - "ZAF"
+
+  # This is where "Level 1" is blank and there is only admin 2 data available
+  # in "Area" (usually blank "Level 1" means "Area" is admin 1 rather than 2)
+  adm2_only:
+    - "DOM"
+    - "MWI"
+    - "PSE"
+    - "TZA"
+    - "UGA"
+
+  # This is where there is only admin 2 data available in "Level 1" whether
+  # "Area" is blank or not
+  adm2_in_level1:
+    - "LBN"
+
+  # This is where "Level 1" is non-admin units and so there is only admin 1
+  # data available in "Area"
+  adm1_in_area:
+    - "KEN"
+
+  # The errors below were picked up from the logging which outputs all the
+  # fuzzy matches
+  adm1_errors:
+    - "Distrito Central"  # adm2 not adm1
+
+  adm2_errors:
+    - "Dawuro"  # wrong adm1 leads to incorrect mapping
+    - "Jariiban 2"
+    - "Kisenso"
+    - "Oodwweyne NEW"
+    - "Segen"
