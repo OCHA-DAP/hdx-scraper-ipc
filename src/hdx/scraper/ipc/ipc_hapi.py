@@ -45,7 +45,7 @@ class HAPIOutput:
         dataset_id = dataset["id"]
         dataset_name = dataset["name"]
         for data_type, rows in self.global_data.items():
-            if "wide" in data_type or "latest" in data_type:
+            if "wide" in data_type or "latest" in data_type or "date" in data_type:
                 continue
             if "country" in data_type:
                 admin_level = 0
@@ -92,9 +92,7 @@ class HAPIOutput:
                         provider_adm_names = ["", row.get("Level 1", "")]
                     elif countryiso3 in adm_matching_config["adm1_in_area"]:
                         if admin_level == 1:
-                            warnings.append(
-                                f"{countryiso3} has non-matching admin one admin units"
-                            )
+                            warnings.append("Non-matching admin one unit")
                             provider_adm_names = ["", ""]
                         else:
                             self._country_status[countryiso3] = (
@@ -112,7 +110,7 @@ class HAPIOutput:
                                     message_type="warning",
                                 )
                                 provider_adm_names = ["", ""]
-                                warnings.append(f"{countryiso3} has blank Level 1 name")
+                                warnings.append("Blank Level 1 name")
                             else:
                                 # "Level 1" and "Area" are used loosely, so admin 1 or admin
                                 # 2 data can be in "Area". Usually if "Level 1" is populated,
@@ -125,13 +123,13 @@ class HAPIOutput:
                                         f"Admin 1: ignoring blank Area name in {countryiso3}",
                                         message_type="warning",
                                     )
-                                    warnings.append(f"{countryiso3} has blank Area name")
+                                    warnings.append("Blank Area name")
                         else:
                             self._country_status[countryiso3] = (
                                 "Level 1: Admin 1, Area: Admin 2"
                             )
 
-                    # TODO: deal with adm1_errors, adm2_errors
+                    # TODO: check matches and add exceptions
                     full_adm_name = (
                         f"{countryiso3}|{provider_adm_names[0]}|{provider_adm_names[1]}"
                     )
@@ -146,18 +144,14 @@ class HAPIOutput:
                             message_type="warning",
                         )
                         provider_adm_names = ["", ""]
-                        warnings.append("Not matching row")
-                    try:
-                        _, additional_warnings = complete_admins(
-                            self._admins,
-                            countryiso3,
-                            provider_adm_names,
-                            adm_codes,
-                            adm_names,
-                        )
-                    except IndexError:
-                        adm_codes = ["", ""]
-                        additional_warnings = [f"PCode unknown {adm_codes[1]}->''"]
+                        warnings.append("Cannot match row")
+                    _, additional_warnings = complete_admins(
+                        self._admins,
+                        countryiso3,
+                        provider_adm_names,
+                        adm_codes,
+                        adm_names,
+                    )
                     for warning in additional_warnings:
                         warnings.append(warning)
 
