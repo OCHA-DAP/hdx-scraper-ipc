@@ -31,7 +31,11 @@ class HAPIOutput:
 
     def get_pcodes(self) -> None:
         for admin_level in [1, 2]:
-            admin = AdminLevel(admin_level=admin_level, retriever=self._retriever)
+            admin = AdminLevel(
+                admin_config=self._configuration["hapi_adm_matching"][f"admin{admin_level}"],
+                admin_level=admin_level,
+                retriever=self._retriever,
+            )
             dataset = admin.get_libhxl_dataset(retriever=self._retriever)
             admin.setup_from_libhxl_dataset(dataset)
             admin.load_pcode_formats()
@@ -70,37 +74,50 @@ class HAPIOutput:
                 errors = []
                 adm_codes = ["", ""]
                 adm_names = ["", ""]
+                provider_adm_names = ["", ""]
 
                 if admin_level > 0:
+                    level1_name = row.get("Level 1", "")
+                    area_name = row.get("Area", "")
                     if countryiso3 in adm_matching_config["adm1_only"]:
                         if admin_level == 2:
                             self._country_status[countryiso3] = (
                                 "Level 1: Admin 1, Area: ignored"
                             )
-                        provider_adm_names = [row.get("Level 1", ""), ""]
+                            admin_level = 1
+                        provider_adm_names = [level1_name, ""]
+                        match_adm_names = [level1_name, ""]
                     elif countryiso3 in adm_matching_config["adm2_only"]:
                         if admin_level == 1:
-                            warnings.append(f"{countryiso3} only has admin two data")
-                            provider_adm_names = ["", ""]
+                            warnings.append("Admin level not present in CODs")
+                            provider_adm_names = [level1_name, ""]
+                            match_adm_names = ["", ""]
                         else:
                             self._country_status[countryiso3] = (
                                 "Level 1: ignored, Area: Admin 2"
                             )
-                            provider_adm_names = ["", row.get("Area", "")]
+                            provider_adm_names = [level1_name, area_name]
+                            match_adm_names = ["", area_name]
                     elif countryiso3 in adm_matching_config["adm2_in_level1"]:
+                        admin_level = 2
                         self._country_status[countryiso3] = "Level 1: Admin 2, Area: ignored"
-                        provider_adm_names = ["", row.get("Level 1", "")]
+                        provider_adm_names = [level1_name, area_name]
+                        match_adm_names = ["", level1_name]
                     elif countryiso3 in adm_matching_config["adm1_in_area"]:
                         if admin_level == 1:
                             warnings.append("Non-matching admin one unit")
-                            provider_adm_names = ["", ""]
+                            provider_adm_names = [level1_name, area_name]
+                            match_adm_names = ["", ""]
                         else:
                             self._country_status[countryiso3] = (
                                 "Level 1: ignored, Area: Admin 1"
                             )
-                            provider_adm_names = [row.get("Area", ""), ""]
+                            provider_adm_names = [area_name, ""]
+                            match_adm_names = [area_name, ""]
+                            admin_level = 1
                     else:
-                        provider_adm_names = [row.get("Level 1", ""), row.get("Area", "")]
+                        provider_adm_names = [level1_name, area_name]
+                        match_adm_names = [level1_name, area_name]
                         if not provider_adm_names[0]:
                             if admin_level == 1:
                                 self._error_handler.add_message(
@@ -109,13 +126,14 @@ class HAPIOutput:
                                     f"Admin 1: ignoring blank Level 1 name in {countryiso3}",
                                     message_type="warning",
                                 )
-                                provider_adm_names = ["", ""]
+                                match_adm_names = ["", ""]
                                 warnings.append("Blank Level 1 name")
                             else:
                                 # "Level 1" and "Area" are used loosely, so admin 1 or admin
                                 # 2 data can be in "Area". Usually if "Level 1" is populated,
                                 # "Area" is admin 2 and if it isn't, "Area" is admin 1.
-                                provider_adm_names = [row.get("Area", ""), ""]
+                                provider_adm_names = [area_name, ""]
+                                match_adm_names = [area_name, ""]
                                 if not provider_adm_names[0]:
                                     self._error_handler.add_message(
                                         "FoodSecurity",
@@ -129,10 +147,7 @@ class HAPIOutput:
                                 "Level 1: Admin 1, Area: Admin 2"
                             )
 
-                    # TODO: check matches and add exceptions
-                    full_adm_name = (
-                        f"{countryiso3}|{provider_adm_names[0]}|{provider_adm_names[1]}"
-                    )
+                    full_adm_name = f"{countryiso3}|{match_adm_names[0]}|{match_adm_names[1]}"
                     if any(
                         x in full_adm_name.lower()
                         for x in adm_matching_config["adm_ignore_patterns"]
@@ -143,12 +158,12 @@ class HAPIOutput:
                             f"Ignoring {full_adm_name}",
                             message_type="warning",
                         )
-                        provider_adm_names = ["", ""]
+                        match_adm_names = ["", ""]
                         warnings.append("Cannot match row")
                     _, additional_warnings = complete_admins(
                         self._admins,
                         countryiso3,
-                        provider_adm_names,
+                        match_adm_names,
                         adm_codes,
                         adm_names,
                     )
@@ -159,8 +174,8 @@ class HAPIOutput:
                     "location_code": countryiso3,
                     "has_hrp": hrp,
                     "in_gho": gho,
-                    "provider_admin1_name": row.get("Level 1"),
-                    "provider_admin2_name": row.get("Area"),
+                    "provider_admin1_name": provider_adm_names[0],
+                    "provider_admin2_name": provider_adm_names[1],
                     "admin1_code": adm_codes[0],
                     "admin1_name": adm_names[0],
                     "admin2_code": adm_codes[1],

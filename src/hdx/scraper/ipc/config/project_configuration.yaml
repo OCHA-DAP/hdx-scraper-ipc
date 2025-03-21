@@ -142,14 +142,48 @@ hapi_adm_matching:
   adm1_in_area:
     - "KEN"
 
-  # The errors below were picked up from the logging which outputs all the
+  # The exceptions below were picked up from the logging which outputs all the
   # fuzzy matches
-  adm1_errors:
-    - "Distrito Central"  # adm2 not adm1
+  admin1:
+    admin_name_mappings:
+      "CMR|West": "CM008"
+      "DJI|Djibouti Ville": "DJ04"
+      "GMB|Basse": "GM02"
+      "GMB|Brikama": "GM03"
+      "GMB|Janjanbureh": "GM04"
+      "GMB|Kerewan": "GM06"
+      "GMB|Kuntaur": "GM07"
+      "GMB|Mansa konko": "GM08"
+      "HTI|Nord-Ouest": "HT09"
+      "NAM|Khomas Region": "NA06"
 
-  adm2_errors:
-    - "Dawuro"  # wrong adm1 leads to incorrect mapping
-    - "Jariiban 2"
-    - "Kisenso"
-    - "Oodwweyne NEW"
-    - "Segen"
+    admin_name_replacements: {}
+
+    admin_fuzzy_dont:
+      - "distrito central"
+      - "others"
+      - "AGO|cahama"
+      - "AGO|cuanhama"
+      - "AGO|matala"
+      - "CAF|haut oubangui"
+      - "CAF|kagas"
+      - "CAF|yade"
+      - "YEM|yemen"
+
+  admin2:
+    admin_name_mappings:
+      "AO08|Cahama": "AO08062"
+      "DOM|Santiago": "DOM0125"
+
+    admin_name_replacements: {}
+
+    admin_fuzzy_dont:
+      - "dawuro"  # wrong adm1 leads to incorrect mapping
+      - "jariiban 2"
+      - "kisenso"
+      - "oodwweyne new"
+      - "segen"
+      - "GHA|ashanti"
+      - "GHA|bono"
+      - "GHA|bono east"
+      - "GHA|central"
