@@ -70,6 +70,7 @@ class HAPIOutput:
                 time_period_start = parse_date(row["From"])
                 time_period_end = parse_date(row["To"])
 
+                row_admin_level = admin_level
                 warnings = []
                 errors = []
                 adm_codes = ["", ""]
@@ -81,12 +82,13 @@ class HAPIOutput:
                     area_name = row.get("Area", "")
                     if countryiso3 in adm_matching_config["adm1_only"]:
                         if admin_level == 2:
-                            self._country_status[countryiso3] = (
-                                "Level 1: Admin 1, Area: ignored"
-                            )
-                            admin_level = 1
-                        provider_adm_names = [level1_name, ""]
-                        match_adm_names = [level1_name, ""]
+                            warnings.append("Admin level not present in CODs")
+                            provider_adm_names = [level1_name, area_name]
+                            match_adm_names = ["", ""]
+                        else:
+                            provider_adm_names = [level1_name, ""]
+                            match_adm_names = [level1_name, ""]
+                        self._country_status[countryiso3] = "Level 1: Admin 1, Area: ignored"
                     elif countryiso3 in adm_matching_config["adm2_only"]:
                         if admin_level == 1:
                             warnings.append("Admin level not present in CODs")
@@ -98,10 +100,14 @@ class HAPIOutput:
                             )
                             provider_adm_names = [level1_name, area_name]
                             match_adm_names = ["", area_name]
-                    elif countryiso3 in adm_matching_config["adm2_in_level1"]:
-                        admin_level = 2
-                        self._country_status[countryiso3] = "Level 1: Admin 2, Area: ignored"
+                    elif countryiso3 in adm_matching_config["adm2_only_include_adm1"]:
+                        self._country_status[countryiso3] = "Level 1: Admin 1, Area: Admin 2"
                         provider_adm_names = [level1_name, area_name]
+                        match_adm_names = [level1_name, area_name]
+                    elif countryiso3 in adm_matching_config["adm2_in_level1"]:
+                        row_admin_level = 2
+                        self._country_status[countryiso3] = "Level 1: Admin 2, Area: ignored"
+                        provider_adm_names = ["", level1_name]
                         match_adm_names = ["", level1_name]
                     elif countryiso3 in adm_matching_config["adm1_in_area"]:
                         if admin_level == 1:
@@ -114,7 +120,7 @@ class HAPIOutput:
                             )
                             provider_adm_names = [area_name, ""]
                             match_adm_names = [area_name, ""]
-                            admin_level = 1
+                            row_admin_level = 1
                     else:
                         provider_adm_names = [level1_name, area_name]
                         match_adm_names = [level1_name, area_name]
@@ -126,26 +132,32 @@ class HAPIOutput:
                                     f"Admin 1: ignoring blank Level 1 name in {countryiso3}",
                                     message_type="warning",
                                 )
-                                match_adm_names = ["", ""]
                                 warnings.append("Blank Level 1 name")
+                            # "Level 1" and "Area" are used loosely, so admin 1 or admin
+                            # 2 data can be in "Area". Usually if "Level 1" is populated,
+                            # "Area" is admin 2 and if it isn't, "Area" is admin 1.
+                            provider_adm_names = [area_name, ""]
+                            match_adm_names = [area_name, ""]
+                            row_admin_level = 1
+                            if not provider_adm_names[0]:
+                                self._error_handler.add_message(
+                                    "FoodSecurity",
+                                    dataset_name,
+                                    f"Admin {admin_level}: ignoring blank Area name in "
+                                    f"{countryiso3}",
+                                    message_type="warning",
+                                )
+                                warnings.append("Blank Area name")
                             else:
-                                # "Level 1" and "Area" are used loosely, so admin 1 or admin
-                                # 2 data can be in "Area". Usually if "Level 1" is populated,
-                                # "Area" is admin 2 and if it isn't, "Area" is admin 1.
-                                provider_adm_names = [area_name, ""]
-                                match_adm_names = [area_name, ""]
-                                if not provider_adm_names[0]:
-                                    self._error_handler.add_message(
-                                        "FoodSecurity",
-                                        dataset_name,
-                                        f"Admin 1: ignoring blank Area name in {countryiso3}",
-                                        message_type="warning",
-                                    )
-                                    warnings.append("Blank Area name")
+                                self._country_status[countryiso3] = (
+                                    "Level 1: ignored, Area: Admin 1"
+                                )
                         else:
                             self._country_status[countryiso3] = (
                                 "Level 1: Admin 1, Area: Admin 2"
                             )
+                        if not provider_adm_names[1]:
+                            row_admin_level = 1
 
                     full_adm_name = f"{countryiso3}|{match_adm_names[0]}|{match_adm_names[1]}"
                     if any(
@@ -180,7 +192,7 @@ class HAPIOutput:
                     "admin1_name": adm_names[0],
                     "admin2_code": adm_codes[1],
                     "admin2_name": adm_names[1],
-                    "admin_level": admin_level,
+                    "admin_level": row_admin_level,
                     "ipc_phase": row["Phase"],
                     "ipc_type": row["Validity period"],
                     "population_in_phase": row["Number"],

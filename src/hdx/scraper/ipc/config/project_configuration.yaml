@@ -125,12 +125,19 @@ hapi_adm_matching:
 
   # This is where "Level 1" is blank and there is only admin 2 data available
   # in "Area" (usually blank "Level 1" means "Area" is admin 1 rather than 2)
+  # In this case ignore admin one data
   adm2_only:
     - "DOM"
     - "MWI"
     - "PSE"
     - "TZA"
     - "UGA"
+
+  # This is where "Level 1" is blank and there is only admin 2 data available
+  # in "Area" (usually blank "Level 1" means "Area" is admin 1 rather than 2)
+  adm2_only_include_adm1:
+    - "MDG"
+    - "SEN"
 
   # This is where there is only admin 2 data available in "Level 1" whether
   # "Area" is blank or not
