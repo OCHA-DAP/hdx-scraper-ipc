@@ -10,6 +10,8 @@ from os.path import join
 import pytest
 from hdx.api.configuration import Configuration
 from hdx.api.locations import Locations
+from hdx.api.utilities.hdx_error_handler import HDXErrorHandler
+from hdx.data.dataset import Dataset
 from hdx.data.vocabulary import Vocabulary
 from hdx.location.country import Country
 from hdx.utilities.compare import assert_files_same
@@ -20,6 +22,7 @@ from hdx.utilities.retriever import Retrieve
 from hdx.utilities.useragent import UserAgent
 
 from hdx.scraper.ipc.ipc import IPC
+from hdx.scraper.ipc.ipc_hapi import HAPIOutput
 
 
 class TestIPC:
@@ -53,6 +56,13 @@ class TestIPC:
         }
         return Configuration.read()
 
+    @pytest.fixture(scope="function")
+    def read_dataset(self, monkeypatch, input_dir):
+        def read_from_hdx(dataset_name):
+            return Dataset.load_from_json(join(input_dir, f"dataset-{dataset_name}.json"))
+
+        monkeypatch.setattr(Dataset, "read_from_hdx", staticmethod(read_from_hdx))
+
     @pytest.fixture(scope="class")
     def fixtures_dir(self):
         return join("tests", "fixtures")
@@ -62,11 +72,11 @@ class TestIPC:
         return join(fixtures_dir, "input")
 
     @pytest.fixture(scope="class")
-    def config_dir(self, fixtures_dir):
+    def config_dir(self):
         return join("src", "hdx", "scraper", "ipc", "config")
 
     def test_generate_datasets_and_showcases(
-        self, configuration, fixtures_dir, input_dir, config_dir
+        self, configuration, read_dataset, fixtures_dir, input_dir, config_dir
     ):
         with temp_dir("test_ipc", delete_on_success=True, delete_on_failure=False) as folder:
             with Download() as downloader:
@@ -466,3 +476,43 @@ class TestIPC:
                     "ETH": datetime(2021, 5, 1, 0, 0, tzinfo=timezone.utc),
                     "START_DATE": datetime(2017, 2, 1, 0, 0, tzinfo=timezone.utc),
                 }
+
+                with HDXErrorHandler() as error_handler:
+                    hapi_output = HAPIOutput(
+                        configuration, retriever, folder, error_handler, output
+                    )
+                    dataset = hapi_output.generate_dataset()
+                    assert dataset == {
+                        "name": "hdx-hapi-food-security",
+                        "title": "HDX HAPI - Food Security, Nutrition & Poverty: "
+                        "Food Security",
+                        "tags": [
+                            {
+                                "name": "food security",
+                                "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
+                            },
+                            {
+                                "name": "hxl",
+                                "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
+                            },
+                        ],
+                        "groups": [{"name": "world"}],
+                        "dataset_date": "[2017-02-01T00:00:00 TO 2024-03-31T23:59:59]",
+                    }
+
+                    resources = dataset.get_resources()
+                    assert resources[0] == {
+                        "name": "Global Food Security, Nutrition & Poverty: Food Security",
+                        "description": "Food Security data from HDX HAPI, please see [the "
+                        "documentation](https://hdx-hapi.readthedocs.io/en/latest/data_usage_"
+                        "guides/food_security_nutrition_and_poverty/#food-security) for more "
+                        "information",
+                        "format": "csv",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    }
+
+                    assert_files_same(
+                        join(fixtures_dir, "hdx_hapi_food_security_global.csv"),
+                        join(folder, "hdx_hapi_food_security_global.csv"),
+                    )
