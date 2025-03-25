@@ -77,7 +77,9 @@ def main(
                         if not dataset:
                             return
                         notes = dataset.get("notes")
-                        dataset.update_from_yaml()
+                        dataset.update_from_yaml(
+                            path=join(dirname(__file__), "config", "hdx_dataset_static.yaml")
+                        )
                         if notes:
                             notes = f"{dataset['notes']}\n\n{notes}"
                         else:
@@ -118,6 +120,11 @@ def main(
                             configuration, retriever, folder, error_handler, output
                         )
                         dataset = hapi_output.generate_dataset()
+                        dataset.update_from_yaml(
+                            path=join(
+                                dirname(__file__), "config", "hdx_hapi_dataset_static.yaml"
+                            )
+                        )
                         dataset.create_in_hdx(
                             remove_additional_resources=True,
                             match_resource_order=False,

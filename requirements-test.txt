@@ -84,7 +84,7 @@ hdx-python-api==6.3.8
     #   -c requirements.txt
     #   hdx-scraper-ipc (pyproject.toml)
     #   hdx-python-scraper
-hdx-python-country==3.9.1
+hdx-python-country==3.9.2
     # via
     #   -c requirements.txt
     #   hdx-python-api
@@ -100,7 +100,7 @@ hdx-python-utilities==3.8.5
     #   hdx-python-api
     #   hdx-python-country
     #   hdx-python-scraper
-humanize==4.12.1
+humanize==4.12.2
     # via
     #   -c requirements.txt
     #   frictionless
@@ -316,7 +316,7 @@ ruamel-yaml-clib==0.2.12
     # via
     #   -c requirements.txt
     #   ruamel-yaml
-setuptools==78.0.1
+setuptools==78.0.2
     # via
     #   -c requirements.txt
     #   ckanapi
