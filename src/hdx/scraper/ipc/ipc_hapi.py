@@ -14,7 +14,8 @@ from hdx.data.dataset import Dataset
 from hdx.location.adminlevel import AdminLevel
 from hdx.location.country import Country
 from hdx.scraper.framework.utilities.hapi_admins import complete_admins
-from hdx.utilities.dateparse import iso_string_from_datetime, parse_date
+from hdx.utilities.dateparse import iso_string_from_datetime, parse_date, parse_date_range
+from hdx.utilities.dictandlist import dict_of_lists_add
 
 logger = logging.getLogger(__name__)
 
@@ -48,6 +49,7 @@ class HAPIOutput:
         resources = dataset.get_resources()
         dataset_id = dataset["id"]
         dataset_name = dataset["name"]
+        duplicate_check = {}
         for data_type, rows in self.global_data.items():
             if "wide" in data_type or "latest" in data_type or "date" in data_type:
                 continue
@@ -69,6 +71,7 @@ class HAPIOutput:
 
                 time_period_start = parse_date(row["From"])
                 time_period_end = parse_date(row["To"])
+                date_of_analysis = parse_date_range(row["Date of analysis"])[0]
 
                 row_admin_level = admin_level
                 warnings = []
@@ -182,6 +185,19 @@ class HAPIOutput:
                     for warning in additional_warnings:
                         warnings.append(warning)
 
+                # check for duplicates
+                primary_key = (
+                    countryiso3,
+                    adm_codes[0],
+                    adm_codes[1],
+                    provider_adm_names[0],
+                    provider_adm_names[1],
+                    row["Phase"],
+                    row["Validity period"],
+                    iso_string_from_datetime(time_period_start),
+                )
+                dict_of_lists_add(duplicate_check, primary_key, date_of_analysis)
+
                 hapi_row = {
                     "location_code": countryiso3,
                     "has_hrp": hrp,
@@ -199,12 +215,39 @@ class HAPIOutput:
                     "population_fraction_in_phase": row["Percentage"],
                     "reference_period_start": iso_string_from_datetime(time_period_start),
                     "reference_period_end": iso_string_from_datetime(time_period_end),
+                    "date_of_analysis": iso_string_from_datetime(date_of_analysis),
                     "dataset_hdx_id": dataset_id,
                     "resource_hdx_id": resource_id,
                     "warning": "|".join(warnings),
                     "error": "|".join(errors),
                 }
                 hapi_rows.append(hapi_row)
+
+        for row in hapi_rows:
+            primary_key = (
+                row["location_code"],
+                row["admin1_code"],
+                row["admin2_code"],
+                row["provider_admin1_name"],
+                row["provider_admin2_name"],
+                row["ipc_phase"],
+                row["ipc_type"],
+                row["reference_period_start"],
+            )
+            date_of_analysis = row["date_of_analysis"]
+            dates_of_analysis = duplicate_check[primary_key]
+            if len(dates_of_analysis) == 1:
+                continue
+            errors = row["error"].split("|")
+            if errors == [""]:
+                errors = []
+            latest_date = max(dates_of_analysis)
+            number_latest = dates_of_analysis.count(latest_date)
+            if number_latest > 1:
+                errors.append("Duplicate row with same date of analysis excluded")
+            if date_of_analysis != iso_string_from_datetime(latest_date):
+                errors.append("Duplicate row with earlier date of analysis excluded")
+            row["error"] = "|".join(errors)
 
         logger.info(f"{dataset_name} - Country Status")
         for countryiso3 in sorted(self._country_status):
