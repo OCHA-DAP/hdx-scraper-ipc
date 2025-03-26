@@ -50,18 +50,19 @@ class HAPIOutput:
         dataset_id = dataset["id"]
         dataset_name = dataset["name"]
         duplicate_check = {}
+        analysis_id = 0
         for data_type, rows in self.global_data.items():
-            if "wide" in data_type or "latest" in data_type or "date" in data_type:
+            if "wide" not in data_type or "latest" in data_type or "date" in data_type:
                 continue
             if "country" in data_type:
                 admin_level = 0
-                resource_name = "ipc_global_national_long.csv"
+                resource_name = "ipc_global_national_wide.csv"
             elif "group" in data_type:
                 admin_level = 1
-                resource_name = "ipc_global_level1_long.csv"
+                resource_name = "ipc_global_level1_wide.csv"
             elif "area" in data_type:
                 admin_level = 2
-                resource_name = "ipc_global_area_long.csv"
+                resource_name = "ipc_global_area_wide.csv"
             resource_id = [r["id"] for r in resources if r["name"] == resource_name][0]
 
             for row in rows:
@@ -69,13 +70,9 @@ class HAPIOutput:
                 hrp = "Y" if Country.get_hrp_status_from_iso3(countryiso3) else "N"
                 gho = "Y" if Country.get_gho_status_from_iso3(countryiso3) else "N"
 
-                time_period_start = parse_date(row["From"])
-                time_period_end = parse_date(row["To"])
-                date_of_analysis = parse_date_range(row["Date of analysis"])[0]
-
+                # get admin names and codes
                 row_admin_level = admin_level
                 warnings = []
-                errors = []
                 adm_codes = ["", ""]
                 adm_names = ["", ""]
                 provider_adm_names = ["", ""]
@@ -185,68 +182,114 @@ class HAPIOutput:
                     for warning in additional_warnings:
                         warnings.append(warning)
 
-                # check for duplicates
-                primary_key = (
-                    countryiso3,
-                    adm_codes[0],
-                    adm_codes[1],
-                    provider_adm_names[0],
-                    provider_adm_names[1],
-                    row["Phase"],
-                    row["Validity period"],
-                    iso_string_from_datetime(time_period_start),
-                )
-                dict_of_lists_add(duplicate_check, primary_key, date_of_analysis)
+                # loop through projections
+                date_of_analysis = parse_date_range(row["Date of analysis"])[0]
+                for projection in ["Current", "First projection", "Second projection"]:
+                    errors = []
+                    population_analyzed = row[f"Population analyzed {projection.lower()}"]
+                    if population_analyzed is None:
+                        continue
+                    analysis_id += 1
+                    time_period_start = row[f"{projection} from"]
+                    if time_period_start is None:
+                        time_period_end = None
+                        errors.append("No time period provided")
+                    else:
+                        time_period_start = parse_date(time_period_start)
+                        time_period_start = iso_string_from_datetime(time_period_start)
+                        time_period_end = parse_date(row[f"{projection} to"])
+                        time_period_end = iso_string_from_datetime(time_period_end)
 
-                hapi_row = {
-                    "location_code": countryiso3,
-                    "has_hrp": hrp,
-                    "in_gho": gho,
-                    "provider_admin1_name": provider_adm_names[0],
-                    "provider_admin2_name": provider_adm_names[1],
-                    "admin1_code": adm_codes[0],
-                    "admin1_name": adm_names[0],
-                    "admin2_code": adm_codes[1],
-                    "admin2_name": adm_names[1],
-                    "admin_level": row_admin_level,
-                    "ipc_phase": row["Phase"],
-                    "ipc_type": row["Validity period"],
-                    "population_in_phase": row["Number"],
-                    "population_fraction_in_phase": row["Percentage"],
-                    "reference_period_start": iso_string_from_datetime(time_period_start),
-                    "reference_period_end": iso_string_from_datetime(time_period_end),
-                    "date_of_analysis": iso_string_from_datetime(date_of_analysis),
-                    "dataset_hdx_id": dataset_id,
-                    "resource_hdx_id": resource_id,
-                    "warning": "|".join(warnings),
-                    "error": "|".join(errors),
-                }
-                hapi_rows.append(hapi_row)
+                        # check for duplicates
+                        primary_key = (
+                            countryiso3,
+                            adm_codes[0],
+                            adm_codes[1],
+                            provider_adm_names[0],
+                            provider_adm_names[1],
+                            projection.lower(),
+                            time_period_start,
+                        )
+                        dict_of_lists_add(
+                            duplicate_check,
+                            primary_key,
+                            (analysis_id, population_analyzed, date_of_analysis),
+                        )
+
+                    # loop through phases
+                    for phase in ["all", "3+", "1", "2", "3", "4", "5"]:
+                        if phase == "all":
+                            population_in_phase = population_analyzed
+                            population_fraction_in_phase = 1
+                        else:
+                            population_in_phase = row[
+                                f"Phase {phase} number {projection.lower()}"
+                            ]
+                            population_fraction_in_phase = row[
+                                f"Phase {phase} percentage {projection.lower()}"
+                            ]
+                        if population_in_phase is None:
+                            continue
+                        hapi_row = {
+                            "location_code": countryiso3,
+                            "has_hrp": hrp,
+                            "in_gho": gho,
+                            "provider_admin1_name": provider_adm_names[0],
+                            "provider_admin2_name": provider_adm_names[1],
+                            "admin1_code": adm_codes[0],
+                            "admin1_name": adm_names[0],
+                            "admin2_code": adm_codes[1],
+                            "admin2_name": adm_names[1],
+                            "admin_level": row_admin_level,
+                            "ipc_phase": phase,
+                            "ipc_type": projection.lower(),
+                            "population_in_phase": population_in_phase,
+                            "population_fraction_in_phase": population_fraction_in_phase,
+                            "reference_period_start": time_period_start,
+                            "reference_period_end": time_period_end,
+                            "dataset_hdx_id": dataset_id,
+                            "resource_hdx_id": resource_id,
+                            "warning": "|".join(warnings),
+                            "error": "|".join(errors),
+                            "date_of_analysis": iso_string_from_datetime(date_of_analysis),
+                            "analysis_id": analysis_id,
+                        }
+                        hapi_rows.append(hapi_row)
+
+        # find duplicates
+        # if there are rows with different dates of analysis,
+        # the row with the earlier date is excluded
+        # if there are rows with the same date of analysis,
+        # the row with the smaller population is excluded
+        duplicates = {}
+        for _, values in duplicate_check.items():
+            if len(values) == 1:
+                continue
+            populations = [v[1] for v in values]
+            highest_population = max(populations)
+            dates = [v[2] for v in values]
+            latest_date = max(dates)
+
+            for analysis_id, _, analysis_date in values:
+                if analysis_date != latest_date:
+                    duplicates[analysis_id] = (
+                        "Duplicate row with earlier date of analysis excluded"
+                    )
+            for analysis_id, population, _ in values:
+                if population != highest_population and analysis_id not in duplicates:
+                    duplicates[analysis_id] = (
+                        "Duplicate row with lower population analyzed excluded"
+                    )
 
         for row in hapi_rows:
-            primary_key = (
-                row["location_code"],
-                row["admin1_code"],
-                row["admin2_code"],
-                row["provider_admin1_name"],
-                row["provider_admin2_name"],
-                row["ipc_phase"],
-                row["ipc_type"],
-                row["reference_period_start"],
-            )
-            date_of_analysis = row["date_of_analysis"]
-            dates_of_analysis = duplicate_check[primary_key]
-            if len(dates_of_analysis) == 1:
+            analysis_id = row["analysis_id"]
+            duplicate_error = duplicates.get(analysis_id)
+            if not duplicate_error:
                 continue
             errors = row["error"].split("|")
             if errors == [""]:
                 errors = []
-            latest_date = max(dates_of_analysis)
-            number_latest = dates_of_analysis.count(latest_date)
-            if number_latest > 1:
-                errors.append("Duplicate row with same date of analysis excluded")
-            if date_of_analysis != iso_string_from_datetime(latest_date):
-                errors.append("Duplicate row with earlier date of analysis excluded")
+            errors.append(duplicate_error)
             row["error"] = "|".join(errors)
 
         logger.info(f"{dataset_name} - Country Status")

@@ -62,7 +62,7 @@ et-xmlfile==2.0.0
     # via
     #   -c requirements.txt
     #   openpyxl
-frictionless==5.18.0
+frictionless==5.18.1
     # via
     #   -c requirements.txt
     #   hdx-python-utilities
@@ -316,7 +316,7 @@ ruamel-yaml-clib==0.2.12
     # via
     #   -c requirements.txt
     #   ruamel-yaml
-setuptools==78.0.2
+setuptools==78.1.0
     # via
     #   -c requirements.txt
     #   ckanapi
@@ -343,10 +343,6 @@ sphinxcontrib-napoleon==0.7
     # via
     #   -c requirements.txt
     #   defopt
-stringcase==1.2.0
-    # via
-    #   -c requirements.txt
-    #   frictionless
 structlog==25.2.0
     # via
     #   -c requirements.txt
@@ -375,7 +371,7 @@ typer==0.15.2
     # via
     #   -c requirements.txt
     #   frictionless
-typing-extensions==4.12.2
+typing-extensions==4.13.0
     # via
     #   -c requirements.txt
     #   frictionless
