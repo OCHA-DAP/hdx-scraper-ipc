@@ -261,25 +261,37 @@ class HAPIOutput:
         # the row with the earlier date is excluded
         # if there are rows with the same date of analysis,
         # the row with the smaller population is excluded
+        # values: (analysis_id, population_analyzed, date_of_analysis)
         duplicates = {}
         for _, values in duplicate_check.items():
             if len(values) == 1:
                 continue
-            populations = [v[1] for v in values]
-            highest_population = max(populations)
-            dates = [v[2] for v in values]
+            dates = [value[2] for value in values]
             latest_date = max(dates)
-
             for analysis_id, _, analysis_date in values:
                 if analysis_date != latest_date:
                     duplicates[analysis_id] = (
                         "Duplicate row with earlier date of analysis excluded"
                     )
+            analysis_ids_left = [value[0] for value in values if value[0] not in duplicates]
+            if len(analysis_ids_left) == 1:
+                continue
+            populations = [value[1] for value in values if value[0] in analysis_ids_left]
+            highest_population = max(populations)
             for analysis_id, population, _ in values:
                 if population != highest_population and analysis_id not in duplicates:
                     duplicates[analysis_id] = (
                         "Duplicate row with lower population analyzed excluded"
                     )
+            population_count = populations.count(highest_population)
+            if population_count > 1:
+                analysis_ids_same_population = [
+                    value[0]
+                    for value in values
+                    if value[1] == highest_population and value[0] not in duplicates
+                ]
+                for analysis_id in analysis_ids_same_population[1:]:
+                    duplicates[analysis_id] = "Duplicate row excluded"
 
         for row in hapi_rows:
             analysis_id = row["analysis_id"]
