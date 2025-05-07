@@ -89,6 +89,7 @@ hapi_hxltags:
 hapi_resource:
   name: "Global Food Security, Nutrition & Poverty: Food Security"
   description: "Food Security data from HDX HAPI, please see [the documentation](https://hdx-hapi.readthedocs.io/en/latest/data_usage_guides/food_security_nutrition_and_poverty/#food-security) for more information"
+  p_coded: True
 hapi_adm_matching:
   # The patterns ensure removal of non-admin units. These are where admin units
   # have been split to suit the org's own purposes, for example into

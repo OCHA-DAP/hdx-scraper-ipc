@@ -507,6 +507,7 @@ class TestIPC:
                         "documentation](https://hdx-hapi.readthedocs.io/en/latest/data_usage_"
                         "guides/food_security_nutrition_and_poverty/#food-security) for more "
                         "information",
+                        "p_coded": True,
                         "format": "csv",
                         "resource_type": "file.upload",
                         "url_type": "upload",
