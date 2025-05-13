@@ -8,21 +8,21 @@ from datetime import datetime, timezone
 from os.path import join
 
 import pytest
+
 from hdx.api.configuration import Configuration
 from hdx.api.locations import Locations
 from hdx.api.utilities.hdx_error_handler import HDXErrorHandler
 from hdx.data.dataset import Dataset
 from hdx.data.vocabulary import Vocabulary
 from hdx.location.country import Country
+from hdx.scraper.ipc.ipc import IPC
+from hdx.scraper.ipc.ipc_hapi import HAPIOutput
 from hdx.utilities.compare import assert_files_same
 from hdx.utilities.dateparse import parse_date
 from hdx.utilities.downloader import Download
 from hdx.utilities.path import temp_dir
 from hdx.utilities.retriever import Retrieve
 from hdx.utilities.useragent import UserAgent
-
-from hdx.scraper.ipc.ipc import IPC
-from hdx.scraper.ipc.ipc_hapi import HAPIOutput
 
 
 class TestIPC:
@@ -59,7 +59,9 @@ class TestIPC:
     @pytest.fixture(scope="function")
     def read_dataset(self, monkeypatch, input_dir):
         def read_from_hdx(dataset_name):
-            return Dataset.load_from_json(join(input_dir, f"dataset-{dataset_name}.json"))
+            return Dataset.load_from_json(
+                join(input_dir, f"dataset-{dataset_name}.json")
+            )
 
         monkeypatch.setattr(Dataset, "read_from_hdx", staticmethod(read_from_hdx))
 
@@ -78,7 +80,9 @@ class TestIPC:
     def test_generate_datasets_and_showcases(
         self, configuration, read_dataset, fixtures_dir, input_dir, config_dir
     ):
-        with temp_dir("test_ipc", delete_on_success=True, delete_on_failure=False) as folder:
+        with temp_dir(
+            "test_ipc", delete_on_success=True, delete_on_failure=False
+        ) as folder:
             with Download() as downloader:
                 retriever = Retrieve(downloader, folder, input_dir, folder, False, True)
 

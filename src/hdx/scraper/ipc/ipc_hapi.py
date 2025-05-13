@@ -14,7 +14,11 @@ from hdx.data.dataset import Dataset
 from hdx.location.adminlevel import AdminLevel
 from hdx.location.country import Country
 from hdx.scraper.framework.utilities.hapi_admins import complete_admins
-from hdx.utilities.dateparse import iso_string_from_datetime, parse_date, parse_date_range
+from hdx.utilities.dateparse import (
+    iso_string_from_datetime,
+    parse_date,
+    parse_date_range,
+)
 from hdx.utilities.dictandlist import dict_of_lists_add
 
 logger = logging.getLogger(__name__)
@@ -33,7 +37,9 @@ class HAPIOutput:
     def get_pcodes(self) -> None:
         for admin_level in [1, 2]:
             admin = AdminLevel(
-                admin_config=self._configuration["hapi_adm_matching"][f"admin{admin_level}"],
+                admin_config=self._configuration["hapi_adm_matching"][
+                    f"admin{admin_level}"
+                ],
                 admin_level=admin_level,
                 retriever=self._retriever,
             )
@@ -88,7 +94,9 @@ class HAPIOutput:
                         else:
                             provider_adm_names = [level1_name, ""]
                             match_adm_names = [level1_name, ""]
-                        self._country_status[countryiso3] = "Level 1: Admin 1, Area: ignored"
+                        self._country_status[countryiso3] = (
+                            "Level 1: Admin 1, Area: ignored"
+                        )
                     elif countryiso3 in adm_matching_config["adm2_only"]:
                         if admin_level == 1:
                             warnings.append("Admin level not present in CODs")
@@ -101,12 +109,16 @@ class HAPIOutput:
                             provider_adm_names = [level1_name, area_name]
                             match_adm_names = ["", area_name]
                     elif countryiso3 in adm_matching_config["adm2_only_include_adm1"]:
-                        self._country_status[countryiso3] = "Level 1: Admin 1, Area: Admin 2"
+                        self._country_status[countryiso3] = (
+                            "Level 1: Admin 1, Area: Admin 2"
+                        )
                         provider_adm_names = [level1_name, area_name]
                         match_adm_names = [level1_name, area_name]
                     elif countryiso3 in adm_matching_config["adm2_in_level1"]:
                         row_admin_level = 2
-                        self._country_status[countryiso3] = "Level 1: Admin 2, Area: ignored"
+                        self._country_status[countryiso3] = (
+                            "Level 1: Admin 2, Area: ignored"
+                        )
                         provider_adm_names = ["", level1_name]
                         match_adm_names = ["", level1_name]
                     elif countryiso3 in adm_matching_config["adm1_in_area"]:
@@ -159,7 +171,9 @@ class HAPIOutput:
                         if not provider_adm_names[1]:
                             row_admin_level = 1
 
-                    full_adm_name = f"{countryiso3}|{match_adm_names[0]}|{match_adm_names[1]}"
+                    full_adm_name = (
+                        f"{countryiso3}|{match_adm_names[0]}|{match_adm_names[1]}"
+                    )
                     if any(
                         x in full_adm_name.lower()
                         for x in adm_matching_config["adm_ignore_patterns"]
@@ -186,7 +200,9 @@ class HAPIOutput:
                 date_of_analysis = parse_date_range(row["Date of analysis"])[0]
                 for projection in ["Current", "First projection", "Second projection"]:
                     errors = []
-                    population_analyzed = row[f"Population analyzed {projection.lower()}"]
+                    population_analyzed = row[
+                        f"Population analyzed {projection.lower()}"
+                    ]
                     if population_analyzed is None:
                         continue
                     analysis_id += 1
@@ -251,7 +267,9 @@ class HAPIOutput:
                             "resource_hdx_id": resource_id,
                             "warning": "|".join(warnings),
                             "error": "|".join(errors),
-                            "date_of_analysis": iso_string_from_datetime(date_of_analysis),
+                            "date_of_analysis": iso_string_from_datetime(
+                                date_of_analysis
+                            ),
                             "analysis_id": analysis_id,
                         }
                         hapi_rows.append(hapi_row)
@@ -273,10 +291,14 @@ class HAPIOutput:
                     duplicates[analysis_id] = (
                         "Duplicate row with earlier date of analysis excluded"
                     )
-            analysis_ids_left = [value[0] for value in values if value[0] not in duplicates]
+            analysis_ids_left = [
+                value[0] for value in values if value[0] not in duplicates
+            ]
             if len(analysis_ids_left) == 1:
                 continue
-            populations = [value[1] for value in values if value[0] in analysis_ids_left]
+            populations = [
+                value[1] for value in values if value[0] in analysis_ids_left
+            ]
             highest_population = max(populations)
             for analysis_id, population, _ in values:
                 if population != highest_population and analysis_id not in duplicates:

@@ -12,6 +12,8 @@ from copy import deepcopy
 from datetime import datetime, timezone
 
 from dateutil.relativedelta import relativedelta
+from slugify import slugify
+
 from hdx.data.dataset import Dataset
 from hdx.data.showcase import Showcase
 from hdx.location.country import Country
@@ -19,7 +21,6 @@ from hdx.utilities.dateparse import (
     default_date,
     default_enddate,
 )
-from slugify import slugify
 
 logger = logging.getLogger(__name__)
 
@@ -124,7 +125,9 @@ class IPC:
             projection_row = deepcopy(country_subnational_row)
             period_date = analysis.get(f"{projection}_period_dates")
             if period_date:
-                period_start, period_end = self.parse_date_range(period_date, time_period)
+                period_start, period_end = self.parse_date_range(
+                    period_date, time_period
+                )
             else:
                 period_start = period_end = None
             projection_name = self.projection_names[i]
@@ -154,7 +157,9 @@ class IPC:
                 percentage = location.get(f"{prefix}_percentage{projection_suffix}")
                 row["Percentage"] = percentage
                 if prefix != "estimated":
-                    row_wide[f"Phase {phase} percentage {projection_name_l}"] = percentage
+                    row_wide[f"Phase {phase} percentage {projection_name_l}"] = (
+                        percentage
+                    )
                 if affected is not None and period_date:
                     rows.append(row)
 
@@ -190,7 +195,9 @@ class IPC:
     ):
         def process_areas(adm_row, adm):
             if adm["areas"] is None:
-                logger.error(f"{countryiso3}: {analysis['title']} has blank \"areas\" field!")
+                logger.error(
+                    f'{countryiso3}: {analysis["title"]} has blank "areas" field!'
+                )
                 return
             for area in adm["areas"]:
                 area_row = deepcopy(adm_row)
@@ -409,7 +416,9 @@ class IPC:
             showcase_description = "IPC-CH Dashboard"
             showcase_url = "https://www.ipcinfo.org/ipcinfo-website/ipc-dashboard/en/"
         elif countryiso3 in self.ch_countries:
-            showcase_description = "CH regional page on IPC website with map and reports"
+            showcase_description = (
+                "CH regional page on IPC website with map and reports"
+            )
             showcase_url = self.configuration["ch_showcase_url"]
         else:
             showcase_description = f"Access all of IPC’s analyses for {countryname}"
