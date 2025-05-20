@@ -110,10 +110,10 @@ def main(
                         dataset, showcase = ipc.generate_dataset_and_showcase(
                             folder, output
                         )
-                        # create_dataset(
-                        #     dataset,
-                        #     showcase,
-                        # )
+                        create_dataset(
+                            dataset,
+                            showcase,
+                        )
                     if country_data_updated:
                         output = ipc.get_all_data()
                         dataset, showcase = ipc.generate_dataset_and_showcase(
