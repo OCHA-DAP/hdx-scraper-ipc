@@ -32,7 +32,7 @@ class HAPIOutput:
         self._error_handler = error_handler
         self._admins = []
         self._country_status = {}
-        self.global_data = global_data
+        self._global_data = global_data
 
     def get_pcodes(self) -> None:
         for admin_level in [1, 2]:
@@ -57,7 +57,7 @@ class HAPIOutput:
         dataset_name = dataset["name"]
         duplicate_check = {}
         analysis_id = 0
-        for data_type, rows in self.global_data.items():
+        for data_type, rows in self._global_data.items():
             if "wide" not in data_type or "latest" in data_type or "date" in data_type:
                 continue
             if "country" in data_type:
@@ -342,8 +342,8 @@ class HAPIOutput:
         )
         dataset.add_tags(["food security", "hxl"])
         dataset.add_other_location("world")
-        start_date = self.global_data["start_date"]
-        end_date = self.global_data["end_date"]
+        start_date = self._global_data["start_date"]
+        end_date = self._global_data["end_date"]
         dataset.set_time_period(start_date, end_date)
 
         hxl_tags = self._configuration["hapi_hxltags"]

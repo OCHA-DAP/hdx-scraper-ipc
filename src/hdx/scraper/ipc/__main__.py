@@ -11,7 +11,10 @@ from os.path import expanduser, join
 
 from hdx.api.configuration import Configuration
 from hdx.api.utilities.hdx_error_handler import HDXErrorHandler
+from hdx.api.utilities.hdx_state import HDXState
+from hdx.data.user import User
 from hdx.facades.infer_arguments import facade
+from hdx.scraper.ipc._version import __version__
 from hdx.scraper.ipc.ipc import IPC
 from hdx.scraper.ipc.ipc_hapi import HAPIOutput
 from hdx.utilities.downloader import Download
@@ -21,11 +24,10 @@ from hdx.utilities.path import (
     wheretostart_tempdir_batch,
 )
 from hdx.utilities.retriever import Retrieve
-from hdx.utilities.state import State
 
 logger = logging.getLogger(__name__)
 
-_USER_AGENT_LOOKUP = "hdx-scraper-ipc"
+_LOOKUP = "hdx-scraper-ipc"
 _SAVED_DATA_DIR = "saved_data"  # Keep in repo to avoid deletion in /tmp
 _UPDATED_BY_SCRIPT = "HDX Scraper: IPC"
 
@@ -45,19 +47,25 @@ def main(
     Returns:
         None
     """
+    logger.info(f"##### {_LOOKUP} version {__version__} ####")
     configuration = Configuration.read()
-    with HDXErrorHandler(write_to_hdx=err_to_hdx) as error_handler:
-        with State(
-            "analysis_dates.txt",
-            State.dates_str_to_country_date_dict,
-            State.country_date_dict_to_dates_str,
-        ) as state:
-            state_dict = deepcopy(state.get())
-            with wheretostart_tempdir_batch(_USER_AGENT_LOOKUP) as info:
-                folder = info["folder"]
+    User.check_current_user_write_access(
+        "da501ffc-aadb-43f5-9d28-8fa572fd9ce0", configuration=configuration
+    )
+    with wheretostart_tempdir_batch(_LOOKUP) as info:
+        folder = info["folder"]
+        with HDXErrorHandler(write_to_hdx=err_to_hdx) as error_handler:
+            with HDXState(
+                "pipeline-state-ipc",
+                folder,
+                HDXState.dates_str_to_country_date_dict,
+                HDXState.country_date_dict_to_dates_str,
+                configuration,
+            ) as state:
+                state_dict = deepcopy(state.get())
                 with Download(
                     extra_params_yaml=join(expanduser("~"), ".extraparams.yaml"),
-                    extra_params_lookup=_USER_AGENT_LOOKUP,
+                    extra_params_lookup=_LOOKUP,
                 ) as downloader:
                     _, iterator = downloader.get_tabular_rows(
                         script_dir_plus_file(join("config", "ch_countries.csv"), main),
@@ -74,6 +82,7 @@ def main(
                     def create_dataset(
                         dataset,
                         showcase,
+                        is_country=True,
                     ):
                         if not dataset:
                             return
@@ -90,12 +99,25 @@ def main(
                         # ensure markdown has line breaks
                         dataset["notes"] = notes.replace("\n", "  \n")
 
+                        resource_order = [x["name"] for x in dataset.get_resources()]
+
                         dataset.create_in_hdx(
                             remove_additional_resources=True,
                             hxl_update=False,
                             updated_by_script=_UPDATED_BY_SCRIPT,
                             batch=info["batch"],
                         )
+
+                        if (
+                            is_country
+                            and dataset.get_resource().get_format() != "geojson"
+                        ):
+                            resource_ids = {}
+                            for resource in dataset.get_resources():
+                                resource_ids[resource["name"]] = resource["id"]
+                            dataset.reorder_resources(
+                                [resource_ids[x] for x in resource_order]
+                            )
 
                         if showcase:
                             showcase.create_in_hdx()
@@ -119,10 +141,7 @@ def main(
                         dataset, showcase = ipc.generate_dataset_and_showcase(
                             folder, output
                         )
-                        create_dataset(
-                            dataset,
-                            showcase,
-                        )
+                        create_dataset(dataset, showcase, is_country=False)
                         hapi_output = HAPIOutput(
                             configuration, retriever, folder, error_handler, output
                         )
@@ -151,7 +170,7 @@ if __name__ == "__main__":
     facade(
         main,
         user_agent_config_yaml=join(expanduser("~"), ".useragents.yaml"),
-        user_agent_lookup=_USER_AGENT_LOOKUP,
+        user_agent_lookup=_LOOKUP,
         project_config_yaml=script_dir_plus_file(
             join("config", "project_configuration.yaml"), main
         ),
