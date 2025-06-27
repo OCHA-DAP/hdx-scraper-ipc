@@ -8,6 +8,7 @@ script then creates in HDX.
 import logging
 from copy import deepcopy
 from os.path import expanduser, join
+from typing import Optional
 
 from hdx.api.configuration import Configuration
 from hdx.api.utilities.hdx_error_handler import HDXErrorHandler
@@ -35,14 +36,14 @@ _UPDATED_BY_SCRIPT = "HDX Scraper: IPC"
 def main(
     save: bool = False,
     use_saved: bool = False,
-    err_to_hdx: bool = False,
+    err_to_hdx: Optional[str] = None,
 ) -> None:
     """Generate datasets and create them in HDX
 
     Args:
         save (bool): Save downloaded data. Defaults to False.
         use_saved (bool): Use saved data. Defaults to False.
-        err_to_hdx (bool): Whether to write any errors to HDX metadata. Defaults to False.
+        err_to_hdx (Optional[str]): Whether to write errors to HDX metadata. Defaults to None.
 
     Returns:
         None
