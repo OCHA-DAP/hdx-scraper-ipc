@@ -88,6 +88,8 @@ class TestIPC:
 
                 def check_files(resources):
                     for resource in resources:
+                        if resource.get_format() == "geojson":
+                            continue
                         filename = resource["name"]
                         expected_path = join(fixtures_dir, filename)
                         actual_path = join(folder, filename)
@@ -134,6 +136,13 @@ class TestIPC:
 
                 resources = dataset.get_resources()
                 assert resources == [
+                    {
+                        "description": "IPC GeoJSON for latest analysis",
+                        "format": "geojson",
+                        "name": "ipc_afg.geojson",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
                     {
                         "description": "Latest IPC national data in long form with HXL tags",
                         "format": "csv",
@@ -220,7 +229,7 @@ class TestIPC:
                     "title": "Afghanistan: Acute Food Insecurity Country Data showcase",
                     "url": "https://www.ipcinfo.org/ipc-country-analysis/en/?country=AFG",
                 }
-                ipc.ch_countries = ["AFG"]  # for testing purposes
+                ipc._ch_countries = ["AFG"]  # for testing purposes
                 _, showcase = ipc.generate_dataset_and_showcase(folder, output)
                 assert showcase == {
                     "image_url": "https://www.ipcinfo.org/fileadmin/user_upload/ipcinfo/img/dashboard_thumbnail.jpg",
@@ -248,6 +257,13 @@ class TestIPC:
                 dataset, showcase = ipc.generate_dataset_and_showcase(folder, output)
                 resources = dataset.get_resources()
                 assert resources == [
+                    {
+                        "description": "IPC GeoJSON for latest analysis",
+                        "format": "geojson",
+                        "name": "ipc_ago.geojson",
+                        "resource_type": "file.upload",
+                        "url_type": "upload",
+                    },
                     {
                         "description": "Latest IPC national data in long form with HXL tags",
                         "format": "csv",

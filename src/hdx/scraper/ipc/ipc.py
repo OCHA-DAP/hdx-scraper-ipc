@@ -10,36 +10,47 @@ Reads IPC data and creates datasets.
 import logging
 from copy import deepcopy
 from datetime import datetime, timezone
+from typing import Dict, List
 
 from dateutil.relativedelta import relativedelta
 from slugify import slugify
 
+from hdx.api.configuration import Configuration
 from hdx.data.dataset import Dataset
+from hdx.data.resource import Resource
 from hdx.data.showcase import Showcase
 from hdx.location.country import Country
+from hdx.utilities.base_downloader import DownloadError
 from hdx.utilities.dateparse import (
     default_date,
     default_enddate,
 )
+from hdx.utilities.retriever import Retrieve
 
 logger = logging.getLogger(__name__)
 
 
 class IPC:
-    def __init__(self, configuration, retriever, state, ch_countries):
-        self.configuration = configuration
-        self.retriever = retriever
-        self.state = state
-        self.default_start_date = state["DEFAULT"]
-        self.base_url = configuration["base_url"]
-        self.projection_names = [
+    def __init__(
+        self,
+        configuration: Configuration,
+        retriever: Retrieve,
+        state: Dict,
+        ch_countries: List,
+    ):
+        self._configuration = configuration
+        self._retriever = retriever
+        self._state = state
+        self._default_start_date = state["DEFAULT"]
+        self._base_url = configuration["base_url"]
+        self._projection_names = [
             "Current",
             "First projection",
             "Second projection",
         ]
-        self.projection_suffixes = ["", "_projected", "_second_projected"]
-        self.projections = ["current", "projected", "second_projected"]
-        self.phasemapping = {
+        self._projection_suffixes = ["", "_projected", "_second_projected"]
+        self._projections = ["current", "projected", "second_projected"]
+        self._phasemapping = {
             "estimated": "all",
             "p3plus": "3+",
             "phase1": "1",
@@ -48,8 +59,8 @@ class IPC:
             "phase4": "4",
             "phase5": "5",
         }
-        self.colnamemapping = {"estimated": "analyzed"}
-        self.output = {
+        self._colnamemapping = {"estimated": "analyzed"}
+        self._output = {
             "country_rows_latest": [],
             "country_rows_wide_latest": [],
             "group_rows_latest": [],
@@ -67,8 +78,8 @@ class IPC:
         }
         name, title = self.get_dataset_title_name("Global")
         temp_dataset = Dataset({"name": name, "title": title})
-        self.global_dataset_url = temp_dataset.get_hdx_url()
-        self.ch_countries = ch_countries
+        self._global_dataset_url = temp_dataset.get_hdx_url()
+        self._ch_countries = ch_countries
 
     def get_dataset_title_name(self, countryname):
         title = f"{countryname}: Acute Food Insecurity Country Data"
@@ -77,7 +88,7 @@ class IPC:
 
     def get_countries(self):
         countryisos = set()
-        json = self.retriever.download_json(f"{self.base_url}/analyses?type=A")
+        json = self._retriever.download_json(f"{self._base_url}/analyses?type=A")
         for analysis in json:
             countryiso2 = analysis["country"]
             countryiso3 = Country.get_iso3_from_iso2(countryiso2)
@@ -121,7 +132,7 @@ class IPC:
             analysis = location
         country_subnational_row = deepcopy(base_row)
         row_wide = deepcopy(country_subnational_row)
-        for i, projection in enumerate(self.projections):
+        for i, projection in enumerate(self._projections):
             projection_row = deepcopy(country_subnational_row)
             period_date = analysis.get(f"{projection}_period_dates")
             if period_date:
@@ -130,16 +141,16 @@ class IPC:
                 )
             else:
                 period_start = period_end = None
-            projection_name = self.projection_names[i]
+            projection_name = self._projection_names[i]
             projection_name_l = projection_name.lower()
             projection_row["Validity period"] = projection_name_l
             projection_row["From"] = period_start
             projection_row["To"] = period_end
             row_wide[f"{projection_name} from"] = period_start
             row_wide[f"{projection_name} to"] = period_end
-            projection_suffix = self.projection_suffixes[i]
+            projection_suffix = self._projection_suffixes[i]
             location[f"estimated_percentage{projection_suffix}"] = 1.0
-            for prefix, phase in self.phasemapping.items():
+            for prefix, phase in self._phasemapping.items():
                 row = deepcopy(projection_row)
                 if phase == "3+":
                     key = f"p3plus{projection_suffix}"
@@ -234,18 +245,18 @@ class IPC:
 
     def get_country_data(self, countryiso3):
         countryiso2 = Country.get_iso2_from_iso3(countryiso3)
-        url = f"{self.base_url}/population?country={countryiso2}"
-        country_data = self.retriever.download_json(url)
+        url = f"{self._base_url}/population?country={countryiso2}"
+        country_data = self._retriever.download_json(url)
         if not country_data:
             return None
         most_recent_analysis = country_data[0]
 
         analysis_date = self.parse_date(most_recent_analysis["analysis_date"])
-        if analysis_date <= self.state.get(countryiso3, self.default_start_date):
+        if analysis_date <= self._state.get(countryiso3, self._default_start_date):
             update = False
         else:
             update = True
-        self.state[countryiso3] = analysis_date
+        self._state[countryiso3] = analysis_date
         time_period = {"start_date": default_enddate, "end_date": default_date}
 
         output = {"countryiso3": countryiso3}
@@ -256,6 +267,15 @@ class IPC:
                 most_recent_current_analysis = analysis
                 break
         if most_recent_current_analysis:
+            analysis_id = most_recent_current_analysis["id"]
+            url = f"{self._base_url}/areas/{analysis_id}/C?country={countryiso2}&type=A&format=geojson"
+            filename = f"ipc_{countryiso3.lower()}.geojson"
+            try:
+                path = self._retriever.download_file(url, filename=filename)
+            except DownloadError:
+                url = url.replace("/C", "/P")
+                path = self._retriever.download_file(url, filename=filename)
+            output["geojson"] = path
             country_rows = output["country_rows_latest"] = []
             country_rows_wide = output["country_rows_wide_latest"] = []
             group_rows = output["group_rows_latest"] = []
@@ -278,12 +298,14 @@ class IPC:
                 area_rows,
                 area_rows_wide,
             )
-            self.output["country_rows_latest"].extend(country_rows)
-            self.output["country_rows_wide_latest"].extend(country_rows_wide)
-            self.output["group_rows_latest"].extend(group_rows)
-            self.output["group_rows_wide_latest"].extend(group_rows_wide)
-            self.output["area_rows_latest"].extend(area_rows)
-            self.output["area_rows_wide_latest"].extend(area_rows_wide)
+            self._output["country_rows_latest"].extend(country_rows)
+            self._output["country_rows_wide_latest"].extend(country_rows_wide)
+            self._output["group_rows_latest"].extend(group_rows)
+            self._output["group_rows_wide_latest"].extend(group_rows_wide)
+            self._output["area_rows_latest"].extend(area_rows)
+            self._output["area_rows_wide_latest"].extend(area_rows_wide)
+        else:
+            output["geojson"] = None
 
         country_rows = output["country_rows"] = []
         country_rows_wide = output["country_rows_wide"] = []
@@ -308,29 +330,29 @@ class IPC:
                 area_rows,
                 area_rows_wide,
             )
-        self.output["country_rows"].extend(country_rows)
-        self.output["country_rows_wide"].extend(country_rows_wide)
-        self.output["group_rows"].extend(group_rows)
-        self.output["group_rows_wide"].extend(group_rows_wide)
-        self.output["area_rows"].extend(area_rows)
-        self.output["area_rows_wide"].extend(area_rows_wide)
+        self._output["country_rows"].extend(country_rows)
+        self._output["country_rows_wide"].extend(country_rows_wide)
+        self._output["group_rows"].extend(group_rows)
+        self._output["group_rows_wide"].extend(group_rows_wide)
+        self._output["area_rows"].extend(area_rows)
+        self._output["area_rows_wide"].extend(area_rows_wide)
 
         start_date = time_period["start_date"]
         end_date = time_period["end_date"]
         output["start_date"] = start_date
         output["end_date"] = end_date
-        if start_date < self.output["start_date"]:
-            self.output["start_date"] = start_date
-            self.state["START_DATE"] = start_date
-        if end_date > self.output["end_date"]:
-            self.output["end_date"] = end_date
-            self.state["END_DATE"] = end_date
+        if start_date < self._output["start_date"]:
+            self._output["start_date"] = start_date
+            self._state["START_DATE"] = start_date
+        if end_date > self._output["end_date"]:
+            self._output["end_date"] = end_date
+            self._state["END_DATE"] = end_date
         if not update:
             return None
         return output
 
     def get_all_data(self):
-        return self.output
+        return self._output
 
     def generate_dataset_and_showcase(self, folder, output):
         if not output:
@@ -338,13 +360,13 @@ class IPC:
         countryiso3 = output.get("countryiso3")
         if countryiso3:
             countryname = Country.get_country_name_from_iso3(countryiso3)
-            notes = f"There is also a [global dataset]({self.global_dataset_url})."
+            notes = f"There is also a [global dataset]({self._global_dataset_url})."
         else:
             if not output["country_rows_latest"]:
                 return None, None
             countryname = "Global"
             notes = (
-                f"There are also [country datasets]({self.configuration.get_hdx_site_url()}/"
+                f"There are also [country datasets]({self._configuration.get_hdx_site_url()}/"
                 f"organization/da501ffc-aadb-43f5-9d28-8fa572fd9ce0)"
             )
         name, title = self.get_dataset_title_name(countryname)
@@ -374,6 +396,17 @@ class IPC:
         dataset.add_tags(tags)
         dataset.set_time_period(output["start_date"], output["end_date"])
 
+        if countryiso3:
+            filename = f"ipc_{countryiso3lower}.geojson"
+            resourcedata = {
+                "name": filename,
+                "description": "IPC GeoJSON for latest analysis",
+            }
+            resource = Resource(resourcedata)
+            resource.set_file_to_upload(output["geojson"])
+            resource.set_format("geojson")
+            dataset.add_update_resource(resource)
+
         filename = f"ipc_{countryiso3lower}_national_long_latest.csv"
         resourcedata = {
             "name": filename,
@@ -386,7 +419,7 @@ class IPC:
         success, results = dataset.generate_resource_from_iterable(
             list(country_rows[0].keys()),
             country_rows,
-            self.configuration["long_hxltags"],
+            self._configuration["long_hxltags"],
             folder,
             filename,
             resourcedata,
@@ -406,7 +439,7 @@ class IPC:
             success, results = dataset.generate_resource_from_iterable(
                 list(country_rows_wide[0].keys()),
                 country_rows_wide,
-                self.configuration["wide_hxltags"],
+                self._configuration["wide_hxltags"],
                 folder,
                 filename,
                 resourcedata,
@@ -415,14 +448,14 @@ class IPC:
         if countryiso3lower == "global":
             showcase_description = "IPC-CH Dashboard"
             showcase_url = "https://www.ipcinfo.org/ipcinfo-website/ipc-dashboard/en/"
-        elif countryiso3 in self.ch_countries:
+        elif countryiso3 in self._ch_countries:
             showcase_description = (
                 "CH regional page on IPC website with map and reports"
             )
-            showcase_url = self.configuration["ch_showcase_url"]
+            showcase_url = self._configuration["ch_showcase_url"]
         else:
             showcase_description = f"Access all of IPC’s analyses for {countryname}"
-            showcase_url = self.configuration["showcase_url"]
+            showcase_url = self._configuration["showcase_url"]
             showcase_url = f"{showcase_url}{countryiso3}"
         showcase = Showcase(
             {
@@ -444,7 +477,7 @@ class IPC:
             success, results = dataset.generate_resource_from_iterable(
                 list(group_rows[0].keys()),
                 group_rows,
-                self.configuration["long_hxltags"],
+                self._configuration["long_hxltags"],
                 folder,
                 filename,
                 resourcedata,
@@ -460,7 +493,7 @@ class IPC:
             success, results = dataset.generate_resource_from_iterable(
                 list(group_rows_wide[0].keys()),
                 group_rows_wide,
-                self.configuration["wide_hxltags"],
+                self._configuration["wide_hxltags"],
                 folder,
                 filename,
                 resourcedata,
@@ -476,7 +509,7 @@ class IPC:
             success, results = dataset.generate_resource_from_iterable(
                 list(area_rows[0].keys()),
                 area_rows,
-                self.configuration["long_hxltags"],
+                self._configuration["long_hxltags"],
                 folder,
                 filename,
                 resourcedata,
@@ -494,7 +527,7 @@ class IPC:
             success, results = dataset.generate_resource_from_iterable(
                 list(area_rows_wide[0].keys()),
                 area_rows_wide,
-                self.configuration["wide_hxltags"],
+                self._configuration["wide_hxltags"],
                 folder,
                 filename,
                 resourcedata,
@@ -513,7 +546,7 @@ class IPC:
         success, results = dataset.generate_resource_from_iterable(
             list(country_rows[0].keys()),
             country_rows,
-            self.configuration["long_hxltags"],
+            self._configuration["long_hxltags"],
             folder,
             filename,
             resourcedata,
@@ -527,7 +560,7 @@ class IPC:
         success, results = dataset.generate_resource_from_iterable(
             list(country_rows_wide[0].keys()),
             country_rows_wide,
-            self.configuration["wide_hxltags"],
+            self._configuration["wide_hxltags"],
             folder,
             filename,
             resourcedata,
@@ -543,7 +576,7 @@ class IPC:
             success, results = dataset.generate_resource_from_iterable(
                 list(group_rows[0].keys()),
                 group_rows,
-                self.configuration["long_hxltags"],
+                self._configuration["long_hxltags"],
                 folder,
                 filename,
                 resourcedata,
@@ -559,7 +592,7 @@ class IPC:
             success, results = dataset.generate_resource_from_iterable(
                 list(group_rows_wide[0].keys()),
                 group_rows_wide,
-                self.configuration["wide_hxltags"],
+                self._configuration["wide_hxltags"],
                 folder,
                 filename,
                 resourcedata,
@@ -575,7 +608,7 @@ class IPC:
             success, results = dataset.generate_resource_from_iterable(
                 list(area_rows[0].keys()),
                 area_rows,
-                self.configuration["long_hxltags"],
+                self._configuration["long_hxltags"],
                 folder,
                 filename,
                 resourcedata,
@@ -593,7 +626,7 @@ class IPC:
             success, results = dataset.generate_resource_from_iterable(
                 list(area_rows_wide[0].keys()),
                 area_rows_wide,
-                self.configuration["wide_hxltags"],
+                self._configuration["wide_hxltags"],
                 folder,
                 filename,
                 resourcedata,

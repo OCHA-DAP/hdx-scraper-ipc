@@ -24,10 +24,10 @@ jobs:
         pip install .
     - name: Run script
       env:
-        HDX_SITE: ${{ secrets.HDX_SITE }}
+        HDX_SITE: ${{ vars.HDX_SITE }}
         HDX_KEY: ${{ secrets.HDX_BOT_SCRAPERS_API_TOKEN }}
-        PREPREFIX: ${{ secrets.HDX_PIPELINE_PREPREFIX }}
-        USER_AGENT: ${{ secrets.USER_AGENT }}
+        PREPREFIX: ${{ vars.HDX_USER_AGENT_PREPREFIX }}
+        USER_AGENT: ${{ vars.USER_AGENT }}
         EXTRA_PARAMS: ${{ secrets.EXTRA_PARAMS }}
       run: |
         python -m hdx.scraper.ipc
