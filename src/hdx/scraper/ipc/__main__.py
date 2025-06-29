@@ -108,6 +108,8 @@ def main(
                             updated_by_script=_UPDATED_BY_SCRIPT,
                             batch=info["batch"],
                         )
+                        dataset.get_resource().disable_dataset_preview()
+                        dataset.preview_off()
 
                         if (
                             is_country

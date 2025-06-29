@@ -20,6 +20,7 @@ from hdx.data.dataset import Dataset
 from hdx.data.resource import Resource
 from hdx.data.showcase import Showcase
 from hdx.location.country import Country
+from hdx.utilities.base_downloader import DownloadError
 from hdx.utilities.dateparse import (
     default_date,
     default_enddate,
@@ -267,10 +268,13 @@ class IPC:
                 break
         if most_recent_current_analysis:
             analysis_id = most_recent_current_analysis["id"]
-            year = self.parse_date(most_recent_current_analysis["analysis_date"]).year
-            url = f"{self._base_url}/areas/{analysis_id}/P?country={countryiso2}&year={year}&type=A&format=geojson"
+            url = f"{self._base_url}/areas/{analysis_id}/C?country={countryiso2}&type=A&format=geojson"
             filename = f"ipc_{countryiso3.lower()}.geojson"
-            path = self._retriever.download_file(url, filename=filename)
+            try:
+                path = self._retriever.download_file(url, filename=filename)
+            except DownloadError:
+                url = url.replace("/C", "/P")
+                path = self._retriever.download_file(url, filename=filename)
             output["geojson"] = path
             country_rows = output["country_rows_latest"] = []
             country_rows_wide = output["country_rows_wide_latest"] = []
