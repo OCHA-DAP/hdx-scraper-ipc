@@ -166,7 +166,7 @@ def main(
                         )
                     else:
                         logger.info("Nothing to update!")
-            state.set(state_dict)
+                state.set(state_dict)
 
 
 if __name__ == "__main__":
