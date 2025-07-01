@@ -102,14 +102,14 @@ def main(
 
                         resource_order = [x["name"] for x in dataset.get_resources()]
 
+                        dataset.get_resource().disable_dataset_preview()
+                        dataset.preview_off()
                         dataset.create_in_hdx(
                             remove_additional_resources=True,
                             hxl_update=False,
                             updated_by_script=_UPDATED_BY_SCRIPT,
                             batch=info["batch"],
                         )
-                        dataset.get_resource().disable_dataset_preview()
-                        dataset.preview_off()
 
                         if (
                             is_country
