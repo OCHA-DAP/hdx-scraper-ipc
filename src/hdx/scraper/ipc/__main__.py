@@ -54,11 +54,6 @@ def main(
     User.check_current_user_write_access(
         "da501ffc-aadb-43f5-9d28-8fa572fd9ce0", configuration=configuration
     )
-    ipc_key = getenv("IPC_KEY")
-    if ipc_key:
-        extra_params_dict = {"key": ipc_key}
-    else:
-        extra_params_dict = None
     with wheretostart_tempdir_batch(_LOOKUP) as info:
         folder = info["folder"]
         with HDXErrorHandler(write_to_hdx=err_to_hdx) as error_handler:
@@ -70,6 +65,11 @@ def main(
                 configuration,
             ) as state:
                 state_dict = deepcopy(state.get())
+                ipc_key = getenv("IPC_KEY")
+                if ipc_key:
+                    extra_params_dict = {"key": ipc_key}
+                else:
+                    extra_params_dict = None
                 with Download(
                     extra_params_dict=extra_params_dict,
                     extra_params_yaml=join(expanduser("~"), ".extraparams.yaml"),

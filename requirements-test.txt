@@ -15,7 +15,7 @@ cachetools==5.5.2
     # via
     #   -c requirements.txt
     #   google-auth
-certifi==2025.7.9
+certifi==2025.7.14
     # via
     #   -c requirements.txt
     #   requests
