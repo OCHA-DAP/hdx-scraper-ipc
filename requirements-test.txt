@@ -15,7 +15,7 @@ cachetools==5.5.2
     # via
     #   -c requirements.txt
     #   google-auth
-certifi==2025.6.15
+certifi==2025.7.9
     # via
     #   -c requirements.txt
     #   requests
@@ -35,7 +35,7 @@ click==8.2.1
     # via
     #   -c requirements.txt
     #   typer
-coverage==7.9.1
+coverage==7.9.2
     # via pytest-cov
 defopt==7.0.0
     # via
@@ -84,7 +84,7 @@ hdx-python-api==6.4.5
     #   -c requirements.txt
     #   hdx-scraper-ipc (pyproject.toml)
     #   hdx-python-scraper
-hdx-python-country==3.9.5
+hdx-python-country==3.9.6
     # via
     #   -c requirements.txt
     #   hdx-scraper-ipc (pyproject.toml)
@@ -94,7 +94,7 @@ hdx-python-scraper==2.6.5
     # via
     #   -c requirements.txt
     #   hdx-scraper-ipc (pyproject.toml)
-hdx-python-utilities==3.8.7
+hdx-python-utilities==3.8.8
     # via
     #   -c requirements.txt
     #   hdx-scraper-ipc (pyproject.toml)
@@ -192,7 +192,7 @@ openpyxl==3.1.5
     #   hdx-python-utilities
 packaging==25.0
     # via pytest
-petl==1.7.16
+petl==1.7.17
     # via
     #   -c requirements.txt
     #   frictionless
@@ -375,7 +375,7 @@ typer==0.16.0
     # via
     #   -c requirements.txt
     #   frictionless
-typing-extensions==4.14.0
+typing-extensions==4.14.1
     # via
     #   -c requirements.txt
     #   frictionless
