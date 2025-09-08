@@ -220,6 +220,26 @@
     "modified": "2022-04-26"
   },
   {
+    "id": "26598352",
+    "title": "Afghanistan - Acute Food Insecurity September 2022",
+    "link": "https://www.ipcinfo.org/ipc-country-analysis/details-map/en/c/1156270/?iso3=AFG",
+    "country": "AF",
+    "year": 2022,
+    "condition": "A",
+    "created": "2022-11-11",
+    "modified": "2025-08-22"
+  },
+  {
+    "id": "56661025",
+    "title": "Afghanistan - Acute Food Insecurity April 2023",
+    "link": "https://www.ipcinfo.org/ipc-country-analysis/details-map/en/c/1156351/?iso3=AFG",
+    "country": "AF",
+    "year": 2023,
+    "condition": "A",
+    "created": "2023-05-15",
+    "modified": "2025-08-22"
+  },
+  {
     "id": "26546456",
     "title": "Central African Republic - Acute Food Insecurity September 2022 (19ème cycle)",
     "link": "https://www.ipcinfo.org/ipc-country-analysis/details-map/en/c/1156015/?iso3=CAF",
@@ -228,6 +248,16 @@
     "condition": "A",
     "created": "2022-11-02",
     "modified": "2022-11-11"
+  },
+  {
+    "id": "56657074",
+    "title": "Central African Republic - Acute Food Insecurity April 2023",
+    "link": "https://www.ipcinfo.org/ipc-country-analysis/details-map/en/c/1156361/?iso3=CAF",
+    "country": "CF",
+    "year": 2023,
+    "condition": "A",
+    "created": "2023-05-09",
+    "modified": "2025-08-22"
   },
   {
     "id": "13963677",

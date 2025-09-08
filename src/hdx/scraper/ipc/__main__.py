@@ -7,6 +7,7 @@ script then creates in HDX.
 
 import logging
 from copy import deepcopy
+from datetime import datetime, timezone
 from os import getenv
 from os.path import expanduser, join
 from typing import Optional
@@ -38,6 +39,7 @@ def main(
     save: bool = False,
     use_saved: bool = False,
     err_to_hdx: Optional[str] = None,
+    reset_state: bool = False,
 ) -> None:
     """Generate datasets and create them in HDX
 
@@ -45,6 +47,7 @@ def main(
         save (bool): Save downloaded data. Defaults to False.
         use_saved (bool): Use saved data. Defaults to False.
         err_to_hdx (Optional[str]): Whether to write errors to HDX metadata. Defaults to None.
+        reset_state (bool): Reset state. Defaults to False.
 
     Returns:
         None
@@ -64,7 +67,12 @@ def main(
                 HDXState.country_date_dict_to_dates_str,
                 configuration,
             ) as state:
-                state_dict = deepcopy(state.get())
+                if reset_state:
+                    state_dict = {
+                        "DEFAULT": datetime(2017, 1, 1, 0, 0, tzinfo=timezone.utc)
+                    }
+                else:
+                    state_dict = deepcopy(state.get())
                 ipc_key = getenv("IPC_KEY")
                 if ipc_key:
                     extra_params_dict = {"key": ipc_key}
@@ -113,6 +121,7 @@ def main(
                         dataset.preview_off()
                         dataset.create_in_hdx(
                             remove_additional_resources=True,
+                            match_resources=True,
                             hxl_update=False,
                             updated_by_script=_UPDATED_BY_SCRIPT,
                             batch=info["batch"],
