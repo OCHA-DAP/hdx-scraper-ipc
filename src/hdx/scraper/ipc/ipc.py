@@ -80,6 +80,7 @@ class IPC:
         temp_dataset = Dataset({"name": name, "title": title})
         self._global_dataset_url = temp_dataset.get_hdx_url()
         self._ch_countries = ch_countries
+        self._acute_analysis_ids = []
 
     def get_dataset_title_name(self, countryname):
         title = f"{countryname}: Acute Food Insecurity Country Data"
@@ -89,6 +90,7 @@ class IPC:
     def get_countries(self):
         countryisos = set()
         json = self._retriever.download_json(f"{self._base_url}/analyses?type=A")
+
         for analysis in json:
             countryiso2 = analysis["country"]
             countryiso3 = Country.get_iso3_from_iso2(countryiso2)
@@ -98,6 +100,7 @@ class IPC:
                 )
             else:
                 countryisos.add(countryiso3)
+                self._acute_analysis_ids.append(analysis["id"])
         return [{"iso3": x} for x in sorted(countryisos)]
 
     @staticmethod
@@ -132,6 +135,7 @@ class IPC:
             analysis = location
         country_subnational_row = deepcopy(base_row)
         row_wide = deepcopy(country_subnational_row)
+        have_data = False
         for i, projection in enumerate(self._projections):
             projection_row = deepcopy(country_subnational_row)
             period_date = analysis.get(f"{projection}_period_dates")
@@ -139,6 +143,7 @@ class IPC:
                 period_start, period_end = self.parse_date_range(
                     period_date, time_period
                 )
+                have_data = True
             else:
                 period_start = period_end = None
             projection_name = self._projection_names[i]
@@ -161,6 +166,8 @@ class IPC:
                 row["Number"] = affected
                 projection_name_l = projection_name.lower()
                 if phase == "all":
+                    if period_start is None:
+                        affected = None
                     colname = f"Population analyzed {projection_name_l}"
                 else:
                     colname = f"Phase {phase} number {projection_name_l}"
@@ -173,8 +180,8 @@ class IPC:
                     )
                 if affected is not None and period_date:
                     rows.append(row)
-
-        rows_wide.append(row_wide)
+        if have_data:
+            rows_wide.append(row_wide)
 
     @staticmethod
     def get_base_row(analysis, countryiso3):
@@ -249,8 +256,13 @@ class IPC:
         country_data = self._retriever.download_json(url)
         if not country_data:
             return None
-        most_recent_analysis = country_data[0]
-
+        most_recent_analysis = None
+        for analysis in country_data:
+            if analysis["id"] in self._acute_analysis_ids:
+                most_recent_analysis = analysis
+                break
+        if not most_recent_analysis:
+            return None
         analysis_date = self.parse_date(most_recent_analysis["analysis_date"])
         if analysis_date <= self._state.get(countryiso3, self._default_start_date):
             update = False
@@ -263,7 +275,10 @@ class IPC:
 
         most_recent_current_analysis = None
         for analysis in country_data:
-            if analysis["current_period_dates"]:
+            if (
+                analysis["current_period_dates"]
+                and analysis["id"] in self._acute_analysis_ids
+            ):
                 most_recent_current_analysis = analysis
                 break
         if most_recent_current_analysis:
@@ -314,6 +329,8 @@ class IPC:
         area_rows = output["area_rows"] = []
         area_rows_wide = output["area_rows_wide"] = []
         for analysis in country_data:
+            if analysis["id"] not in self._acute_analysis_ids:
+                continue
             self.add_country_rows(
                 analysis,
                 countryiso3,
