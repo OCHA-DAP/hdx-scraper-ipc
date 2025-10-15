@@ -275,10 +275,7 @@ class IPC:
 
         most_recent_current_analysis = None
         for analysis in country_data:
-            if (
-                analysis["current_period_dates"]
-                and analysis["id"] in self._acute_analysis_ids
-            ):
+            if analysis["id"] in self._acute_analysis_ids and (analysis["current_period_dates"] or analysis["projected_period_dates"] or analysis["second_projected_period_dates"]):
                 most_recent_current_analysis = analysis
                 break
         if most_recent_current_analysis:
