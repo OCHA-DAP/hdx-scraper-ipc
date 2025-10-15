@@ -349,13 +349,12 @@ class HAPIOutput:
         hxl_tags = self._configuration["hapi_hxltags"]
         headers = list(hxl_tags.keys())
         data = self.process_data()
-        dataset.generate_resource_from_iterable(
-            headers,
-            data,
-            hxl_tags,
+        dataset.generate_resource(
             self._folder,
             "hdx_hapi_food_security_global.csv",
+            data,
             self._configuration["hapi_resource"],
+            headers,
             encoding="utf-8-sig",
         )
 
