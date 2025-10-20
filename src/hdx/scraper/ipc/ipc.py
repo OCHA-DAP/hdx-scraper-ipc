@@ -20,7 +20,6 @@ from hdx.data.dataset import Dataset
 from hdx.data.resource import Resource
 from hdx.data.showcase import Showcase
 from hdx.location.country import Country
-from hdx.utilities.base_downloader import DownloadError
 from hdx.utilities.dateparse import (
     default_date,
     default_enddate,
