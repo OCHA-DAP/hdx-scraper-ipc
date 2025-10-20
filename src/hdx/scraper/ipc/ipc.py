@@ -274,23 +274,26 @@ class IPC:
         output = {"countryiso3": countryiso3}
 
         most_recent_current_analysis = None
+        projection_letter = None
         for analysis in country_data:
-            if analysis["id"] in self._acute_analysis_ids and (
-                analysis["current_period_dates"]
-                or analysis["projected_period_dates"]
-                or analysis["second_projected_period_dates"]
-            ):
-                most_recent_current_analysis = analysis
-                break
+            if analysis["id"] in self._acute_analysis_ids:
+                if analysis["current_period_dates"]:
+                    most_recent_current_analysis = analysis
+                    projection_letter = "C"
+                    break
+                elif analysis["projected_period_dates"]:
+                    most_recent_current_analysis = analysis
+                    projection_letter = "P"
+                    break
+                elif analysis["second_projected_period_dates"]:
+                    most_recent_current_analysis = analysis
+                    projection_letter = "A"
+                    break
         if most_recent_current_analysis:
             analysis_id = most_recent_current_analysis["id"]
-            url = f"{self._base_url}/areas/{analysis_id}/C?country={countryiso2}&type=A&format=geojson"
+            url = f"{self._base_url}/areas/{analysis_id}/{projection_letter}?country={countryiso2}&type=A&format=geojson"
             filename = f"ipc_{countryiso3.lower()}.geojson"
-            try:
-                path = self._retriever.download_file(url, filename=filename)
-            except DownloadError:
-                url = url.replace("/C", "/P")
-                path = self._retriever.download_file(url, filename=filename)
+            path = self._retriever.download_file(url, filename=filename)
             output["geojson"] = path
             country_rows = output["country_rows_latest"] = []
             country_rows_wide = output["country_rows_wide_latest"] = []
