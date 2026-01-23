@@ -1,5 +1,4 @@
 Date of analysis,Country,Total country population,Level 1,Validity period,From,To,Phase,Number,Percentage
-#date+analysis,#country+code,#population,#loc+level1,#period+v_ipc,#date+start,#date+end,#severity+v_ipc,#affected+num,#affected+pct
 Apr 2023,CAF,6091097,Ouaka,current,2023-04-01,2023-08-31,all,446354,1.0
 Apr 2023,CAF,6091097,Ouaka,current,2023-04-01,2023-08-31,3+,209386,0.47
 Apr 2023,CAF,6091097,Ouaka,current,2023-04-01,2023-08-31,1,80344,0.18

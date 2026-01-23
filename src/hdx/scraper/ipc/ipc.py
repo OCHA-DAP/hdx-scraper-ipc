@@ -423,7 +423,6 @@ class IPC:
             dataset.add_other_location("world")
             countryiso3lower = "global"
         tags = (
-            "hxl",
             "food security",
             "integrated food security phase classification-ipc",
         )
@@ -444,19 +443,14 @@ class IPC:
         filename = f"ipc_{countryiso3lower}_national_long_latest.csv"
         resourcedata = {
             "name": filename,
-            "description": "Latest IPC national data in long form with HXL tags",
+            "description": "Latest IPC national data in long form",
         }
         country_rows = output["country_rows_latest"]
         if not country_rows:
             logger.warning(f"{filename} has no data!")
             return None, None
-        success, results = dataset.generate_resource_from_iterable(
-            list(country_rows[0].keys()),
-            country_rows,
-            self._configuration["long_hxltags"],
-            folder,
-            filename,
-            resourcedata,
+        success, results = dataset.generate_resource(
+            folder, filename, country_rows, resourcedata, list(country_rows[0].keys())
         )
         if success is False:
             logger.warning(f"{filename} has no data!")
@@ -468,15 +462,14 @@ class IPC:
             filename = f"ipc_{countryiso3lower}_national_wide_latest.csv"
             resourcedata = {
                 "name": filename,
-                "description": "Latest IPC national data in wide form with HXL tags",
+                "description": "Latest IPC national data in wide form",
             }
-            success, results = dataset.generate_resource_from_iterable(
-                list(country_rows_wide[0].keys()),
-                country_rows_wide,
-                self._configuration["wide_hxltags"],
+            success, results = dataset.generate_resource(
                 folder,
                 filename,
+                country_rows_wide,
                 resourcedata,
+                list(country_rows_wide[0].keys()),
             )
 
         if countryiso3lower == "global":
@@ -506,15 +499,10 @@ class IPC:
             filename = f"ipc_{countryiso3lower}_level1_long_latest.csv"
             resourcedata = {
                 "name": filename,
-                "description": "Latest IPC level 1 data in long form with HXL tags",
+                "description": "Latest IPC level 1 data in long form",
             }
-            success, results = dataset.generate_resource_from_iterable(
-                list(group_rows[0].keys()),
-                group_rows,
-                self._configuration["long_hxltags"],
-                folder,
-                filename,
-                resourcedata,
+            success, results = dataset.generate_resource(
+                folder, filename, group_rows, resourcedata, list(group_rows[0].keys())
             )
 
         group_rows_wide = output["group_rows_wide_latest"]
@@ -522,15 +510,14 @@ class IPC:
             filename = f"ipc_{countryiso3lower}_level1_wide_latest.csv"
             resourcedata = {
                 "name": filename,
-                "description": "Latest IPC level 1 data in wide form with HXL tags",
+                "description": "Latest IPC level 1 data in wide form",
             }
-            success, results = dataset.generate_resource_from_iterable(
-                list(group_rows_wide[0].keys()),
-                group_rows_wide,
-                self._configuration["wide_hxltags"],
+            success, results = dataset.generate_resource(
                 folder,
                 filename,
+                group_rows_wide,
                 resourcedata,
+                list(group_rows_wide[0].keys()),
             )
 
         area_rows = output["area_rows_latest"]
@@ -538,15 +525,10 @@ class IPC:
             filename = f"ipc_{countryiso3lower}_area_long_latest.csv"
             resourcedata = {
                 "name": filename,
-                "description": "Latest IPC area data in long form with HXL tags",
+                "description": "Latest IPC area data in long form",
             }
-            success, results = dataset.generate_resource_from_iterable(
-                list(area_rows[0].keys()),
-                area_rows,
-                self._configuration["long_hxltags"],
-                folder,
-                filename,
-                resourcedata,
+            success, results = dataset.generate_resource(
+                folder, filename, area_rows, resourcedata, list(area_rows[0].keys())
             )
         elif not group_rows:
             logger.error(f"{countryiso3} has no latest subnational data!")
@@ -556,15 +538,14 @@ class IPC:
             filename = f"ipc_{countryiso3lower}_area_wide_latest.csv"
             resourcedata = {
                 "name": filename,
-                "description": "Latest IPC area data in wide form with HXL tags",
+                "description": "Latest IPC area data in wide form",
             }
-            success, results = dataset.generate_resource_from_iterable(
-                list(area_rows_wide[0].keys()),
-                area_rows_wide,
-                self._configuration["wide_hxltags"],
+            success, results = dataset.generate_resource(
                 folder,
                 filename,
+                area_rows_wide,
                 resourcedata,
+                list(area_rows_wide[0].keys()),
             )
 
         country_rows_wide = output["country_rows_wide"]
@@ -575,29 +556,23 @@ class IPC:
         filename = f"ipc_{countryiso3lower}_national_long.csv"
         resourcedata = {
             "name": filename,
-            "description": "All IPC national data in long form with HXL tags",
+            "description": "All IPC national data in long form",
         }
-        success, results = dataset.generate_resource_from_iterable(
-            list(country_rows[0].keys()),
-            country_rows,
-            self._configuration["long_hxltags"],
-            folder,
-            filename,
-            resourcedata,
+        success, results = dataset.generate_resource(
+            folder, filename, country_rows, resourcedata, list(country_rows[0].keys())
         )
 
         filename = f"ipc_{countryiso3lower}_national_wide.csv"
         resourcedata = {
             "name": filename,
-            "description": "All IPC national data in wide form with HXL tags",
+            "description": "All IPC national data in wide form",
         }
-        success, results = dataset.generate_resource_from_iterable(
-            list(country_rows_wide[0].keys()),
-            country_rows_wide,
-            self._configuration["wide_hxltags"],
+        success, results = dataset.generate_resource(
             folder,
             filename,
+            country_rows_wide,
             resourcedata,
+            list(country_rows_wide[0].keys()),
         )
 
         group_rows = output["group_rows"]
@@ -605,15 +580,10 @@ class IPC:
             filename = f"ipc_{countryiso3lower}_level1_long.csv"
             resourcedata = {
                 "name": filename,
-                "description": "All IPC level 1 data in long form with HXL tags",
+                "description": "All IPC level 1 data in long form",
             }
-            success, results = dataset.generate_resource_from_iterable(
-                list(group_rows[0].keys()),
-                group_rows,
-                self._configuration["long_hxltags"],
-                folder,
-                filename,
-                resourcedata,
+            success, results = dataset.generate_resource(
+                folder, filename, group_rows, resourcedata, list(group_rows[0].keys())
             )
 
         group_rows_wide = output["group_rows_wide"]
@@ -621,15 +591,14 @@ class IPC:
             filename = f"ipc_{countryiso3lower}_level1_wide.csv"
             resourcedata = {
                 "name": filename,
-                "description": "All IPC level 1 data in wide form with HXL tags",
+                "description": "All IPC level 1 data in wide form",
             }
-            success, results = dataset.generate_resource_from_iterable(
-                list(group_rows_wide[0].keys()),
-                group_rows_wide,
-                self._configuration["wide_hxltags"],
+            success, results = dataset.generate_resource(
                 folder,
                 filename,
+                group_rows_wide,
                 resourcedata,
+                list(group_rows_wide[0].keys()),
             )
 
         area_rows = output["area_rows"]
@@ -637,15 +606,10 @@ class IPC:
             filename = f"ipc_{countryiso3lower}_area_long.csv"
             resourcedata = {
                 "name": filename,
-                "description": "All IPC area data in long form with HXL tags",
+                "description": "All IPC area data in long form",
             }
-            success, results = dataset.generate_resource_from_iterable(
-                list(area_rows[0].keys()),
-                area_rows,
-                self._configuration["long_hxltags"],
-                folder,
-                filename,
-                resourcedata,
+            success, results = dataset.generate_resource(
+                folder, filename, area_rows, resourcedata, list(area_rows[0].keys())
             )
         elif not group_rows:
             logger.error(f"{countryiso3} has no subnational data!")
@@ -655,15 +619,14 @@ class IPC:
             filename = f"ipc_{countryiso3lower}_area_wide.csv"
             resourcedata = {
                 "name": filename,
-                "description": "All IPC area data in wide form with HXL tags",
+                "description": "All IPC area data in wide form",
             }
-            success, results = dataset.generate_resource_from_iterable(
-                list(area_rows_wide[0].keys()),
-                area_rows_wide,
-                self._configuration["wide_hxltags"],
+            success, results = dataset.generate_resource(
                 folder,
                 filename,
+                area_rows_wide,
                 resourcedata,
+                list(area_rows_wide[0].keys()),
             )
 
         return dataset, showcase

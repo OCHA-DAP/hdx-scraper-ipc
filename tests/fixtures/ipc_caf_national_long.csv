@@ -1,5 +1,4 @@
 Date of analysis,Country,Total country population,Validity period,From,To,Phase,Number,Percentage
-#date+analysis,#country+code,#population,#period+v_ipc,#date+start,#date+end,#severity+v_ipc,#affected+num,#affected+pct
 Apr 2023,CAF,6091097,current,2023-04-01,2023-08-31,all,6128671,1.0
 Apr 2023,CAF,6091097,current,2023-04-01,2023-08-31,3+,2388086,0.39
 Apr 2023,CAF,6091097,current,2023-04-01,2023-08-31,1,1559101,0.25

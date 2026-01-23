@@ -119,10 +119,6 @@ class TestIPC:
                     "subnational": "1",
                     "tags": [
                         {
-                            "name": "hxl",
-                            "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
-                        },
-                        {
                             "name": "food security",
                             "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
                         },
@@ -142,47 +138,47 @@ class TestIPC:
                         "name": "ipc_afg.geojson",
                     },
                     {
-                        "description": "Latest IPC national data in long form with HXL tags",
+                        "description": "Latest IPC national data in long form",
                         "format": "csv",
                         "name": "ipc_afg_national_long_latest.csv",
                     },
                     {
-                        "description": "Latest IPC area data in long form with HXL tags",
+                        "description": "Latest IPC area data in long form",
                         "format": "csv",
                         "name": "ipc_afg_area_long_latest.csv",
                     },
                     {
-                        "description": "Latest IPC area data in wide form with HXL tags",
+                        "description": "Latest IPC area data in wide form",
                         "format": "csv",
                         "name": "ipc_afg_area_wide_latest.csv",
                     },
                     {
-                        "description": "All IPC national data in long form with HXL tags",
+                        "description": "All IPC national data in long form",
                         "format": "csv",
                         "name": "ipc_afg_national_long.csv",
                     },
                     {
-                        "description": "All IPC national data in wide form with HXL tags",
+                        "description": "All IPC national data in wide form",
                         "format": "csv",
                         "name": "ipc_afg_national_wide.csv",
                     },
                     {
-                        "description": "All IPC level 1 data in long form with HXL tags",
+                        "description": "All IPC level 1 data in long form",
                         "format": "csv",
                         "name": "ipc_afg_level1_long.csv",
                     },
                     {
-                        "description": "All IPC level 1 data in wide form with HXL tags",
+                        "description": "All IPC level 1 data in wide form",
                         "format": "csv",
                         "name": "ipc_afg_level1_wide.csv",
                     },
                     {
-                        "description": "All IPC area data in long form with HXL tags",
+                        "description": "All IPC area data in long form",
                         "format": "csv",
                         "name": "ipc_afg_area_long.csv",
                     },
                     {
-                        "description": "All IPC area data in wide form with HXL tags",
+                        "description": "All IPC area data in wide form",
                         "format": "csv",
                         "name": "ipc_afg_area_wide.csv",
                     },
@@ -193,10 +189,6 @@ class TestIPC:
                     "name": "afghanistan-acute-food-insecurity-country-data-showcase",
                     "notes": "Access all of IPC’s analyses for Afghanistan",
                     "tags": [
-                        {
-                            "name": "hxl",
-                            "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
-                        },
                         {
                             "name": "food security",
                             "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
@@ -216,10 +208,6 @@ class TestIPC:
                     "name": "afghanistan-acute-food-insecurity-country-data-showcase",
                     "notes": "CH regional page on IPC website with map and reports",
                     "tags": [
-                        {
-                            "name": "hxl",
-                            "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
-                        },
                         {
                             "name": "food security",
                             "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
@@ -243,57 +231,57 @@ class TestIPC:
                         "name": "ipc_ago.geojson",
                     },
                     {
-                        "description": "Latest IPC national data in long form with HXL tags",
+                        "description": "Latest IPC national data in long form",
                         "format": "csv",
                         "name": "ipc_ago_national_long_latest.csv",
                     },
                     {
-                        "description": "Latest IPC level 1 data in long form with HXL tags",
+                        "description": "Latest IPC level 1 data in long form",
                         "format": "csv",
                         "name": "ipc_ago_level1_long_latest.csv",
                     },
                     {
-                        "description": "Latest IPC level 1 data in wide form with HXL tags",
+                        "description": "Latest IPC level 1 data in wide form",
                         "format": "csv",
                         "name": "ipc_ago_level1_wide_latest.csv",
                     },
                     {
-                        "description": "Latest IPC area data in long form with HXL tags",
+                        "description": "Latest IPC area data in long form",
                         "format": "csv",
                         "name": "ipc_ago_area_long_latest.csv",
                     },
                     {
-                        "description": "Latest IPC area data in wide form with HXL tags",
+                        "description": "Latest IPC area data in wide form",
                         "format": "csv",
                         "name": "ipc_ago_area_wide_latest.csv",
                     },
                     {
-                        "description": "All IPC national data in long form with HXL tags",
+                        "description": "All IPC national data in long form",
                         "format": "csv",
                         "name": "ipc_ago_national_long.csv",
                     },
                     {
-                        "description": "All IPC national data in wide form with HXL tags",
+                        "description": "All IPC national data in wide form",
                         "format": "csv",
                         "name": "ipc_ago_national_wide.csv",
                     },
                     {
-                        "description": "All IPC level 1 data in long form with HXL tags",
+                        "description": "All IPC level 1 data in long form",
                         "format": "csv",
                         "name": "ipc_ago_level1_long.csv",
                     },
                     {
-                        "description": "All IPC level 1 data in wide form with HXL tags",
+                        "description": "All IPC level 1 data in wide form",
                         "format": "csv",
                         "name": "ipc_ago_level1_wide.csv",
                     },
                     {
-                        "description": "All IPC area data in long form with HXL tags",
+                        "description": "All IPC area data in long form",
                         "format": "csv",
                         "name": "ipc_ago_area_long.csv",
                     },
                     {
-                        "description": "All IPC area data in wide form with HXL tags",
+                        "description": "All IPC area data in wide form",
                         "format": "csv",
                         "name": "ipc_ago_area_wide.csv",
                     },
@@ -320,10 +308,6 @@ class TestIPC:
                     "subnational": "1",
                     "tags": [
                         {
-                            "name": "hxl",
-                            "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
-                        },
-                        {
                             "name": "food security",
                             "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
                         },
@@ -337,62 +321,62 @@ class TestIPC:
                 resources = dataset.get_resources()
                 assert resources == [
                     {
-                        "description": "Latest IPC national data in long form with HXL tags",
+                        "description": "Latest IPC national data in long form",
                         "format": "csv",
                         "name": "ipc_global_national_long_latest.csv",
                     },
                     {
-                        "description": "Latest IPC national data in wide form with HXL tags",
+                        "description": "Latest IPC national data in wide form",
                         "format": "csv",
                         "name": "ipc_global_national_wide_latest.csv",
                     },
                     {
-                        "description": "Latest IPC level 1 data in long form with HXL tags",
+                        "description": "Latest IPC level 1 data in long form",
                         "format": "csv",
                         "name": "ipc_global_level1_long_latest.csv",
                     },
                     {
-                        "description": "Latest IPC level 1 data in wide form with HXL tags",
+                        "description": "Latest IPC level 1 data in wide form",
                         "format": "csv",
                         "name": "ipc_global_level1_wide_latest.csv",
                     },
                     {
-                        "description": "Latest IPC area data in long form with HXL tags",
+                        "description": "Latest IPC area data in long form",
                         "format": "csv",
                         "name": "ipc_global_area_long_latest.csv",
                     },
                     {
-                        "description": "Latest IPC area data in wide form with HXL tags",
+                        "description": "Latest IPC area data in wide form",
                         "format": "csv",
                         "name": "ipc_global_area_wide_latest.csv",
                     },
                     {
-                        "description": "All IPC national data in long form with HXL tags",
+                        "description": "All IPC national data in long form",
                         "format": "csv",
                         "name": "ipc_global_national_long.csv",
                     },
                     {
-                        "description": "All IPC national data in wide form with HXL tags",
+                        "description": "All IPC national data in wide form",
                         "format": "csv",
                         "name": "ipc_global_national_wide.csv",
                     },
                     {
-                        "description": "All IPC level 1 data in long form with HXL tags",
+                        "description": "All IPC level 1 data in long form",
                         "format": "csv",
                         "name": "ipc_global_level1_long.csv",
                     },
                     {
-                        "description": "All IPC level 1 data in wide form with HXL tags",
+                        "description": "All IPC level 1 data in wide form",
                         "format": "csv",
                         "name": "ipc_global_level1_wide.csv",
                     },
                     {
-                        "description": "All IPC area data in long form with HXL tags",
+                        "description": "All IPC area data in long form",
                         "format": "csv",
                         "name": "ipc_global_area_long.csv",
                     },
                     {
-                        "description": "All IPC area data in wide form with HXL tags",
+                        "description": "All IPC area data in wide form",
                         "format": "csv",
                         "name": "ipc_global_area_wide.csv",
                     },
@@ -403,10 +387,6 @@ class TestIPC:
                     "name": "global-acute-food-insecurity-country-data-showcase",
                     "notes": "IPC-CH Dashboard",
                     "tags": [
-                        {
-                            "name": "hxl",
-                            "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
-                        },
                         {
                             "name": "food security",
                             "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
