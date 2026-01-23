@@ -1,5 +1,4 @@
 Date of analysis,Country,Total country population,Level 1,Validity period,From,To,Phase,Number,Percentage
-#date+analysis,#country+code,#population,#loc+level1,#period+v_ipc,#date+start,#date+end,#severity+v_ipc,#affected+num,#affected+pct
 Jan 2018,AFG,31575018,Badakhshan,current,2017-11-01,2018-02-28,all,982835,1.0
 Jan 2018,AFG,31575018,Badakhshan,current,2017-11-01,2018-02-28,3+,512103,0.52
 Jan 2018,AFG,31575018,Badakhshan,current,2017-11-01,2018-02-28,1,178258,0.18
