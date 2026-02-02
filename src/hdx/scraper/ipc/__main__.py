@@ -126,16 +126,12 @@ def main(
                             batch=info["batch"],
                         )
 
-                        if (
-                            is_country
-                            and dataset.get_resource().get_format() != "geojson"
-                        ):
-                            resource_ids = {}
-                            for resource in dataset.get_resources():
-                                resource_ids[resource["name"]] = resource["id"]
-                            dataset.reorder_resources(
-                                [resource_ids[x] for x in resource_order]
-                            )
+                        resource_ids = {}
+                        for resource in dataset.get_resources():
+                            resource_ids[resource["name"]] = resource["id"]
+                        dataset.reorder_resources(
+                            [resource_ids[x] for x in resource_order]
+                        )
 
                         if showcase:
                             showcase.create_in_hdx()

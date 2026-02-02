@@ -15,6 +15,10 @@ certifi==2026.1.4
     # via
     #   -c requirements.txt
     #   requests
+cffi==2.0.0
+    # via
+    #   -c requirements.txt
+    #   cryptography
 chardet==5.2.0
     # via
     #   -c requirements.txt
@@ -31,8 +35,12 @@ click==8.3.1
     # via
     #   -c requirements.txt
     #   typer
-coverage==7.13.1
+coverage==7.13.2
     # via pytest-cov
+cryptography==46.0.4
+    # via
+    #   -c requirements.txt
+    #   google-auth
 defopt==7.0.0
     # via
     #   -c requirements.txt
@@ -62,7 +70,7 @@ frictionless==5.18.1
     # via
     #   -c requirements.txt
     #   hdx-python-utilities
-google-auth==2.47.0
+google-auth==2.48.0
     # via
     #   -c requirements.txt
     #   google-auth-oauthlib
@@ -75,12 +83,12 @@ gspread==6.2.1
     # via
     #   -c requirements.txt
     #   hdx-python-scraper
-hdx-python-api==6.6.3
+hdx-python-api==6.6.4
     # via
     #   -c requirements.txt
     #   hdx-scraper-ipc (pyproject.toml)
     #   hdx-python-scraper
-hdx-python-country==4.0.1
+hdx-python-country==4.1.0
     # via
     #   -c requirements.txt
     #   hdx-scraper-ipc (pyproject.toml)
@@ -90,7 +98,7 @@ hdx-python-scraper==2.7.1
     # via
     #   -c requirements.txt
     #   hdx-scraper-ipc (pyproject.toml)
-hdx-python-utilities==4.0.3
+hdx-python-utilities==4.0.4
     # via
     #   -c requirements.txt
     #   hdx-scraper-ipc (pyproject.toml)
@@ -144,7 +152,6 @@ jsonschema-specifications==2025.9.1
 libhxl==5.2.2
     # via
     #   -c requirements.txt
-    #   hdx-python-api
     #   hdx-python-country
 loguru==0.7.3
     # via
@@ -217,6 +224,10 @@ pyasn1-modules==0.4.2
     # via
     #   -c requirements.txt
     #   google-auth
+pycparser==3.0
+    # via
+    #   -c requirements.txt
+    #   cffi
 pydantic==2.12.5
     # via
     #   -c requirements.txt
@@ -298,7 +309,7 @@ rfc3986==2.0.0
     # via
     #   -c requirements.txt
     #   frictionless
-rich==14.2.0
+rich==14.3.2
     # via
     #   -c requirements.txt
     #   typer
@@ -315,7 +326,7 @@ ruamel-yaml==0.19.1
     # via
     #   -c requirements.txt
     #   hdx-python-utilities
-setuptools==80.10.1
+setuptools==80.10.2
     # via
     #   -c requirements.txt
     #   ckanapi
@@ -374,6 +385,7 @@ typing-extensions==4.15.0
     # via
     #   -c requirements.txt
     #   frictionless
+    #   hdx-python-utilities
     #   pydantic
     #   pydantic-core
     #   typeguard
@@ -409,7 +421,7 @@ xlrd3==1.1.0
     # via
     #   -c requirements.txt
     #   libhxl
-xlsx2csv==0.8.4
+xlsx2csv==0.8.6
     # via
     #   -c requirements.txt
     #   hdx-python-utilities
