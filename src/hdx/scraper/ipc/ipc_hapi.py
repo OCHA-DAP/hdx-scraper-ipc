@@ -43,8 +43,7 @@ class HAPIOutput:
                 admin_level=admin_level,
                 retriever=self._retriever,
             )
-            dataset = admin.get_libhxl_dataset(retriever=self._retriever)
-            admin.setup_from_libhxl_dataset(dataset)
+            admin.setup_from_url()
             admin.load_pcode_formats()
             self._admins.append(admin)
 
@@ -340,21 +339,19 @@ class HAPIOutput:
                 "title": "HDX HAPI - Food Security, Nutrition & Poverty: Food Security",
             }
         )
-        dataset.add_tags(["food security", "hxl"])
+        dataset.add_tag("food security")
         dataset.add_other_location("world")
         start_date = self._global_data["start_date"]
         end_date = self._global_data["end_date"]
         dataset.set_time_period(start_date, end_date)
 
-        hxl_tags = self._configuration["hapi_hxltags"]
-        headers = list(hxl_tags.keys())
         data = self.process_data()
         dataset.generate_resource(
             self._folder,
             "hdx_hapi_food_security_global.csv",
             data,
             self._configuration["hapi_resource"],
-            headers,
+            self._configuration["hapi_headers"],
             encoding="utf-8-sig",
         )
 
