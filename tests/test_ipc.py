@@ -37,7 +37,6 @@ class TestIPC:
         UserAgent.set_global("test")
         Country.countriesdata(use_live=False)
         tags = (
-            "hxl",
             "food security",
             "integrated food security phase classification-ipc",
         )
@@ -421,10 +420,6 @@ class TestIPC:
                         "tags": [
                             {
                                 "name": "food security",
-                                "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
-                            },
-                            {
-                                "name": "hxl",
                                 "vocabulary_id": "b891512e-9516-4bf5-962a-7a289772a2a1",
                             },
                         ],

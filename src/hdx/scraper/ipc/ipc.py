@@ -277,15 +277,15 @@ class IPC:
         projection_letter = None
         for analysis in country_data:
             if analysis["id"] in self._acute_analysis_ids:
-                if analysis["current_period_dates"]:
+                if analysis.get("current_period_dates"):
                     most_recent_current_analysis = analysis
                     projection_letter = "C"
                     break
-                elif analysis["projected_period_dates"]:
+                elif analysis.get("projected_period_dates"):
                     most_recent_current_analysis = analysis
                     projection_letter = "P"
                     break
-                elif analysis["second_projected_period_dates"]:
+                elif analysis.get("second_projected_period_dates"):
                     most_recent_current_analysis = analysis
                     projection_letter = "A"
                     break
