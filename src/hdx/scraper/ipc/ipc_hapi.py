@@ -8,7 +8,6 @@ Reads IPC data and creates HAPI datasets.
 """
 
 import logging
-from typing import Dict, List
 
 from hdx.data.dataset import Dataset
 from hdx.location.adminlevel import AdminLevel
@@ -47,7 +46,7 @@ class HAPIOutput:
             admin.load_pcode_formats()
             self._admins.append(admin)
 
-    def process_data(self) -> List[Dict]:
+    def process_data(self) -> list[dict]:
         hapi_rows = []
         adm_matching_config = self._configuration["hapi_adm_matching"]
         dataset = Dataset.read_from_hdx("global-acute-food-insecurity-country-data")
@@ -78,6 +77,7 @@ class HAPIOutput:
                 # get admin names and codes
                 row_admin_level = admin_level
                 warnings = []
+                errors = []
                 adm_codes = ["", ""]
                 adm_names = ["", ""]
                 provider_adm_names = ["", ""]
@@ -173,18 +173,16 @@ class HAPIOutput:
                     full_adm_name = (
                         f"{countryiso3}|{match_adm_names[0]}|{match_adm_names[1]}"
                     )
-                    if any(
-                        x in full_adm_name.lower()
-                        for x in adm_matching_config["adm_ignore_patterns"]
-                    ):
-                        self._error_handler.add_message(
-                            "FoodSecurity",
-                            dataset_name,
-                            f"Ignoring {full_adm_name}",
-                            message_type="warning",
-                        )
-                        match_adm_names = ["", ""]
-                        warnings.append("Cannot match row")
+                    for x in adm_matching_config["adm_ignore_patterns"]:
+                        if x in full_adm_name.lower():
+                            self._error_handler.add_message(
+                                "FoodSecurity",
+                                dataset_name,
+                                f"Ignoring {full_adm_name}",
+                            )
+                            match_adm_names = ["", ""]
+                            errors.append(f"Ignoring {x} pattern")
+                            break
                     _, additional_warnings = complete_admins(
                         self._admins,
                         countryiso3,
@@ -198,7 +196,6 @@ class HAPIOutput:
                 # loop through projections
                 date_of_analysis = parse_date_range(row["Date of analysis"])[0]
                 for projection in ["Current", "First projection", "Second projection"]:
-                    errors = []
                     population_analyzed = row[
                         f"Population analyzed {projection.lower()}"
                     ]

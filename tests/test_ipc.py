@@ -4,25 +4,25 @@ Unit tests for InterAction.
 
 """
 
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from os.path import join
 
 import pytest
-
 from hdx.api.configuration import Configuration
 from hdx.api.locations import Locations
 from hdx.api.utilities.hdx_error_handler import HDXErrorHandler
 from hdx.data.dataset import Dataset
 from hdx.data.vocabulary import Vocabulary
 from hdx.location.country import Country
-from hdx.scraper.ipc.ipc import IPC
-from hdx.scraper.ipc.ipc_hapi import HAPIOutput
 from hdx.utilities.compare import assert_files_same
 from hdx.utilities.dateparse import parse_date
 from hdx.utilities.downloader import Download
 from hdx.utilities.path import temp_dir
 from hdx.utilities.retriever import Retrieve
 from hdx.utilities.useragent import UserAgent
+
+from hdx.scraper.ipc.ipc import IPC
+from hdx.scraper.ipc.ipc_hapi import HAPIOutput
 
 
 class TestIPC:
@@ -399,13 +399,13 @@ class TestIPC:
                     "url": "https://www.ipcinfo.org/ipcinfo-website/ipc-dashboard/en/",
                 }
                 assert state_dict == {
-                    "AFG": datetime(2023, 4, 1, 0, 0, tzinfo=timezone.utc),
-                    "AGO": datetime(2021, 6, 1, 0, 0, tzinfo=timezone.utc),
-                    "CAF": datetime(2023, 4, 1, 0, 0, tzinfo=timezone.utc),
-                    "DEFAULT": datetime(2017, 1, 1, 0, 0, tzinfo=timezone.utc),
-                    "END_DATE": datetime(2024, 3, 31, 0, 0, tzinfo=timezone.utc),
-                    "ETH": datetime(2021, 5, 1, 0, 0, tzinfo=timezone.utc),
-                    "START_DATE": datetime(2017, 2, 1, 0, 0, tzinfo=timezone.utc),
+                    "AFG": datetime(2023, 4, 1, 0, 0, tzinfo=UTC),
+                    "AGO": datetime(2021, 6, 1, 0, 0, tzinfo=UTC),
+                    "CAF": datetime(2023, 4, 1, 0, 0, tzinfo=UTC),
+                    "DEFAULT": datetime(2017, 1, 1, 0, 0, tzinfo=UTC),
+                    "END_DATE": datetime(2024, 3, 31, 0, 0, tzinfo=UTC),
+                    "ETH": datetime(2021, 5, 1, 0, 0, tzinfo=UTC),
+                    "START_DATE": datetime(2017, 2, 1, 0, 0, tzinfo=UTC),
                 }
 
                 with HDXErrorHandler() as error_handler:
