@@ -11,10 +11,10 @@ name = "hdx-scraper-ipc"
 dynamic = ["version"]
 requires-python = ">=3.13"
 dependencies = [
-  "hdx-python-scraper>=2.7.2",
-  "hdx-python-api>=6.6.5",
+  "hdx-python-scraper>=2.7.3",
+  "hdx-python-api>=6.6.7",
   "hdx-python-country>=4.1.1",
-  "hdx-python-utilities>=4.0.4",
+  "hdx-python-utilities>=4.0.8",
 ]
 
 [dependency-groups]
