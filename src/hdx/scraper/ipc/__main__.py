@@ -46,7 +46,7 @@ def main(
     Args:
         save (bool): Save downloaded data. Defaults to False.
         use_saved (bool): Use saved data. Defaults to False.
-        err_to_hdx (Optional[str]): Whether to write errors to HDX metadata. Defaults to None.
+        err_to_hdx (str | None): Whether to write errors to HDX metadata. Defaults to None.
         reset_state (bool): Reset state. Defaults to False.
 
     Returns:
