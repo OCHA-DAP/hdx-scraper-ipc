@@ -31,12 +31,104 @@ hapi_resource:
 hapi_adm_matching:
   # The patterns ensure removal of non-admin units. These are where admin units
   # have been split to suit the org's own purposes, for example into
-  # ural/urban, (1)...(5), _1..._4, or where the org reports data on a
+  # rural/urban, (1)...(5), _1..._4, or where the org reports data on a
   # subset of the population like idps/refugees/returnees
   adm_ignore_patterns:
-    - " urban"
-    - " rural"
-    - "rural "
+    # === livelihood zones ===
+    - "livelihood"
+    - " lz"
+    - "pastoral"
+    - "rainfed"
+    - "riverine"
+    - "cowpea"
+    - " deeh"
+    - "sedentary"
+    - "cattle and maize"
+    - "enset"
+    - "ginger"
+    - " teff"
+    - "sorghum"
+    - "barley"
+    - "barely and potato"
+    - "root crop"
+    - "maize belt"
+    - "pump irrigation"
+    - "gravity irrigation"
+    - "cross-border trade"
+    - "potato and vegetable"
+    - "coffee, chat"
+
+    # === cluster prefixes ===
+    - " cluster "
+    - "cls1"
+    - "cls2"
+    - "cls3"
+    - "cls4"
+    - "cls5"
+    - "cls6"
+    - "cls7"
+    - "cls8"
+    - "cls9"
+
+    # === camps / settlements / population groups ===
+    - "idp"
+    - "pdi"
+    - "displaced"
+    - "refugee"
+    - "returnee"
+    - "resident"
+    - " camp"
+    - "refuge settlement"
+    - "host communit"
+    - "non-host"
+    - "fdmn "
+
+    # === access flags ===
+    - " accessible"
+    - "accès"
+    - "acces lim"
+    - "access lim"
+    - "inaccess"
+
+    # === status flags ===
+    - " final"
+    - " new"
+
+    # === Haiti livelihood-zone codes ===
+    - " ht01"
+    - " ht02"
+    - " ht03"
+    - " ht04"
+    - " ht05"
+    - " ht06"
+    - " ht07"
+    - " ht08"
+    - "_ht0"
+
+    # === Haiti zone abbreviation prefixes ===
+    - "p+tp"
+    - "p+ tp"
+    - "p_tp"
+    - "pap1-zone"
+    - "pap2-zone"
+    - "pap3-zone"
+    - "de1-zone"
+    - "de2-zone"
+    - "de3-zone"
+    - "ca1-ouest"
+    - "ca2-ouest"
+    - "ca3-ouest"
+    - "cs1-ouest"
+    - "cs2-ouest"
+    - "cxb1-ouest"
+    - "cxb2-ouest"
+    - "cxb3-ouest"
+    - "pv1 "
+    - "pv3-"
+    - "ta1 "
+    - "ta3-ouest"
+
+    # === aggregation ===
     - "(1)"
     - "(2)"
     - "(3)"
@@ -46,12 +138,46 @@ hapi_adm_matching:
     - "_2"
     - "_3"
     - "_4"
-    - "idp"
-    - "refugee"
-    - "returnee"
-    - " cluster "
+    - "c_5"
+    - "c_6"
+    - "c_7"
+    - "c_8"
+    - "arrond 1-"
+    - "prefectures"
     - " commune "
-    - " accessible"
+
+    # === foreign-language category labels ===
+    - "others"
+    - "autres "
+    - "(conflito afetado)"
+    - "(nao afectado)"
+    - "(nouveaux refugies)"
+    - "(anciens refugies)"
+
+    # === generic descriptors ===
+    - " urban"
+    - " rural"
+    - "rural "
+    - "urban analysis"
+    - "urban center"
+    - "asal counties"
+    - "peri-urban"
+    - "middleveld"
+    - "highveld"
+    - "lowveld"
+    - "haute altitude"
+    - "camp de deplacement"
+
+    # === numbered/metropolitan zones ===
+    - "zone 1 ("
+    - "zone 2 ("
+    - "zone 3 ("
+    - "zone 4 ("
+    - "zone 5 ("
+    - "zone métropolitaine"
+
+    # === other ===
+    - "//"
 
   # This is where all "Areas" are non-admin units and so there is only admin 1
   # data available in "Level 1"

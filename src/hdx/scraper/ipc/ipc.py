@@ -9,12 +9,9 @@ Reads IPC data and creates datasets.
 
 import logging
 from copy import deepcopy
-from datetime import datetime, timezone
-from typing import Dict, List
+from datetime import UTC, datetime
 
 from dateutil.relativedelta import relativedelta
-from slugify import slugify
-
 from hdx.api.configuration import Configuration
 from hdx.data.dataset import Dataset
 from hdx.data.resource import Resource
@@ -26,6 +23,7 @@ from hdx.utilities.dateparse import (
     default_enddate,
 )
 from hdx.utilities.retriever import Retrieve
+from slugify import slugify
 
 logger = logging.getLogger(__name__)
 
@@ -35,8 +33,8 @@ class IPC:
         self,
         configuration: Configuration,
         retriever: Retrieve,
-        state: Dict,
-        ch_countries: List,
+        state: dict,
+        ch_countries: list,
     ):
         self._configuration = configuration
         self._retriever = retriever
@@ -106,7 +104,7 @@ class IPC:
     @staticmethod
     def parse_date(datestring):
         date = datetime.strptime(datestring, "%b %Y")
-        return date.replace(tzinfo=timezone.utc)
+        return date.replace(tzinfo=UTC)
 
     @classmethod
     def parse_date_range(cls, date_range, time_period):

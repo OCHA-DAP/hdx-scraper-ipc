@@ -7,19 +7,15 @@ script then creates in HDX.
 
 import logging
 from copy import deepcopy
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from os import getenv
 from os.path import expanduser, join
-from typing import Optional
 
 from hdx.api.configuration import Configuration
 from hdx.api.utilities.hdx_error_handler import HDXErrorHandler
 from hdx.api.utilities.hdx_state import HDXState
 from hdx.data.user import User
 from hdx.facades.infer_arguments import facade
-from hdx.scraper.ipc._version import __version__
-from hdx.scraper.ipc.ipc import IPC
-from hdx.scraper.ipc.ipc_hapi import HAPIOutput
 from hdx.utilities.downloader import Download
 from hdx.utilities.path import (
     progress_storing_folder,
@@ -27,6 +23,10 @@ from hdx.utilities.path import (
     wheretostart_tempdir_batch,
 )
 from hdx.utilities.retriever import Retrieve
+
+from hdx.scraper.ipc._version import __version__
+from hdx.scraper.ipc.ipc import IPC
+from hdx.scraper.ipc.ipc_hapi import HAPIOutput
 
 logger = logging.getLogger(__name__)
 
@@ -38,7 +38,7 @@ _UPDATED_BY_SCRIPT = "HDX Scraper: IPC"
 def main(
     save: bool = False,
     use_saved: bool = False,
-    err_to_hdx: Optional[str] = None,
+    err_to_hdx: str | None = None,
     reset_state: bool = False,
 ) -> None:
     """Generate datasets and create them in HDX
@@ -68,9 +68,7 @@ def main(
                 configuration,
             ) as state:
                 if reset_state:
-                    state_dict = {
-                        "DEFAULT": datetime(2017, 1, 1, 0, 0, tzinfo=timezone.utc)
-                    }
+                    state_dict = {"DEFAULT": datetime(2017, 1, 1, 0, 0, tzinfo=UTC)}
                 else:
                     state_dict = deepcopy(state.get())
                 ipc_key = getenv("IPC_KEY")
