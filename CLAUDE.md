@@ -15,7 +15,7 @@
 ## Running
 
 ```bash
-python -m hdx.scraper.ipc
+uv run python -m hdx.scraper.ipc
 ```
 
 Requires these files in `$HOME`:
@@ -26,9 +26,7 @@ Requires these files in `$HOME`:
 ## Testing
 
 ```bash
-pytest
-# or
-hatch test
+uv run pytest
 ```
 
 Test fixtures live in `tests/fixtures/`. Expected output files are compared against generated output using `hdx.utilities.compare.assert_files_same`.
@@ -39,6 +37,7 @@ To update expected outputs after intentional changes, replace the fixture files 
 
 - Formatted with `ruff` via pre-commit hooks (`uv run ruff format --check` to verify)
 - Python ≥ 3.13
+- Dependencies managed with `uv` (`uv sync` to install, `uv lock --upgrade` to update lockfile)
 
 ## Collaboration Style
 
