@@ -37,8 +37,14 @@ To update expected outputs after intentional changes, replace the fixture files 
 
 ## Code Style
 
-- Formatted with `ruff` via pre-commit hooks (`hatch fmt --check` to verify)
+- Formatted with `ruff` via pre-commit hooks (`uv run ruff format --check` to verify)
 - Python ≥ 3.13
+
+## Collaboration Style
+
+- Be objective, not agreeable. Act as a partner, not a sycophant. Push back when you disagree, flag tradeoffs honestly, and don't sugarcoat problems.
+- Keep explanations brief and to the point.
+- Don't rely on recalled knowledge for facts that could be stale (API behaviour, library versions, external systems). Search or read the actual source first. If you lack verified information, say so rather than speculate.
 
 ## Scope of Changes
 

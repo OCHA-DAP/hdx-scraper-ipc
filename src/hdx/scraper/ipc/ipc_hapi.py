@@ -192,6 +192,26 @@ class HAPIOutput:
                     )
                     for warning in additional_warnings:
                         warnings.append(warning)
+                    if not errors:
+                        if row_admin_level == 1 and not provider_adm_names[0]:
+                            self._error_handler.add_message(
+                                "FoodSecurity",
+                                dataset_name,
+                                f"Admin {admin_level}: no admin name for {countryiso3}",
+                            )
+                            errors.append(f"Adm{admin_level} no name")
+                        elif row_admin_level == 2 and not provider_adm_names[1]:
+                            self._error_handler.add_message(
+                                "FoodSecurity",
+                                dataset_name,
+                                f"Admin {admin_level}: no admin name for {countryiso3}"
+                                + (
+                                    f":{provider_adm_names[0]}"
+                                    if provider_adm_names[0]
+                                    else ""
+                                ),
+                            )
+                            errors.append(f"Adm{admin_level} no name")
 
                 # loop through projections
                 date_of_analysis = parse_date_range(row["Date of analysis"])[0]
