@@ -3,7 +3,21 @@
 [![Coverage Status](https://coveralls.io/repos/github/OCHA-DAP/hdx-scraper-ipc/badge.svg?branch=main&ts=1)](https://coveralls.io/github/OCHA-DAP/hdx-scraper-ipc?branch=main)
 [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
-This script connects to the [IPC API](https://www.ipcinfo.org/ipc-country-analysis/api/) and extracts data from 2 endpoints creating 2 global datasets and 2 datasets per country in HDX. It makes 1 read to InterAction and 100 read/writes (API calls) to HDX in a half hour period. It creates around 200 temporary files each a few Kb which it uploads into HDX. It is run every week.
+This script connects to the [IPC API](https://www.ipcinfo.org/ipc-country-analysis/api/)
+and extracts acute food security phase data, first creating 2 global and 2
+per-country standard datasets in HDX, and then generating a separate HAPI food
+security dataset. It makes approximately 100 reads to the IPC API
+(one call to the `/analyses` endpoint, then one `/population` call and one
+`/areas` geojson call per country with active data — typically around 50
+countries), 1 read to InterAction, and around 100 HDX read/writes per run.
+It creates around 200 temporary CSV files each a few KB (6 files per country
+covering national, admin-1, and area granularities in both long and wide
+formats) which are uploaded to HDX. The IPC API JSON responses are pivoted
+from wide phase columns (phases 1–5, IPC Plus) into long-format rows;
+population-in-phase values are disaggregated by projection period (current,
+first, and second); locations are matched to admin P-codes before being written to the standard IPC
+datasets; the HAPI food security dataset is then generated from the same
+processed data. It is run every week.
 
 ## Development
 
