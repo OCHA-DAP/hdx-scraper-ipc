@@ -17,7 +17,47 @@ from wide phase columns (phases 1–5, IPC Plus) into long-format rows;
 population-in-phase values are disaggregated by projection period (current,
 first, and second); locations are matched to admin P-codes before being written to the standard IPC
 datasets; the HAPI food security dataset is then generated from the same
-processed data. It is run every week.
+processed data. It runs every weekday at around 11 AM UTC and takes
+approximately 2 minutes to complete.
+
+## Data Pipeline
+
+### API reads (~100 calls per run)
+
+- **IPC /analyses** (1 read): fetches the list of active analyses and country
+  metadata.
+- **Per-country IPC data** (~2 reads per country, ~50 countries): one
+  `/population` call and one `/areas` geojson call per country with active data.
+- **InterAction** (1 read): supplementary organisation data.
+
+### API writes (~100 calls per run)
+
+- **Per-country standard datasets** (~2 writes per country): each country has one
+  long-format and one wide-format dataset covering national, admin-1, and area
+  granularities (6 CSV files per country).
+- **Global standard datasets** (2 writes): global long-format and wide-format IPC
+  datasets.
+- **HAPI food security dataset** (1 write): derived from the same processed data.
+
+### Temporary files
+
+- ~200 CSV files (6 per country: national, admin-1, and area granularities ×
+  long and wide formats), a few KB each.
+
+### Uploaded files
+
+- 6 CSV files per country (national/admin-1/area × long/wide format).
+- 2 global standard IPC datasets (long and wide format).
+- HAPI food security dataset.
+
+### Transformations
+
+1. **Phase pivot**: IPC API JSON responses are converted from wide phase columns
+   (phases 1–5 and IPC Plus) into long-format rows, one row per phase.
+2. **Projection disaggregation**: population-in-phase values are split by
+   projection period (current, first projection, and second projection).
+3. **P-code matching**: location strings are matched to admin P-codes using the
+   COD admin boundary registry.
 
 ## Development
 
