@@ -6,31 +6,30 @@
 This script connects to the [IPC API](https://www.ipcinfo.org/ipc-country-analysis/api/)
 and extracts acute food security phase data, first creating 2 global and 2
 per-country standard datasets in HDX, and then generating a separate HAPI food
-security dataset. It makes approximately 100 reads to the IPC API
+security dataset. It makes reads to the IPC API
 (one call to the `/analyses` endpoint, then one `/population` call and one
-`/areas` geojson call per country with active data — typically around 50
-countries), 1 read to InterAction, and around 100 HDX read/writes per run.
-It creates around 200 temporary CSV files each a few KB (6 files per country
+`/areas` geojson call per country with active data), a read to InterAction,
+and HDX read/writes for the per-country and global datasets.
+It creates temporary CSV files (6 per country
 covering national, admin-1, and area granularities in both long and wide
-formats) which are uploaded to HDX. The IPC API JSON responses are pivoted
+formats, a few KB each) which are uploaded to HDX. The IPC API JSON responses are pivoted
 from wide phase columns (phases 1–5, IPC Plus) into long-format rows;
 population-in-phase values are disaggregated by projection period (current,
 first, and second); locations are matched to admin P-codes before being written to the standard IPC
 datasets; the HAPI food security dataset is then generated from the same
-processed data. It runs every weekday at around 11 AM UTC and takes
-approximately 2 minutes to complete.
+processed data.
 
 ## Data Pipeline
 
-### API reads (~100 calls per run)
+### API reads
 
 - **IPC /analyses** (1 read): fetches the list of active analyses and country
   metadata.
-- **Per-country IPC data** (~2 reads per country, ~50 countries): one
+- **Per-country IPC data** (~2 reads per country): one
   `/population` call and one `/areas` geojson call per country with active data.
 - **InterAction** (1 read): supplementary organisation data.
 
-### API writes (~100 calls per run)
+### API writes
 
 - **Per-country standard datasets** (~2 writes per country): each country has one
   long-format and one wide-format dataset covering national, admin-1, and area
@@ -41,7 +40,7 @@ approximately 2 minutes to complete.
 
 ### Temporary files
 
-- ~200 CSV files (6 per country: national, admin-1, and area granularities ×
+- CSV files (6 per country: national, admin-1, and area granularities ×
   long and wide formats), a few KB each.
 
 ### Uploaded files
