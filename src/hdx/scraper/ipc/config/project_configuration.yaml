@@ -295,6 +295,7 @@ hapi_adm_matching:
       "ETH|Zone 3 (gabi rasu)": "ET0203"
       "ETH|Zone 4 (fantana rasu)": "ET0204"
       "ETH|Zone 5 (hari rasu)": "ET0205"
+      "ET07|Dawuro": "ET1104"  # SNNP before South West Ethiopia split
       "LBN|Bent jbell": "LB41"
       "LBN|Jbell": "LB34"
       "LBN|Zahie": "LB25"
